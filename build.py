@@ -3,6 +3,7 @@
     python -X utf8 build.py identity   -> build/identity.gba  (script re-packed in place; must equal the original)
     python -X utf8 build.py reloc      -> build/reloc.gba     (Japanese script moved to 0x400000, ROM 8 MiB)
 """
+import functools
 import json
 import struct
 import sys
@@ -75,8 +76,18 @@ def build_reloc(lang: str = 'jp') -> bytearray:
 
 
 def encode_en(e: dict, en: str | None) -> bytes:
-    from vwf_font import CHARMAP
-    return text.encode(en, CHARMAP) if en else text.encode(e['jp'])
+    import choices
+    import vwf_font
+    import wrap
+    if not en:
+        return text.encode(e['jp'])
+    return text.encode(choices.layout(wrap.wrap(en, font_widths()), font_widths()), vwf_font.CHARMAP)
+
+
+@functools.cache
+def font_widths() -> bytes:
+    import vwf_font
+    return vwf_font.build(ORIG.read_bytes())[1]
 
 
 def apply_engine(rom: bytearray, out: Path) -> bytearray:
@@ -104,8 +115,7 @@ def build_lang(out: Path, mode: str) -> bytearray:
     rom = bytearray(ORIG.read_bytes()) + b'\xff' * (ROM_SIZE - ORIG.stat().st_size)
     entries = load_script()
     if mode == 'marker':
-        _g, widths = vwf_font.build(bytes(rom))
-        blobs = [encode_en(e, marker.marker(e, widths)) for e in entries]
+        blobs = [encode_en(e, marker.marker(e, font_widths())) for e in entries]
     else:
         blobs = [encode_en(e, e['en']) for e in entries]
     write_banks(rom, entries, blobs, layout_sequential(entries, blobs, TEXT_BASE, TEXT_END))

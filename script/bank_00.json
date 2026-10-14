@@ -735,7 +735,7 @@
   ],
   "fall": false,
   "jp": "ここで　いいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
-  "en": ""
+  "en": "Is this the place?\n[opt]Yes[opt]No[E0 00 01 05 00 00 00 00]"
  },
  {
   "addr": "4AFFA",
