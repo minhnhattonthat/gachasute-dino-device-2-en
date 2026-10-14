@@ -6,7 +6,7 @@
   ],
   "fall": false,
   "jp": "デバイスセットを　おこないますか？\n　　はい　　いいえ[E0 00 01 05 12 01 12 02]",
-  "en": ""
+  "en": "Do you want to do Device Set?\n[opt]Yes[opt]No[E0 00 01 05 12 01 12 02]"
  },
  {
   "addr": "5FC90",
@@ -15,7 +15,7 @@
   ],
   "fall": false,
   "jp": "デバイスセットを　してください[close]",
-  "en": ""
+  "en": "Set your Devices.[close]"
  },
  {
   "addr": "5FCA0",
@@ -24,7 +24,7 @@
   ],
   "fall": false,
   "jp": "デバイスセットを　しゅうりょうして\nエントリーへ　もどります[close]",
-  "en": ""
+  "en": "Ending Device Set and returning to Entry.[close]"
  },
  {
   "addr": "5FCC0",
@@ -33,7 +33,7 @@
   ],
   "fall": false,
   "jp": "よろしいですか？\n　　はい　　いいえ[E0 00 01 05 12 02 12 01]",
-  "en": ""
+  "en": "Is this OK?\n[opt]Yes[opt]No[E0 00 01 05 12 02 12 01]"
  },
  {
   "addr": "5FCDB",
@@ -150,7 +150,7 @@
   ],
   "fall": false,
   "jp": "デバイスガチャステです\nこれでいいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 12 12]",
-  "en": ""
+  "en": "This is the Device Gachasute. Is this OK?\n[opt]Yes[opt]No[E0 00 01 05 00 00 12 12]"
  },
  {
   "addr": "5FD0F",
@@ -159,7 +159,7 @@
   ],
   "fall": false,
   "jp": "デバイスガチャステを\nはじめます[close]",
-  "en": ""
+  "en": "Starting the Device Gachasute![close]"
  },
  {
   "addr": "5FD20",
@@ -168,7 +168,7 @@
   ],
   "fall": false,
   "jp": "ガチャステを　えらんでください[close]",
-  "en": ""
+  "en": "Choose a Gachasute.[close]"
  },
  {
   "addr": "5FD30",
@@ -177,7 +177,7 @@
   ],
   "fall": false,
   "jp": "ダイナガチャステです\nこれでいいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 12 15]",
-  "en": ""
+  "en": "This is the Dino Gachasute. Is this OK?\n[opt]Yes[opt]No[E0 00 01 05 00 00 12 15]"
  },
  {
   "addr": "5FD57",
@@ -186,7 +186,7 @@
   ],
   "fall": false,
   "jp": "ダイナガチャステを　はじめます[close]",
-  "en": ""
+  "en": "Dino Gachasute, start![close]"
  },
  {
   "addr": "5FD67",
@@ -195,7 +195,7 @@
   ],
   "fall": false,
   "jp": "ガチャステを　えらんでください[close]",
-  "en": ""
+  "en": "Choose a Gachasute.[close]"
  },
  {
   "addr": "5FD77",
@@ -204,7 +204,7 @@
   ],
   "fall": false,
   "jp": "マイガチャステです\nこれでいいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 12 18]",
-  "en": ""
+  "en": "This is My Gachasute. Is this OK?\n[opt]Yes[opt]No[E0 00 01 05 00 00 12 18]"
  },
  {
   "addr": "5FD9D",
@@ -213,7 +213,7 @@
   ],
   "fall": false,
   "jp": "マイガチャステを　はじめます[close]",
-  "en": ""
+  "en": "My Gachasute, start![close]"
  },
  {
   "addr": "5FDAC",
@@ -222,7 +222,7 @@
   ],
   "fall": false,
   "jp": "ガチャステを　えらんでください[close]",
-  "en": ""
+  "en": "Choose a Gachasute.[close]"
  },
  {
   "addr": "5FDBC",
@@ -231,7 +231,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 12 1A 12 1B]",
-  "en": ""
+  "en": "Do you want to quit?\n[opt]Yes[opt]No[E0 00 01 05 12 1A 12 1B]"
  },
  {
   "addr": "5FDDA",
@@ -240,7 +240,7 @@
   ],
   "fall": false,
   "jp": "マップに　もどります[close]",
-  "en": ""
+  "en": "To the map.[close]"
  },
  {
   "addr": "5FDE5",
@@ -249,7 +249,7 @@
   ],
   "fall": false,
   "jp": "ガチャステを　えらんでください[close]",
-  "en": ""
+  "en": "Choose a Gachasute.[close]"
  },
  {
   "addr": "5FDF5",
@@ -258,7 +258,7 @@
   ],
   "fall": false,
   "jp": "おかねが　たりません[close]",
-  "en": ""
+  "en": "Can't afford it![close]"
  },
  {
   "addr": "5FE00",
@@ -267,7 +267,7 @@
   ],
   "fall": false,
   "jp": "メダルが　ありません[close]",
-  "en": ""
+  "en": "No Medals![close]"
  },
  {
   "addr": "5FE0B",
@@ -276,7 +276,7 @@
   ],
   "fall": false,
   "jp": "デバイスガチャステです[p]ポイントカードは　これいじょう\nもてませんが　いいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 12 1F]",
-  "en": ""
+  "en": "This is the Device Gachasute.[p]You can't carry any more Point Cards. Is that OK?\n[opt]Yes[opt]No[E0 00 01 05 00 00 12 1F]"
  },
  {
   "addr": "5FE48",
@@ -285,7 +285,7 @@
   ],
   "fall": false,
   "jp": "ガチャステを　えらんでください[close]",
-  "en": ""
+  "en": "Choose a Gachasute.[close]"
  },
  {
   "addr": "5FE58",
@@ -294,7 +294,7 @@
   ],
   "fall": false,
   "jp": "これで　いいですか？\n　　はい　　いいえ[E0 00 01 05 12 26 12 22]",
-  "en": ""
+  "en": "Is this OK?\n[opt]Yes[opt]No[E0 00 01 05 12 26 12 22]"
  },
  {
   "addr": "5FE76",
@@ -303,7 +303,7 @@
   ],
   "fall": false,
   "jp": "ちゅうせんを　はじめます[close]",
-  "en": ""
+  "en": "Starting the draw![close]"
  },
  {
   "addr": "5FE83",
@@ -312,7 +312,7 @@
   ],
   "fall": false,
   "jp": "つかうメダルを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose a Medal to use.[close]"
  },
  {
   "addr": "5FE94",
@@ -321,7 +321,7 @@
   ],
   "fall": false,
   "jp": "ダイナ　[E0 13]　\n　　　　[E0 12]　が　あたった！[close]",
-  "en": ""
+  "en": "You won the Dino\n[E0 13] [E0 12]![close]"
  },
  {
   "addr": "5FEAC",
@@ -330,7 +330,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 12 25 12 22]",
-  "en": ""
+  "en": "Do you want to quit?\n[opt]Yes[opt]No[E0 00 01 05 12 25 12 22]"
  },
  {
   "addr": "5FECA",
@@ -339,7 +339,7 @@
   ],
   "fall": false,
   "jp": "ガチャステパークに\nもどります[close]",
-  "en": ""
+  "en": "Returning to Gachasute Park.[close]"
  },
  {
   "addr": "5FEDB",
@@ -348,7 +348,7 @@
   ],
   "fall": false,
   "jp": "メダルを　いれます[close]",
-  "en": ""
+  "en": "Medal in![close]"
  },
  {
   "addr": "5FEE5",
@@ -357,7 +357,7 @@
   ],
   "fall": false,
   "jp": "メダルが　ありません[close]",
-  "en": ""
+  "en": "No Medals![close]"
  },
  {
   "addr": "5FEF0",
@@ -366,7 +366,7 @@
   ],
   "fall": false,
   "jp": "メダルが　ありません[close]",
-  "en": ""
+  "en": "No Medals![close]"
  },
  {
   "addr": "5FEFB",
@@ -375,7 +375,7 @@
   ],
   "fall": false,
   "jp": "ダイナは　５０たいいじょう\nもてません[p]つかうメダルを\nえらんでください[close]",
-  "en": ""
+  "en": "You can't carry 50 or more Dinos.[p]Please choose a Medal to use.[close]"
  },
  {
   "addr": "5FF20",
@@ -438,7 +438,7 @@
   ],
   "fall": false,
   "jp": "ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 12 33 00 00]",
-  "en": ""
+  "en": "Do you want to play Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 12 33 00 00]"
  },
  {
   "addr": "5FF45",
@@ -447,7 +447,7 @@
   ],
   "fall": false,
   "jp": "ちゅうせんを　はじめます[close]",
-  "en": ""
+  "en": "Starting the draw![close]"
  },
  {
   "addr": "5FF52",
@@ -456,7 +456,7 @@
   ],
   "fall": false,
   "jp": "ガチャステパークに\nもどります[close]",
-  "en": ""
+  "en": "Returning to Gachasute Park.[close]"
  },
  {
   "addr": "5FF63",
@@ -465,7 +465,7 @@
   ],
   "fall": false,
   "jp": "おかねを　いれます[close]",
-  "en": ""
+  "en": "Money in![close]"
  },
  {
   "addr": "5FF6D",
@@ -474,7 +474,7 @@
   ],
   "fall": false,
   "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　が　あたった！[close]",
-  "en": ""
+  "en": "You won the Device\n[E0 13] [E0 12]![close]"
  },
  {
   "addr": "5FF87",
@@ -483,7 +483,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 12 36 12 30]",
-  "en": ""
+  "en": "Do you want to quit?\n[opt]Yes[opt]No[E0 00 01 05 12 36 12 30]"
  },
  {
   "addr": "5FFA5",
@@ -492,7 +492,7 @@
   ],
   "fall": false,
   "jp": "ガチャステパークに\nもどります[close]",
-  "en": ""
+  "en": "Returning to Gachasute Park.[close]"
  },
  {
   "addr": "5FFB6",
@@ -501,7 +501,7 @@
   ],
   "fall": false,
   "jp": "おかねが　たりません[close]",
-  "en": ""
+  "en": "Can't afford it![close]"
  },
  {
   "addr": "5FFC1",
@@ -510,7 +510,7 @@
   ],
   "fall": false,
   "jp": "ガチャステが\n[E0 11 00]かい　できます[close]",
-  "en": ""
+  "en": "You can play Gachasute [E0 11 00] times![close]"
  },
  {
   "addr": "5FFD3",
@@ -519,7 +519,7 @@
   ],
   "fall": false,
   "jp": "ちゅうせんを　はじめます[close]",
-  "en": ""
+  "en": "Starting the draw![close]"
  },
  {
   "addr": "5FFE0",
@@ -528,7 +528,7 @@
   ],
   "fall": false,
   "jp": "パスワードを　いれてください[close]",
-  "en": ""
+  "en": "Enter the password.[close]"
  },
  {
   "addr": "5FFF0",
@@ -537,7 +537,7 @@
   ],
   "fall": false,
   "jp": "ポイントカードは　これいじょう\nもてません[p]ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 12 33 12 32]",
-  "en": ""
+  "en": "You can't carry any more Point Cards.[p]Do you want to play Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 12 33 12 32]"
  },
  {
   "addr": "60026",
@@ -546,7 +546,7 @@
   ],
   "fall": false,
   "jp": "なにもおこらない[close]",
-  "en": ""
+  "en": "No effect.[close]"
  },
  {
   "addr": "6002F",
@@ -555,7 +555,7 @@
   ],
   "fall": false,
   "jp": "３２こもっている　デバイスは\nこれいじょうもてません[p]ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 12 33 00 00]",
-  "en": ""
+  "en": "You can't carry more than 32 of the same Device.[p]Do you want to play Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 12 33 00 00]"
  },
  {
   "addr": "60069",
@@ -582,7 +582,7 @@
   ],
   "fall": false,
   "jp": "マイガチャステを　みますか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
-  "en": ""
+  "en": "Do you want to look at My Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 00 00 00 00]"
  },
  {
   "addr": "6008C",
@@ -591,7 +591,7 @@
   ],
   "fall": false,
   "jp": "なかみを　みます[close]",
-  "en": ""
+  "en": "Let's look![close]"
  },
  {
   "addr": "60095",
@@ -600,7 +600,7 @@
   ],
   "fall": false,
   "jp": "ガチャステパークに　もどります[close]",
-  "en": ""
+  "en": "To Gachasute Park.[close]"
  },
  {
   "addr": "600A6",
@@ -609,7 +609,7 @@
   ],
   "fall": false,
   "jp": "マイガチャステへ　ほじゅうする\nダイナかデバイスを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose a Dino or Device to add to My Gachasute.[close]"
  },
  {
   "addr": "600C9",
@@ -618,7 +618,7 @@
   ],
   "fall": false,
   "jp": "[E0 13]　[E0 12]　で\nいいですか？\n　　はい　　いいえ[E0 00 01 05 12 45 12 46]",
-  "en": ""
+  "en": "Is [E0 13] [E0 12] OK?\n[opt]Yes[opt]No[E0 00 01 05 12 45 12 46]"
  },
  {
   "addr": "600EA",
@@ -627,7 +627,7 @@
   ],
   "fall": false,
   "jp": "デバイスを　ほじゅうします[close]",
-  "en": ""
+  "en": "Adding the Device.[close]"
  },
  {
   "addr": "600F8",
@@ -636,7 +636,7 @@
   ],
   "fall": false,
   "jp": "マイガチャステへ　ほじゅうする\nダイナかデバイスを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose a Dino or Device to add to My Gachasute.[close]"
  },
  {
   "addr": "6011B",
@@ -645,7 +645,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 12 48 12 49]",
-  "en": ""
+  "en": "Do you want to quit?\n[opt]Yes[opt]No[E0 00 01 05 12 48 12 49]"
  },
  {
   "addr": "60139",
@@ -654,7 +654,7 @@
   ],
   "fall": false,
   "jp": "ガチャステパークに　もどります[close]",
-  "en": ""
+  "en": "To Gachasute Park.[close]"
  },
  {
   "addr": "6014A",
@@ -663,7 +663,7 @@
   ],
   "fall": false,
   "jp": "マイガチャステへ　ほじゅうする\nダイナかデバイスを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose a Dino or Device to add to My Gachasute.[close]"
  },
  {
   "addr": "6016D",
@@ -672,7 +672,7 @@
   ],
   "fall": false,
   "jp": "マイガチャステが　いっぱいになりました\nどれか　うれるまで　ほじゅうはできません[close]",
-  "en": ""
+  "en": "My Gachasute is full. You can't add anything until something sells.[close]"
  },
  {
   "addr": "60196",
@@ -681,7 +681,7 @@
   ],
   "fall": false,
   "jp": "このデバイスは　マイガチャステに\nいれました[close]",
-  "en": ""
+  "en": "This Device has been put in My Gachasute.[close]"
  },
  {
   "addr": "601AD",
@@ -690,7 +690,7 @@
   ],
   "fall": false,
   "jp": "カプセルが　[E0 11 00]こ　うれて\n[E0 11 01]ビット　てにいれた！[p]マイガチャステを　みますか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
-  "en": ""
+  "en": "Capsules sold: [E0 11 00]! You got [E0 11 01] Bits![p]Do you want to look at My Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 00 00 00 00]"
  },
  {
   "addr": "601EC",
@@ -699,7 +699,7 @@
   ],
   "fall": false,
   "jp": "カプセルは　１コもひかれませんでした[p]マイガチャステを　みますか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
-  "en": ""
+  "en": "Nobody pulled a single Capsule.[p]Do you want to look at My Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 00 00 00 00]"
  },
  {
   "addr": "60220",
@@ -708,7 +708,7 @@
   ],
   "fall": false,
   "jp": "\n　　[E0 13]　[E0 12]　[close]",
-  "en": "\n  [E0 13] [E0 12][close]"
+  "en": "\n[E0 13] [E0 12][close]"
  },
  {
   "addr": "6022A",
@@ -717,7 +717,7 @@
   ],
   "fall": false,
   "jp": "カプセルが　ありません[close]",
-  "en": ""
+  "en": "No Capsules.[close]"
  },
  {
   "addr": "60236",
@@ -726,7 +726,7 @@
   ],
   "fall": false,
   "jp": "マイガチャステを　つかうのは\nもうすこし　あとにしましょう[close]",
-  "en": ""
+  "en": "Let's wait a little longer before using My Gachasute.[close]"
  },
  {
   "addr": "60254",
@@ -735,7 +735,7 @@
   ],
   "fall": false,
   "jp": "エントリーちゅうのダイナです\nほじゅうは　できません[close]",
-  "en": ""
+  "en": "This Dino is in your Entry. You can't add it.[close]"
  },
  {
   "addr": "60270",
@@ -744,7 +744,7 @@
   ],
   "fall": false,
   "jp": "そうびちゅうのデバイスです\nほじゅうは　できません[close]",
-  "en": ""
+  "en": "This Device is equipped. You can't add it.[close]"
  },
  {
   "addr": "6028A",
@@ -870,7 +870,7 @@
   ],
   "fall": false,
   "jp": "ダイナ　[E0 13]　\n　　　　[E0 12]　が　あたった！[close]",
-  "en": ""
+  "en": "You won the Dino\n[E0 13] [E0 12]![close]"
  },
  {
   "addr": "602AF",
@@ -879,7 +879,7 @@
   ],
   "fall": false,
   "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　が　あたった！[close]",
-  "en": ""
+  "en": "You won the Device\n[E0 13] [E0 12]![close]"
  },
  {
   "addr": "602C9",
@@ -888,7 +888,7 @@
   ],
   "fall": false,
   "jp": "ダイナ　[E0 13]　\n　　　　[E0 12]　が　あたった！[p]これいじょう　もてません\nこのダイナを　あきらめますか？\n　　はい　　いいえ[E0 01 01 05 12 63 12 64]",
-  "en": ""
+  "en": "You won the Dino\n[E0 13] [E0 12]![p]You can't carry any more. Give up this Dino?\n[opt]Yes[opt]No[E0 01 01 05 12 63 12 64]"
  },
  {
   "addr": "60310",
@@ -897,7 +897,7 @@
   ],
   "fall": false,
   "jp": "あきらめました[close]",
-  "en": ""
+  "en": "Gave up.[close]"
  },
  {
   "addr": "60318",
@@ -906,7 +906,7 @@
   ],
   "fall": false,
   "jp": "すてるダイナを　えらんでください[E0 51]ダイナ　[E0 13]　\n　　　　[E0 12]　を　すてました[close]",
-  "en": ""
+  "en": "Please choose a Dino to throw away.[E0 51]You threw away the Dino\n[E0 13] [E0 12].[close]"
  },
  {
   "addr": "60341",
@@ -915,7 +915,7 @@
   ],
   "fall": false,
   "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　が　あたった！[p]これいじょう　もてません\nこのデバイスを　あきらめますか？\n　　はい　　いいえ[E0 01 01 05 12 66 12 67]",
-  "en": ""
+  "en": "You won the Device\n[E0 13] [E0 12]![p]You can't carry any more. Give up this Device?\n[opt]Yes[opt]No[E0 01 01 05 12 66 12 67]"
  },
  {
   "addr": "6038B",
@@ -924,7 +924,7 @@
   ],
   "fall": false,
   "jp": "あきらめました[close]",
-  "en": ""
+  "en": "Gave up.[close]"
  },
  {
   "addr": "60393",
@@ -933,7 +933,7 @@
   ],
   "fall": false,
   "jp": "すてるデバイスを　えらんでください[E0 51]デバイス　[E0 13]　\n　　　　　[E0 12]　を　すてました[close]",
-  "en": ""
+  "en": "Please choose a Device to throw away.[E0 51]You threw away the Device\n[E0 13] [E0 12].[close]"
  },
  {
   "addr": "603BF",
@@ -942,7 +942,7 @@
   ],
   "fall": false,
   "jp": "ポイントカードを　[E0 11 00]まいてにいれた[close]",
-  "en": ""
+  "en": "Got Point Card x[E0 11 00]![close]"
  },
  {
   "addr": "603D4",
@@ -951,7 +951,7 @@
   ],
   "fall": false,
   "jp": "パスワードが　ちがいます[close]",
-  "en": ""
+  "en": "Wrong password.[close]"
  },
  {
   "addr": "603E2",
@@ -960,7 +960,7 @@
   ],
   "fall": false,
   "jp": "ポイントカードは　これいじょう\nもてません[close]",
-  "en": ""
+  "en": "You can't carry any more Point Cards.[close]"
  },
  {
   "addr": "603F9",
@@ -1014,7 +1014,7 @@
   ],
   "fall": false,
   "jp": "これが　デバイスガチャステ\nこんかい　わたしたちが\nやるのがこれ[close]",
-  "en": ""
+  "en": "This is the Device Gachasute. This is the one we're playing this time.[close]"
  },
  {
   "addr": "6041F",
@@ -1023,7 +1023,7 @@
   ],
   "fall": false,
   "jp": "で　こっちが　ダイナガチャステ\nこれは　とくしゅなメダル\nじゃないと　できないわ[close]",
-  "en": ""
+  "en": "And this one's the Dino Gachasute. You can only play it with special Medals.[close]"
  },
  {
   "addr": "60448",
@@ -1032,7 +1032,7 @@
   ],
   "fall": false,
   "jp": "さいごに　これがマイガチャステ\nいらなくなったものが\nできたときや\nにもつが　いっぱいになったとき\nここをりようするのよ[close]",
-  "en": ""
+  "en": "And last, this is My Gachasute. You use it when you've got stuff you don't need anymore, or when you're carrying too much.[close]"
  },
  {
   "addr": "60485",
@@ -1041,7 +1041,7 @@
   ],
   "fall": false,
   "jp": "とりあえず\nこのデバイスガチャステで\nやってみようか[close]",
-  "en": ""
+  "en": "For now, let's try this Device Gachasute.[close]"
  },
  {
   "addr": "604A0",
@@ -1050,7 +1050,7 @@
   ],
   "fall": false,
   "jp": "ごめん　これは\nたかくて　できないわ[p]このガチャステをやるのに\nひつような　ねだんが\nうえに　かいてあるの[p]てもちの　おかねが\nすくないときは\nこのねだんに\nちゅういしてね[p]いまは　２００ビットしか\nもってないから\nべつのに　しましょう[close]",
-  "en": ""
+  "en": "Sorry, this one's too expensive. We can't play it.[p]The price to play this Gachasute is written up at the top.[p]When you don't have much money on you, keep an eye on this price.[p]Right now we only have 200 Bits, so let's pick a different one.[close]"
  },
  {
   "addr": "60517",
@@ -1059,7 +1059,7 @@
   ],
   "fall": false,
   "jp": "いどうするわ[close]",
-  "en": ""
+  "en": "Let's go![close]"
  },
  {
   "addr": "6051E",
@@ -1068,7 +1068,7 @@
   ],
   "fall": false,
   "jp": "このガチャステを　やりましょう[close]",
-  "en": ""
+  "en": "Let's play this one.[close]"
  },
  {
   "addr": "6052E",
@@ -1077,7 +1077,7 @@
   ],
   "fall": false,
   "jp": "よかった\nこっちはだいじょうぶね\nあと　ねだんのしたの\nしゅつげんデバイスを　みれば\nどのぶぶんの　デバイスが\nでてくるのか　わかるのよ\nたとえば　これは　ライトと\nレフトが　ＯＫ！ってこと\nだから\nみぎうでと　ひだりうでの\nデバイスが　でるってことよ[p]ヘッドは　あたま\nボディは　からだ\nライドは　あしのデバイスよ[p]みぎがわの　すうじは\nいま　もっているかずね[p]そのしたの　ちゅうせんだけど\nノーマルは　ふつうに\nガチャステができて[p]ルーレットは　あたれば\nなんかいも　ガチャステが\nできるんだよ[p]ポイントは　デバイスと\nポイントが　もらえるんだけど\nショップで　つかえるみたい[p]もういちどきく？\n　　はい　　いいえ[E0 00 01 05 12 78 12 79]",
-  "en": ""
+  "en": "Phew! This one's fine. Also, if you look at the Available Devices under the price, you can tell which parts the Devices will be for.[p]For example, this one says Right and Left are OK!, so that means right arm and left arm Devices come out.[p]Head is for the head, Body is for the body, and Ride is for the leg Devices.[p]The number on the right is how many you have right now.[p]As for the draw types under that, Normal lets you play Gachasute the normal way,[p]and with Roulette, if you hit, you can play Gachasute again and again![p]With Point, you get a Device and Points, and it looks like you can use them at the Shop.[p]Want to hear it again?\n[opt]Yes[opt]No[E0 00 01 05 12 78 12 79]"
  },
  {
   "addr": "6066F",
@@ -1086,7 +1086,7 @@
   ],
   "fall": false,
   "jp": "ヘッドはあたまのデバイス\nライトはみぎうでのデバイス\nレフトはひだりうでのデバイス\nボディはからだのデバイス\nライドはあしのデバイスよ[p]みぎがわの　すうじは\nいま　もっているかずね[p]そのしたの　ちゅうせんだけど\nノーマルは　ふつうに\nガチャステができて[p]ルーレットは　あたれば\nなんかいも　ガチャステが\nできるんだよ[p]ポイントは　デバイスと\nポイントが　もらえるんだけど\nショップで　つかえるみたい[p]もういちどきく？\n　　はい　　いいえ[E0 00 01 05 12 78 12 79]",
-  "en": ""
+  "en": "Head means head Devices, Right means right arm Devices, Left means left arm Devices, Body means body Devices, and Ride means leg Devices.[p]The number on the right is how many you have right now.[p]As for the draw types under that, Normal lets you play Gachasute the normal way,[p]and with Roulette, if you hit, you can play Gachasute again and again![p]With Point, you get a Device and Points, and it looks like you can use them at the Shop.[p]Want to hear it again?\n[opt]Yes[opt]No[E0 00 01 05 12 78 12 79]"
  },
  {
   "addr": "60754",

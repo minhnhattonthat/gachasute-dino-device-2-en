@@ -21,7 +21,7 @@ import wrap  # noqa: E402
 ROOT = Path(__file__).resolve().parents[1]
 LINE_PX = 160
 VAR_PX = wrap.VAR_PX
-LAYOUT = {'\n', '[p]', '[half]', '[opt]'}
+LAYOUT = {'\n', '[p]', '[half]', '[opt]', '[mono]'}
 TOKEN = re.compile(r'\[[^\]]*\]|\n')
 JP = re.compile(r'[぀-ヿ一-鿿]')  # '　' is allowed: an 8 px alignment/clearing cell
 CHOICE_TAG = re.compile(r'\[E0 0([0-3])((?: [0-9A-F]{2})+)\]')

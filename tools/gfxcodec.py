@@ -63,6 +63,7 @@ def decompress(data: bytes, off: int = 0) -> bytes:
 
 def compress(src: bytes) -> bytes:
     """payload -> ECD block (greedy, hash chains; matches only reach bytes already output)."""
+    assert len(src) <= 0xFFFF, 'loader 0x080038C8 allocates only the low 16 bits of the size'
     body = bytearray()
     chains: dict[bytes, list[int]] = {}
     i, n = 0, len(src)
@@ -107,19 +108,24 @@ def groups(rom: bytes) -> list[int]:
 
 
 def entries(rom: bytes):
-    """Yield (group, index, file offset, stored size, magic). Stored size = to the next entry (or ECD length)."""
+    """Yield (group, index, file offset, stored size, magic). Offset 0 = empty slot (size 0, magic b'').
+    Stored size: ECD length, else up to the next entry/group start (so it includes any alignment padding)."""
     bases = groups(rom)
     for g, base in enumerate(bases):
         cnt = struct.unpack_from('<I', rom, base)[0] // 4
         offs = struct.unpack_from(f'<{cnt}I', rom, base)
+        starts = sorted({base + x for x in offs} | set(bases))
         for idx, o in enumerate(offs):
             off = base + o
+            if o == 0:
+                yield g, idx, off, 0, b''
+                continue
             magic = rom[off:off + 4]
             if magic[:3] == b'ECD':
                 size = 16 + struct.unpack_from('>I', rom, off + 8)[0]
             else:
-                later = [base + x for x in offs if base + x > off] + [b for b in bases if b > off]
-                size = (min(later) if later else len(rom)) - off
+                later = [s for s in starts if s > off]
+                size = (later[0] if later else len(rom)) - off
             yield g, idx, off, size, magic
 
 
@@ -131,7 +137,12 @@ def entry_offset(rom: bytes, group: int, index: int) -> int:
 def load(rom: bytes, group: int, index: int) -> bytes:
     """Payload of an entry as the game sees it (IMG/SCR/PLT/... with its 8-byte header)."""
     off = entry_offset(rom, group, index)
-    return decompress(rom, off) if rom[off:off + 3] == b'ECD' else rom[off:off + 16]  # plain: header only here
+    if rom[off:off + 3] == b'ECD':
+        return decompress(rom, off)
+    for g, i, o, size, _ in entries(rom):
+        if (g, i) == (group, index):
+            return bytes(rom[o:o + size])
+    raise IndexError((group, index))
 
 
 def repoint(rom: bytearray, group: int, index: int, new_off: int) -> None:
@@ -142,9 +153,14 @@ def repoint(rom: bytearray, group: int, index: int, new_off: int) -> None:
 
 
 def payload_type(p: bytes) -> str:
+    """IMG: raw tiles, w x h tiles of 32 B (p[4] == 0) or 64 B; the BG/OBJ mode, not this flag, picks the bpp
+    (title logo 1/2982 has p[4] == 0 and is shown as 8bpp).
+    SCR: w x h tilemap, 2-byte entries when p[4] == 0. PLT: u16 colour count. PAT/TIM: sprite animation, TON: sound."""
     t = p[:3].decode('latin1')
-    if t in ('IMG', 'SCR'):
-        return f'{t} {"8" if p[4] else "4"}bpp {p[5]}x{p[6]}' if t == 'IMG' else f'SCR {p[5]}x{p[6]} {"1" if p[4] else "2"}B'
+    if t == 'IMG':
+        return f'IMG {p[5]}x{p[6]} ({len(p) - 8} B)'
+    if t == 'SCR':
+        return f'SCR {p[5]}x{p[6]} {"1" if p[4] else "2"}B'
     if t == 'PLT':
         return f'PLT {struct.unpack_from("<H", p, 4)[0]} colours'
     return t
@@ -174,7 +190,7 @@ def main(argv: list[str]) -> None:
         for g, i, off, size, magic in entries(rom):
             if only is not None and g != only:
                 continue
-            desc = magic[:3].decode('latin1')
+            desc = magic[:3].decode('latin1') if magic else 'empty'
             if magic[:3] == b'ECD':
                 try:
                     desc = 'ECD ' + payload_type(decompress(rom, off))

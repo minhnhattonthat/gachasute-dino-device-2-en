@@ -17,6 +17,9 @@ S_AFTERT    equ 0x04            ; tile index the game should be at
 S_SHIFT     equ 0x08            ; pixels used in the current tile (0-7)
 S_CUR       equ 0x0C            ; current cell: dialogue map index / menu map entry pointer
 S_CURT      equ 0x10            ; current tile index
+S_MONO      equ 0x14            ; menu only: [mono] active
+S_MONOMAP   equ 0x18            ; menu only: map entry pointer the next mono glyph must arrive with
+S_MONOTILE  equ 0x1C            ; menu only: tile index the next mono glyph must arrive with
 S_BUF       equ 0x20            ; 64 bytes: current tile, next tile
 
 .org 0x0800D210
@@ -213,6 +216,43 @@ VwfMenu:
     mov r4, r1                  ; S
     ldr r7, =MENU
     mov r6, r0                  ; glyph
+    ; glyph 0x120 = [mono]: the rest of this string is drawn one glyph per cell with the original renderer
+    ; (font strips such as the digit tiles other screens point their maps at)
+    ldr r1, =0x120
+    cmp r0, r1
+    bne @@not_mono_tag
+    mov r0, #1
+    str r0, [r7, #S_MONO]
+    ldr r0, [r4, #0]
+    str r0, [r7, #S_MONOMAP]
+    ldrh r0, [r4, #0x0C]
+    str r0, [r7, #S_MONOTILE]
+    b @@skip
+@@not_mono_tag:
+    ldr r0, [r7, #S_MONO]
+    cmp r0, #0
+    beq @@vwf
+    ldr r0, [r4, #0]
+    ldr r1, [r7, #S_MONOMAP]
+    cmp r0, r1
+    bne @@mono_off
+    ldrh r0, [r4, #0x0C]
+    ldr r1, [r7, #S_MONOTILE]
+    cmp r0, r1
+    bne @@mono_off
+    bl @@mono_draw
+    ldr r0, [r4, #0]
+    add r0, #2
+    str r0, [r7, #S_MONOMAP]
+    ldrh r0, [r4, #0x0C]
+    add r0, #1
+    str r0, [r7, #S_MONOTILE]
+    b @@done
+@@mono_off:
+    mov r0, #0
+    str r0, [r7, #S_MONO]
+@@vwf:
+    mov r0, r6
     cmp r0, #0xFF
     bhi @@skip                  ; tabs/extended glyphs: not in menus
     ; colours
@@ -334,6 +374,33 @@ VwfMenu:
     orr r1, r2
     strh r1, [r0]
     bx lr
+
+; original fixed-cell draw of glyph r6 at S's map entry/tile (what 0x0800BE60 did)
+@@mono_draw:
+    push {lr}
+    sub sp, #0x24
+    add r0, sp, #4
+    str r0, [sp]                ; 0x0800BD70 takes the destination buffer as its stack argument
+    mov r0, r6
+    ldrb r1, [r4, #0x0F]
+    ldrb r2, [r4, #0x10]
+    ldrb r3, [r4, #0x11]
+    bl @@call_bd70
+    ldrh r0, [r4, #0x0C]
+    add r1, sp, #4
+    bl @@put_tile
+    ldr r0, [r4, #0]
+    ldrh r1, [r4, #0x0C]
+    bl @@put_map
+    add sp, #0x24
+    pop {r0}
+    bx r0
+@@call_bd70:
+    push {r7}
+    ldr r7, =0x0800BD71
+    mov r12, r7
+    pop {r7}
+    bx r12
 .pool
 
 ; ---------------------------------------------------------------------------------------------------------
