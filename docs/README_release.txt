@@ -1,8 +1,8 @@
-Gachasute! Dino Device 2 - Dragon - English translation patch v{VERSION}
+Gachasute! Dino Device 2 - {NAME} - English translation patch v{VERSION}
 =========================================================================
 
 An unofficial fan translation of the Game Boy Advance game
-"Gachasute! Dino Device 2 - Dragon" (Rocket Company, 2003, Japan only).
+"Gachasute! Dino Device 2 - {NAME}" (Rocket Company, 2003, Japan only).
 
 What is translated
 - All story dialogue, menus, shops, battle and system messages, names of
@@ -14,7 +14,7 @@ What is translated
 
 How to apply
 1. You need your own dump of the Japanese cartridge. Expected file:
-   Gachasute! Dino Device 2 - Dragon (Japan).gba
+   Gachasute! Dino Device 2 - {NAME} (Japan).gba
    {ORIG}
 2. Apply the .bps patch with Flips, beat or RomPatcher.js
    (https://www.marcrobledo.com/RomPatcher.js/).
