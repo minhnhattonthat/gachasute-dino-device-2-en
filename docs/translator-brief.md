@@ -60,6 +60,14 @@ may leave are `UI ...px > N` lines where no natural full wording fits; list each
 - Debug/test strings (entries 0000-0009, 0069) are never shown to players: translate them plainly and briefly.
 - System lines: てにいれた -> "Got X!" / "[player] got X!"; keep them short.
 
+## Notes from earlier batches
+- Item-get lines: `[player] got [E0 43 xx][c:0A]200 Bits[/c]![E0 44 14]` - sound/wait tags stay right before/after the
+  item as in the JP, the colour tags hug the item name.
+- `[E0 17 nn]０ビット`: the number variable is followed by a literal 0 in the JP; keep it: `[E0 17 nn]0 Bits`.
+- Kabira speaks mock-archaic ("thou", "I shall"); Master (Bay Cafe) is used like a name: "Thank you, Master!".
+- A `\n` followed by a new `[face..]` changes speaker mid-box in the JP; you may put `[p]` there instead.
+- Sound effects: short and punchy (`Vrrrrr...`, `Snip!`).
+
 ## Consistency
 Never edit `glossary.md` or any file other than your output. For a recurring name or term not in the glossary,
 pick a form, use it consistently, and report it.

@@ -20,8 +20,7 @@ import wrap  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 LINE_PX = 160
-NAME_PX = 42          # 6-letter English name, wide letters
-VAR_PX = {'[player]': NAME_PX, '[partner]': NAME_PX}
+VAR_PX = wrap.VAR_PX
 LAYOUT = {'\n', '[p]', '[half]', '[opt]'}
 TOKEN = re.compile(r'\[[^\]]*\]|\n')
 JP = re.compile(r'[぀-ヿ一-鿿]')  # '　' is allowed: an 8 px alignment/clearing cell

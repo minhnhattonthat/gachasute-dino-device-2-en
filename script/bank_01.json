@@ -1744,7 +1744,7 @@
   ],
   "fall": true,
   "jp": "[face:24]おお　かみなりぞくせいの\nダイナを　もってきてくれたか[p]",
-  "en": ""
+  "en": "[face:24]Oh! So you've brought me a Dino with the Thunder element![p]"
  },
  {
   "addr": "5355B",
@@ -1753,7 +1753,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]はい　もっています[p][face:24]おお　では　さっそく\nプラズマクラスターの　ろしんないへ\nむかわせてくれ[p][face2:00]はい　むかわせます\n・・・\n・・・\nろしんないに　つきました[p][face:24]ちゅうおうに　ぼうがあるが\nそれが　せいぎょぼうだ\nそれを　そっと　ぬいてくれ\nしんちょうに　ゆっくりで　いいぞ[p][face2:00]・・・　せいぎょぼうを　つかみました\nぬきます　・・・[p]・・！[p]・・・ふぅ\nぬきとりましたぁ[p][face:24]おお　ごくろうさま\nよくがんばったね\nおかげで　だいじに　いたらなくて\nすんだよ\nきゅうで　あまり　いいおれいが\nできないけど　これを　あげるよ[p][E0 30 03 28]",
-  "en": ""
+  "en": "[face2:00]Yes, I've got one.[p][face:24]Great! Then send it into the furnace core of the Plasma Cluster right away.[p][face2:00]Okay, sending it in.\n...\n...\nIt's reached the furnace core.[p][face:24]There's a rod in the center. That's the control rod. Pull it out gently. Take it slow and careful.[p][face2:00]... I've got hold of the control rod. Pulling it out...[p]..![p]...Phew. I got it out![p][face:24]Oh, thank you so much! You did great. Thanks to you, it didn't turn into a disaster.[p]This was all so sudden that I can't give you much of a reward, but please take this.[p][E0 30 03 28]"
  },
  {
   "addr": "53683",
@@ -1762,7 +1762,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 76 01 C6][E0 31 00 77 01 C6][face:01]え？　これ　もしかして\nまぼろしのデバイス！？[p][face:24]さあ　どうなのかな？\nこのこうじょうを　つくるとき\nじめんから　でてきたものなんだ\nふるいデバイスだと　おもったから\nいまの　ダイナに　つかえるなんて\nかんがえつかなかったなあ[p][face:01]ほんとに　これ　いただいて\nいいんですか？[p][face:24]ああ　いいよ\nそんなに　よろこんでもらえるなら\nあげるほうも　うれしいよ[p][face2:00]はい　だいじにつかいます\nじゃ　ありがとうございました[E0 20 00 78][close]",
-  "en": ""
+  "en": "[E0 31 00 76 01 C6][E0 31 00 77 01 C6][face:01]Huh? Could this be... a Phantom Device?![p][face:24]Who knows? It came out of the ground when we built this factory. I figured it was just an old Device, so it never occurred to me that today's Dinos could use it.[p][face:01]Can we really have this?[p][face:24]Sure, go ahead. If it makes you that happy, I'm happy to give it to you.[p][face2:00]Okay, I'll take good care of it. Well then, thank you very much![E0 20 00 78][close]"
  },
  {
   "addr": "5376F",
@@ -1771,7 +1771,7 @@
   ],
   "fall": false,
   "jp": "[face:01]こんにちは[p][face:18]やあ　こんにちは\nこうじょうちょうは　いま\nでかけてるんだ\nまた　こんど　きておくれ[close]",
-  "en": ""
+  "en": "[face:01]Hello![p][face:18]Oh, hello. The Factory Chief is out right now. Come back another time.[close]"
  },
  {
   "addr": "537A6",
@@ -1780,7 +1780,7 @@
   ],
   "fall": false,
   "jp": "[face:24]にもつを　へらして　もういちど\nここにきなさい\nそのとき　あらためて　デバイスをあげるよ[close]",
-  "en": ""
+  "en": "[face:24]Make some room in your bag and come back here. I'll give you the Device then.[close]"
  },
  {
   "addr": "537D6",
@@ -1825,7 +1825,7 @@
   ],
   "fall": false,
   "jp": "[face:04]じゃあ　ガチャステパークへ\nてんそうするわね[p]がんばって　いいものがでるといいねー[p][E0 85][close]",
-  "en": ""
+  "en": "[face:04]All right, I'll warp you to Gachasute Park.[p]Good luck! Hope you get something good![p][E0 85][close]"
  },
  {
   "addr": "5380C",
@@ -1834,7 +1834,7 @@
   ],
   "fall": false,
   "jp": "[face:01]ティターニャさん！！\nここに　あやしいひと\nきませんでしたか？[p][face:04]どーだろうねー\nここは　ダイナバトラーなら\nだれでも　りようできるからねー[p][face:01]ダイナブレイカーが　いるかも\nしれないんです[p][face:04]ダイナブレイカーっていっても\nもともと　ダイナバトラーだから\nくべつが　つかないんだよ[p][face2:00]みさり！！\nあそこのやつ　なんか　あやしいぞ！[p][face:01]うん　いってみましょう[p][face:04]ここでの　ゴタゴタは　ごめんだよ〜[p][E0 30 01 4B]",
-  "en": ""
+  "en": "[face:01]Titanya!! Has anyone suspicious come by here?[p][face:04]Hmm, who knows~ Any Dino Battler can use this place, after all.[p][face:01]There might be Dino Breakers around![p][face:04]Even if they're Dino Breakers, they used to be Dino Battlers. There's no telling them apart.[p][face2:00]Misari!! That guy over there looks kind of suspicious![p][face:01]Yeah, let's go check![p][face:04]Just don't start any trouble in here, okay~[p][E0 30 01 4B]"
  },
  {
   "addr": "538F3",
@@ -1843,7 +1843,7 @@
   ],
   "fall": false,
   "jp": "[face:04]わかったわ　「[c:08]ダイナシティ[/c]」にてんそうね[E0 81 00]",
-  "en": ""
+  "en": "[face:04]Got it, a warp to \"[c:08]Dino City[/c]\".[E0 81 00]"
  },
  {
   "addr": "53914",
@@ -1852,7 +1852,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 1B 01 CB][E0 31 00 1A 01 CC][face:04]じゃあ　ガチャステパークへ\nてんそうするわね[p]がんばって　いいものがでるといいねー[p][E0 85][close]",
-  "en": ""
+  "en": "[E0 31 00 1B 01 CB][E0 31 00 1A 01 CC][face:04]All right, I'll warp you to Gachasute Park.[p]Good luck! Hope you get something good![p][E0 85][close]"
  },
  {
   "addr": "53952",
@@ -1861,7 +1861,7 @@
   ],
   "fall": false,
   "jp": "[face:04]それで　どっちの　まちにてんそうだい？\n　　「[c:08]ダイナシティ[/c]」　　「[c:08]アタカマラ[/c]」[E0 03 01 0B 01 CD 01 D4 00 00]",
-  "en": ""
+  "en": "[face:04]So, which town should I warp you to?\n[opt][c:08]Dino City[/c][opt][c:08]Atacamara[/c][E0 03 01 0B 01 CD 01 D4 00 00]"
  },
  {
   "addr": "53995",
@@ -1870,7 +1870,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 34 02 7F][face:01]ここは　ガチャゲートっていって\nガチャステパークか　べつの　まちに\nてんそうしてくれる　ばしょよ\n[E0 31 00 03 02 3F][E0 31 00 53 02 3F]いまは　おかねがないから\nなかにはいっても　いみないから\nもどりましょう[close]",
-  "en": ""
+  "en": "[E0 31 00 34 02 7F][face:01]This is called the Gacha Gate. It warps you to Gachasute Park or to another town.\n[E0 31 00 03 02 3F][E0 31 00 53 02 3F]We don't have any money right now, so there's no point going inside. Let's go back.[close]"
  },
  {
   "addr": "53A02",
@@ -1879,7 +1879,7 @@
   ],
   "fall": false,
   "jp": "[E0 32 00 60 01 DB][face:04]このゲートからは　ガチャステパークと\nまちへのてんそうが　できるけど[p]どっちの　てんそうだい？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 01 CE 01 CF 01 D3]",
-  "en": ""
+  "en": "[E0 32 00 60 01 DB][face:04]From this gate, I can warp you to Gachasute Park or to the towns.[p]So, which warp will it be?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 01 CE 01 CF 01 D3]"
  },
  {
   "addr": "53A5A",
@@ -1888,7 +1888,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]ああ　てんそうしてくれ[p][face:04]ほんらいは　「にんていしょ」が\nなきゃてんそうしないんだけど\nこんかいは　とくべつだよ[E0 81 01]",
-  "en": ""
+  "en": "[face2:00]Yeah, warp me![p][face:04]Normally I don't warp anyone without a \"Certificate\", but this time is special.[E0 81 01]"
  },
  {
   "addr": "53A9C",
@@ -1897,7 +1897,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]やっぱり　いいや\nでなおしてくる[close]",
-  "en": ""
+  "en": "[face2:00]Actually, never mind. I'll come back later.[close]"
  },
  {
   "addr": "53AB0",
@@ -1906,7 +1906,7 @@
   ],
   "fall": false,
   "jp": "[face:04][E0 31 00 45 02 88]なんだい　なんだ〜い\nあんた　まだ　わたしをたおして\n「にんていしょ」を　もらって\nないのかい？\nなら　まだ　ここからさきへ\nとおすわけには　いかないねぇ\nつぎの　まちに　いきたいんだったら\nわたしを　たおしてからね〜[close]",
-  "en": ""
+  "en": "[face:04][E0 31 00 45 02 88]What's this, what's this~? You still haven't beaten me and gotten your \"Certificate\"? Then I can't let you go any further from here. If you want to go to the next town, you'll have to beat me first~[close]"
  },
  {
   "addr": "53B2C",
@@ -1915,7 +1915,7 @@
   ],
   "fall": false,
   "jp": "[E0 32 00 61 01 D9][face:05]どっちの　てんそうだ？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 02 86 02 87 00 00]",
-  "en": ""
+  "en": "[E0 32 00 61 01 D9][face:05]Which warp will it be?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 02 86 02 87 00 00]"
  },
  {
   "addr": "53B5E",
@@ -1924,7 +1924,7 @@
   ],
   "fall": false,
   "jp": "よし　「[c:08]サンカルロ[/c]」だな[E0 81 01]",
-  "en": ""
+  "en": "All right, \"[c:08]San Carlo[/c]\" it is.[E0 81 01]"
  },
  {
   "addr": "53B74",
@@ -1933,7 +1933,7 @@
   ],
   "fall": false,
   "jp": "[face:05][E0 31 00 47 02 89]おーーっと\nオレを　たおして　「にんていしょ」を\nもらってないみたいだな\nだったら　ここから　さきへは\nてんそうできないなーぁ\n「ダオスタヴィル」へ　いきたいんなら\nオレを　たおしてから　またきな[close]",
-  "en": ""
+  "en": "[face:05][E0 31 00 47 02 89]Whoa-whoa-whoa! Looks like you haven't beaten me and gotten your \"Certificate\" yet. In that case, I can't warp you any further from here. If you wanna go to \"Daostaville\", beat me first and then come back.[close]"
  },
  {
   "addr": "53BE7",
@@ -1942,7 +1942,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 4F 01 DC][E0 32 00 4E 01 DC][E0 32 00 62 01 DA][face:06]てんそうしてほしいのは　どっちだ？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 02 8A 02 8B 02 8D]",
-  "en": ""
+  "en": "[E0 31 00 4F 01 DC][E0 32 00 4E 01 DC][E0 32 00 62 01 DA][face:06]So, which warp do you want?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 02 8A 02 8B 02 8D]"
  },
  {
   "addr": "53C2B",
@@ -1951,7 +1951,7 @@
   ],
   "fall": false,
   "jp": "[E0 20 00 61][E0 31 00 47 01 E9][E0 31 00 46 01 E7][face:05]やあ　きみとは　はじめましてだよね\nオレは　このまちのかんりかんの\nマイグレインだ　よろしくな[p][face:05]さて　どっちの　てんそうだ？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 02 86 02 87 00 00]",
-  "en": ""
+  "en": "[E0 20 00 61][E0 31 00 47 01 E9][E0 31 00 46 01 E7][face:05]Hey, this is our first time meeting, right? I'm Migrain, this town's Gatekeeper. Nice to meet you.[p][face:05]Now, which warp will it be?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 02 86 02 87 00 00]"
  },
  {
   "addr": "53C9D",
@@ -1960,7 +1960,7 @@
   ],
   "fall": false,
   "jp": "[E0 20 00 62][E0 31 00 49 01 EA][E0 31 00 48 01 E8][face:06]しんがおだな\nオレさまは　ヴァレザラムだ\nせかいで　いちばん　つよい\nダイナバトラーの　なまえだから\nちゃんとおぼえていたほうが　いいぞ[p]で　てんそうしてほしいのは　どっちだ？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 02 8A 02 8B 02 8D]",
-  "en": ""
+  "en": "[E0 20 00 62][E0 31 00 49 01 EA][E0 31 00 48 01 E8][face:06]A new face, huh? I'm the great Valezaram! That's the name of the strongest Dino Battler in the world, so you'd better remember it.[p]So, which warp do you want?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 02 8A 02 8B 02 8D]"
  },
  {
   "addr": "53D27",
@@ -1969,7 +1969,7 @@
   ],
   "fall": false,
   "jp": "[E0 20 00 60][E0 31 00 45 01 EB][E0 31 00 44 01 E6][face:04]おや　あんた　みかけない　かおだねェ\nあたしは　このまちの　かんりかんで\nティターニャっていうんだ\nよろしくたのむよ[p][face2:00]おれは　[player]　よろしく[p][face:04]このゲートからは　ガチャステパークと\nまちへのてんそうが　できるけど[p]どっちの　てんそうだい？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 01 CE 01 CF 01 D3]",
-  "en": ""
+  "en": "[E0 20 00 60][E0 31 00 45 01 EB][E0 31 00 44 01 E6][face:04]Oh? Haven't seen your face around here before. I'm this town's Gatekeeper. The name's Titanya. Nice to meet ya.[p][face2:00]I'm [player]. Nice to meet you![p][face:04]From this gate, I can warp you to Gachasute Park or to the towns.[p]So, which warp will it be?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 01 CE 01 CF 01 D3]"
  },
  {
   "addr": "53DD7",
@@ -1978,7 +1978,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 70 01 DD][E0 20 00 70][face:08]やあ　てんそうかい？\n[face:01]あれ？　かんりかんいないの？[p][face:08]ああ　とつぜん　いなくなったから\nかわりに　ぼくが　てんそうを\nやってるんだ[p][face:01]じゃあ　てんそう　おねがいします[p][face:08]ＯＫ　で　どっちの　てんそうだい？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 01 DE 01 DF 01 E5]",
-  "en": ""
+  "en": "[E0 31 00 70 01 DD][E0 20 00 70][face:08]Hi there. Need a warp?[p][face:01]Huh? Isn't the Gatekeeper here?[p][face:08]Nope. The Gatekeeper suddenly went missing, so I'm doing the warps instead.[p][face:01]Then a warp, please![p][face:08]OK! So, which warp will it be?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 01 DE 01 DF 01 E5]"
  },
  {
   "addr": "53E74",
@@ -1987,7 +1987,7 @@
   ],
   "fall": false,
   "jp": "[face:08]こんにちは\nどちらへの　てんそうだね\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 01 DE 01 DF 01 E5]",
-  "en": ""
+  "en": "[face:08]Hello. Where would you like to warp to?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 01 DE 01 DF 01 E5]"
  },
  {
   "addr": "53EA6",
@@ -1996,7 +1996,7 @@
   ],
   "fall": false,
   "jp": "ＯＫ　ガチャステパークへの\nてんそうだね[p][E0 85][close]",
-  "en": ""
+  "en": "OK, a warp to Gachasute Park it is.[p][E0 85][close]"
  },
  {
   "addr": "53EBF",
@@ -2005,7 +2005,7 @@
   ],
   "fall": false,
   "jp": "じゃあ「[c:08]アタカマラ[/c]」へ\nてんそうでいいんだね？\n　　はい　　いいえ[E0 00 01 05 01 E4 01 E5]",
-  "en": ""
+  "en": "So, a warp to \"[c:08]Atacamara[/c]\", right?\n[opt]Yes[opt]No[E0 00 01 05 01 E4 01 E5]"
  },
  {
   "addr": "53EF0",
@@ -2014,7 +2014,7 @@
   ],
   "fall": false,
   "jp": "ライドデバイスの　にもつが　いっぱいです\nうけとりを　あきらめますか？\n　　はい　　いいえ[E0 00 01 05 01 E1 01 E2]",
-  "en": ""
+  "en": "Your Ride Device bag is full. Give up on receiving it?\n[opt]Yes[opt]No[E0 00 01 05 01 E1 01 E2]"
  },
  {
   "addr": "53F26",
@@ -2023,7 +2023,7 @@
   ],
   "fall": false,
   "jp": "[player]は　デバイスをあきらめた[p][face:0C]あら　ざんねん[p][face2:00]ありがとう\nきもちだけ　もらっておくよ[E0 20 00 14][close]",
-  "en": ""
+  "en": "[player] gave up on the Device.[p][face:0C]Oh, what a shame.[p][face2:00]Thanks anyway. It's the thought that counts![E0 20 00 14][close]"
  },
  {
   "addr": "53F5B",
@@ -2032,7 +2032,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 02 21]しょじひんから　デバイスを１つ　すてます[p]いらないデバイスを　えらんで\nＡボタンをおしてください[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][E0 23 02 21][E0 70 02 21 01 E0][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][p][face2:00]ありがとう[E0 20 00 14][close]",
-  "en": ""
+  "en": "[E0 23 02 21]You'll throw away one Device from your belongings.[p]Choose a Device you don't need and press the A Button.[E0 51][E0 78][player] threw away [c:09][E0 13] [E0 12][/c].[p][E0 23 02 21][E0 70 02 21 01 E0][player] got [E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][p][face2:00]Thanks![E0 20 00 14][close]"
  },
  {
   "addr": "53FDA",
@@ -2041,7 +2041,7 @@
   ],
   "fall": false,
   "jp": "[face:02]よし　きたな[p][face2:00]なんだ　ここは？\nかべが　ピカピカしてるぞ[p][face:01]なんか　いまも　ひとが　すんでるみたいね[p][face:02]・・・\nよし　あった\nこれだ！[p]じゃあ　いくぞ！！[p][face:01]えっ？　なにをするの？[p][E0 43 23][E0 44 32][E0 8A][face:01]キャッ！　すごいゆれ\nた　たっていられないわ[p][face2:00]うわ！　す　すごいな\nこの　ゆ　ゆれ　れ[p][face:02]マジに　すごい！\nからだが　なげだされそうだよ[E0 20 00 7F][E0 81 04]",
-  "en": ""
+  "en": "[face:02]All right, we made it.[p][face2:00]What is this place? The walls are all shiny![p][face:01]It kind of looks like people still live here.[p][face:02]... All right, found it. This is it![p]Here goes!![p][face:01]Huh? What are you doing?[p][E0 43 23][E0 44 32][E0 8A][face:01]Eek! What a huge quake! I-I can't stay on my feet![p][face2:00]Whoa! Th-this sh-sh-shaking is in-incredible![p][face:02]Seriously intense! Feels like I'm gonna get thrown right off![E0 20 00 7F][E0 81 04]"
  },
  {
   "addr": "540A8",
@@ -2050,7 +2050,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　いってらっしゃい[E0 81 02]",
-  "en": ""
+  "en": "Off you go, then![E0 81 02]"
  },
  {
   "addr": "540B7",
@@ -2059,7 +2059,7 @@
   ],
   "fall": false,
   "jp": "ＯＫ　てんそうは　ちゅうしだね[close]",
-  "en": ""
+  "en": "OK, warp canceled.[close]"
  },
  {
   "addr": "540C7",
@@ -2068,7 +2068,7 @@
   ],
   "fall": false,
   "jp": "[face:04]おやおや　ガチャゲートで　あたしに\nあいさつなしに　たいかいを\nゆうしょうする　なんて\nたいしたもんじゃないか[p]あいさつが　おくれたけど\nあたしは　このまちの　かんりかんで\nティターニャっていうんだ\nよろしくたのむよ[p]このゲートからは　ガチャステパークと\nまちへのてんそうが　できるけど[p]どっちの　てんそうだい？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 01 CE 01 CF 01 D3]",
-  "en": ""
+  "en": "[face:04]Well, well! Winning the tournament without even stopping by the Gacha Gate to say hi to me? That's quite something.[p]Sorry for the late hello. I'm this town's Gatekeeper. The name's Titanya. Nice to meet you![p]From this gate, I can warp you to Gachasute Park or to the other towns.[p]So, which warp will it be?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 01 CE 01 CF 01 D3]"
  },
  {
   "addr": "54188",
@@ -2077,7 +2077,7 @@
   ],
   "fall": false,
   "jp": "[face:05]へえ　このまちの　ガチャゲートに\nいちども　こないで\nたいかいに　ゆうしょうするなんて\nたいしたもんだよ\nだが　オレにかつのは　むずかしい\nだろうけどな[p]オレは　このまちのかんりかんの\nマイグレインだ　よろしくな[p][face:05]さて　どっちの　てんそうだ？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 02 86 02 87 00 00]",
-  "en": ""
+  "en": "[face:05]Huh, winning the tournament without coming to this town's Gacha Gate even once. That's pretty impressive. Beating me's gonna be tough, though.[p]I'm Migrain, this town's Gatekeeper. Good to meet you.[p][face:05]So, which warp'll it be?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 02 86 02 87 00 00]"
  },
  {
   "addr": "54226",
@@ -2086,7 +2086,7 @@
   ],
   "fall": false,
   "jp": "[face:06]なんだ　おまえ　さきに　ここにきて\nオレさまに　あいさつしないで\nたいかいを　ゆうしょう　するなんてな[p]オレさまは　ヴァレザラムだ\nせかいで　いちばん　つよい\nダイナバトラーの　なまえだから\nちゃんとおぼえていたほうが　いいぞ[p]で　てんそうしてほしいのは　どっちだ？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 02 8A 02 8B 02 8D]",
-  "en": ""
+  "en": "[face:06]What's this? You came here first, didn't even say hello to the great me, and went and won the tournament?![p]I'm Valezaram! That's the name of the strongest Dino Battler in the world, so you'd better remember it![p]So, which warp do you want?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 02 8A 02 8B 02 8D]"
  },
  {
   "addr": "542CD",
@@ -2095,7 +2095,7 @@
   ],
   "fall": false,
   "jp": "[face:05]やあ　ここへ　いちどもこないで\n「にんていしょ」を　とるとは\nさすがだなぁ[p]それで　どっちの　てんそうだ？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 02 86 02 87 00 00]",
-  "en": ""
+  "en": "[face:05]Hey, you got the \"Certificate\" without coming here even once? Impressive![p]So, which warp'll it be?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 02 86 02 87 00 00]"
  },
  {
   "addr": "54325",
@@ -2104,7 +2104,7 @@
   ],
   "fall": false,
   "jp": "[face:06]なんだ　おまえ\nここに　いっかいもこないで\nオレさまを　たおすとは[p]なまいきだな〜[p]で　てんそうしてほしいのは　どっちだ？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 02 8A 02 8B 02 8D]",
-  "en": ""
+  "en": "[face:06]What's this? You beat the great me without coming here even once?[p]You've got some nerve![p]So, which warp do you want?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 02 8A 02 8B 02 8D]"
  },
  {
   "addr": "54384",
@@ -2113,7 +2113,7 @@
   ],
   "fall": false,
   "jp": "[face:04]おやおや　ここを　いちども\nりようしないで　あたしを　たおした\n[player]じゃないか[p]このゲートからは　ガチャステパークと\nまちへのてんそうが　できるけど[p]どっちの　てんそうだい？\n　　ガチャステパーク　　ほかのまち[E0 03 01 0B 01 CE 01 CF 01 D3]",
-  "en": ""
+  "en": "[face:04]Well, well, if it isn't [player], who beat me without using this place even once![p]From this gate, I can warp you to Gachasute Park or to the other towns.[p]So, which warp will it be?\n[opt]Gachasute Park[opt]Towns[E0 03 01 0B 01 CE 01 CF 01 D3]"
  },
  {
   "addr": "543FE",
@@ -2131,7 +2131,7 @@
   ],
   "fall": false,
   "jp": "[face:0A]おねえちゃんたち　ありがとう\nパパかえってきたんだよ[p][face:0E]ありがとう　わたしからも\nおれいをいいます\nやはり　かぞくでいるのが　いちばんです[E0 20 00 7B][close]",
-  "en": ""
+  "en": "[face:0A]Big Sis, Big Bro, thank you! My papa came home![p][face:0E]Thank you. Let me offer my thanks as well. Being together as a family really is the best.[E0 20 00 7B][close]"
  },
  {
   "addr": "5444E",
@@ -2140,7 +2140,7 @@
   ],
   "fall": false,
   "jp": "[face:0A]おねえちゃん　おにいちゃん　やくそくだよ\nパパを　よんできてね[close]",
-  "en": ""
+  "en": "[face:0A]Big Sis, Big Bro, it's a promise! Go bring my papa back, okay?[close]"
  },
  {
   "addr": "54471",
@@ -2149,7 +2149,7 @@
   ],
   "fall": false,
   "jp": "[face:01]こんにちは〜[p][face:0A]ぼく　パパまってるんだから\nじゃましないで[close]",
-  "en": ""
+  "en": "[face:01]Hellooo~[p][face:0A]I'm waiting for my papa, so don't bother me![close]"
  },
  {
   "addr": "54495",
@@ -2158,7 +2158,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 03 82][face:09]おや　にもつが　いっぱいだね\nなにかを　すててほしいな[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][E0 23 03 82][E0 70 03 82 01 F3][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][p][E0 30 01 F3]",
-  "en": ""
+  "en": "[E0 23 03 82][face:09]Oh, your hands are full. Could you throw something away?[E0 51][E0 78][player] threw away [c:09][E0 13] [E0 12][/c].[p][E0 23 03 82][E0 70 03 82 01 F3][player] got [E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][p][E0 30 01 F3]"
  },
  {
   "addr": "544F9",
@@ -2167,7 +2167,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 03 82][face:09]おや　にもつが　いっぱいだね\nなにかを　すててほしいな[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]\nをすてた[p][E0 23 03 82][E0 70 03 82 01 F4][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][p][E0 30 01 F4]",
-  "en": ""
+  "en": "[E0 23 03 82][face:09]Oh, your hands are full. Could you throw something away?[E0 51][E0 78][player] threw away [c:09][E0 13] [E0 12][/c].[p][E0 23 03 82][E0 70 03 82 01 F4][player] got [E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][p][E0 30 01 F4]"
  },
  {
   "addr": "5455D",
@@ -2176,7 +2176,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 03 82][face:09]おや　にもつが　いっぱいだね\nなにかを　すててほしいな[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][E0 23 03 82][E0 70 03 82 01 F2][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][close]",
-  "en": ""
+  "en": "[E0 23 03 82][face:09]Oh, your hands are full. Could you throw something away?[E0 51][E0 78][player] threw away [c:09][E0 13] [E0 12][/c].[p][E0 23 03 82][E0 70 03 82 01 F2][player] got [E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][close]"
  },
  {
   "addr": "545BD",
@@ -2185,7 +2185,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 03 82][face:09]まだ　にもつが　いっぱいだね\nなにかを　すててほしいな[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][E0 23 03 82][E0 70 03 82 01 F4][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][p][E0 30 01 F4]",
-  "en": ""
+  "en": "[E0 23 03 82][face:09]Your hands are still full. Could you throw something away?[E0 51][E0 78][player] threw away [c:09][E0 13] [E0 12][/c].[p][E0 23 03 82][E0 70 03 82 01 F4][player] got [E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][p][E0 30 01 F4]"
  },
  {
   "addr": "54621",
@@ -2194,7 +2194,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 03 82][face:09]まだ　にもつが　いっぱいだね\nなにかを　すててほしいな[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][E0 23 03 82][E0 70 03 82 01 F5][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][close]",
-  "en": ""
+  "en": "[E0 23 03 82][face:09]Your hands are still full. Could you throw something away?[E0 51][E0 78][player] threw away [c:09][E0 13] [E0 12][/c].[p][E0 23 03 82][E0 70 03 82 01 F5][player] got [E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][close]"
  },
  {
   "addr": "54681",
@@ -2248,7 +2248,7 @@
   ],
   "fall": false,
   "jp": "[face:01]・・・\nきょうは　まだだめみたい\nまた　こんどにしましょう[close]",
-  "en": ""
+  "en": "[face:01]... Looks like it's still no good today. Let's try again another time.[close]"
  },
  {
   "addr": "546AA",
@@ -2275,7 +2275,7 @@
   ],
   "fall": false,
   "jp": "[face2:19]またの　きかいに　おこしください[close]",
-  "en": ""
+  "en": "[face2:19]Please come again another time.[close]"
  },
  {
   "addr": "546C9",
@@ -2284,7 +2284,7 @@
   ],
   "fall": false,
   "jp": "[face:01]こんかいは　エキジビジョンで\nバトルができるみたいよ\nバトルをしますか？\n　　はい　　いいえ[E0 00 01 05 01 FC 01 FD]",
-  "en": ""
+  "en": "[face:01]Looks like this time you can battle in an exhibition! Will you battle?\n[opt]Yes[opt]No[E0 00 01 05 01 FC 01 FD]"
  },
  {
   "addr": "54703",

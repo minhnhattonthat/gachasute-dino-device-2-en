@@ -6,7 +6,7 @@
   ],
   "fall": false,
   "jp": "[E0 21 00 40][face:13]こうせきを　もってきたようだね[p][player]は\n[c:0A][E0 17 00][E0 76 00][E0 43 21]０ビット[/c]　てにいれた[E0 44 14][p][E0 30 01 72]",
-  "en": ""
+  "en": "[E0 21 00 40][face:13]Looks like you brought me some ore.[p][player] got [c:0A][E0 17 00][E0 76 00][E0 43 21]0 Bits[/c]![E0 44 14][p][E0 30 01 72]"
  },
  {
   "addr": "5AAAF",
@@ -24,7 +24,7 @@
   ],
   "fall": false,
   "jp": "[E0 20 00 41][E0 74 00 01 04 08][E0 43 21][c:0A]くだいたがんせき[/c]を\n[E0 30 01 94]",
-  "en": ""
+  "en": "[E0 20 00 41][E0 74 00 01 04 08][E0 43 21]Some [c:0A]Crushed Rock[/c]!\n[E0 30 01 94]"
  },
  {
   "addr": "5AAD8",
@@ -42,7 +42,7 @@
   ],
   "fall": false,
   "jp": "[E0 74 01 01 04 09][E0 43 21][c:0A]ほとんどかがやきがない[/c]がんせきを\n[E0 30 01 94]",
-  "en": ""
+  "en": "[E0 74 01 01 04 09][E0 43 21]A rock with [c:0A]hardly any glow[/c]!\n[E0 30 01 94]"
  },
  {
   "addr": "5AB0E",
@@ -51,7 +51,7 @@
   ],
   "fall": false,
   "jp": "[E0 74 02 01 04 0A][E0 43 21][c:0A]かがやきがすくない[/c]がんせきを\n[E0 30 01 94]",
-  "en": ""
+  "en": "[E0 74 02 01 04 0A][E0 43 21]A rock with [c:0A]a little glow[/c]!\n[E0 30 01 94]"
  },
  {
   "addr": "5AB2F",
@@ -60,7 +60,7 @@
   ],
   "fall": false,
   "jp": "[E0 74 03 01 04 0B][E0 43 2C][c:0A]かなりかがやいている[/c]がんせきを\n[E0 30 01 94]",
-  "en": ""
+  "en": "[E0 74 03 01 04 0B][E0 43 2C]A rock [c:0A]glowing a lot[/c]!\n[E0 30 01 94]"
  },
  {
   "addr": "5AB51",
@@ -69,7 +69,7 @@
   ],
   "fall": false,
   "jp": "[E0 74 04 01 04 0C][E0 43 2B][c:0A]まぶしいくらいかがやく[/c]がんせきを\n[E0 30 01 94]",
-  "en": ""
+  "en": "[E0 74 04 01 04 0C][E0 43 2B]A rock with a [c:0A]dazzling glow[/c]!\n[E0 30 01 94]"
  },
  {
   "addr": "5AB74",
@@ -78,7 +78,7 @@
   ],
   "fall": false,
   "jp": "にもつがいっぱいで\n[c:09]くだいたがんせき[/c]を\nこれいじょうもつことができない[close]",
-  "en": ""
+  "en": "Your bag is full, so you can't carry any more [c:09]Crushed Rock[/c].[close]"
  },
  {
   "addr": "5AB9D",
@@ -87,7 +87,7 @@
   ],
   "fall": false,
   "jp": "にもつがいっぱいで\n[c:09]ほとんどかがやきがない[/c]がんせきを\nこれいじょうもつことができない[close]",
-  "en": ""
+  "en": "Your bag is full, so you can't carry any more rocks with [c:09]hardly any glow[/c].[close]"
  },
  {
   "addr": "5ABCD",
@@ -96,7 +96,7 @@
   ],
   "fall": false,
   "jp": "にもつがいっぱいで\n[c:09]かがやきがすくない[/c]がんせきを\nこれいじょうもつことができない[close]",
-  "en": ""
+  "en": "Your bag is full, so you can't carry any more rocks with [c:09]a little glow[/c].[close]"
  },
  {
   "addr": "5ABFB",
@@ -105,7 +105,7 @@
   ],
   "fall": false,
   "jp": "にもつがいっぱいで\n[c:09]かなりかがやいている[/c]がんせきを\nこれいじょうもつことができない[close]",
-  "en": ""
+  "en": "Your bag is full, so you can't carry any more rocks [c:09]glowing a lot[/c].[close]"
  },
  {
   "addr": "5AC2A",
@@ -114,7 +114,7 @@
   ],
   "fall": false,
   "jp": "にもつがいっぱいで\n[c:09]まぶしいくらいかがやく[/c]がんせきを\nこれいじょうもつことができない[close]",
-  "en": ""
+  "en": "Your bag is full, so you can't carry any more rocks with a [c:09]dazzling glow[/c].[close]"
  },
  {
   "addr": "5AC5A",
@@ -141,7 +141,7 @@
   ],
   "fall": false,
   "jp": "[face:01]バトルは　もうすこし　あとにしましょう[close]",
-  "en": ""
+  "en": "[face:01]Let's save battling for a little later.[close]"
  },
  {
   "addr": "5AC73",
@@ -150,7 +150,7 @@
   ],
   "fall": true,
   "jp": "[face2:19]ようこそ　バトルプレイスへ[p][face:01]じゅんびも　できたし\nさっそく　バトルしてみようよ[p][face2:00]ＯＫ！[p][face:01]こんかいの　バトルは\nいろいろ　おしえながらやるから\nわたしが　あいてをするわね[p]それから　バトルプレイスでは\nれんしゅうようの　プラクティスバトルと\nたいかいようの　トーナメントバトルの\n２しゅるい　あるから　きをつけてね[p]じゃあ　いきましょう[p][E0 80 04 11]",
-  "en": ""
+  "en": "[face2:19]Welcome to the Battle Place![p][face:01]We're all set, so let's try a battle right away![p][face2:00]OK![p][face:01]This time I'll be teaching you stuff as we go, so I'll be your opponent.[p]Also, the Battle Place has two kinds of battles: Practice Battles for training, and Tournament Battles for tournaments. Keep that in mind![p]Okay, let's go![p][E0 80 04 11]"
  },
  {
   "addr": "5AD2D",
@@ -159,7 +159,7 @@
   ],
   "fall": false,
   "jp": "[face:01]だいたい　わかったとおもうから\nあとは　じっせんで　きたえてね[close]",
-  "en": ""
+  "en": "[face:01]I think you've got the basics down, so now go train in some real battles![close]"
  },
  {
   "addr": "5AD50",
@@ -177,7 +177,7 @@
   ],
   "fall": true,
   "jp": "[face:01]こんにちは〜[p][face:08]やあ　こんにちは[p]デバイスセットで　バトルに　ゆうりな\nくみあわせについて　おしえてあげるよ[p]デバイスに　ぞくせいがあるのは\nしってるよね[p][E0 31 00 3C 04 14][face2:00]お？　おう\nもちろんさ[p][face:01]じろ〜〜・・・[p][face:08]はなしを　つづけていいかな？[p][E0 20 00 3C]",
-  "en": ""
+  "en": "[face:01]Hello![p][face:08]Hey there, hello![p]I'll teach you about Device Set combinations that give you an edge in battle.[p]You know that Devices have elements, right?[p][E0 31 00 3C 04 14][face2:00]Huh? Oh, y-yeah. Of course![p][face:01]Staaare...[p][face:08]Mind if I go on?[p][E0 20 00 3C]"
  },
  {
   "addr": "5ADE2",

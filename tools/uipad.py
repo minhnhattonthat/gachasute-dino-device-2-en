@@ -17,6 +17,10 @@ NOT_UI = re.compile(r'\n|\[p\]|\[half\]|\[face|\[noface\]|\[E0 0[0-3] ')
 
 
 def is_ui(e: dict) -> bool:
+    """Menu-printer strings: misc tables, bank 0 and banks 10+ (story banks 1-8 are dialogue-box text)."""
+    eid = e.get('id') or e['ids'][0]
+    if '.' not in eid and 0x01 <= int(eid, 16) >> 8 <= 0x08:
+        return False
     return bool(END.search(e['jp'])) and not NOT_UI.search(e['jp'])
 
 

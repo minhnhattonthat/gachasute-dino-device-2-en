@@ -6,7 +6,7 @@
   ],
   "fall": false,
   "jp": "[E0 20 00 17][E0 31 00 00 03 01][E0 23 03 2A][E0 70 03 2A 03 02][noface][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 1A][close]",
-  "en": ""
+  "en": "[E0 20 00 17][E0 31 00 00 03 01][E0 23 03 2A][E0 70 03 2A 03 02][noface][player] got [E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 1A][close]"
  },
  {
   "addr": "57C32",
@@ -15,7 +15,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 03 43][E0 70 03 43 03 03][noface][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 1A][close]",
-  "en": ""
+  "en": "[E0 23 03 43][E0 70 03 43 03 03][noface][player] got [E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 1A][close]"
  },
  {
   "addr": "57C5A",
@@ -24,7 +24,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 03 2A]にもつが　いっぱいです\nうけとりを　あきらめますか？\n　　はい　　いいえ[E0 00 01 05 03 A0 03 A1]",
-  "en": ""
+  "en": "[E0 23 03 2A]Your bag is full. Give up on taking it?\n[opt]Yes[opt]No[E0 00 01 05 03 A0 03 A1]"
  },
  {
   "addr": "57C8B",
@@ -33,7 +33,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 03 43]にもつが　いっぱいです\nうけとりを　あきらめますか？\n　　はい　　いいえ[E0 00 01 05 03 A0 03 A2]",
-  "en": ""
+  "en": "[E0 23 03 43]Your bag is full. Give up on taking it?\n[opt]Yes[opt]No[E0 00 01 05 03 A0 03 A2]"
  },
  {
   "addr": "57CBC",
@@ -78,7 +78,7 @@
   ],
   "fall": false,
   "jp": "[E0 20 00 1B][E0 31 00 00 03 09][E0 23 04 33][E0 70 04 33 03 0A][noface][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 1A][close]",
-  "en": ""
+  "en": "[E0 20 00 1B][E0 31 00 00 03 09][E0 23 04 33][E0 70 04 33 03 0A][noface][player] got [E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 1A][close]"
  },
  {
   "addr": "57CF2",
@@ -87,7 +87,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 04 4C][E0 70 04 4C 03 0B][noface][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 1A][close]",
-  "en": ""
+  "en": "[E0 23 04 4C][E0 70 04 4C 03 0B][noface][player] got [E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 1A][close]"
  },
  {
   "addr": "57D1A",
@@ -96,7 +96,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 04 33]にもつが　いっぱいです\nうけとりを　あきらめますか？\n　　はい　　いいえ[E0 00 01 05 03 A0 03 A3]",
-  "en": ""
+  "en": "[E0 23 04 33]Your bag is full. Give up on taking it?\n[opt]Yes[opt]No[E0 00 01 05 03 A0 03 A3]"
  },
  {
   "addr": "57D4B",
@@ -105,7 +105,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 04 4C]にもつが　いっぱいです\nうけとりを　あきらめますか？\n　　はい　　いいえ[E0 00 01 05 03 A0 03 A4]",
-  "en": ""
+  "en": "[E0 23 04 4C]Your bag is full. Give up on taking it?\n[opt]Yes[opt]No[E0 00 01 05 03 A0 03 A4]"
  },
  {
   "addr": "57D7C",
@@ -150,7 +150,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 00 03 11][E0 70 01 82 01 99][noface][player]は\n[E0 46][E0 44 06][E0 43 20][E0 23 01 82][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 20 00 2C][E0 44 FA][E0 47][p][E0 30 01 98]",
-  "en": ""
+  "en": "[E0 31 00 00 03 11][E0 70 01 82 01 99][noface][player] got [E0 46][E0 44 06][E0 43 20][E0 23 01 82][c:0A][E0 13] [E0 12][/c]![E0 20 00 2C][E0 44 FA][E0 47][p][E0 30 01 98]"
  },
  {
   "addr": "57DBD",
@@ -159,7 +159,7 @@
   ],
   "fall": false,
   "jp": "[E0 70 01 83 01 99][noface][player]は\n[E0 46][E0 44 06][E0 43 20][E0 23 01 83][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 20 00 2C][E0 44 FA][E0 47][p][E0 30 01 98]",
-  "en": ""
+  "en": "[E0 70 01 83 01 99][noface][player] got [E0 46][E0 44 06][E0 43 20][E0 23 01 83][c:0A][E0 13] [E0 12][/c]![E0 20 00 2C][E0 44 FA][E0 47][p][E0 30 01 98]"
  },
  {
   "addr": "57DF4",
@@ -168,7 +168,7 @@
   ],
   "fall": false,
   "jp": "[face:15]ひょぉ〜〜っ！\nうむ　すばらしき　たたかいであった\nひさびさに　ほねのある　ものと\nバトルができ　まんぞくじゃ\nおぬしたちを　２りゅうといったこと\nゆるしてくだされ\nわしは　まだまだ　しゅぎょうが\nたりぬようじゃ\nでは　これにて　ごめん\nまた　しゅぎょうの　つづき　でござる\nぬぅぉわあぁ〜〜〜〜・・・[p]・・・・とぅ！！\nおっと　わすれるところであった\nおぬしに　ぜひ　つかって　いただきたい\nしなを　しんていして　しんぜよう[E0 20 00 81][p][E0 30 03 10]",
-  "en": ""
+  "en": "[face:15]Hyoooooh! Hmm, that was a splendid battle. 'Tis been long since I battled foes with true backbone. I am satisfied. Forgive me for calling ye second-rate. It seems my training is still lacking. Now then, I take my leave. Back to my training, it is! Nwoooaaaaah...[p]...Hup!! Oh, I nearly forgot. I shall present thee with an item I would very much have thee use.[E0 20 00 81][p][E0 30 03 10]"
  },
  {
   "addr": "57EE5",
@@ -177,7 +177,7 @@
   ],
   "fall": false,
   "jp": "[E0 8D 03 12][E0 20 00 3E][face:15]ちからぶそく　じゃったの〜[p]もっと　つよくなって　まいられよ\nそれとも　もういちど　バトルするか？\n　　はい　　いいえ[E0 01 01 05 03 14 03 15]",
-  "en": ""
+  "en": "[E0 8D 03 12][E0 20 00 3E][face:15]Thy strength fell short~[p]Grow stronger and come again. Or wilt thou battle once more?\n[opt]Yes[opt]No[E0 01 01 05 03 14 03 15]"
  },
  {
   "addr": "57F35",
@@ -186,7 +186,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]もういちど　ちょうせんするぜ！！[p][face:15]よかろう\nうけて　しんぜよう[p][E0 30 03 13]",
-  "en": ""
+  "en": "[face2:00]I'm challenging you again!![p][face:15]Very well. I accept![p][E0 30 03 13]"
  },
  {
   "addr": "57F61",
@@ -195,7 +195,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]もういちど　そうびをみなおしてから\nちょうせんしなおすぜ[p][face:15]うむ　それもようかろう\nいつでも　まっておるぞ[close]",
-  "en": ""
+  "en": "[face2:00]I'm gonna rethink my equipment, then challenge you again.[p][face:15]Hmm, that is wise as well. I shall be waiting for thee anytime.[close]"
  },
  {
   "addr": "57F9C",
@@ -222,7 +222,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 00 03 19][E0 70 02 2D 01 A3][noface][player]は\n[E0 46][E0 44 06][E0 43 20][E0 23 02 2D][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 20 00 2E][E0 44 FA][E0 47][p][E0 30 01 A2]",
-  "en": ""
+  "en": "[E0 31 00 00 03 19][E0 70 02 2D 01 A3][noface][player] got [E0 46][E0 44 06][E0 43 20][E0 23 02 2D][c:0A][E0 13] [E0 12][/c]![E0 20 00 2E][E0 44 FA][E0 47][p][E0 30 01 A2]"
  },
  {
   "addr": "57FDB",
@@ -231,7 +231,7 @@
   ],
   "fall": false,
   "jp": "[E0 70 02 2E 01 A3][noface][player]は\n[E0 46][E0 44 06][E0 43 20][E0 23 02 2E][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 20 00 2E][E0 44 FA][E0 47][p][E0 30 01 A2]",
-  "en": ""
+  "en": "[E0 70 02 2E 01 A3][noface][player] got [E0 46][E0 44 06][E0 43 20][E0 23 02 2E][c:0A][E0 13] [E0 12][/c]![E0 20 00 2E][E0 44 FA][E0 47][p][E0 30 01 A2]"
  },
  {
   "addr": "58012",
@@ -294,7 +294,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 00 03 21][E0 70 00 1E 01 B4][noface][player]は\n[E0 46][E0 44 06][E0 43 20][E0 23 00 1E][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 20 00 30][E0 44 FA][E0 47][p][E0 30 01 B3]",
-  "en": ""
+  "en": "[E0 31 00 00 03 21][E0 70 00 1E 01 B4][noface][player] got [E0 46][E0 44 06][E0 43 20][E0 23 00 1E][c:0A][E0 13] [E0 12][/c]![E0 20 00 30][E0 44 FA][E0 47][p][E0 30 01 B3]"
  },
  {
   "addr": "58055",
@@ -303,7 +303,7 @@
   ],
   "fall": false,
   "jp": "[E0 70 00 1F 01 B4][noface][player]は\n[E0 46][E0 44 06][E0 43 20][E0 23 00 1F][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 20 00 30][E0 44 FA][E0 47][p][E0 30 01 B3]",
-  "en": ""
+  "en": "[E0 70 00 1F 01 B4][noface][player] got [E0 46][E0 44 06][E0 43 20][E0 23 00 1F][c:0A][E0 13] [E0 12][/c]![E0 20 00 30][E0 44 FA][E0 47][p][E0 30 01 B3]"
  },
  {
   "addr": "5808C",
@@ -321,7 +321,7 @@
   ],
   "fall": false,
   "jp": "[E0 33 05 09 03 25][E0 33 05 0A 03 25][E0 33 05 0B 03 25][face:01]ごめんなさい　どちらも\nもってないわ[p][E0 30 03 26]",
-  "en": ""
+  "en": "[E0 33 05 09 03 25][E0 33 05 0A 03 25][E0 33 05 0B 03 25][face:01]Sorry, we don't have either of them.[p][E0 30 03 26]"
  },
  {
   "addr": "580C4",
@@ -330,7 +330,7 @@
   ],
   "fall": false,
   "jp": "[E0 33 05 09 01 B2][E0 33 05 0A 01 B2][E0 33 05 0B 01 B2][face:01]ごめんなさい　そのダイナは\nもってないわ[p][E0 30 03 26]",
-  "en": ""
+  "en": "[E0 33 05 09 01 B2][E0 33 05 0A 01 B2][E0 33 05 0B 01 B2][face:01]Sorry, we don't have that Dino.[p][E0 30 03 26]"
  },
  {
   "addr": "580F2",
@@ -339,7 +339,7 @@
   ],
   "fall": true,
   "jp": "[face:01]ごめんなさい　そのデバイスは\nもってないわ[p]",
-  "en": ""
+  "en": "[face:01]Sorry, we don't have that Device.[p]"
  },
  {
   "addr": "5810B",
@@ -348,7 +348,7 @@
   ],
   "fall": false,
   "jp": "[face:17]そうか　じゃあ　たすけがくるまで\nなかまを　はげましているよ\nもし　たすけがくるまでに\nデバイスとダイナが　そろえられたら\nもういちど　きてほしいな[p][face2:00]わかった　なんとかしてみるよ[close]",
-  "en": ""
+  "en": "[face:17]I see. Well then, I'll keep my buddies' spirits up until help comes. If you can get both the Device and the Dino before help arrives, please come back again.[p][face2:00]Got it. I'll see what I can do![close]"
  },
  {
   "addr": "5816B",
@@ -366,7 +366,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 00 03 29][E0 70 03 9B 03 2A][noface][player]は\n[E0 46][E0 44 06][E0 43 20][E0 23 03 9B][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 20 00 74][E0 21 00 76][E0 44 FA][E0 47][p][E0 30 03 2B]",
-  "en": ""
+  "en": "[E0 31 00 00 03 29][E0 70 03 9B 03 2A][noface][player] got [E0 46][E0 44 06][E0 43 20][E0 23 03 9B][c:0A][E0 13] [E0 12][/c]![E0 20 00 74][E0 21 00 76][E0 44 FA][E0 47][p][E0 30 03 2B]"
  },
  {
   "addr": "581AD",
@@ -375,7 +375,7 @@
   ],
   "fall": false,
   "jp": "[E0 70 03 9C 03 32][noface][player]は\n[E0 46][E0 44 06][E0 43 20][E0 23 03 9C][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 20 00 74][E0 21 00 76][E0 44 FA][E0 47][p][E0 30 03 2B]",
-  "en": ""
+  "en": "[E0 70 03 9C 03 32][noface][player] got [E0 46][E0 44 06][E0 43 20][E0 23 03 9C][c:0A][E0 13] [E0 12][/c]![E0 20 00 74][E0 21 00 76][E0 44 FA][E0 47][p][E0 30 03 2B]"
  },
  {
   "addr": "581E8",
@@ -384,7 +384,7 @@
   ],
   "fall": true,
   "jp": "[noface][player]は　にもつがいっぱいで\n[E0 23 03 9B][c:09][E0 13]　[E0 12][/c]を\nてにいれることができない[E0 20 00 76][p]",
-  "en": ""
+  "en": "[noface][player] is carrying too much and can't take [E0 23 03 9B][c:09][E0 13] [E0 12][/c].[E0 20 00 76][p]"
  },
  {
   "addr": "58219",
@@ -393,7 +393,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 75 01 C4][E0 31 00 00 03 2C][E0 70 04 9B 03 2D][noface][player]は\n[E0 46][E0 44 06][E0 43 20][E0 23 04 9B][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 20 00 75][E0 21 00 77][E0 44 FA][E0 47][p][E0 31 00 74 03 2E][E0 30 01 C4]",
-  "en": ""
+  "en": "[E0 31 00 75 01 C4][E0 31 00 00 03 2C][E0 70 04 9B 03 2D][noface][player] got [E0 46][E0 44 06][E0 43 20][E0 23 04 9B][c:0A][E0 13] [E0 12][/c]![E0 20 00 75][E0 21 00 77][E0 44 FA][E0 47][p][E0 31 00 74 03 2E][E0 30 01 C4]"
  },
  {
   "addr": "58266",
@@ -402,7 +402,7 @@
   ],
   "fall": false,
   "jp": "[E0 70 04 9C 03 31][noface][player]は\n[E0 46][E0 44 06][E0 43 20][E0 23 04 9C][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 20 00 75][E0 21 00 77][E0 44 FA][E0 47][p][E0 31 00 74 03 2E][E0 30 01 C4]",
-  "en": ""
+  "en": "[E0 70 04 9C 03 31][noface][player] got [E0 46][E0 44 06][E0 43 20][E0 23 04 9C][c:0A][E0 13] [E0 12][/c]![E0 20 00 75][E0 21 00 77][E0 44 FA][E0 47][p][E0 31 00 74 03 2E][E0 30 01 C4]"
  },
  {
   "addr": "582A7",
@@ -411,7 +411,7 @@
   ],
   "fall": false,
   "jp": "[noface][player]は　にもつがいっぱいで\n[E0 23 04 9B][c:09][E0 13]　[E0 12][/c]を\nてにいれることができない[E0 20 00 77][p][face:24]にもつを　へらして　もういちど\nここにきなさい\nそのとき　あらためて　デバイスをあげるよ[close]",
-  "en": ""
+  "en": "[noface][player] is carrying too much and can't take [E0 23 04 9B][c:09][E0 13] [E0 12][/c].[E0 20 00 77][p][face:24]Lighten your load and come back here again. I'll give you the Device then.[close]"
  },
  {
   "addr": "58308",
@@ -429,7 +429,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 74 03 30][face:24]まっていたよ\nじゃあ　これをあげよう[p][E0 30 03 28]",
-  "en": ""
+  "en": "[E0 31 00 74 03 30][face:24]I've been waiting for you. Well then, here, take this.[p][E0 30 03 28]"
  },
  {
   "addr": "5832C",
@@ -438,7 +438,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 75 03 33][face:24]まっていたよ\nじゃあ　これをあげよう[p][E0 30 03 2B]",
-  "en": ""
+  "en": "[E0 31 00 75 03 33][face:24]I've been waiting for you. Well then, here, take this.[p][E0 30 03 2B]"
  },
  {
   "addr": "5834C",
@@ -447,7 +447,7 @@
   ],
   "fall": false,
   "jp": "[noface][player]は\nにもつがいっぱいで\n[c:09][E0 23 04 9C][E0 13]　[E0 12][/c]を\nてにいれることができない[E0 20 00 77][p][face:24]にもつを　へらして　もういちど\nここにきなさい\nそのとき　あらためて　デバイスをあげるよ[close]",
-  "en": ""
+  "en": "[noface][player] is carrying too much and can't take [c:09][E0 23 04 9C][E0 13] [E0 12][/c].[E0 20 00 77][p][face:24]Lighten your load and come back here again. I'll give you the Device then.[close]"
  },
  {
   "addr": "583AD",
@@ -456,7 +456,7 @@
   ],
   "fall": false,
   "jp": "[noface][player]は\nにもつがいっぱいで\n[c:09][E0 23 03 9C][E0 13]　[E0 12][/c]を\nてにいれることができない[E0 20 00 76][p][E0 30 03 2B]",
-  "en": ""
+  "en": "[noface][player] is carrying too much and can't take [c:09][E0 23 03 9C][E0 13] [E0 12][/c].[E0 20 00 76][p][E0 30 03 2B]"
  },
  {
   "addr": "583E2",
@@ -465,7 +465,7 @@
   ],
   "fall": false,
   "jp": "[face:24]おや？　デバイスは　すでに\nもっているようだね[close]",
-  "en": ""
+  "en": "[face:24]Oh? Looks like you already have the Device.[close]"
  },
  {
   "addr": "583FE",
@@ -582,7 +582,7 @@
   ],
   "fall": false,
   "jp": "[face2:19]ただいま　ビギナークラスのたいかいが\nかいさいされています[p]たいかいは　１どさんかすると\nたいかいがおわるまで\nバッテリーの　じゅうでんや\nショップのりようが　できませんので\nじゅうぶんな　じゅんびがひつようです[p]たいかいにさんかしますか？\n　　はい　　いいえ[E0 00 01 05 03 41 03 42]",
-  "en": ""
+  "en": "[face2:19]A Beginner Class tournament is now being held.[p]Once you enter the tournament, you can't recharge your Battery or use the shop until it's over, so please prepare well.[p]Would you like to enter the tournament?\n[opt]Yes[opt]No[E0 00 01 05 03 41 03 42]"
  },
  {
   "addr": "5849A",
@@ -591,7 +591,7 @@
   ],
   "fall": false,
   "jp": "[E0 86 03 43][face2:19][player]せんしゅ\nざんねんながら　まけてしまいました\nさらなるどりょくを\nきたいしたいとおもいます\nじかいの　たいかいでは\nぜひ　ゆうしょうしてください[p][face:01]ん〜　おしかったね〜\nもうちょっとで　かてたのに[p]がっかりしないで〜\nつぎのたいかいまで　じかんがあるから\nもっと　つよいデバイスを　ゲットして\nこんどは　ゆうしょうよ[close]",
-  "en": ""
+  "en": "[E0 86 03 43][face2:19]Competitor [player], unfortunately, you have lost. We look forward to even greater efforts from you. Please be sure to win the next tournament![p][face:01]Aww, that was so close! You almost won![p]Don't be down! There's still time before the next tournament, so let's get stronger Devices and win it next time![close]"
  },
  {
   "addr": "5856E",
@@ -600,7 +600,7 @@
   ],
   "fall": false,
   "jp": "たいかいは　いっていのきかんしか\nかいさいされていませんので\nたいかいに　さんかするばあいは\nじゅうぶん　ちゅういしてください[close]",
-  "en": ""
+  "en": "The tournament is only held for a limited time, so if you plan to enter, please be very careful.[close]"
  },
  {
   "addr": "585AE",
@@ -609,7 +609,7 @@
   ],
   "fall": true,
   "jp": "[face2:19]ゆうしょう　おめでとうございます[p][E0 31 00 43 03 49][E0 20 00 42][face:01]やったね　[player]！\nおめでとう！！[p][E0 42 08][face:03]へ〜きみが　こんかいのゆうしょうしゃか\nボクとたたかって　かたないと\n「サンカルロ」へ　いけないのは\nしってるよね[p]",
-  "en": ""
+  "en": "[face2:19]Congratulations on your victory![p][E0 31 00 43 03 49][E0 20 00 42][face:01]You did it, [player]! Congratulations!![p][E0 42 08][face:03]Heh, so you're this tournament's winner. You know you can't go to \"San Carlo\" unless you battle me and win, right?[p]"
  },
  {
   "addr": "58626",
@@ -618,7 +618,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　このボクとたたかう\nじゅんびは　できてる？\n　　はい　　いいえ[E0 00 01 05 03 45 03 46]",
-  "en": ""
+  "en": "So, are you ready to battle me?\n[opt]Yes[opt]No[E0 00 01 05 03 45 03 46]"
  },
  {
   "addr": "58652",
@@ -627,7 +627,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　ボクとダイナバトルだ\nいくよ[p][E0 87 03 47][face:03]あまり　たいしたことなかったね\nこんかいの　たいかいはレベルが\nひくかったのかなー\nもっとつよくならないと\nこのボクにかてないよ[close]",
-  "en": ""
+  "en": "Then it's a Dino Battle with me. Here I come![p][E0 87 03 47][face:03]That wasn't much of anything. I guess the level of this tournament was pretty low. You'll have to get a lot stronger if you want to beat me.[close]"
  },
  {
   "addr": "586AE",
@@ -636,7 +636,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　プラクティスバトルを\nするかい？\n　　はい　　いいえ[E0 01 01 05 03 4A 03 4B]",
-  "en": ""
+  "en": "So, do you want to have a Practice Battle?\n[opt]Yes[opt]No[E0 01 01 05 03 4A 03 4B]"
  },
  {
   "addr": "586D5",
@@ -645,7 +645,7 @@
   ],
   "fall": false,
   "jp": "[face:03]へえ〜\nこのボクを　たおすなんて\nつよいじゃないか・・・って\nいってほしかったかい？[p]じぶんでもみとめるけど\nボクはけっして　つよくなんかないのさ\nボクより　つよいダイナバトラーは\nやまほどいるぞ\nこんなところで　かっても\nなんのじまんにも　ならないからな[p]まあ　ボクにかったんだから\nこれをわたすよ[p][noface][player]は\n[E0 43 26][c:0D]ビギナークラスのにんていしょう[/c]　を\n[E0 21 00 42][E0 20 00 43]てにいれた[E0 44 10][close]",
-  "en": ""
+  "en": "[face:03]Heh... You beat me? You're really strong... Is that what you wanted me to say?[p]I'll admit it myself: I'm not strong at all. There are tons of Dino Battlers stronger than me. Winning in a place like this is nothing to brag about.[p]Well, you did beat me, so here you go.[p][noface][player] got the [E0 43 26][c:0D]Beginner Class Certificate[/c]![E0 21 00 42][E0 20 00 43][E0 44 10][close]"
  },
  {
   "addr": "587A7",
@@ -654,7 +654,7 @@
   ],
   "fall": false,
   "jp": "[face:03]やあ　ボクとのバトルの　じゅんびは\nできたかい？\n　　はい　　いいえ[E0 01 01 05 03 45 03 46]",
-  "en": ""
+  "en": "[face:03]Hey, are you ready for our battle?\n[opt]Yes[opt]No[E0 01 01 05 03 45 03 46]"
  },
  {
   "addr": "587D5",
@@ -663,7 +663,7 @@
   ],
   "fall": false,
   "jp": "[face:01]おめでとう[p]このクラスの　たいかいは\nけっこう　かてるように　なったね[close]",
-  "en": ""
+  "en": "[face:01]Congratulations![p]You've gotten pretty good at winning tournaments in this class, huh![close]"
  },
  {
   "addr": "587FC",
@@ -672,7 +672,7 @@
   ],
   "fall": false,
   "jp": "りょうかい\nがんばって　つよくなってくれよ[p][E0 30 02 21]",
-  "en": ""
+  "en": "Got it. Work hard and get stronger, okay?[p][E0 30 02 21]"
  },
  {
   "addr": "58816",
@@ -681,7 +681,7 @@
   ],
   "fall": false,
   "jp": "そうか・・・[p]こころのじゅんびもあるだろうし\nゆっくり　じゅんびしてきてくれよ[close]",
-  "en": ""
+  "en": "I see...[p]I'm sure you need to get ready in your heart, too. Take your time and prepare.[close]"
  },
  {
   "addr": "58841",
@@ -726,7 +726,7 @@
   ],
   "fall": false,
   "jp": "[face2:19]ただいま　ミドルクラスのたいかいが\nかいさいされています[p]たいかいは　１どさんかすると\nたいかいがおわるまで\nバッテリーの　じゅうでんや\nショップのりようが　できませんので\nじゅうぶんな　じゅんびがひつようです[p]たいかいにさんかしますか？\n　　はい　　いいえ[E0 00 01 05 03 51 03 42]",
-  "en": ""
+  "en": "[face2:19]A Middle Class tournament is now being held.[p]Once you enter the tournament, you can't recharge your Battery or use the shop until it's over, so please prepare well.[p]Would you like to enter the tournament?\n[opt]Yes[opt]No[E0 00 01 05 03 51 03 42]"
  },
  {
   "addr": "588D3",
@@ -735,7 +735,7 @@
   ],
   "fall": false,
   "jp": "[E0 86 03 53][face2:19][player]せんしゅ\nざんねんながら　まけてしまいました\nさらなるどりょくを\nきたいしたいとおもいます\nじかいの　たいかいでは\nぜひ　ゆうしょうしてください[p][face:01]ん〜　おしかったね〜\nもうちょっとで　かてたのに[p]がっかりしないで〜\nつぎのたいかいまで　じかんがあるから\nもっと　つよいデバイスを　ゲットして\nこんどは　ゆうしょうよ[close]",
-  "en": ""
+  "en": "[E0 86 03 53][face2:19][player], I'm sorry to say that you have lost. We look forward to seeing even greater effort from you. Please be sure to win the next tournament![p][face:01]Aww, so close! You almost won![p]Don't be disappointed! There's still time before the next tournament, so let's get some stronger Devices and win it next time![close]"
  },
  {
   "addr": "589A7",
@@ -744,7 +744,7 @@
   ],
   "fall": false,
   "jp": "[face:04]じゅんびは　できたんだね？\n　　はい　　いいえ[E0 00 01 05 03 55 03 56]",
-  "en": ""
+  "en": "[face:04]So you're ready, huh?\n[opt]Yes[opt]No[E0 00 01 05 03 55 03 56]"
  },
  {
   "addr": "589CA",
@@ -753,7 +753,7 @@
   ],
   "fall": true,
   "jp": "[face2:19]ミドルクラス　ゆうしょう\nおめでとうございます[p][E0 31 00 45 03 49][E0 20 00 44][face:01]かてたね〜　すごーい！！\nみさりも　うれしいよ[p][E0 42 09][face:04]へ〜あんた　いいめをしてるね〜\nきっと　いいたたかいが　できると\nしんじてるよ[p]",
-  "en": ""
+  "en": "[face2:19]Congratulations on winning the Middle Class tournament![p][E0 31 00 45 03 49][E0 20 00 44][face:01]You won! Amazing!! I'm so happy too![p][E0 42 09][face:04]Well now, you've got a good look in your eyes, kiddo. I just know we'll have a great battle.[p]"
  },
  {
   "addr": "58A3E",
@@ -762,7 +762,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　これから　わたしとたたかう\nじゅんびは　できてる？\n　　はい　　いいえ[E0 00 01 05 03 55 03 56]",
-  "en": ""
+  "en": "So, are you ready to battle me now?\n[opt]Yes[opt]No[E0 00 01 05 03 55 03 56]"
  },
  {
   "addr": "58A6E",
@@ -771,7 +771,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　あたしとのダイナバトル　いくよ！[p][E0 87 03 57][face:04]おやおや・・・\nどうしたんだい？\nわたしの　みこみちがいってことは\nないと　おもうんだけどねぇ〜\nもうちょっと　ほんきだして\nたたかっておくれよ\nじゃないと　わたしには　かてないよ[close]",
-  "en": ""
+  "en": "Then here comes our Dino Battle![p][E0 87 03 57][face:04]Well, well... What's the matter? I don't think I misjudged you, though. Get a little more serious when you fight, okay? Otherwise you'll never beat me.[close]"
  },
  {
   "addr": "58AEB",
@@ -780,7 +780,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　プラクティスバトルを\nするのかい？\n　　はい　　いいえ[E0 01 01 05 03 58 03 59]",
-  "en": ""
+  "en": "So, you want to have a Practice Battle?\n[opt]Yes[opt]No[E0 01 01 05 03 58 03 59]"
  },
  {
   "addr": "58B13",
@@ -789,7 +789,7 @@
   ],
   "fall": false,
   "jp": "[face:04]やっぱり　わたしが　みこんだとおりの\nいい　たたかいに　なったね〜\nまあ　わたしに　かったのは　すごいけど\nまだ　ミドルクラスを　せいはしただけだよ\nもっと　もっと　がんばんなよ\nおうえんしてるからね\nがんばんな　[player]！！[p]じゃあ　やくそくのもんだよ[p][noface][player]は\n[E0 43 26][c:0D]ミドルクラスのにんていしょう[/c]　を\n[E0 21 00 44][E0 20 00 45]てにいれた[E0 44 10][close]",
-  "en": ""
+  "en": "[face:04]Just as I thought, that turned out to be a great battle! Beating me is impressive, but you've only conquered the Middle Class. Keep working harder and harder! I'm rooting for you. Hang in there, [player]!![p]Now, here's what I promised you.[p][noface][player] got the [E0 43 26][c:0D]Middle Class Certificate[/c]![E0 21 00 44][E0 20 00 45][E0 44 10][close]"
  },
  {
   "addr": "58BC7",
@@ -798,7 +798,7 @@
   ],
   "fall": false,
   "jp": "わたしにかてるように　がんばりな[p][E0 30 02 21]",
-  "en": ""
+  "en": "Work hard so you can beat me, kiddo.[p][E0 30 02 21]"
  },
  {
   "addr": "58BDC",
@@ -807,7 +807,7 @@
   ],
   "fall": false,
   "jp": "なんだい・・・[p]まさか　おじけづいた　なんて\nいわせないよ\nわたしに　かたなきゃ\n「にんていしょ」もらえないんだからね[close]",
-  "en": ""
+  "en": "What's this...[p]Don't tell me you're chickening out! You can't get your \"Certificate\" unless you beat me, you know.[close]"
  },
  {
   "addr": "58C1D",
@@ -870,7 +870,7 @@
   ],
   "fall": false,
   "jp": "[face2:19]ただいま　アッパークラスのたいかいが\nかいさいされています[p]たいかいは　１どさんかすると\nたいかいがおわるまで\nバッテリーの　じゅうでんや\nショップのりようが　できませんので\nじゅうぶんな　じゅんびがひつようです[p]たいかいにさんかしますか？\n　　はい　　いいえ[E0 00 01 05 03 61 03 42]",
-  "en": ""
+  "en": "[face2:19]An Upper Class tournament is now being held.[p]Once you enter the tournament, you can't recharge your Battery or use the shop until it's over, so please prepare well.[p]Would you like to enter the tournament?\n[opt]Yes[opt]No[E0 00 01 05 03 61 03 42]"
  },
  {
   "addr": "58CB3",
@@ -879,7 +879,7 @@
   ],
   "fall": false,
   "jp": "[E0 86 03 63][face2:19][player]せんしゅ\nざんねんながら　まけてしまいました\nさらなるどりょくを\nきたいしたいとおもいます\nじかいの　たいかいでは\nぜひ　ゆうしょうしてください[p][face:01]ん〜　おしかったね〜\nもうちょっとで　かてたのに[p]がっかりしないで〜\nつぎのたいかいまで　じかんがあるから\nもっと　つよいデバイスを　ゲットして\nこんどは　ゆうしょうよ[close]",
-  "en": ""
+  "en": "[E0 86 03 63][face2:19][player], I'm sorry to say that you have lost. We look forward to seeing even greater effort from you. Please be sure to win the next tournament![p][face:01]Aww, so close! You almost won![p]Don't be disappointed! There's still time before the next tournament, so let's get some stronger Devices and win it next time![close]"
  },
  {
   "addr": "58D87",
@@ -888,7 +888,7 @@
   ],
   "fall": false,
   "jp": "[face:05]じゅんびは　できたんだね？\n　　はい　　いいえ[E0 00 01 05 03 65 03 66]",
-  "en": ""
+  "en": "[face:05]So you're ready, huh?\n[opt]Yes[opt]No[E0 00 01 05 03 65 03 66]"
  },
  {
   "addr": "58DAA",
@@ -897,7 +897,7 @@
   ],
   "fall": true,
   "jp": "[face2:19]アッパークラス　ゆうしょう\nおめでとうございます[p][E0 31 00 47 03 49][E0 20 00 46][face:01]すごーい！　ここまで　かてたのって\nみさりの　おかげかな〜\nうん　うん　そういうことにしておこ〜！\nのこすは　あとひとつだね[p][E0 42 0A][face:05]へ〜　あんたが　マーメイドをたおした\n[player]かい・・・[p][face2:00]マーメイド？[p][face:05]ああ　「サンカルロ」の　かんりかんの\nニックネームだよ[p][face2:00]へえ　ティターニャさんの　あだな\nマーメイドって　いうんだ[p][face:05]まあ　かのじょは　たおせても\nこのオレを　たおすのは\nかなり　ムズイぜ！！\n",
-  "en": ""
+  "en": "[face2:19]Congratulations on winning the Upper Class tournament![p][E0 31 00 47 03 49][E0 20 00 46][face:01]Amazing! I bet you won this far thanks to me~! Yup, yup, let's just say that's how it is~! Only one more to go![p][E0 42 0A][face:05]Huh, so you're [player], the one who beat Mermaid...[p][face2:00]Mermaid?[p][face:05]Yeah, it's the nickname of the Gatekeeper of \"San Carlo.\"[p][face2:00]Huh, so Titanya's nickname is Mermaid.[p][face:05]Well, you may have beaten her, but beating me is gonna be way tougher!!\n"
  },
  {
   "addr": "58EBA",
@@ -906,7 +906,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　このオレと　しょうぶだっ！！\nじゅんびは　いいか？\n　　はい　　いいえ[E0 00 01 05 03 65 03 66]",
-  "en": ""
+  "en": "Now, it's a match against me!! You ready?\n[opt]Yes[opt]No[E0 00 01 05 03 65 03 66]"
  },
  {
   "addr": "58EEC",
@@ -915,7 +915,7 @@
   ],
   "fall": false,
   "jp": "ようし　ダイナバトル　いくぜ！！[p][E0 87 03 67][face:05]って　おい！！\nなんだ　そのまけっぷりは〜\nこのたいかいの　しつが\nおちちまったのか？\nもっと　パワーのある　デバイスを\nよういしてくれよ\nじゃないと　このオレには　かてないぜ[close]",
-  "en": ""
+  "en": "All right, Dino Battle, let's go!![p][E0 87 03 67][face:05]Hey, come on!! What kind of a loss was that? Did the quality of this tournament drop or something? Get yourself some Devices with more power. Otherwise you'll never beat me.[close]"
  },
  {
   "addr": "58F64",
@@ -924,7 +924,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　プラクティスバトルを\nやるのかい？\n　　はい　　いいえ[E0 01 01 05 03 68 03 69]",
-  "en": ""
+  "en": "So, you gonna do a Practice Battle?\n[opt]Yes[opt]No[E0 01 01 05 03 68 03 69]"
  },
  {
   "addr": "58F8C",
@@ -933,7 +933,7 @@
   ],
   "fall": false,
   "jp": "[face:05]さずが　マーメイドを\nたおした　だけのことはあるな\nのこすは　プレミアクラスだけだ\nきを　ひきしめて　さらに\nパワーのある　デバイスを\nそうび　するんだな\nオレも　マーメイドといっしょに\nおうえんしてるぜ\nがんばれよ　[player]！！\nこれが　やくそくのもんだ[p][noface][player]は\n[E0 43 26][c:0D]アッパークラスのにんていしょう[/c]　を\n[E0 21 00 46][E0 20 00 47]てにいれた[E0 44 10][close]",
-  "en": ""
+  "en": "[face:05]No wonder you beat Mermaid. Only the Premier Class is left. Stay sharp and equip even more powerful Devices. Mermaid and I are both rooting for you. Go get 'em, [player]!! Here's what I promised.[p][noface][player] got the [E0 43 26][c:0D]Upper Class Certificate[/c]![E0 21 00 46][E0 20 00 47][E0 44 10][close]"
  },
  {
   "addr": "59045",
@@ -942,7 +942,7 @@
   ],
   "fall": false,
   "jp": "オレにかつには　かなりつよく\nならないと　ダメだぜ[p][E0 30 02 21]",
-  "en": ""
+  "en": "To beat me, you're gonna have to get a whole lot stronger.[p][E0 30 02 21]"
  },
  {
   "addr": "59063",
@@ -951,7 +951,7 @@
   ],
   "fall": false,
   "jp": "そうだな\nこのオレに　かちたいなら\nパワーのある　デバイスを\nよういしてくるんだな\nちょうせんは　いつでも　うけるぜ[close]",
-  "en": ""
+  "en": "I see. If you wanna beat me, go get some Devices with real power. I'll take on your challenge anytime.[close]"
  },
  {
   "addr": "5909F",
@@ -1005,7 +1005,7 @@
   ],
   "fall": false,
   "jp": "[E0 20 00 48]おめでとうございます！！\n[player]せんしゅ\nプレミアクラス　ゆうしょうです[p][E0 30 03 49]",
-  "en": ""
+  "en": "[E0 20 00 48]Congratulations!! [player], you've won the Premier Class![p][E0 30 03 49]"
  },
  {
   "addr": "590D2",
@@ -1014,7 +1014,7 @@
   ],
   "fall": false,
   "jp": "[face2:19]ただいま　プレミアクラスのたいかいが\nかいさいされています[p]たいかいは　１どさんかすると\nたいかいがおわるまで\nバッテリーの　じゅうでんや\nショップのりようが　できませんので\nじゅうぶんな　じゅんびがひつようです[p]たいかいにさんかしますか？\n　　はい　　いいえ[E0 00 01 05 03 71 03 42]",
-  "en": ""
+  "en": "[face2:19]A Premier Class tournament is now being held.[p]Once you enter the tournament, you can't recharge your Battery or use the shop until it's over, so please prepare well.[p]Would you like to enter the tournament?\n[opt]Yes[opt]No[E0 00 01 05 03 71 03 42]"
  },
  {
   "addr": "59161",
@@ -1023,7 +1023,7 @@
   ],
   "fall": false,
   "jp": "[E0 86 03 73][face2:19][player]せんしゅ\nざんねんながら　まけてしまいました\nさらなるどりょくを\nきたいしたいとおもいます\nじかいの　たいかいでは\nぜひ　ゆうしょうしてください[p][face:01]ん〜　おしかったね〜\nもうちょっとで\nかんぜん　せいはだったのに[p]がっかりしないで〜\nつぎのたいかいまで　じかんがあるから\nもっと　つよいデバイスを　ゲットして\nこんどは　ゆうしょうよ[close]",
-  "en": ""
+  "en": "[E0 86 03 73][face2:19][player], unfortunately, you have lost. We look forward to even greater effort from you. Please be sure to win the next tournament![p][face:01]Aww, so close! You almost had a clean sweep, too![p]Don't be disappointed! There's still time before the next tournament, so get some stronger Devices and win it next time![close]"
  },
  {
   "addr": "5923D",
@@ -1032,7 +1032,7 @@
   ],
   "fall": false,
   "jp": "[face:06]おおぅ\nそろそろ　じゅんびは　いいんだろ？\n　　はい　　いいえ[E0 00 01 05 03 75 03 76]",
-  "en": ""
+  "en": "[face:06]Well? You about ready?\n[opt]Yes[opt]No[E0 00 01 05 03 75 03 76]"
  },
  {
   "addr": "59268",
@@ -1041,7 +1041,7 @@
   ],
   "fall": true,
   "jp": "[E0 31 00 49 03 6F][E0 20 00 48][face2:19]プレミアクラス　ゆうしょうです\n[player]せんしゅ\nとうとう　かんぜんせいはを\nなしとげましたっ！\nおめでとうございます！！[p][face:01]う〜っそ　しんじらんない\n[player]　とうとうやったね〜\nおめでとう〜〜！！\nみさりは　こうなるの\nず〜っと　しんじてたんだよ[p][E0 42 0B][face:06]まずは　たいかいゆうしょう\nおめでとうと　いっておくべきかな？[p]ただし　その　うかれきぶんも\nここまでだな\nそんなかんたんに　オレさまは\nたおせねえぜ\nためしに　やってやっても　いいが\nオレさまは　ここさいきん　\nまけたことが　ないんだぜ〜[p]むりにとは　いわないが\n",
-  "en": ""
+  "en": "[E0 31 00 49 03 6F][E0 20 00 48][face2:19]The Premier Class winner is [player]! At long last, a clean sweep! Congratulations!![p][face:01]No way, I can't believe it! [player], you finally did it! Congratulations!! I always believed this would happen, you know![p][E0 42 0B][face:06]First off, I guess I should say congrats on winning the tournament?[p]But your party mood ends right here. The great Valezaram won't go down that easy. You can give it a try if you want, but I haven't lost once lately, you know~[p]I won't force you, but...\n"
  },
  {
   "addr": "59388",
@@ -1050,7 +1050,7 @@
   ],
   "fall": false,
   "jp": "オレさまと　しょうぶするかい？\n　　はい　　いいえ[E0 00 01 05 03 75 03 76]",
-  "en": ""
+  "en": "Wanna battle the great Valezaram?\n[opt]Yes[opt]No[E0 00 01 05 03 75 03 76]"
  },
  {
   "addr": "593AA",
@@ -1059,7 +1059,7 @@
   ],
   "fall": false,
   "jp": "どうなってもしらないぜ\nダイナバトル　かいしだ！！[p][E0 87 03 77][face:06]だから　いわんこっちゃないんだ\nな〜に　おまえの　まけは\nはじめから　きまってたんだ\nくやしがることは　ねえさ\nま　またバトルするきがあったら\nいつでも　あいてになってやるぜ[close]",
-  "en": ""
+  "en": "Don't say I didn't warn you! Dino Battle, start!![p][E0 87 03 77][face:06]See? Didn't I tell you? Your loss was decided from the very start. No need to feel bad about it. Well, if you ever feel like battling again, I'll take you on anytime.[close]"
  },
  {
   "addr": "59426",
@@ -1068,7 +1068,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　プラクティスバトルを\nしたいのか？\n　　はい　　いいえ[E0 01 01 05 03 7E 03 7F]",
-  "en": ""
+  "en": "Then do you want to have a Practice Battle?\n[opt]Yes[opt]No[E0 01 01 05 03 7E 03 7F]"
  },
  {
   "addr": "5944E",
@@ -1077,7 +1077,7 @@
   ],
   "fall": false,
   "jp": "[face:06]うげ・・・\nこ　この　オレさまが　まけただと〜\nそんなの　しんじられるかい・・・\nう　オレさまとしたことが\nまた　ただのダイナバトラーかよ\n・・・[p]まあ　いいたたかいだったことは\nみとめてやる\nこれを　うけとりな[p][noface][player]は\n[E0 43 26][c:0D]プレミアクラスのにんていしょう[/c]　を\n[E0 21 00 48][E0 20 00 49]てにいれた[E0 44 10][p][face:01]やった〜っ！！　かったよ〜！\nついにやったね　[player]！[p][face2:00]ありがとう　みさり！\nこれも　きみの　きょうりょくが\nあったから　できたんだよ[p][face:02][player]っ！！　ついにやったな\nさきこされたのは　ざんねんだけど[p][face2:00]ありがとう　[partner]！[p][face:01]あとは　ダイナマスターの　しょうごうを\nもらうだけね[p][face:06]フン！　それはどうかな\nオレさまに　かったから「にんていしょ」は\nわたしたが　ダイナマスターの\nしょうごうを　わたすなんて\nひとことも　いってないぜ[p][face:01]ええっ！！\nわたしたちを　だましたの？[p][face:07]だますなんて　ひとぎきが\nわるいですよ[p][face:06]お　おかしら・・・[p][face:07]こりゃ\nわしを　おかしらなどと\nよぶでない\n[face:06]すいません　おかしら・・・[p][face:07]・・・[p][face2:00]で　だれだ？　あんたは[p][face:07]おやおや　ごあいさつが\nまだでしたね[p]わたしは　ぜんちぜんのうにして\nさいきょうの　ダイナマスター\nゼニーノ・ダウ・ガンテさまだ[p][face2:00]じゃあ　あんたを　たおせば\nおれが　ダイナマスターなんだな[p][face:07]いえいえ　そんな　むだなこと\nしなくていいですよ[p]あなたと　たたかうことに\nいみを　かんじませんから[p][face2:00]なんだよ！　にげるのか！！[p][face:07]あ　そうそう　にげるといえば\nせかいじゅうの　バトルプレイスがある\nまちに　ばくだんを　しかけました\nだから　しにたくないひとは\nにげたほうが　いいんじゃないで\nしょうか？[p]ちなみに　このまちにも\nしかけましたから　ここから\nにげるのは　あなたがたですね[p][face:02]ばくだんて　これのことかい？[p][face:07]フォッフォッフォッ・・・\nできますね　あなた[p]ですが　ここの　ばくだんを\nはずせても　まだまだ\nたくさん　ありますよ[p]まあ　がんばってください\nじゃあ　これで　しつれいしますよ[p][face2:00]まて〜！！[p][face:02][player]！\nやつより　ばくだんを\nはずすほうが　さきだぞ！！[p][face2:00]お　おう・・・\nだけど　ばくだんなんて\nどうやって　はずすんだ？[p][face:02]だいじょうぶ\nここまで　これた　きみなら\nわかるよ[p]とにかく　いままできた　まちを\nしらべて　ばくだんを　はずしてくれ\nボクは　それいがいの　まちの\nばくだんを　はずしてくるから[p][face2:00]わかった　まかせてくれ\nまちの　みんなは　かならず\nまもってみせるぜ[p][partner]も　がんばれよ！[p][face:02]ああ\nじゃあ　ばくだんを　ぜんぶはずしたら\nまた　この　バトルプレイスに\nしゅうごうだ[E0 21 00 4E][close]",
-  "en": ""
+  "en": "[face:06]Ugh... Wh-what? The great Valezaram lost?! I can't believe it... How could I lose like this? Am I back to being just a regular Dino Battler?...[p]Well, I'll admit it was a good fight. Take this.[p][noface][player] got the [E0 43 26][c:0D]Premier Class Certificate[/c][E0 21 00 48][E0 20 00 49]![E0 44 10][p][face:01]Yaaay!! You won!! You finally did it, [player]![p][face2:00]Thanks, Misari! I couldn't have done it without your help.[p][face:02][player]!! You finally did it! Too bad you beat me to it, though.[p][face2:00]Thanks, [partner]![p][face:01]Now all that's left is getting the title of Dino Master![p][face:06]Hmph! We'll see about that. I handed over the \"Certificate\" since you beat me, but I never said one word about giving you the Dino Master title.[p][face:01]Whaaat?! You tricked us?[p][face:07]Tricked? My, what an unpleasant thing to say.[p][face:06]B-Boss...[p][face:07]Now, now! Don't you call me \"Boss.\"[p][face:06]Sorry, Boss...[p][face:07]...[p][face2:00]So who are you?[p][face:07]Oh my, I haven't introduced myself yet.[p]I am the all-knowing, all-powerful, and strongest Dino Master... the great Zenino Dau Gante![p][face2:00]Then if I beat you, I'll be the Dino Master, right?[p][face:07]No, no, you needn't waste your effort on such a thing.[p]I see no point in battling you.[p][face2:00]What?! You're running away?![p][face:07]Ah yes, speaking of running away... I have planted bombs in every town in the world that has a Battle Place. So anyone who doesn't want to die had better run, don't you think?[p]By the way, I planted one in this town too. So you're the ones who'll be running from here.[p][face:02]You mean this bomb?[p][face:07]Ho ho ho... You're a sharp one.[p]But even if you remove the bomb here, there are plenty more.[p]Well, do your best. Now, if you'll excuse me.[p][face2:00]Wait!![p][face:02][player]! Removing the bombs comes before chasing him!![p][face2:00]R-right... But how do you even remove a bomb?[p][face:02]Don't worry. You made it this far, so you'll figure it out.[p]Anyway, search the towns you've been to and remove the bombs. I'll go take care of the bombs in the other towns.[p][face2:00]Got it, leave it to me! I'll protect everyone in those towns, no matter what![p]You hang in there too, [partner]![p][face:02]Yeah. Once all the bombs are removed, let's meet back here at this Battle Place.[E0 21 00 4E][close]"
  },
  {
   "addr": "59936",
@@ -1086,7 +1086,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 7D 03 7B][face:01]な　なに？　これっ！！[p]エレベーターが　あがったり\nさがったりするかんじ　みたい[p][face2:00]お　おい\nちょっと　そとみてみろよ[p][face:01]えっ！？　これなんなの？[p][face:02]これが　ガンテの　ようさいってわけさ[p][face2:00]にしても　なんなんだこれ？\nじいさんが　つくったのか？[p][face:02]いや　よくわからないけど\nたぶん　いせいじんとかが\nからんでるのは　たしかだとおもう[p][face2:00]なんだよ　だとおもうって\nしってるのかと　おもったぜ[p]ん？　さっき　いせいじんていったよな\nいせいじんて　うちゅうじんのことか？[p][face:02]まあ　そうともいうな[p][face2:00]ってことは　じいさんは　うちゅうじんか？[p][face:02]それは　ちがうだろ\nせいかくには　いせきを　はっくつして\nけんきゅうしたら\nいろんな　ちしきを　てにいれたんだと\nおもうよ[p][face:01]それで　わかいころから\nだいはつめいかとか　いわれてたのね\n[face:02]ま　じいさんは　いせいじんのいせきから\nオーバーテクノロジーを　てにいれて\nダイナや　このひこうようさいを\nはつめいしたんだろうな[p][face2:00]オーバーテイク？？\nオーバーコート？？\nおれには　なにいってるのか\nぜんぜん　わかんないぞ[p][face:02]じんるいの　ちしきや　じょうしきをこえた\nかがくじょうほうを　てにいれたって\nことだよ[p][face2:00]で　その　オーバーなんたらは[p]うまいのか？[p]それを　じいさんが　みつけて\nくったんだろ？[p][face:01]・・・[p][face:02]・・・[p][face:06]のこのこと　まけるために\nやってくるなんて\nまぬけな　やつらだな[p][face2:00]ヴァレザラム！！\nやっぱり　ここにいたのか！[p][face:06]きさまごときの　あいてなど　クラックだん\nだんちょうの　オレさまでじゅうぶんだが\nせっかくのゲストだから\nガンテさまが　わざわざ　おあいてして\nさしあげるんだから\nかんしゃしたほうが　いいぞ\n[face:01][player]に　まけたくせに\nえらそうに　いわないでよ[p][face:06]オレさまは　そういうなまいきな\nおんなは　だいっきらいなんだ[p][face:01]こっちだって　あんたなんか\nだいっキライだもん！[p][face:07]こりゃ　わしの　だいじなゲストに\nしつれいは　ゆるしませんよ[p][face:06]ガ　ガンテさま！[p][face:07]よくぞ　まいられましたね\nわがしろへ　ようこそ[p][face2:00]きてやったぜ！！\nおれと　しょうぶしろ！[p][face:07]まあ　せっかくの　ゲストですから\nごきたいに　こたえられるように\nいたしましょうか？[p][face2:00]ああ　あんたを\nかんぜんに　ぶっつぶしてやるさ！！[p][face:02]だいじょうぶか？　[player]！！[p][face:01]が　ガンバッて〜・・・\nう　よったみたい・・・\nきもちわるい[p][face:02]みさりちゃんは\nボクにまかせろ！[p][face2:00]わかった　たのんだぜ\n[partner][p]いくぜ　ガンテ！！\nしょうぶだ！！[p][E0 20 00 7D][E0 87 03 79][close]",
-  "en": ""
+  "en": "[E0 31 00 7D 03 7B][face:01]Wh-what? What's going on?![p]It feels like an elevator going up and down.[p][face2:00]H-hey, take a look outside.[p][face:01]Huh?! What is this?[p][face:02]So this is Gante's Fortress.[p][face2:00]Still, what IS this thing? Did the old man build it?[p][face:02]Well, I'm not really sure, but I think extraterrestrials are definitely involved somehow.[p][face2:00]What do you mean, \"I think\"? I figured you knew.[p]Huh? You just said \"extraterrestrials,\" right? Do you mean space aliens?[p][face:02]Well, you could say that.[p][face2:00]So the old man's a space alien?[p][face:02]No, I don't think so. To be exact, I think he dug up ancient ruins, studied them, and learned all kinds of things.[p][face:01]So that's why people called him a great inventor even when he was young![p][face:02]Yeah. The old man probably got overtechnology from the extraterrestrial ruins and used it to invent the Dinos and this flying fortress.[p][face2:00]Overtake?? Overcoat?? I have no idea what you're talking about![p][face:02]It means he got scientific knowledge beyond anything humans know or can imagine.[p][face2:00]So this over-whatsit...[p]Is it tasty?[p]The old man found it and ate it, right?[p][face:01]...[p][face:02]...[p][face:06]Strolling right in here just to lose... What a bunch of fools.[p][face2:00]Valezaram!! I knew you'd be here![p][face:06]The great Valezaram, boss of the Crack Gang, is more than enough for the likes of you. But since you're guests, Lord Gante himself will take you on personally, so you'd better be grateful![p][face:01]You lost to [player], so quit acting so big![p][face:06]I can't stand cheeky girls like you![p][face:01]Well, I can't stand YOU either![p][face:07]Now, now! I won't allow any rudeness toward my precious guests.[p][face:06]L-Lord Gante![p][face:07]So good of you to come. Welcome to my castle.[p][face2:00]I'm here, all right!! Now battle me![p][face:07]Well, since you are my guests, shall I live up to your expectations?[p][face2:00]Yeah! I'm gonna totally crush you!![p][face:02]Are you sure about this, [player]?![p][face:01]G-go for it... Ugh, I think I'm airsick... I feel sick.[p][face:02]Leave Misari to me![p][face2:00]Got it. I'm counting on you, [partner].[p]Here I come, Gante!! Let's battle!![p][E0 20 00 7D][E0 87 03 79][close]"
  },
  {
   "addr": "59DF5",
@@ -1095,7 +1095,7 @@
   ],
   "fall": false,
   "jp": "[E0 42 14][face:02][player]！！\nよくやったな〜[p][face:01][player]！　すごいよ〜\nかったよ〜〜！！[p]う　きもちわるい・・・\nよいが　なおらないよ[p][face:02]だいじょうぶか〜　みさりちゃん\nせなか　さすってあげるよ[p][face2:00]って　お　おい　なんか　すごーく\nしんみつだな[p]おれの　バトルちゅう\nちゃんと　おうえんしてくれてたか？[p][face:02]もちろんじゃないか\nほどほどに　おうえんしてたさ〜[p][face2:00]ま　いっか[p][face:07]むむむ　このわしが　まけるとは・・・\n[face2:00]あたりまえだ！　\nばくだんを　しかけて　みんなを\nこまらせるようなやつに\nダイナマスターは　つとまらないからな！[p][face:01]そうよ　ダイナたちだって\nかわいそうだわ！[p][face:07]わしは　ただ　ダイナを\nとりもどそうと・・・[p][face:02]あなたは　ダイナのうみのおやだ\nそのことは　ずっと\nかわらないじゃないですか！\n[face2:00]あんたのつくった　ダイナで\nみんなが　たのしくあそんでる\nそれで　じゅうぶんだろ！[p][face:07]・・・たしかに　きみたちの\nいうとおりじゃ・・・\nすまなかった[p]これを　うけとってくれ　いまのわしには\nもつ　しかくがないからの[p][noface][player]は\n[E0 46][E0 44 06][E0 43 20][c:0A]ダイナマスターのしょうごう[/c]を\nてにいれた[E0 44 FA][E0 47][p][face:07]じゃが　そのしょうごうは　すこしだけ\nおまえのてもとに　あるだけじゃ[p]いずれ　また　レベルアップして\nおまえの　まえに　あらわれよう[p]それまで　ほかのものに\nそのしょうごうを　わたすでないぞ\n[face2:00]ああ　まかせとけ\nそのときが　きたら　いつでも\nしょうぶしてやるよ！！[p][face:07]さらばじゃ[p][face2:00]あばよ[E0 20 00 7E][E0 8C]",
-  "en": ""
+  "en": "[E0 42 14][face:02][player]!! You did it![p][face:01][player]! That was amazing! You won!![p]Ugh, I feel sick... My motion sickness won't go away.[p][face:02]You okay, Misari? Here, I'll rub your back for you.[p][face2:00]H-hey, wait a sec! You two are getting awfully close![p]Were you even cheering for me during my battle?[p][face:02]Of course I was! I cheered... a reasonable amount.[p][face2:00]Eh, whatever.[p][face:07]Hmm... To think that I would lose...\n[face2:00]Of course you lost! Somebody who plants bombs and makes trouble for everyone could never be a Dino Master![p][face:01]That's right! Think of the poor Dinos, too![p][face:07]I only wanted to take back the Dinos...[p][face:02]You're the one who created the Dinos. That's never going to change!\n[face2:00]Everybody's having fun playing with the Dinos you made. Isn't that enough?[p][face:07]...You're right. You children are absolutely right... I'm sorry.[p]Please, take this. I'm no longer worthy of holding it.[p][noface][player] got\n[E0 46][E0 44 06][E0 43 20]the [c:0A]Dino Master Title[/c]![E0 44 FA][E0 47][p][face:07]But that title will only be in your hands for a little while.[p]Someday I'll level up and appear before you again.[p]Until then, don't you dare hand that title over to anyone else.\n[face2:00]Yeah, leave it to me! When that day comes, I'll battle you anytime!![p][face:07]Farewell.[p][face2:00]See ya.[E0 20 00 7E][E0 8C]"
  },
  {
   "addr": "5A0C5",
@@ -1104,7 +1104,7 @@
   ],
   "fall": true,
   "jp": "[face:07]なんじゃ　なんじゃ\nそのよわさは！！\nこんな　よわいやつが\nダイナマスターだなんて\nよく　いえたもんだ\nまた　しょうぶしてもいいぞ\n[E0 20 00 36]",
-  "en": ""
+  "en": "[face:07]What's this? What's this? So weak!! How dare a weakling like you call yourself a Dino Master! You're welcome to challenge me again.\n[E0 20 00 36]"
  },
  {
   "addr": "5A111",
@@ -1113,7 +1113,7 @@
   ],
   "fall": false,
   "jp": "[face:07]このわしと　しょうぶ　するかね？\n　　はい　　いいえ[E0 00 01 05 03 7C 03 81]",
-  "en": ""
+  "en": "[face:07]Will you battle me?\n[opt]Yes[opt]No[E0 00 01 05 03 7C 03 81]"
  },
  {
   "addr": "5A137",
@@ -1122,7 +1122,7 @@
   ],
   "fall": false,
   "jp": "では　しょうぶじゃ[p][E0 87 03 79][close]",
-  "en": ""
+  "en": "Then let us battle![p][E0 87 03 79][close]"
  },
  {
   "addr": "5A146",
@@ -1131,7 +1131,7 @@
   ],
   "fall": false,
   "jp": "じゃあ　プラクティスバトルを\nでもするのか？\n　　はい　　いいえ[E0 01 01 05 03 80 03 81]",
-  "en": ""
+  "en": "Then how about a Practice Battle instead?\n[opt]Yes[opt]No[E0 01 01 05 03 80 03 81]"
  },
  {
   "addr": "5A16F",
@@ -1140,7 +1140,7 @@
   ],
   "fall": false,
   "jp": "ふん　いくられんしゅうしても\nオレさまは　たおせねえぜ\nまあ　てきとうに　がんばんな[p][E0 30 02 21]",
-  "en": ""
+  "en": "Hmph. No matter how much you practice, you'll never beat the great me. Well, try your best or whatever.[p][E0 30 02 21]"
  },
  {
   "addr": "5A19E",
@@ -1149,7 +1149,7 @@
   ],
   "fall": false,
   "jp": "なあ　このまま　うちにかえって\nねてたほうが　いいんじゃないか？[p]わざわざ　まけることは　ねえぜ\nま　じゅんびぶそくで　まけたなんて\nいわれたくないから\nたたかうきが　あるなら\nじゅうぶん　つよくしてから\nきてくれよ[close]",
-  "en": ""
+  "en": "Hey, wouldn't you be better off just going home to bed?[p]No need to go out of your way to lose. Still, I don't want anyone saying you lost 'cause you weren't ready. So if you've got the guts to fight, get plenty strong first, then come back.[close]"
  },
  {
   "addr": "5A20C",
@@ -1158,7 +1158,7 @@
   ],
   "fall": false,
   "jp": "ホッホッホッ・・・\nガンガン　つよくなってくれ\nわしゃ　よわいやつは　きらいじゃぞ[p][E0 30 02 21]",
-  "en": ""
+  "en": "Ho ho ho... Hurry up and get stronger. I can't stand weaklings, you know.[p][E0 30 02 21]"
  },
  {
   "addr": "5A23D",
@@ -1167,7 +1167,7 @@
   ],
   "fall": false,
   "jp": "なんじゃ　バトルせずに\nダイナマスターを　あきらめても\nよいんだぞ[close]",
-  "en": ""
+  "en": "What's this? You're free to give up on being a Dino Master without a battle, you know.[close]"
  },
  {
   "addr": "5A260",
@@ -1446,7 +1446,7 @@
   ],
   "fall": false,
   "jp": "[player]は　にもつを　あきらめた[close]",
-  "en": ""
+  "en": "[player] gave up the item.[close]"
  },
  {
   "addr": "5A28D",
@@ -1455,7 +1455,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 03 2A]しょじひんから　すてるものを　えらんで\nＡボタンをおしてください[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][player]は\n[E0 23 03 2A][E0 70 03 2A 03 A1][E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][close]",
-  "en": ""
+  "en": "[E0 23 03 2A]Choose something to throw away and press the A Button.[E0 51][E0 78][player] threw away\n[c:09][E0 13] [E0 12][/c].[p][player] got\n[E0 23 03 2A][E0 70 03 2A 03 A1][E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][close]"
  },
  {
   "addr": "5A2EF",
@@ -1464,7 +1464,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 03 43]しょじひんから　すてるものを　えらんで\nＡボタンをおしてください[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][player]は\n[E0 23 03 43][E0 70 03 43 03 A2][E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][close]",
-  "en": ""
+  "en": "[E0 23 03 43]Choose something to throw away and press the A Button.[E0 51][E0 78][player] threw away\n[c:09][E0 13] [E0 12][/c].[p][player] got\n[E0 23 03 43][E0 70 03 43 03 A2][E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][close]"
  },
  {
   "addr": "5A351",
@@ -1473,7 +1473,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 04 33]しょじひんから　すてるものを　えらんで\nＡボタンをおしてください[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][player]は\n[E0 23 04 33][E0 70 04 33 03 A3][E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][close]",
-  "en": ""
+  "en": "[E0 23 04 33]Choose something to throw away and press the A Button.[E0 51][E0 78][player] threw away\n[c:09][E0 13] [E0 12][/c].[p][player] got\n[E0 23 04 33][E0 70 04 33 03 A3][E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][close]"
  },
  {
   "addr": "5A3B3",
@@ -1482,7 +1482,7 @@
   ],
   "fall": false,
   "jp": "[E0 23 04 4C]しょじひんから　すてるものを　えらんで\nＡボタンをおしてください[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][player]は\n[E0 23 04 4C][E0 70 04 4C 03 A4][E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][close]",
-  "en": ""
+  "en": "[E0 23 04 4C]Choose something to throw away and press the A Button.[E0 51][E0 78][player] threw away\n[c:09][E0 13] [E0 12][/c].[p][player] got\n[E0 23 04 4C][E0 70 04 4C 03 A4][E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][close]"
  },
  {
   "addr": "5A415",

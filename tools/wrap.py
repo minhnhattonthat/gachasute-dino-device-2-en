@@ -9,7 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from vwf_font import CHARMAP  # noqa: E402
 
-VAR_PX = {'[player]': 42, '[partner]': 42}
+VAR_PX = {'[player]': 48, '[partner]': 48}  # 6-letter name, widest letters; overflow leaves stale cells
 HARD = re.compile(r'(\n|\[p\]|\[half\]|\[close\]|\[end\]|\[ret\])')
 TOKEN = re.compile(r'\[[^\]]*\]|.', re.S)
 WORD_SPACE = re.compile(r' (?![^\[]*\])')  # spaces outside [tags]

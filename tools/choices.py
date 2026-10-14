@@ -11,11 +11,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from vwf_font import CHARMAP  # noqa: E402
 
-CHOICE = re.compile(r'((?:\[opt\][^\[\n]*)+)\[E0 0([0-3])((?: [0-9A-F]{2})+)\]')
+CHOICE = re.compile(r'((?:\[opt\](?:(?!\[opt\]|\[E0 0[0-3] )[^\n])*)+)\[E0 0([0-3])((?: [0-9A-F]{2})+)\]')
 
 
 def _px(s: str, widths: bytes) -> int:
-    return sum(widths[CHARMAP[ch][-1]] for ch in s)
+    return sum(widths[CHARMAP[ch][-1]] for ch in re.sub(r'\[[^\]]*\]', '', s))
 
 
 def layout(en: str, widths: bytes) -> str:
