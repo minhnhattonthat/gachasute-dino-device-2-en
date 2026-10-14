@@ -51,10 +51,10 @@ def avoid_terms() -> list[tuple[str, str]]:
     return out
 
 
-def line_widths(en: str, widths: bytes):
-    """Yield (px, budget, line text) per visual line of the laid-out English."""
-    s = choices.layout(wrap.wrap(en, widths, LINE_PX), widths)
-    for line, budget in wrap.budgets(s, LINE_PX):
+def line_widths(en: str, widths: bytes, box: int = LINE_PX):
+    """Yield (px, budget, line text) per visual line of the laid-out English in a box of `box` px."""
+    s = choices.layout(wrap.wrap(en, widths, box), widths, box // 8)
+    for line, budget in wrap.budgets(s, box):
         px = 0
         for t in re.findall(r'\[[^\]]*\]|.', line, re.S):
             if t.startswith('[tab:'):
@@ -93,7 +93,7 @@ def lint_entry(e: dict, widths: bytes, avoid) -> list[str]:
                         f'data/ui_budgets.json)')
         return errs + glossary_errs(en, avoid)
     try:
-        for px, budget, line in line_widths(en, widths):
+        for px, budget, line in line_widths(en, widths, uipad.box_px(e)):
             if px > budget:
                 errs.append(f'line {px}px > {budget}: {line!r}')
     except ValueError as ex:

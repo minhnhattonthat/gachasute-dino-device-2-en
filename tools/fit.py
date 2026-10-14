@@ -14,7 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 if __name__ == '__main__':
     widths = vwf_font.build((ROOT / 'rom/orig.gba').read_bytes())[1]
-    s = choices.layout(wrap.wrap(sys.argv[1].replace('\\n', '\n'), widths), widths)
-    for line, budget in wrap.budgets(s):
+    box = int(sys.argv[2]) if len(sys.argv) > 2 else 160  # optional box width in px (120 for Gachasute Park)
+    s = choices.layout(wrap.wrap(sys.argv[1].replace('\\n', '\n'), widths, box), widths, box // 8)
+    for line, budget in wrap.budgets(s, box):
         w = wrap.px(line, widths)
         print(f'{w:3d}/{budget} {"OVER " if w > budget else ""}{line}')

@@ -25,7 +25,7 @@ def px(s: str, widths: bytes) -> int:
     return n
 
 
-LAST_PX = 152  # the page arrow sits in the last cell of every box's 3rd line
+ARROW_PX = 8  # the page arrow sits in the last cell of every box's 3rd line
 PAGE_LINES = 3
 
 
@@ -42,7 +42,7 @@ def wrap(en: str, widths: bytes, limit: int = 160) -> str:
             # greedy, each line against its own budget (3rd line of a box is shorter)
             fixed, cur = [], ''
             for w in ([p] if '[opt]' in p else WORD_SPACE.split(p)):
-                budget = LAST_PX if (n + len(fixed)) % PAGE_LINES == PAGE_LINES - 1 else limit
+                budget = limit - ARROW_PX if (n + len(fixed)) % PAGE_LINES == PAGE_LINES - 1 else limit
                 cand = f'{cur} {w}' if cur else w
                 if cur and px(cand, widths) > budget:
                     fixed.append(cur)
@@ -64,7 +64,7 @@ def budgets(laid_out: str, limit: int = 160):
         elif p in ('\n', '[half]'):
             n += 1
         elif p:
-            yield p, LAST_PX if n % PAGE_LINES == PAGE_LINES - 1 else limit
+            yield p, limit - ARROW_PX if n % PAGE_LINES == PAGE_LINES - 1 else limit
 
 
 if __name__ == '__main__':

@@ -55,7 +55,8 @@ def layout_en(e: dict, en: str) -> str:
     import wrap
     if uipad.is_ui(e):
         return uipad.pad(e, en, font_widths())
-    return choices.layout(wrap.wrap(en, font_widths()), font_widths())
+    box = uipad.box_px(e)
+    return choices.layout(wrap.wrap(en, font_widths(), box), font_widths(), box // 8)
 
 
 def encode_en(e: dict, en: str | None) -> bytes:

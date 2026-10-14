@@ -25,6 +25,19 @@ def is_ui(e: dict) -> bool:
     return bool(END.search(e['jp'])) and not NOT_UI.search(e['jp'])
 
 
+BOXES = (15, 20, 22)  # dialogue window text widths in cells (window structs: width field - 2), docs/re/text.md
+
+
+def box_px(e: dict) -> int:
+    """Dialogue-box line width for an entry: story banks 01-07 use the 20-cell box; system banks 10-12 use the
+    smallest real window that holds the entry's longest JP line (Gachasute Park screens use a 15-cell box)."""
+    eid = e.get('id') or e['ids'][0]
+    if '.' in eid or int(eid, 16) >> 8 < 0x10:
+        return 160
+    longest = max((jp_cells(ln) for ln in re.split(r'\n|\[p\]|\[half\]|\[close\]|\[end\]', e['jp'])), default=0)
+    return 8 * next((b for b in BOXES if b >= longest), BOXES[-1])
+
+
 def jp_cells(jp: str) -> int:
     """Visible JP cells of a single-line string (name variables count 6 cells, other tags 0)."""
     return len(re.sub(r'\[[^\]]*\]', '', jp)) + 6 * len(re.findall(r'\[(?:player|partner)\]', jp))

@@ -18,7 +18,7 @@ def _px(s: str, widths: bytes) -> int:
     return sum(widths[CHARMAP[ch][-1]] for ch in re.sub(r'\[[^\]]*\]', '', s))
 
 
-def layout(en: str, widths: bytes) -> str:
+def layout(en: str, widths: bytes, box_cells: int = 20) -> str:
     def fix(m):
         opts = m.group(1).split('[opt]')[1:]
         sub, args = int(m.group(2)), m.group(3).split()
@@ -30,8 +30,8 @@ def layout(en: str, widths: bytes) -> str:
             cells.append(cell - 1)
             out += f'[tab:{cell:02X}]{o}'
             cell += (_px(o, widths) + 7) // 8 + 2
-        if cell - 2 > 20:
-            raise ValueError(f'choice line wider than 20 cells: {m.group(0)!r}')
+        if cell - 2 > box_cells:
+            raise ValueError(f'choice line wider than the {box_cells}-cell box: {m.group(0)!r}')
         args[:nrows] = [f'{c:02X}' for c in cells]
         return out + f'[E0 0{sub} ' + ' '.join(args) + ']'
     return CHOICE.sub(fix, en)

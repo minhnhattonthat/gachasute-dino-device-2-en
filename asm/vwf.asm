@@ -64,6 +64,8 @@ VwfDialog:
     str r0, [r7, #S_AFTER]      ; force a fresh tile on the next glyph
     b @@done
 @@glyph:
+    cmp r0, #0                  ; glyph 00 (full-width space) in a dialogue box is only ever the padding of an
+    beq @@done                  ; inserted name ("Sargrain   !"): draw nothing, take no space
     mov r0, r4
     add r0, #0x8C
     ldr r5, [r0]                ; W
