@@ -68,6 +68,23 @@ may leave are `UI ...px > N` lines where no natural full wording fits; list each
 - A `\n` followed by a new `[face..]` changes speaker mid-box in the JP; you may put `[p]` there instead.
 - Sound effects: short and punchy (`Vrrrrr...`, `Snip!`).
 
+## Name tables (ids like `part_head.03`, `town.00`, `word_shop.44`)
+These are names and menu words shown in fixed menu windows. Each must fit its JP width (the check prints the
+budget); trailing full-width spaces in the JP are padding the build re-adds, don't copy them.
+- Towns/places/people: glossary forms (Dino City, Misari's House, Post Office...). Opponent names: keep puns
+  (ウニボンバー -> Urchin Bomber), Hepburn for Japanese names, Western order (よざくら かずき -> Kazuki Yozakura).
+- Dinos (`dino.*`): romanize to a pronounceable fantasy name (エルフェーン Elfeen, チラザフェルト Chirazafelt...).
+- Parts (`part_*`): one consistent scheme. Series prefixes: エルブ Elb, ガルサ Galsa, フォラ Fora, サーク Sark,
+  カイト Kite, ゴルガ Golga, チラサ Chirasa, ボーガ Boga, ジール Zeal, ヴァス Vas, メイカ Meika, シータ Theta,
+  トラー Tra, ダンサ Dansa, ネイガ Neiga; grades コア Core, パウ Pow, メタ Meta; slots ヘッド Head, ボディ Body,
+  ライド Ride, コルポ Corpo, グロソ/グロッソ Grosso. Element prefixes: ヒート Heat, フレム Flame, ナパム Napalm,
+  ファイ Fire, ミスト Mist, アクア Aqua, マリン Marine, ウワラ Uwara, エレク Elec, スパク Spark, ブリツ Blitz,
+  サンダ Thunder, ペブル Pebble, テッラ Terra, ランド Land, アース Earth, スペル Spell, レバリ Revali. Weapon words
+  in full English (チェンガン Chain Gun, レイシルド Ray Shield, バスター Buster, ピストル Pistol, ライフル Rifle).
+  Body suffix letters Ｆ/Ｗ/Ｔ/Ｅ/Ｓ stay as F/W/T/E/S. Use the full words even when over budget: write the full name
+  and report it as `LONG: id` - the controller will fix those windows in the engine. Do not abbreviate.
+- `−−−−−−−−` placeholders and Latin codes are already done (autofilled).
+
 ## Consistency
 Never edit `glossary.md` or any file other than your output. For a recurring name or term not in the glossary,
 pick a form, use it consistently, and report it.

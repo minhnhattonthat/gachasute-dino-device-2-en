@@ -20,6 +20,7 @@ S_CURT      equ 0x10            ; current tile index
 S_MONO      equ 0x14            ; menu only: [mono] active
 S_MONOMAP   equ 0x18            ; menu only: map entry pointer the next mono glyph must arrive with
 S_MONOTILE  equ 0x1C            ; menu only: tile index the next mono glyph must arrive with
+S_NARROW    equ 0x60            ; menu only: [narrow] active (condensed font) until the next fresh string
 S_BUF       equ 0x20            ; 64 bytes: current tile, next tile
 
 .org 0x0800D210
@@ -252,6 +253,27 @@ VwfMenu:
     mov r0, #0
     str r0, [r7, #S_MONO]
 @@vwf:
+    ; glyph 0x121 = [narrow]: condensed font for the rest of this string. Start the string here (fresh tile)
+    ; and make the next glyph arrive as a continuation so the fresh path (which clears the flag) is skipped.
+    ldr r1, =0x121
+    cmp r6, r1
+    bne @@not_narrow_tag
+    mov r0, #1
+    str r0, [r7, #S_NARROW]
+    ldr r0, [r4, #0]
+    str r0, [r7, #S_AFTER]
+    str r0, [r7, #S_CUR]
+    ldrh r1, [r4, #0x0C]
+    str r1, [r7, #S_AFTERT]
+    str r1, [r7, #S_CURT]
+    mov r0, #0
+    str r0, [r7, #S_SHIFT]
+    ldrb r1, [r4, #0x10]        ; bg colour for the clear
+    lsl r1, r1, #8
+    mov r0, r7
+    bl VwfClear
+    b @@skip
+@@not_narrow_tag:
     mov r0, r6
     cmp r0, #0xFF
     bhi @@skip                  ; tabs/extended glyphs: not in menus
@@ -281,6 +303,7 @@ VwfMenu:
     str r1, [r7, #S_CURT]
     mov r0, #0
     str r0, [r7, #S_SHIFT]
+    str r0, [r7, #S_NARROW]     ; a new string starts in the normal font
     mov r0, r7
     mov r1, r8
     bl VwfClear
@@ -467,9 +490,15 @@ VwfRender:
     ldr r3, [r0, #S_SHIFT]
     mov r8, r3                  ; r8 = shift
     ldr r3, =VwfWidths
+    ldr r4, =VwfFont
+    ldr r5, [r0, #S_NARROW]     ; 0 for the dialogue state (never set there)
+    cmp r5, #0
+    beq @@normal
+    ldr r3, =NarrowWidths
+    ldr r4, =NarrowFont
+@@normal:
     ldrb r3, [r3, r1]           ; r3 = width
     lsl r1, r1, #3
-    ldr r4, =VwfFont
     add r1, r1, r4             ; r1 = glyph rows
     add r0, #S_BUF             ; r0 = buffer
     mov r4, #0                 ; y

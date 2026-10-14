@@ -86,9 +86,11 @@ def lint_entry(e: dict, widths: bytes, avoid) -> list[str]:
     if uipad.is_ui(e):
         if '\n' in en or '[p]' in en:
             errs.append('UI string must stay on one line')
-        w, b = wrap.px(en, widths), uipad.budget(e)
+        _txt, w = uipad.fit(e, en, widths)
+        b = uipad.budget(e)
         if w > b:
-            errs.append(f'UI {w}px > {b} (JP cell width; measured exceptions in data/ui_budgets.json)')
+            errs.append(f'UI {w}px > {b} even in the narrow font (JP cell width; measured exceptions in '
+                        f'data/ui_budgets.json)')
         return errs + glossary_errs(en, avoid)
     try:
         for px, budget, line in line_widths(en, widths):

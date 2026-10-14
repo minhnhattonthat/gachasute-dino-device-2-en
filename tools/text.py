@@ -117,6 +117,8 @@ def encode(s: str, charmap: dict[str, bytes] | None = None) -> bytes:
                 out += bytes([0xF1, int(body[4:], 16)])
             elif body == 'mono':  # VWF menu printer: rest of the string one glyph per cell (glyph 0x120)
                 out += bytes([0xF1, 0x20])
+            elif body == 'narrow':  # VWF menu printer: rest of the string in the condensed font (glyph 0x121)
+                out += bytes([0xF1, 0x21])
             elif ':' in body:
                 name, val = body.split(':', 1)
                 sub = {v: k for k, v in NAMED1.items()}[name]

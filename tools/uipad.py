@@ -31,17 +31,46 @@ def jp_cells(jp: str) -> int:
 
 
 def budget(e: dict) -> int:
-    over = overrides().get(e.get('id') or e['ids'][0])
-    return over if over else jp_cells(e['jp']) * 8
+    """Measured override, else for name tables (one shared field) the table's longest JP name, else own JP width."""
+    eid = e.get('id') or e['ids'][0]
+    over = overrides().get(eid) or overrides().get(eid.split('.')[0] + '.*')
+    if over:
+        return over
+    table = eid.split('.')[0]
+    if '.' in eid and not table.startswith('word_'):
+        return table_cells()[table] * 8
+    return jp_cells(e['jp']) * 8
+
+
+_TABLE = None
+
+
+def table_cells() -> dict:
+    global _TABLE
+    if _TABLE is None:
+        _TABLE = {}
+        for m in json.loads((ROOT / 'script/misc.json').read_text(encoding='utf-8')):
+            t = m['id'].split('.')[0]
+            _TABLE[t] = max(_TABLE.get(t, 0), jp_cells(m['jp']))
+    return _TABLE
+
+
+def fit(e: dict, en: str, widths: bytes) -> tuple[str, int]:
+    """(text, px): the normal font if it fits the budget, else the condensed [narrow] font."""
+    import narrow_font
+    w = wrap.px(en, widths)
+    if w <= budget(e) or re.search(r'\[(?:player|partner|E0 1[0-9A-F])', en):
+        return en, w
+    return '[narrow]' + en, narrow_font.px(en)
 
 
 def pad(e: dict, en: str, widths: bytes) -> str:
-    """Append full-width spaces before the terminator until English covers the JP cells."""
+    """Narrow font if needed, then full-width spaces before the terminator until English covers the JP cells."""
     m = END.search(en)
     if not m or not is_ui(e):
         return en
-    body = en[:m.start()]
-    k = math.ceil((jp_cells(e['jp']) * 8 - wrap.px(body, widths)) / 8)
+    body, w = fit(e, en[:m.start()], widths)
+    k = math.ceil((jp_cells(e['jp']) * 8 - w) / 8)
     return body + '　' * max(k, 0) + m.group(1)
 
 

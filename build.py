@@ -25,7 +25,9 @@ TEXT_BASE = 0x400000     # relocated script + misc strings (ROM expanded to 8 Mi
 TEXT_END = 0x7E0000
 VWF_FONT = 0x7E0000      # 256 x 8 bytes
 VWF_WIDTHS = 0x7E0800    # 256 bytes
-CODE_BASE = 0x7E1000
+CODE_BASE = 0x7E1000     # VWF code (< 4 KB)
+NARROW_FONT = 0x7E2000   # condensed name font, 256 x 8 bytes
+NARROW_WIDTHS = 0x7E2800
 
 
 def load_script() -> list[dict]:
@@ -120,15 +122,21 @@ def build_reloc() -> bytearray:
 
 def apply_engine(rom: bytearray, out: Path) -> bytearray:
     """VWF font + asm/vwf.asm into the expanded area; armips patches the file in place."""
+    import narrow_font
     import vwf_font
     glyphs, widths = vwf_font.build(bytes(rom[:ORIG.stat().st_size]))
     rom[VWF_FONT:VWF_FONT + len(glyphs)] = glyphs
     rom[VWF_WIDTHS:VWF_WIDTHS + len(widths)] = widths
+    nglyphs, nwidths = narrow_font.build(glyphs, widths)
+    rom[NARROW_FONT:NARROW_FONT + len(nglyphs)] = nglyphs
+    rom[NARROW_WIDTHS:NARROW_WIDTHS + len(nwidths)] = nwidths
     out.write_bytes(rom)
     res = subprocess.run([str(ARMIPS), str(ROOT / 'asm/vwf.asm'), '-strequ', 'ROM', str(out),
                           '-definelabel', 'CodeBase', hex(0x08000000 + CODE_BASE),
                           '-definelabel', 'VwfFont', hex(0x08000000 + VWF_FONT),
-                          '-definelabel', 'VwfWidths', hex(0x08000000 + VWF_WIDTHS)],
+                          '-definelabel', 'VwfWidths', hex(0x08000000 + VWF_WIDTHS),
+                          '-definelabel', 'NarrowFont', hex(0x08000000 + NARROW_FONT),
+                          '-definelabel', 'NarrowWidths', hex(0x08000000 + NARROW_WIDTHS)],
                          capture_output=True, text=True, cwd=ROOT)
     if res.returncode:
         raise SystemExit('armips failed:\n' + res.stdout + res.stderr)
