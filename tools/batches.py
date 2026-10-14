@@ -87,7 +87,7 @@ def check(name: str) -> int:
             continue
         if not en.strip():
             errs.append(f"{e['id']}: empty")
-        for err in lint.lint_entry({'jp': e['jp'], 'en': en}, widths, avoid):
+        for err in lint.lint_entry({'id': e['id'], 'jp': e['jp'], 'en': en}, widths, avoid):
             errs.append(f"{e['id']}: {err}")
     for err in errs:
         print(err)

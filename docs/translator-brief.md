@@ -39,7 +39,8 @@ characters, no `\uXXXX` escapes for normal letters (JSON `\n` for line breaks is
 - `[half]` lines (system messages) count as lines too; keep them where they are.
 
 ## Validate
-`python -X utf8 tools/batches.py check <batch>` - fix every reported id until it prints OK.
+`python -X utf8 tools/batches.py check <batch>` - fix every reported id until it prints OK. The only problems you
+may leave are `UI ...px > N` lines where no natural full wording fits; list each as `LONG: id` in your report.
 `python -X utf8 tools/fit.py "<english>"` shows how one entry wraps (width/budget per line) if you want to look.
 
 ## Style
@@ -52,7 +53,11 @@ characters, no `\uXXXX` escapes for normal letters (JSON `\n` for line breaks is
 - Placeholders: no suffixes glued to a variable (`[E0 11 00] bits`, never `[E0 11 00]th`); no a/an right before a
   name variable; `[player]`/`[partner]` may be any name, so avoid gendered pronouns for `[partner]` unless the
   Japanese makes it clear.
-- Currency ビット = "bits" (lowercase unit after a number: `500 bits`).
+- Currency ビット = "Bits" after the number: `500 Bits`, `[E0 11 00] Bits`.
+- Single-line entries that end in `[close]` with no portrait (menu labels, names, short system words) are drawn in
+  fixed menu windows: they must fit the JP width (the check reports `UI ...px > N`). Keep them short and natural
+  ("Back", "OK", "Save"), never abbreviated words; if a full term can't fit, keep it and report `LONG: id`.
+- Debug/test strings (entries 0000-0009, 0069) are never shown to players: translate them plainly and briefly.
 - System lines: てにいれた -> "Got X!" / "[player] got X!"; keep them short.
 
 ## Consistency
