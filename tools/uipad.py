@@ -68,13 +68,45 @@ def table_cells() -> dict:
     return _TABLE
 
 
+THIN = ' '  # 1 px word space for the condensed font, used only when normal spaces don't fit
+
+
 def fit(e: dict, en: str, widths: bytes) -> tuple[str, int]:
-    """(text, px): the normal font if it fits the budget, else the condensed [narrow] font."""
+    """(text, advance px). Normal font if it fits (the last glyph's blank gap column may hang over), else the
+    condensed [narrow] font, with thin spaces as a last step. A name table that needs the condensed font for
+    any entry uses it for all entries, so lists don't mix fonts."""
     import narrow_font
+    if re.search(r'\[(?:player|partner|E0 1[0-9A-F])', en):
+        return en, wrap.px(en, widths)
+    b = budget(e)
     w = wrap.px(en, widths)
-    if w <= budget(e) or re.search(r'\[(?:player|partner|E0 1[0-9A-F])', en):
+    if w - 1 <= b and not table_narrow(e, widths):
         return en, w
-    return '[narrow]' + en, narrow_font.px(en)
+    w = narrow_font.advance(en)
+    if w - 1 > b and ' ' in en:
+        en = en.replace(' ', THIN)
+        w = narrow_font.advance(en)
+    return '[narrow]' + en, w
+
+
+_NARROW = {}
+
+
+def table_narrow(e: dict, widths: bytes) -> bool:
+    """True if e is in a misc table where some entry needs the condensed font."""
+    eid = e.get('id') or e['ids'][0]
+    if '.' not in eid:
+        return False
+    table = eid.split('.')[0]
+    if table not in _NARROW:
+        _NARROW[table] = False
+        for m in json.loads((ROOT / 'script/misc.json').read_text(encoding='utf-8')):
+            if m['id'].split('.')[0] == table and m['en'] and END.search(m['en']):
+                body = m['en'][:END.search(m['en']).start()]
+                if wrap.px(body, widths) - 1 > budget(m):
+                    _NARROW[table] = True
+                    break
+    return _NARROW[table]
 
 
 def pad(e: dict, en: str, widths: bytes) -> str:
@@ -83,8 +115,14 @@ def pad(e: dict, en: str, widths: bytes) -> str:
     if not m or not is_ui(e):
         return en
     body, w = fit(e, en[:m.start()], widths)
-    k = math.ceil((jp_cells(e['jp']) * 8 - w) / 8)
+    # 8 px blank cells up to the slot width, never past it: one cell too many lands on the next string's tiles
+    k = (pad_cells(e) * 8 - w) // 8
     return body + '　' * max(k, 0) + m.group(1)
+
+
+def pad_cells(e: dict) -> int:
+    """Cells the original string covered: the slot width for name tables, the JP string's own cells otherwise."""
+    return budget(e) // 8
 
 
 _OVER = None

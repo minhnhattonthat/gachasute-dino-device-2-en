@@ -331,8 +331,8 @@ VwfMenu:
     ldr r0, [r7, #S_CUR]
     ldr r1, [r7, #S_CURT]
     bl @@put_map
-    cmp r6, #8
-    bls @@no_spill
+    cmp r6, #9                  ; a spill of just the glyph's blank gap column needs no tile: names that end
+    bls @@no_spill              ; exactly at their slot edge must not touch the next slot's first tile
     cmp r5, #0
     beq @@no_spill              ; the spill tile is still being built
     ldr r0, [r7, #S_CURT]

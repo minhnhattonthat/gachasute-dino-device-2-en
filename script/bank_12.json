@@ -1446,7 +1446,7 @@
   ],
   "fall": false,
   "jp": "[E0 46][E0 44 06][E0 43 20]おおあたり！\nガチャステが　４かいできます[E0 44 FA][E0 47][close]",
-  "en": "[E0 46][E0 44 06][E0 43 20]Jackpot!\nYou can play Gachasute 4 times![E0 44 FA][E0 47][close]"
+  "en": "[E0 46][E0 44 06][E0 43 20]Jackpot!\nYou get 4 plays![E0 44 FA][E0 47][close]"
  },
  {
   "addr": "60ABF",
@@ -1455,7 +1455,7 @@
   ],
   "fall": false,
   "jp": "あたり！\nガチャステが　２かいできます[close]",
-  "en": "A win!\nYou can play Gachasute twice![close]"
+  "en": "A win!\nYou get 2 plays![close]"
  },
  {
   "addr": "60AD4",
@@ -1464,7 +1464,7 @@
   ],
   "fall": false,
   "jp": "はずれ\nガチャステが　１かいできます[close]",
-  "en": "A miss...\nYou can play Gachasute once.[close]"
+  "en": "A miss...\nYou get 1 play.[close]"
  },
  {
   "addr": "60AE7",

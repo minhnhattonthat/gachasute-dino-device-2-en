@@ -521,7 +521,8 @@ z
 #.
 """
 
-SPACE_W = 1  # + the previous glyph's gap column = 2 px between words (letters get 1)
+SPACE_W = 2  # + the previous glyph's gap column = 3 px between words (letters get 1)
+THIN_W = 1   # thin space (U+2009) for names that only fit with 2 px word gaps
 
 
 def glyphs() -> dict[str, tuple[list[int], int]]:
@@ -539,6 +540,7 @@ def glyphs() -> dict[str, tuple[list[int], int]]:
         rows = (rows + [0] * 8)[:8]
         out[ch] = (rows, max(len(r) for r in art) + 1)
     out[' '] = ([0] * 8, SPACE_W)
+    out[' '] = ([0] * 8, THIN_W)
     return out
 
 
@@ -554,13 +556,16 @@ def build(normal_glyphs: bytes, normal_widths: bytes) -> tuple[bytes, bytes]:
     return bytes(g), bytes(w)
 
 
-def px(s: str) -> int:
-    """Visible width of plain English text in the narrow font (tags ignored; the last glyph's blank gap column,
-    which only ever holds shadow, is not counted)."""
+def advance(s: str) -> int:
+    """Advance width of plain English text in the narrow font (tags ignored; includes the last gap column)."""
     import re
     g = glyphs()
-    w = sum(g[ch][1] if ch in g else 8 for ch in re.sub(r'\[[^\]]*\]', '', s))
-    return max(w - 1, 0)
+    return sum(g[ch][1] if ch in g else 8 for ch in re.sub(r'\[[^\]]*\]', '', s))
+
+
+def px(s: str) -> int:
+    """Visible width: the last glyph's blank gap column (shadow only) is not counted."""
+    return max(advance(s) - 1, 0)
 
 
 def render(text: str, out: Path, zoom: int = 4):

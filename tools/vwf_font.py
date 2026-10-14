@@ -31,7 +31,9 @@ OVERRIDE = {
 # English word space = F0 F9 (narrow); glyph 00 (JP full-width space) stays a full 8 px cell, so the JP padding
 # that menus rely on to overwrite older, longer strings still clears whole cells.
 SPACE = 0xF9
-CHARMAP = {' ': bytes([0xF0, SPACE]), '　': b'\x00'}  # '　' = clearing/alignment cell
+THIN = 0xFA  # U+2009 thin space, used by the condensed name font (tools/uipad.py)
+CHARMAP = {' ': bytes([0xF0, SPACE]), '　': b'\x00',  # '　' = clearing/alignment cell
+           ' ': bytes([0xF0, THIN])}
 for _i, _c in enumerate('0123456789'):
     CHARMAP[_c] = bytes([0x01 + _i])
 for _i, _c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'):
@@ -53,6 +55,8 @@ def build(rom: bytes) -> tuple[bytes, bytes]:
             w = max(len(r) for r in art) + 1
         elif c == SPACE:
             rows, w = [0] * 8, SPACE_W
+        elif c == THIN:
+            rows, w = [0] * 8, 2
         elif c == 0x00:
             rows, w = [0] * 8, 8
         elif c in LATIN and any(rows):

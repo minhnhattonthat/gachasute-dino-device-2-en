@@ -87,6 +87,7 @@ def lint_entry(e: dict, widths: bytes, avoid) -> list[str]:
         if '\n' in en or '[p]' in en:
             errs.append('UI string must stay on one line')
         _txt, w = uipad.fit(e, en, widths)
+        w -= 1  # the last glyph's blank gap column may hang over the slot edge (asm/vwf.asm skips it)
         b = uipad.budget(e)
         if w > b:
             errs.append(f'UI {w}px > {b} even in the narrow font (JP cell width; measured exceptions in '
