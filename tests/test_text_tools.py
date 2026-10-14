@@ -22,6 +22,8 @@ def test_wrap_respects_budgets_and_hard_breaks():
     for line, budget in wrap.budgets(s):
         assert wrap.px(line, WIDTHS) <= budget, line
     assert 'end.\nHand break.' in s
+    long_tag = '[E0 34 0A ' + '01 02 28 ' * 10 + 'FF]'
+    assert wrap.wrap(long_tag, WIDTHS) == long_tag
 
 
 def test_choice_layout():

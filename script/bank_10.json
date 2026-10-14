@@ -186,7 +186,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6E4",
@@ -195,7 +195,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6E5",
@@ -204,7 +204,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6E6",
@@ -213,7 +213,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6E7",
@@ -222,7 +222,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6E8",
@@ -231,7 +231,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6E9",
@@ -240,7 +240,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6EA",
@@ -249,7 +249,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6EB",
@@ -258,7 +258,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6EC",
@@ -267,7 +267,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6ED",
@@ -276,7 +276,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6EE",
@@ -285,7 +285,7 @@
   ],
   "fall": false,
   "jp": "[end]",
-  "en": ""
+  "en": "[end]"
  },
  {
   "addr": "5E6EF",
@@ -330,7 +330,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E73D",
@@ -339,7 +339,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E73E",
@@ -348,7 +348,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E73F",
@@ -357,7 +357,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E740",
@@ -366,7 +366,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E741",
@@ -375,7 +375,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E742",
@@ -384,7 +384,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E743",
@@ -393,7 +393,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E744",
@@ -402,7 +402,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E745",
@@ -411,7 +411,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E746",
@@ -420,7 +420,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E747",
@@ -429,7 +429,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E748",
@@ -510,7 +510,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E7E3",
@@ -519,7 +519,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E7E4",
@@ -528,7 +528,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E7E5",
@@ -537,7 +537,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E7E6",
@@ -546,7 +546,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E7E7",
@@ -555,7 +555,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E7E8",
@@ -564,7 +564,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E7E9",
@@ -573,7 +573,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E7EA",
@@ -645,7 +645,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E879",
@@ -654,7 +654,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E87A",
@@ -663,7 +663,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E87B",
@@ -672,7 +672,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E87C",
@@ -681,7 +681,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E87D",
@@ -690,7 +690,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E87E",
@@ -699,7 +699,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E87F",
@@ -708,7 +708,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E880",
@@ -717,7 +717,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E881",
@@ -861,7 +861,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9EB",
@@ -870,7 +870,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9EC",
@@ -879,7 +879,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9ED",
@@ -888,7 +888,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9EE",
@@ -897,7 +897,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9EF",
@@ -906,7 +906,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9F0",
@@ -915,7 +915,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9F1",
@@ -924,7 +924,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9F2",
@@ -933,7 +933,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9F3",
@@ -942,7 +942,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9F4",
@@ -951,7 +951,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9F5",
@@ -960,7 +960,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9F6",
@@ -969,7 +969,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9F7",
@@ -978,7 +978,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9F8",
@@ -987,7 +987,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9F9",
@@ -996,7 +996,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9FA",
@@ -1005,7 +1005,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5E9FB",
@@ -1122,7 +1122,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB4A",
@@ -1131,7 +1131,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB4B",
@@ -1140,7 +1140,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB4C",
@@ -1149,7 +1149,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB4D",
@@ -1158,7 +1158,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB4E",
@@ -1167,7 +1167,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB4F",
@@ -1176,7 +1176,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB50",
@@ -1185,7 +1185,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB51",
@@ -1194,7 +1194,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB52",
@@ -1203,7 +1203,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB53",
@@ -1212,7 +1212,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB54",
@@ -1221,7 +1221,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB55",
@@ -1230,7 +1230,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB56",
@@ -1239,7 +1239,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB57",
@@ -1248,7 +1248,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB58",
@@ -1257,7 +1257,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB59",
@@ -1266,7 +1266,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB5A",
@@ -1275,7 +1275,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB5B",
@@ -1284,7 +1284,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB5C",
@@ -1293,7 +1293,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EB5D",
@@ -1338,7 +1338,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBB5",
@@ -1347,7 +1347,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBB6",
@@ -1356,7 +1356,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBB7",
@@ -1365,7 +1365,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBB8",
@@ -1374,7 +1374,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBB9",
@@ -1383,7 +1383,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBBA",
@@ -1392,7 +1392,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBBB",
@@ -1401,7 +1401,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBBC",
@@ -1410,7 +1410,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBBD",
@@ -1419,7 +1419,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBBE",
@@ -1428,7 +1428,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBBF",
@@ -1437,7 +1437,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EBC0",
@@ -1464,7 +1464,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC0A",
@@ -1473,7 +1473,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC0B",
@@ -1482,7 +1482,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC0C",
@@ -1491,7 +1491,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC0D",
@@ -1500,7 +1500,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC0E",
@@ -1509,7 +1509,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC0F",
@@ -1518,7 +1518,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC10",
@@ -1527,7 +1527,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC11",
@@ -1536,7 +1536,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC12",
@@ -1545,7 +1545,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC13",
@@ -1554,7 +1554,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC14",
@@ -1563,7 +1563,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC15",
@@ -1572,7 +1572,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC16",
@@ -1581,7 +1581,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC17",
@@ -1626,7 +1626,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC6B",
@@ -1635,7 +1635,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC6C",
@@ -1644,7 +1644,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC6D",
@@ -1653,7 +1653,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC6E",
@@ -1662,7 +1662,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC6F",
@@ -1671,7 +1671,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC70",
@@ -1680,7 +1680,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC71",
@@ -1689,7 +1689,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC72",
@@ -1698,7 +1698,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC73",
@@ -1707,7 +1707,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC74",
@@ -1716,7 +1716,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC75",
@@ -1725,7 +1725,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC76",
@@ -1743,7 +1743,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC93",
@@ -1752,7 +1752,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC94",
@@ -1761,7 +1761,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC95",
@@ -1770,7 +1770,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC96",
@@ -1779,7 +1779,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC97",
@@ -1788,7 +1788,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC98",
@@ -1797,7 +1797,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC99",
@@ -1806,7 +1806,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC9A",
@@ -1815,7 +1815,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC9B",
@@ -1824,7 +1824,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC9C",
@@ -1833,7 +1833,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC9D",
@@ -1842,7 +1842,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC9E",
@@ -1851,7 +1851,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5EC9F",
@@ -1860,7 +1860,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECA0",
@@ -1869,7 +1869,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECA1",
@@ -1878,7 +1878,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECA2",
@@ -1887,7 +1887,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECA3",
@@ -1896,7 +1896,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECA4",
@@ -1905,7 +1905,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECA5",
@@ -1914,7 +1914,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECA6",
@@ -1923,7 +1923,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECA7",
@@ -1932,7 +1932,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECA8",
@@ -1941,7 +1941,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECA9",
@@ -1950,7 +1950,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECAA",
@@ -1959,7 +1959,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECAB",
@@ -1968,7 +1968,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECAC",
@@ -1977,7 +1977,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECAD",
@@ -1986,7 +1986,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECAE",
@@ -1995,7 +1995,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECAF",
@@ -2004,7 +2004,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECB0",
@@ -2013,7 +2013,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECB1",
@@ -2022,7 +2022,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECB2",
@@ -2031,7 +2031,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECB3",
@@ -2040,7 +2040,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECB4",
@@ -2049,7 +2049,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECB5",
@@ -2058,7 +2058,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECB6",
@@ -2067,7 +2067,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECB7",
@@ -2076,7 +2076,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECB8",
@@ -2085,7 +2085,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECB9",
@@ -2094,7 +2094,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECBA",
@@ -2103,7 +2103,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECBB",
@@ -2112,7 +2112,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECBC",
@@ -2121,7 +2121,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECBD",
@@ -2130,7 +2130,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECBE",
@@ -2139,7 +2139,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECBF",
@@ -2148,7 +2148,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECC0",
@@ -2157,7 +2157,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECC1",
@@ -2166,7 +2166,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECC2",
@@ -2175,7 +2175,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECC3",
@@ -2184,7 +2184,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECC4",
@@ -2193,7 +2193,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECC5",
@@ -2202,7 +2202,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECC6",
@@ -2211,7 +2211,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECC7",
@@ -2220,7 +2220,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECC8",
@@ -2229,7 +2229,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECC9",
@@ -2238,7 +2238,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECCA",
@@ -2247,7 +2247,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECCB",
@@ -2256,7 +2256,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECCC",
@@ -2265,7 +2265,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECCD",
@@ -2274,7 +2274,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECCE",
@@ -2283,7 +2283,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECCF",
@@ -2292,7 +2292,7 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  },
  {
   "addr": "5ECD0",
@@ -2301,6 +2301,6 @@
   ],
   "fall": false,
   "jp": "[close]",
-  "en": ""
+  "en": "[close]"
  }
 ]

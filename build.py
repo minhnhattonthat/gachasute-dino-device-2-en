@@ -1,11 +1,14 @@
 """Build entry point.
 
-    python -X utf8 build.py identity   -> build/identity.gba  (script re-packed in place; must equal the original)
+    python -X utf8 build.py identity   -> build/identity.gba  (script + misc re-packed in place; == original)
     python -X utf8 build.py reloc      -> build/reloc.gba     (Japanese script moved to 0x400000, ROM 8 MiB)
+    python -X utf8 build.py marker     -> build/marker.gba    (VWF engine, every script line = id + filler)
+    python -X utf8 build.py english    -> build/dino2_en.gba  (VWF engine, en fields; jp where en is empty)
 """
 import functools
 import json
 import struct
+import subprocess
 import sys
 from pathlib import Path
 
@@ -16,8 +19,13 @@ import text  # noqa: E402
 
 ORIG = ROOT / 'rom/orig.gba'
 BUILD = ROOT / 'build'
-TEXT_BASE = 0x400000  # relocated script (ROM expanded to 8 MiB)
+ARMIPS = ROOT / 'tools/armips/armips.exe'
 ROM_SIZE = 0x800000
+TEXT_BASE = 0x400000     # relocated script + misc strings (ROM expanded to 8 MiB)
+TEXT_END = 0x7E0000
+VWF_FONT = 0x7E0000      # 256 x 8 bytes
+VWF_WIDTHS = 0x7E0800    # 256 bytes
+CODE_BASE = 0x7E1000
 
 
 def load_script() -> list[dict]:
@@ -28,14 +36,35 @@ def load_script() -> list[dict]:
     return entries
 
 
-def encode_entry(e: dict, lang: str) -> bytes:
-    if lang == 'en' and e['en']:
-        return text.encode(e['en'])
-    return text.encode(e['jp'])
+def load_misc() -> list[dict]:
+    return json.loads((ROOT / 'script/misc.json').read_text(encoding='utf-8'))
+
+
+@functools.cache
+def font_widths() -> bytes:
+    import vwf_font
+    return vwf_font.build(ORIG.read_bytes())[1]
+
+
+def layout_en(e: dict, en: str) -> str:
+    """English text as the game gets it: UI strings padded to their JP cells, dialogue wrapped + choices laid out."""
+    import choices
+    import uipad
+    import wrap
+    if uipad.is_ui(e):
+        return uipad.pad(e, en, font_widths())
+    return choices.layout(wrap.wrap(en, font_widths()), font_widths())
+
+
+def encode_en(e: dict, en: str | None) -> bytes:
+    import vwf_font
+    if not en:
+        return text.encode(e['jp'])
+    return text.encode(layout_en(e, en), vwf_font.CHARMAP)
 
 
 def write_banks(rom: bytearray, entries: list[dict], blobs: list[bytes], place) -> None:
-    """place(entry, blob) -> file offset. Rewrites every bank pointer slot to its entry's new offset."""
+    """place(blob) -> file offset. Rewrites every bank pointer slot to its entry's new offset."""
     new = {}
     for e, b in zip(entries, blobs):
         off = place(e, b)
@@ -46,15 +75,18 @@ def write_banks(rom: bytearray, entries: list[dict], blobs: list[bytes], place) 
         struct.pack_into('<I', rom, slot, 0x08000000 + new[tid])
 
 
-def build_identity() -> bytearray:
-    rom = bytearray(ORIG.read_bytes())
-    entries = load_script()
-    blobs = [encode_entry(e, 'jp') for e in entries]
-    write_banks(rom, entries, blobs, lambda e, b: int(e['addr'], 16))
-    return rom
+def write_misc(rom: bytearray, entries: list[dict], blobs: list[bytes], place) -> None:
+    for e, b in zip(entries, blobs):
+        off = place(e, b)
+        rom[off:off + len(b)] = b
+        struct.pack_into('<I', rom, int(e['slot'], 16), 0x08000000 + off)
 
 
-def layout_sequential(entries, blobs, base, limit):
+def in_place(e, b):
+    return int(e['addr'], 16)
+
+
+def sequential(base: int, limit: int):
     pos = base
 
     def place(e, b):
@@ -62,37 +94,32 @@ def layout_sequential(entries, blobs, base, limit):
         off = pos
         pos += len(b)
         if pos > limit:
-            raise SystemExit(f'script overflows free space at {off:#x}')
+            raise SystemExit(f'text overflows free space at {off:#x}')
         return off
     return place
 
 
-def build_reloc(lang: str = 'jp') -> bytearray:
-    rom = bytearray(ORIG.read_bytes()) + b'\xff' * (ROM_SIZE - ORIG.stat().st_size)
-    entries = load_script()
-    blobs = [encode_entry(e, lang) for e in entries]
-    write_banks(rom, entries, blobs, layout_sequential(entries, blobs, TEXT_BASE, ROM_SIZE))
+def build_identity() -> bytearray:
+    rom = bytearray(ORIG.read_bytes())
+    entries, misc = load_script(), load_misc()
+    write_banks(rom, entries, [text.encode(e['jp']) for e in entries], in_place)
+    write_misc(rom, misc, [text.encode(e['jp']) for e in misc], in_place)
     return rom
 
 
-def encode_en(e: dict, en: str | None) -> bytes:
-    import choices
-    import vwf_font
-    import wrap
-    if not en:
-        return text.encode(e['jp'])
-    return text.encode(choices.layout(wrap.wrap(en, font_widths()), font_widths()), vwf_font.CHARMAP)
+def expanded() -> bytearray:
+    return bytearray(ORIG.read_bytes()) + b'\xff' * (ROM_SIZE - ORIG.stat().st_size)
 
 
-@functools.cache
-def font_widths() -> bytes:
-    import vwf_font
-    return vwf_font.build(ORIG.read_bytes())[1]
+def build_reloc() -> bytearray:
+    rom = expanded()
+    entries = load_script()
+    write_banks(rom, entries, [text.encode(e['jp']) for e in entries], sequential(TEXT_BASE, TEXT_END))
+    return rom
 
 
 def apply_engine(rom: bytearray, out: Path) -> bytearray:
     """VWF font + asm/vwf.asm into the expanded area; armips patches the file in place."""
-    import subprocess
     import vwf_font
     glyphs, widths = vwf_font.build(bytes(rom[:ORIG.stat().st_size]))
     rom[VWF_FONT:VWF_FONT + len(glyphs)] = glyphs
@@ -109,24 +136,18 @@ def apply_engine(rom: bytearray, out: Path) -> bytearray:
 
 
 def build_lang(out: Path, mode: str) -> bytearray:
-    """mode 'english': en fields (jp where empty); 'marker': every entry replaced by marker filler."""
+    """mode 'english': en fields (jp where empty); 'marker': every script entry replaced by marker filler."""
     import marker
-    import vwf_font
-    rom = bytearray(ORIG.read_bytes()) + b'\xff' * (ROM_SIZE - ORIG.stat().st_size)
-    entries = load_script()
+    rom = expanded()
+    entries, misc = load_script(), load_misc()
+    place = sequential(TEXT_BASE, TEXT_END)
     if mode == 'marker':
         blobs = [encode_en(e, marker.marker(e, font_widths())) for e in entries]
     else:
         blobs = [encode_en(e, e['en']) for e in entries]
-    write_banks(rom, entries, blobs, layout_sequential(entries, blobs, TEXT_BASE, TEXT_END))
+    write_banks(rom, entries, blobs, place)
+    write_misc(rom, misc, [encode_en(e, e['en']) for e in misc], place)
     return apply_engine(rom, out)
-
-
-ARMIPS = ROOT / 'tools/armips/armips.exe'
-TEXT_END = 0x7E0000
-VWF_FONT = 0x7E0000      # 256 x 8 bytes
-VWF_WIDTHS = 0x7E0800    # 256 bytes
-CODE_BASE = 0x7E1000
 
 
 def main():

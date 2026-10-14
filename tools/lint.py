@@ -14,6 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import choices  # noqa: E402
+import uipad  # noqa: E402
 import vwf_font  # noqa: E402
 import wrap  # noqa: E402
 
@@ -83,12 +84,24 @@ def lint_entry(e: dict, widths: bytes, avoid) -> list[str]:
     if bad:
         errs.append(f'not encodable: {bad}')
         return errs
+    if uipad.is_ui(e):
+        if '\n' in en or '[p]' in en:
+            errs.append('UI string must stay on one line')
+        w, b = wrap.px(en, widths), uipad.budget(e)
+        if w > b:
+            errs.append(f'UI {w}px > {b} (JP cell width; measured exceptions in data/ui_budgets.json)')
+        return errs + glossary_errs(en, avoid)
     try:
         for px, budget, line in line_widths(en, widths):
             if px > budget:
                 errs.append(f'line {px}px > {budget}: {line!r}')
     except ValueError as ex:
         errs.append(str(ex))
+    return errs + glossary_errs(en, avoid)
+
+
+def glossary_errs(en: str, avoid) -> list[str]:
+    errs = []
     for wrong, right in avoid:
         if re.search(rf'\b{re.escape(wrong)}\b', en):
             errs.append(f'glossary: {wrong!r} -> {right!r}')
@@ -107,7 +120,7 @@ def main() -> int:
             n_done += bool(e['en'])
             for err in lint_entry(e, widths, avoid):
                 n_err += 1
-                print(f'{p.name} {e["ids"][0]}: {err}')
+                print(f'{p.name} {e.get("id") or e["ids"][0]}: {err}')
     print(f'lint: {n_err} errors; {n_done}/{n_all} entries translated')
     return 1 if n_err else 0
 

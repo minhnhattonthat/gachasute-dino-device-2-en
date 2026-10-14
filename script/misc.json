@@ -1,0 +1,5371 @@
+[
+ {
+  "id": "town.00",
+  "slot": "6105C",
+  "addr": "61038",
+  "jp": "ダイナシティ[close]",
+  "en": ""
+ },
+ {
+  "id": "town.01",
+  "slot": "61060",
+  "addr": "6103F",
+  "jp": "サンカルロ[close]",
+  "en": ""
+ },
+ {
+  "id": "town.02",
+  "slot": "61064",
+  "addr": "61045",
+  "jp": "アタカマラ[close]",
+  "en": ""
+ },
+ {
+  "id": "town.03",
+  "slot": "61068",
+  "addr": "6104B",
+  "jp": "ダオスタヴィル[close]",
+  "en": ""
+ },
+ {
+  "id": "town.04",
+  "slot": "6106C",
+  "addr": "61053",
+  "jp": "ダオスタヴィル[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.00",
+  "slot": "610D8",
+  "addr": "61070",
+  "jp": "みさりのいえ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.01",
+  "slot": "610DC",
+  "addr": "61077",
+  "jp": "はいたつさき[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.02",
+  "slot": "610E0",
+  "addr": "6107E",
+  "jp": "ゆうびんきょく[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.03",
+  "slot": "610E4",
+  "addr": "61086",
+  "jp": "けいさつしょ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.04",
+  "slot": "610E8",
+  "addr": "6108D",
+  "jp": "ガチャゲート[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.05",
+  "slot": "610EC",
+  "addr": "61095",
+  "jp": "バトルプレイス[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.06",
+  "slot": "610F0",
+  "addr": "6109D",
+  "jp": "いえ１[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.07",
+  "slot": "610F4",
+  "addr": "610A1",
+  "jp": "いえ２[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.08",
+  "slot": "610F8",
+  "addr": "610A5",
+  "jp": "デパート[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.09",
+  "slot": "610FC",
+  "addr": "610AB",
+  "jp": "ディノモしゃ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.0A",
+  "slot": "61100",
+  "addr": "610B2",
+  "jp": "ふるびたいえ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.0B",
+  "slot": "61104",
+  "addr": "610B9",
+  "jp": "いえ３[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.0C",
+  "slot": "61108",
+  "addr": "610BD",
+  "jp": "ディノモショップ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.0D",
+  "slot": "6110C",
+  "addr": "610C6",
+  "jp": "おとなり[close]",
+  "en": ""
+ },
+ {
+  "id": "place_dyna.0E",
+  "slot": "61110",
+  "addr": "610CB",
+  "jp": "おとなり[close]",
+  "en": ""
+ },
+ {
+  "id": "place_sancarlo.00",
+  "slot": "61170",
+  "addr": "6112C",
+  "jp": "ガチャゲート[close]",
+  "en": ""
+ },
+ {
+  "id": "place_sancarlo.01",
+  "slot": "61174",
+  "addr": "61134",
+  "jp": "ベイカフェ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_sancarlo.02",
+  "slot": "61178",
+  "addr": "6113A",
+  "jp": "こや[close]",
+  "en": ""
+ },
+ {
+  "id": "place_sancarlo.03",
+  "slot": "6117C",
+  "addr": "6113D",
+  "jp": "バトルプレイス[close]",
+  "en": ""
+ },
+ {
+  "id": "place_sancarlo.04",
+  "slot": "61180",
+  "addr": "61145",
+  "jp": "はまべ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_sancarlo.05",
+  "slot": "61184",
+  "addr": "61149",
+  "jp": "むじんとう[close]",
+  "en": ""
+ },
+ {
+  "id": "place_sancarlo.06",
+  "slot": "61188",
+  "addr": "6114F",
+  "jp": "みなと[close]",
+  "en": ""
+ },
+ {
+  "id": "place_sancarlo.07",
+  "slot": "6118C",
+  "addr": "61153",
+  "jp": "アパート[close]",
+  "en": ""
+ },
+ {
+  "id": "place_sancarlo.08",
+  "slot": "61190",
+  "addr": "61159",
+  "jp": "ディノモショップ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_atacamara.00",
+  "slot": "61210",
+  "addr": "611C4",
+  "jp": "ガチャゲート[close]",
+  "en": ""
+ },
+ {
+  "id": "place_atacamara.01",
+  "slot": "61214",
+  "addr": "611CC",
+  "jp": "バトルプレイス[close]",
+  "en": ""
+ },
+ {
+  "id": "place_atacamara.02",
+  "slot": "61218",
+  "addr": "611D4",
+  "jp": "しゅうかいじょ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_atacamara.03",
+  "slot": "6121C",
+  "addr": "611DC",
+  "jp": "こうかんじょ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_atacamara.04",
+  "slot": "61220",
+  "addr": "611E3",
+  "jp": "みずくみば[close]",
+  "en": ""
+ },
+ {
+  "id": "place_atacamara.05",
+  "slot": "61224",
+  "addr": "611E9",
+  "jp": "いちば[close]",
+  "en": ""
+ },
+ {
+  "id": "place_atacamara.06",
+  "slot": "61228",
+  "addr": "611ED",
+  "jp": "かれたみずくみば[close]",
+  "en": ""
+ },
+ {
+  "id": "place_atacamara.07",
+  "slot": "6122C",
+  "addr": "611F6",
+  "jp": "いせき[close]",
+  "en": ""
+ },
+ {
+  "id": "place_atacamara.08",
+  "slot": "61230",
+  "addr": "611FA",
+  "jp": "ディノモショップ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_daostaville.00",
+  "slot": "612AC",
+  "addr": "61264",
+  "jp": "ガチャゲート[close]",
+  "en": ""
+ },
+ {
+  "id": "place_daostaville.01",
+  "slot": "612B0",
+  "addr": "6126C",
+  "jp": "こうざん１[close]",
+  "en": ""
+ },
+ {
+  "id": "place_daostaville.02",
+  "slot": "612B4",
+  "addr": "61272",
+  "jp": "どうくつ１[close]",
+  "en": ""
+ },
+ {
+  "id": "place_daostaville.03",
+  "slot": "612B8",
+  "addr": "61278",
+  "jp": "どうくつ２[close]",
+  "en": ""
+ },
+ {
+  "id": "place_daostaville.04",
+  "slot": "612BC",
+  "addr": "6127E",
+  "jp": "こうざん２[close]",
+  "en": ""
+ },
+ {
+  "id": "place_daostaville.05",
+  "slot": "612C0",
+  "addr": "61284",
+  "jp": "ようこうろ[close]",
+  "en": ""
+ },
+ {
+  "id": "place_daostaville.06",
+  "slot": "612C4",
+  "addr": "6128A",
+  "jp": "バトルプレイス[close]",
+  "en": ""
+ },
+ {
+  "id": "place_daostaville.07",
+  "slot": "612C8",
+  "addr": "61292",
+  "jp": "おしろのいせき[close]",
+  "en": ""
+ },
+ {
+  "id": "place_daostaville.08",
+  "slot": "612CC",
+  "addr": "6129A",
+  "jp": "ようさい[close]",
+  "en": ""
+ },
+ {
+  "id": "person.01",
+  "slot": "61440",
+  "addr": "6134D",
+  "jp": "フラット　すぎた[close]",
+  "en": ""
+ },
+ {
+  "id": "person.02",
+  "slot": "61444",
+  "addr": "61356",
+  "jp": "トルシトロエン[close]",
+  "en": ""
+ },
+ {
+  "id": "person.03",
+  "slot": "61448",
+  "addr": "6135E",
+  "jp": "クラウディオール[close]",
+  "en": ""
+ },
+ {
+  "id": "person.04",
+  "slot": "6144C",
+  "addr": "61368",
+  "jp": "ヨーグルトこだま[close]",
+  "en": ""
+ },
+ {
+  "id": "person.05",
+  "slot": "61450",
+  "addr": "61372",
+  "jp": "ウニボンバー[close]",
+  "en": ""
+ },
+ {
+  "id": "person.06",
+  "slot": "61454",
+  "addr": "6137A",
+  "jp": "リフレインささき[close]",
+  "en": ""
+ },
+ {
+  "id": "person.07",
+  "slot": "61458",
+  "addr": "61383",
+  "jp": "よざくら　かずき[close]",
+  "en": ""
+ },
+ {
+  "id": "person.08",
+  "slot": "6145C",
+  "addr": "6138C",
+  "jp": "ウエポンきたむら[close]",
+  "en": ""
+ },
+ {
+  "id": "person.09",
+  "slot": "61460",
+  "addr": "61395",
+  "jp": "ＣＯＭ０９[close]",
+  "en": "COM09[close]"
+ },
+ {
+  "id": "person.0A",
+  "slot": "61464",
+  "addr": "6139B",
+  "jp": "ＣＯＭ１０[close]",
+  "en": "COM10[close]"
+ },
+ {
+  "id": "person.0B",
+  "slot": "61468",
+  "addr": "613A1",
+  "jp": "ＣＯＭ１１[close]",
+  "en": "COM11[close]"
+ },
+ {
+  "id": "person.0C",
+  "slot": "6146C",
+  "addr": "613A7",
+  "jp": "ＣＯＭ１２[close]",
+  "en": "COM12[close]"
+ },
+ {
+  "id": "person.0D",
+  "slot": "61470",
+  "addr": "613AD",
+  "jp": "ＣＯＭ１３[close]",
+  "en": "COM13[close]"
+ },
+ {
+  "id": "person.0E",
+  "slot": "61474",
+  "addr": "613B3",
+  "jp": "ＣＯＭ１４[close]",
+  "en": "COM14[close]"
+ },
+ {
+  "id": "person.0F",
+  "slot": "61478",
+  "addr": "613B9",
+  "jp": "ＣＯＭ１５[close]",
+  "en": "COM15[close]"
+ },
+ {
+  "id": "person.10",
+  "slot": "6147C",
+  "addr": "613BF",
+  "jp": "ＣＯＭ１６[close]",
+  "en": "COM16[close]"
+ },
+ {
+  "id": "person.11",
+  "slot": "61480",
+  "addr": "613C5",
+  "jp": "ＣＯＭ０９[close]",
+  "en": "COM09[close]"
+ },
+ {
+  "id": "person.12",
+  "slot": "61484",
+  "addr": "613CB",
+  "jp": "ＣＯＭ１０[close]",
+  "en": "COM10[close]"
+ },
+ {
+  "id": "person.13",
+  "slot": "61488",
+  "addr": "613D1",
+  "jp": "ＣＯＭ１１[close]",
+  "en": "COM11[close]"
+ },
+ {
+  "id": "person.14",
+  "slot": "6148C",
+  "addr": "613D7",
+  "jp": "ＣＯＭ１２[close]",
+  "en": "COM12[close]"
+ },
+ {
+  "id": "person.15",
+  "slot": "61490",
+  "addr": "613DD",
+  "jp": "ＣＯＭ１３[close]",
+  "en": "COM13[close]"
+ },
+ {
+  "id": "person.16",
+  "slot": "61494",
+  "addr": "613E3",
+  "jp": "ＣＯＭ１４[close]",
+  "en": "COM14[close]"
+ },
+ {
+  "id": "person.17",
+  "slot": "61498",
+  "addr": "613E9",
+  "jp": "ＣＯＭ１５[close]",
+  "en": "COM15[close]"
+ },
+ {
+  "id": "person.18",
+  "slot": "6149C",
+  "addr": "613EF",
+  "jp": "ＣＯＭ１６[close]",
+  "en": "COM16[close]"
+ },
+ {
+  "id": "person.19",
+  "slot": "614A0",
+  "addr": "613F5",
+  "jp": "ＣＯＭ０９[close]",
+  "en": "COM09[close]"
+ },
+ {
+  "id": "person.1A",
+  "slot": "614A4",
+  "addr": "613FB",
+  "jp": "ＣＯＭ１０[close]",
+  "en": "COM10[close]"
+ },
+ {
+  "id": "person.1B",
+  "slot": "614A8",
+  "addr": "61401",
+  "jp": "ＣＯＭ１１[close]",
+  "en": "COM11[close]"
+ },
+ {
+  "id": "person.1C",
+  "slot": "614AC",
+  "addr": "61407",
+  "jp": "ＣＯＭ１２[close]",
+  "en": "COM12[close]"
+ },
+ {
+  "id": "person.1D",
+  "slot": "614B0",
+  "addr": "6140D",
+  "jp": "ＣＯＭ１３[close]",
+  "en": "COM13[close]"
+ },
+ {
+  "id": "person.1E",
+  "slot": "614B4",
+  "addr": "61413",
+  "jp": "ＣＯＭ１４[close]",
+  "en": "COM14[close]"
+ },
+ {
+  "id": "person.1F",
+  "slot": "614B8",
+  "addr": "61419",
+  "jp": "ＣＯＭ１５[close]",
+  "en": "COM15[close]"
+ },
+ {
+  "id": "person.20",
+  "slot": "614BC",
+  "addr": "6141F",
+  "jp": "ＣＯＭ１６[close]",
+  "en": "COM16[close]"
+ },
+ {
+  "id": "person.21",
+  "slot": "614C0",
+  "addr": "61425",
+  "jp": "ザービ[close]",
+  "en": ""
+ },
+ {
+  "id": "person.22",
+  "slot": "614C4",
+  "addr": "6142A",
+  "jp": "ゲオーラ[close]",
+  "en": ""
+ },
+ {
+  "id": "person.23",
+  "slot": "614C8",
+  "addr": "61430",
+  "jp": "ミルケーネ[close]",
+  "en": ""
+ },
+ {
+  "id": "person.24",
+  "slot": "614CC",
+  "addr": "61437",
+  "jp": "カビラ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.00",
+  "slot": "70248",
+  "addr": "7010C",
+  "jp": "エルブコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.01",
+  "slot": "7024C",
+  "addr": "70115",
+  "jp": "ガルサコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.02",
+  "slot": "70250",
+  "addr": "7011E",
+  "jp": "フォラコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.03",
+  "slot": "70254",
+  "addr": "70127",
+  "jp": "サークコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.04",
+  "slot": "70258",
+  "addr": "70131",
+  "jp": "カイトコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.05",
+  "slot": "7025C",
+  "addr": "7013A",
+  "jp": "ゴルガコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.06",
+  "slot": "70260",
+  "addr": "70143",
+  "jp": "チラサコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.07",
+  "slot": "70264",
+  "addr": "7014C",
+  "jp": "ボーガコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.08",
+  "slot": "70268",
+  "addr": "70156",
+  "jp": "ジールコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.09",
+  "slot": "7026C",
+  "addr": "70160",
+  "jp": "ヴァスコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.0A",
+  "slot": "70270",
+  "addr": "70169",
+  "jp": "メイカコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.0B",
+  "slot": "70274",
+  "addr": "70172",
+  "jp": "シータコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.0C",
+  "slot": "70278",
+  "addr": "7017C",
+  "jp": "トラーコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.0D",
+  "slot": "7027C",
+  "addr": "70186",
+  "jp": "ダンサコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.0E",
+  "slot": "70280",
+  "addr": "7018F",
+  "jp": "ネイガコアヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.0F",
+  "slot": "70284",
+  "addr": "70198",
+  "jp": "エルブパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.10",
+  "slot": "70288",
+  "addr": "701A1",
+  "jp": "ガルサパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.11",
+  "slot": "7028C",
+  "addr": "701AA",
+  "jp": "フォラパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.12",
+  "slot": "70290",
+  "addr": "701B3",
+  "jp": "サークパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.13",
+  "slot": "70294",
+  "addr": "701BD",
+  "jp": "カイトパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.14",
+  "slot": "70298",
+  "addr": "701C6",
+  "jp": "ゴルガパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.15",
+  "slot": "7029C",
+  "addr": "701CF",
+  "jp": "チラサパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.16",
+  "slot": "702A0",
+  "addr": "701D8",
+  "jp": "ボーガパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.17",
+  "slot": "702A4",
+  "addr": "701E2",
+  "jp": "ジールパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.18",
+  "slot": "702A8",
+  "addr": "701EC",
+  "jp": "ヴァスパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.19",
+  "slot": "702AC",
+  "addr": "701F5",
+  "jp": "メイカパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.1A",
+  "slot": "702B0",
+  "addr": "701FE",
+  "jp": "シータパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.1B",
+  "slot": "702B4",
+  "addr": "70208",
+  "jp": "トラーパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.1C",
+  "slot": "702B8",
+  "addr": "70212",
+  "jp": "ダンサパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.1D",
+  "slot": "702BC",
+  "addr": "7021B",
+  "jp": "ネイガパウヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.1E",
+  "slot": "702C0",
+  "addr": "70224",
+  "jp": "エルブメタヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.1F",
+  "slot": "702C4",
+  "addr": "7022D",
+  "jp": "サークメタヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_head.20",
+  "slot": "702C8",
+  "addr": "70237",
+  "jp": "−−−−−−−−[close]",
+  "en": "--------[close]"
+ },
+ {
+  "id": "part_body.00",
+  "slot": "707B8",
+  "addr": "702CC",
+  "jp": "エルブコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.01",
+  "slot": "707BC",
+  "addr": "702D5",
+  "jp": "ガルサコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.02",
+  "slot": "707C0",
+  "addr": "702DE",
+  "jp": "フォラコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.03",
+  "slot": "707C4",
+  "addr": "702E7",
+  "jp": "サークコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.04",
+  "slot": "707C8",
+  "addr": "702F1",
+  "jp": "カイトコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.05",
+  "slot": "707CC",
+  "addr": "702FA",
+  "jp": "ゴルガコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.06",
+  "slot": "707D0",
+  "addr": "70303",
+  "jp": "チラサコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.07",
+  "slot": "707D4",
+  "addr": "7030C",
+  "jp": "ボーガコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.08",
+  "slot": "707D8",
+  "addr": "70316",
+  "jp": "ジールコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.09",
+  "slot": "707DC",
+  "addr": "70320",
+  "jp": "ヴァスコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.0A",
+  "slot": "707E0",
+  "addr": "70329",
+  "jp": "メイカコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.0B",
+  "slot": "707E4",
+  "addr": "70332",
+  "jp": "シータコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.0C",
+  "slot": "707E8",
+  "addr": "7033C",
+  "jp": "トラーコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.0D",
+  "slot": "707EC",
+  "addr": "70346",
+  "jp": "ダンサコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.0E",
+  "slot": "707F0",
+  "addr": "7034F",
+  "jp": "ネイガコアボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.0F",
+  "slot": "707F4",
+  "addr": "70358",
+  "jp": "エルブパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.10",
+  "slot": "707F8",
+  "addr": "70361",
+  "jp": "ガルサパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.11",
+  "slot": "707FC",
+  "addr": "7036A",
+  "jp": "フォラパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.12",
+  "slot": "70800",
+  "addr": "70373",
+  "jp": "サークパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.13",
+  "slot": "70804",
+  "addr": "7037D",
+  "jp": "カイトパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.14",
+  "slot": "70808",
+  "addr": "70386",
+  "jp": "ゴルガパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.15",
+  "slot": "7080C",
+  "addr": "7038F",
+  "jp": "チラサパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.16",
+  "slot": "70810",
+  "addr": "70398",
+  "jp": "ボーガパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.17",
+  "slot": "70814",
+  "addr": "703A2",
+  "jp": "ジールパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.18",
+  "slot": "70818",
+  "addr": "703AC",
+  "jp": "ヴァスパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.19",
+  "slot": "7081C",
+  "addr": "703B5",
+  "jp": "メイカパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.1A",
+  "slot": "70820",
+  "addr": "703BE",
+  "jp": "シータパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.1B",
+  "slot": "70824",
+  "addr": "703C8",
+  "jp": "トラーパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.1C",
+  "slot": "70828",
+  "addr": "703D2",
+  "jp": "ダンサパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.1D",
+  "slot": "7082C",
+  "addr": "703DB",
+  "jp": "ネイガパウボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.1E",
+  "slot": "70830",
+  "addr": "703E4",
+  "jp": "アフアイックＦ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.1F",
+  "slot": "70834",
+  "addr": "703ED",
+  "jp": "アンフェダルトＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.20",
+  "slot": "70838",
+  "addr": "703F6",
+  "jp": "ヴァルハダークＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.21",
+  "slot": "7083C",
+  "addr": "70400",
+  "jp": "ガンストールＦ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.22",
+  "slot": "70840",
+  "addr": "7040A",
+  "jp": "ギャルソネルドＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.23",
+  "slot": "70844",
+  "addr": "70413",
+  "jp": "コルデボルゾＦ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.24",
+  "slot": "70848",
+  "addr": "7041C",
+  "jp": "ザルガントＦ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.25",
+  "slot": "7084C",
+  "addr": "70425",
+  "jp": "ゼーファゴールＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.26",
+  "slot": "70850",
+  "addr": "70430",
+  "jp": "タルデルタＦ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.27",
+  "slot": "70854",
+  "addr": "70439",
+  "jp": "デリルファインＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.28",
+  "slot": "70858",
+  "addr": "70442",
+  "jp": "ドルガミストＦ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.29",
+  "slot": "7085C",
+  "addr": "7044B",
+  "jp": "ヌーベルホイトＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.2A",
+  "slot": "70860",
+  "addr": "70455",
+  "jp": "ネルガトーレＦ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.2B",
+  "slot": "70864",
+  "addr": "7045F",
+  "jp": "バルバゾールＦ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.2C",
+  "slot": "70868",
+  "addr": "70469",
+  "jp": "ファルザイークＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.2D",
+  "slot": "7086C",
+  "addr": "70473",
+  "jp": "フントゴルーゾＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.2E",
+  "slot": "70870",
+  "addr": "7047D",
+  "jp": "ムファマートＦ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.2F",
+  "slot": "70874",
+  "addr": "70487",
+  "jp": "モルゲンコートＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.30",
+  "slot": "70878",
+  "addr": "70491",
+  "jp": "クウォーフェンＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.31",
+  "slot": "7087C",
+  "addr": "7049B",
+  "jp": "レイテルザウトＦ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.32",
+  "slot": "70880",
+  "addr": "704A4",
+  "jp": "アフアイックＷ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.33",
+  "slot": "70884",
+  "addr": "704AD",
+  "jp": "アンフェダルトＷ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.34",
+  "slot": "70888",
+  "addr": "704B6",
+  "jp": "ヴァルハダークＷ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.35",
+  "slot": "7088C",
+  "addr": "704C0",
+  "jp": "ガンストールＷ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.36",
+  "slot": "70890",
+  "addr": "704CA",
+  "jp": "ギャルソネルドＷ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.37",
+  "slot": "70894",
+  "addr": "704D3",
+  "jp": "コルデボルゾＷ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.38",
+  "slot": "70898",
+  "addr": "704DC",
+  "jp": "ザルガントＷ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.39",
+  "slot": "7089C",
+  "addr": "704E5",
+  "jp": "ゼーファゴールＷ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.3A",
+  "slot": "708A0",
+  "addr": "704F0",
+  "jp": "タルデルタＷ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.3B",
+  "slot": "708A4",
+  "addr": "704F9",
+  "jp": "デリルファインＷ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.3C",
+  "slot": "708A8",
+  "addr": "70502",
+  "jp": "ドルガミストＷ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.3D",
+  "slot": "708AC",
+  "addr": "7050B",
+  "jp": "ヌーベルホイトＷ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.3E",
+  "slot": "708B0",
+  "addr": "70515",
+  "jp": "ネルガトーレＷ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.3F",
+  "slot": "708B4",
+  "addr": "7051F",
+  "jp": "バルバゾールＷ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.40",
+  "slot": "708B8",
+  "addr": "70529",
+  "jp": "ファルザイークＷ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.41",
+  "slot": "708BC",
+  "addr": "70533",
+  "jp": "フントゴルーＷ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.42",
+  "slot": "708C0",
+  "addr": "7053D",
+  "jp": "ムファマートＷ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.43",
+  "slot": "708C4",
+  "addr": "70547",
+  "jp": "モルゲンコートＷ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.44",
+  "slot": "708C8",
+  "addr": "70551",
+  "jp": "クウォーフェンＷ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.45",
+  "slot": "708CC",
+  "addr": "7055B",
+  "jp": "レイテルザウトＷ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.46",
+  "slot": "708D0",
+  "addr": "70564",
+  "jp": "アフアイックＴ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.47",
+  "slot": "708D4",
+  "addr": "7056D",
+  "jp": "アンフェダルトＴ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.48",
+  "slot": "708D8",
+  "addr": "70576",
+  "jp": "ヴァルハダークＴ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.49",
+  "slot": "708DC",
+  "addr": "70580",
+  "jp": "ガンストールＴ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.4A",
+  "slot": "708E0",
+  "addr": "7058A",
+  "jp": "ギャルソネルドＴ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.4B",
+  "slot": "708E4",
+  "addr": "70593",
+  "jp": "コルデボルゾＴ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.4C",
+  "slot": "708E8",
+  "addr": "7059C",
+  "jp": "ザルガントＴ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.4D",
+  "slot": "708EC",
+  "addr": "705A5",
+  "jp": "ゼーファゴールＴ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.4E",
+  "slot": "708F0",
+  "addr": "705B0",
+  "jp": "タルデルタＴ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.4F",
+  "slot": "708F4",
+  "addr": "705B9",
+  "jp": "デリルファインＴ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.50",
+  "slot": "708F8",
+  "addr": "705C2",
+  "jp": "ドルガミストＴ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.51",
+  "slot": "708FC",
+  "addr": "705CB",
+  "jp": "ヌーベルホイトＴ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.52",
+  "slot": "70900",
+  "addr": "705D5",
+  "jp": "ネルガトーレＴ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.53",
+  "slot": "70904",
+  "addr": "705DF",
+  "jp": "バルバゾールＴ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.54",
+  "slot": "70908",
+  "addr": "705E9",
+  "jp": "ファルザイークＴ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.55",
+  "slot": "7090C",
+  "addr": "705F3",
+  "jp": "フントゴルーＴ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.56",
+  "slot": "70910",
+  "addr": "705FD",
+  "jp": "ムファマートＴ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.57",
+  "slot": "70914",
+  "addr": "70607",
+  "jp": "モルゲンコートＴ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.58",
+  "slot": "70918",
+  "addr": "70611",
+  "jp": "クウォーフェンＴ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.59",
+  "slot": "7091C",
+  "addr": "7061B",
+  "jp": "レイテルザウトＴ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.5A",
+  "slot": "70920",
+  "addr": "70624",
+  "jp": "アフアイックＥ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.5B",
+  "slot": "70924",
+  "addr": "7062D",
+  "jp": "アンフェダルトＥ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.5C",
+  "slot": "70928",
+  "addr": "70636",
+  "jp": "ヴァルハダークＥ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.5D",
+  "slot": "7092C",
+  "addr": "70640",
+  "jp": "ガンストールＥ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.5E",
+  "slot": "70930",
+  "addr": "7064A",
+  "jp": "ギャルソネルドＥ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.5F",
+  "slot": "70934",
+  "addr": "70653",
+  "jp": "コルデボルゾＥ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.60",
+  "slot": "70938",
+  "addr": "7065C",
+  "jp": "ザルガントＥ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.61",
+  "slot": "7093C",
+  "addr": "70665",
+  "jp": "ゼーファゴールＥ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.62",
+  "slot": "70940",
+  "addr": "70670",
+  "jp": "タルデルタＥ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.63",
+  "slot": "70944",
+  "addr": "70679",
+  "jp": "デリルファインＥ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.64",
+  "slot": "70948",
+  "addr": "70682",
+  "jp": "ドルガミストＥ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.65",
+  "slot": "7094C",
+  "addr": "7068B",
+  "jp": "ヌーベルホイトＥ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.66",
+  "slot": "70950",
+  "addr": "70695",
+  "jp": "ネルガトーレＥ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.67",
+  "slot": "70954",
+  "addr": "7069F",
+  "jp": "バルバゾールＥ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.68",
+  "slot": "70958",
+  "addr": "706A9",
+  "jp": "ファルザイークＥ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.69",
+  "slot": "7095C",
+  "addr": "706B3",
+  "jp": "フントゴルーＥ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.6A",
+  "slot": "70960",
+  "addr": "706BD",
+  "jp": "ムファマートＥ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.6B",
+  "slot": "70964",
+  "addr": "706C7",
+  "jp": "モルゲンコートＥ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.6C",
+  "slot": "70968",
+  "addr": "706D1",
+  "jp": "クウォーフェンＥ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.6D",
+  "slot": "7096C",
+  "addr": "706DB",
+  "jp": "レイテルザウトＥ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.6E",
+  "slot": "70970",
+  "addr": "706E4",
+  "jp": "アフアイックＳ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.6F",
+  "slot": "70974",
+  "addr": "706ED",
+  "jp": "アンフェダルトＳ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.70",
+  "slot": "70978",
+  "addr": "706F6",
+  "jp": "ヴァルハダークＳ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.71",
+  "slot": "7097C",
+  "addr": "70700",
+  "jp": "ガンストールＳ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.72",
+  "slot": "70980",
+  "addr": "7070A",
+  "jp": "ギャルソネルドＳ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.73",
+  "slot": "70984",
+  "addr": "70713",
+  "jp": "コルデボルゾＳ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.74",
+  "slot": "70988",
+  "addr": "7071C",
+  "jp": "ザルガントＳ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.75",
+  "slot": "7098C",
+  "addr": "70725",
+  "jp": "ゼーファゴールＳ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.76",
+  "slot": "70990",
+  "addr": "70730",
+  "jp": "タルデルタＳ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.77",
+  "slot": "70994",
+  "addr": "70739",
+  "jp": "デリルファインＳ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.78",
+  "slot": "70998",
+  "addr": "70742",
+  "jp": "ドルガミストＳ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.79",
+  "slot": "7099C",
+  "addr": "7074B",
+  "jp": "ヌーベルホイトＳ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.7A",
+  "slot": "709A0",
+  "addr": "70755",
+  "jp": "ネルガトーレＳ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.7B",
+  "slot": "709A4",
+  "addr": "7075F",
+  "jp": "バルバゾールＳ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.7C",
+  "slot": "709A8",
+  "addr": "70769",
+  "jp": "ファルザイークＳ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.7D",
+  "slot": "709AC",
+  "addr": "70773",
+  "jp": "フントゴルーＳ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.7E",
+  "slot": "709B0",
+  "addr": "7077D",
+  "jp": "ムファマートＳ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.7F",
+  "slot": "709B4",
+  "addr": "70787",
+  "jp": "モルゲンコートＳ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.80",
+  "slot": "709B8",
+  "addr": "70791",
+  "jp": "クウォーフェンＳ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.81",
+  "slot": "709BC",
+  "addr": "7079B",
+  "jp": "レイテルザウトＳ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.82",
+  "slot": "709C0",
+  "addr": "707A4",
+  "jp": "エルブメタボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_body.83",
+  "slot": "709C4",
+  "addr": "707AD",
+  "jp": "サークメタボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.00",
+  "slot": "70B84",
+  "addr": "709C8",
+  "jp": "エルブコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.01",
+  "slot": "70B88",
+  "addr": "709D1",
+  "jp": "ガルサコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.02",
+  "slot": "70B8C",
+  "addr": "709DA",
+  "jp": "フォラコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.03",
+  "slot": "70B90",
+  "addr": "709E3",
+  "jp": "サークコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.04",
+  "slot": "70B94",
+  "addr": "709ED",
+  "jp": "カイトコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.05",
+  "slot": "70B98",
+  "addr": "709F6",
+  "jp": "ゴルガコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.06",
+  "slot": "70B9C",
+  "addr": "709FF",
+  "jp": "チラサコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.07",
+  "slot": "70BA0",
+  "addr": "70A08",
+  "jp": "ボーガコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.08",
+  "slot": "70BA4",
+  "addr": "70A12",
+  "jp": "ジールコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.09",
+  "slot": "70BA8",
+  "addr": "70A1C",
+  "jp": "ヴァスコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.0A",
+  "slot": "70BAC",
+  "addr": "70A25",
+  "jp": "メイカコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.0B",
+  "slot": "70BB0",
+  "addr": "70A2E",
+  "jp": "シータコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.0C",
+  "slot": "70BB4",
+  "addr": "70A38",
+  "jp": "トラーコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.0D",
+  "slot": "70BB8",
+  "addr": "70A42",
+  "jp": "ダンサコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.0E",
+  "slot": "70BBC",
+  "addr": "70A4B",
+  "jp": "ネイガコアライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.0F",
+  "slot": "70BC0",
+  "addr": "70A54",
+  "jp": "エルブパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.10",
+  "slot": "70BC4",
+  "addr": "70A5D",
+  "jp": "ガルサパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.11",
+  "slot": "70BC8",
+  "addr": "70A66",
+  "jp": "フォラパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.12",
+  "slot": "70BCC",
+  "addr": "70A6F",
+  "jp": "サークパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.13",
+  "slot": "70BD0",
+  "addr": "70A79",
+  "jp": "カイトパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.14",
+  "slot": "70BD4",
+  "addr": "70A82",
+  "jp": "ゴルガパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.15",
+  "slot": "70BD8",
+  "addr": "70A8B",
+  "jp": "チラサパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.16",
+  "slot": "70BDC",
+  "addr": "70A94",
+  "jp": "ボーガパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.17",
+  "slot": "70BE0",
+  "addr": "70A9E",
+  "jp": "ジールパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.18",
+  "slot": "70BE4",
+  "addr": "70AA8",
+  "jp": "ヴァスパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.19",
+  "slot": "70BE8",
+  "addr": "70AB1",
+  "jp": "メイカパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.1A",
+  "slot": "70BEC",
+  "addr": "70ABA",
+  "jp": "シータパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.1B",
+  "slot": "70BF0",
+  "addr": "70AC4",
+  "jp": "トラーパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.1C",
+  "slot": "70BF4",
+  "addr": "70ACE",
+  "jp": "ダンサパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.1D",
+  "slot": "70BF8",
+  "addr": "70AD7",
+  "jp": "ネイガパウライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.1E",
+  "slot": "70BFC",
+  "addr": "70AE0",
+  "jp": "デュオペディス　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.1F",
+  "slot": "70C00",
+  "addr": "70AE9",
+  "jp": "デュオガンテス　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.20",
+  "slot": "70C04",
+  "addr": "70AF2",
+  "jp": "デュオファリーナ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.21",
+  "slot": "70C08",
+  "addr": "70AFC",
+  "jp": "デュオカルーダ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.22",
+  "slot": "70C0C",
+  "addr": "70B06",
+  "jp": "デュオエアローネ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.23",
+  "slot": "70C10",
+  "addr": "70B10",
+  "jp": "クァンペディス　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.24",
+  "slot": "70C14",
+  "addr": "70B19",
+  "jp": "クァトリネス　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.25",
+  "slot": "70C18",
+  "addr": "70B22",
+  "jp": "クァトロータス　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.26",
+  "slot": "70C1C",
+  "addr": "70B2C",
+  "jp": "セクロータグス　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.27",
+  "slot": "70C20",
+  "addr": "70B36",
+  "jp": "ピスキスガーデ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.28",
+  "slot": "70C24",
+  "addr": "70B40",
+  "jp": "ピスキスエアロネ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.29",
+  "slot": "70C28",
+  "addr": "70B49",
+  "jp": "カエルムトレス　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.2A",
+  "slot": "70C2C",
+  "addr": "70B52",
+  "jp": "ホバーカイザル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.2B",
+  "slot": "70C30",
+  "addr": "70B5C",
+  "jp": "コンボタンク　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.2C",
+  "slot": "70C34",
+  "addr": "70B65",
+  "jp": "ブルパンツァー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.2D",
+  "slot": "70C38",
+  "addr": "70B6F",
+  "jp": "エルブメタライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_ride.2E",
+  "slot": "70C3C",
+  "addr": "70B78",
+  "jp": "サークメタライド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.00",
+  "slot": "711E4",
+  "addr": "70C40",
+  "jp": "エルブコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.01",
+  "slot": "711E8",
+  "addr": "70C49",
+  "jp": "ガルサコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.02",
+  "slot": "711EC",
+  "addr": "70C52",
+  "jp": "フォラコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.03",
+  "slot": "711F0",
+  "addr": "70C5B",
+  "jp": "サークコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.04",
+  "slot": "711F4",
+  "addr": "70C65",
+  "jp": "カイトコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.05",
+  "slot": "711F8",
+  "addr": "70C6E",
+  "jp": "ゴルガコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.06",
+  "slot": "711FC",
+  "addr": "70C77",
+  "jp": "チラサコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.07",
+  "slot": "71200",
+  "addr": "70C80",
+  "jp": "ボーガコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.08",
+  "slot": "71204",
+  "addr": "70C8A",
+  "jp": "ジールコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.09",
+  "slot": "71208",
+  "addr": "70C94",
+  "jp": "ヴァスコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.0A",
+  "slot": "7120C",
+  "addr": "70C9D",
+  "jp": "メイカコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.0B",
+  "slot": "71210",
+  "addr": "70CA6",
+  "jp": "シータコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.0C",
+  "slot": "71214",
+  "addr": "70CB0",
+  "jp": "トラーコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.0D",
+  "slot": "71218",
+  "addr": "70CBA",
+  "jp": "ダンサコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.0E",
+  "slot": "7121C",
+  "addr": "70CC3",
+  "jp": "ネイガコアコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.0F",
+  "slot": "71220",
+  "addr": "70CCC",
+  "jp": "エルブパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.10",
+  "slot": "71224",
+  "addr": "70CD5",
+  "jp": "ガルサパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.11",
+  "slot": "71228",
+  "addr": "70CDE",
+  "jp": "フォラパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.12",
+  "slot": "7122C",
+  "addr": "70CE7",
+  "jp": "サークパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.13",
+  "slot": "71230",
+  "addr": "70CF1",
+  "jp": "カイトパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.14",
+  "slot": "71234",
+  "addr": "70CFA",
+  "jp": "ゴルガパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.15",
+  "slot": "71238",
+  "addr": "70D03",
+  "jp": "チラサパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.16",
+  "slot": "7123C",
+  "addr": "70D0C",
+  "jp": "ボーガパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.17",
+  "slot": "71240",
+  "addr": "70D16",
+  "jp": "ジールパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.18",
+  "slot": "71244",
+  "addr": "70D20",
+  "jp": "ヴァスパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.19",
+  "slot": "71248",
+  "addr": "70D29",
+  "jp": "メイカパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.1A",
+  "slot": "7124C",
+  "addr": "70D32",
+  "jp": "シータパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.1B",
+  "slot": "71250",
+  "addr": "70D3C",
+  "jp": "トラーパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.1C",
+  "slot": "71254",
+  "addr": "70D46",
+  "jp": "ダンサパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.1D",
+  "slot": "71258",
+  "addr": "70D4F",
+  "jp": "ネイガパウコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.1E",
+  "slot": "7125C",
+  "addr": "70D58",
+  "jp": "ヒートピストル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.1F",
+  "slot": "71260",
+  "addr": "70D62",
+  "jp": "ヒートソフトガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.20",
+  "slot": "71264",
+  "addr": "70D6C",
+  "jp": "ヒートマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.21",
+  "slot": "71268",
+  "addr": "70D76",
+  "jp": "ヒートライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.22",
+  "slot": "7126C",
+  "addr": "70D80",
+  "jp": "ヒートアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.23",
+  "slot": "71270",
+  "addr": "70D8A",
+  "jp": "ヒートバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.24",
+  "slot": "71274",
+  "addr": "70D94",
+  "jp": "ヒートガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.25",
+  "slot": "71278",
+  "addr": "70D9E",
+  "jp": "ヒートチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.26",
+  "slot": "7127C",
+  "addr": "70DA8",
+  "jp": "ヒートパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.27",
+  "slot": "71280",
+  "addr": "70DB2",
+  "jp": "フレムフィンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.28",
+  "slot": "71284",
+  "addr": "70DBB",
+  "jp": "フレムマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.29",
+  "slot": "71288",
+  "addr": "70DC4",
+  "jp": "フレムライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.2A",
+  "slot": "7128C",
+  "addr": "70DCD",
+  "jp": "フレムアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.2B",
+  "slot": "71290",
+  "addr": "70DD6",
+  "jp": "フレムバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.2C",
+  "slot": "71294",
+  "addr": "70DDF",
+  "jp": "フレムガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.2D",
+  "slot": "71298",
+  "addr": "70DE8",
+  "jp": "フレムチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.2E",
+  "slot": "7129C",
+  "addr": "70DF1",
+  "jp": "フレムパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.2F",
+  "slot": "712A0",
+  "addr": "70DFA",
+  "jp": "ナパムフィンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.30",
+  "slot": "712A4",
+  "addr": "70E03",
+  "jp": "ナパムマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.31",
+  "slot": "712A8",
+  "addr": "70E0C",
+  "jp": "ナパムライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.32",
+  "slot": "712AC",
+  "addr": "70E15",
+  "jp": "ナパムアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.33",
+  "slot": "712B0",
+  "addr": "70E1E",
+  "jp": "ナパムバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.34",
+  "slot": "712B4",
+  "addr": "70E27",
+  "jp": "ナパムガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.35",
+  "slot": "712B8",
+  "addr": "70E30",
+  "jp": "ナパムチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.36",
+  "slot": "712BC",
+  "addr": "70E39",
+  "jp": "ナパムパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.37",
+  "slot": "712C0",
+  "addr": "70E42",
+  "jp": "ミストピストル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.38",
+  "slot": "712C4",
+  "addr": "70E4B",
+  "jp": "ミストソフトガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.39",
+  "slot": "712C8",
+  "addr": "70E54",
+  "jp": "ミストマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.3A",
+  "slot": "712CC",
+  "addr": "70E5D",
+  "jp": "ミストライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.3B",
+  "slot": "712D0",
+  "addr": "70E66",
+  "jp": "ミストアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.3C",
+  "slot": "712D4",
+  "addr": "70E6F",
+  "jp": "ミストバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.3D",
+  "slot": "712D8",
+  "addr": "70E78",
+  "jp": "ミストガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.3E",
+  "slot": "712DC",
+  "addr": "70E81",
+  "jp": "ミストチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.3F",
+  "slot": "712E0",
+  "addr": "70E8A",
+  "jp": "ミストパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.40",
+  "slot": "712E4",
+  "addr": "70E93",
+  "jp": "アクアフィンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.41",
+  "slot": "712E8",
+  "addr": "70E9C",
+  "jp": "アクアマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.42",
+  "slot": "712EC",
+  "addr": "70EA5",
+  "jp": "アクアライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.43",
+  "slot": "712F0",
+  "addr": "70EAE",
+  "jp": "アクアアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.44",
+  "slot": "712F4",
+  "addr": "70EB7",
+  "jp": "アクアバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.45",
+  "slot": "712F8",
+  "addr": "70EC0",
+  "jp": "アクアガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.46",
+  "slot": "712FC",
+  "addr": "70EC9",
+  "jp": "アクアチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.47",
+  "slot": "71300",
+  "addr": "70ED2",
+  "jp": "アクアパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.48",
+  "slot": "71304",
+  "addr": "70EDB",
+  "jp": "マリンフィンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.49",
+  "slot": "71308",
+  "addr": "70EE4",
+  "jp": "マリンマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.4A",
+  "slot": "7130C",
+  "addr": "70EED",
+  "jp": "マリンライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.4B",
+  "slot": "71310",
+  "addr": "70EF6",
+  "jp": "マリンアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.4C",
+  "slot": "71314",
+  "addr": "70EFF",
+  "jp": "マリンバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.4D",
+  "slot": "71318",
+  "addr": "70F08",
+  "jp": "マリンガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.4E",
+  "slot": "7131C",
+  "addr": "70F11",
+  "jp": "マリンチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.4F",
+  "slot": "71320",
+  "addr": "70F1A",
+  "jp": "マリンパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.50",
+  "slot": "71324",
+  "addr": "70F23",
+  "jp": "エレクピストル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.51",
+  "slot": "71328",
+  "addr": "70F2C",
+  "jp": "エレクソフトガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.52",
+  "slot": "7132C",
+  "addr": "70F35",
+  "jp": "エレクマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.53",
+  "slot": "71330",
+  "addr": "70F3E",
+  "jp": "エレクライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.54",
+  "slot": "71334",
+  "addr": "70F47",
+  "jp": "エレクアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.55",
+  "slot": "71338",
+  "addr": "70F50",
+  "jp": "エレクバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.56",
+  "slot": "7133C",
+  "addr": "70F59",
+  "jp": "エレクガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.57",
+  "slot": "71340",
+  "addr": "70F62",
+  "jp": "エレクチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.58",
+  "slot": "71344",
+  "addr": "70F6B",
+  "jp": "エレクパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.59",
+  "slot": "71348",
+  "addr": "70F74",
+  "jp": "スパクフィンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.5A",
+  "slot": "7134C",
+  "addr": "70F7D",
+  "jp": "スパクマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.5B",
+  "slot": "71350",
+  "addr": "70F86",
+  "jp": "スパクライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.5C",
+  "slot": "71354",
+  "addr": "70F8F",
+  "jp": "スパクアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.5D",
+  "slot": "71358",
+  "addr": "70F98",
+  "jp": "スパクバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.5E",
+  "slot": "7135C",
+  "addr": "70FA1",
+  "jp": "スパクガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.5F",
+  "slot": "71360",
+  "addr": "70FAA",
+  "jp": "スパクチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.60",
+  "slot": "71364",
+  "addr": "70FB3",
+  "jp": "スパクパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.61",
+  "slot": "71368",
+  "addr": "70FBC",
+  "jp": "ブリツフィンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.62",
+  "slot": "7136C",
+  "addr": "70FC5",
+  "jp": "ブリツマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.63",
+  "slot": "71370",
+  "addr": "70FCE",
+  "jp": "ブリツライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.64",
+  "slot": "71374",
+  "addr": "70FD7",
+  "jp": "ブリツアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.65",
+  "slot": "71378",
+  "addr": "70FE0",
+  "jp": "ブリツバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.66",
+  "slot": "7137C",
+  "addr": "70FE9",
+  "jp": "ブリツガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.67",
+  "slot": "71380",
+  "addr": "70FF2",
+  "jp": "ブリツチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.68",
+  "slot": "71384",
+  "addr": "70FFB",
+  "jp": "ブリツパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.69",
+  "slot": "71388",
+  "addr": "71004",
+  "jp": "ぺブルピストル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.6A",
+  "slot": "7138C",
+  "addr": "7100D",
+  "jp": "ぺブルソフトガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.6B",
+  "slot": "71390",
+  "addr": "71016",
+  "jp": "ぺブルマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.6C",
+  "slot": "71394",
+  "addr": "7101F",
+  "jp": "ぺブルライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.6D",
+  "slot": "71398",
+  "addr": "71028",
+  "jp": "ぺブルアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.6E",
+  "slot": "7139C",
+  "addr": "71031",
+  "jp": "ぺブルバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.6F",
+  "slot": "713A0",
+  "addr": "7103A",
+  "jp": "ぺブルガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.70",
+  "slot": "713A4",
+  "addr": "71043",
+  "jp": "ぺブルチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.71",
+  "slot": "713A8",
+  "addr": "7104C",
+  "jp": "ぺブルパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.72",
+  "slot": "713AC",
+  "addr": "71055",
+  "jp": "テッラフィンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.73",
+  "slot": "713B0",
+  "addr": "7105E",
+  "jp": "テッラマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.74",
+  "slot": "713B4",
+  "addr": "71067",
+  "jp": "テッラライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.75",
+  "slot": "713B8",
+  "addr": "71070",
+  "jp": "テッラアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.76",
+  "slot": "713BC",
+  "addr": "71079",
+  "jp": "テッラバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.77",
+  "slot": "713C0",
+  "addr": "71082",
+  "jp": "テッラガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.78",
+  "slot": "713C4",
+  "addr": "7108B",
+  "jp": "テッラチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.79",
+  "slot": "713C8",
+  "addr": "71094",
+  "jp": "テッラパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.7A",
+  "slot": "713CC",
+  "addr": "7109D",
+  "jp": "ランドフィンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.7B",
+  "slot": "713D0",
+  "addr": "710A6",
+  "jp": "ランドマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.7C",
+  "slot": "713D4",
+  "addr": "710AF",
+  "jp": "ランドライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.7D",
+  "slot": "713D8",
+  "addr": "710B8",
+  "jp": "ランドアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.7E",
+  "slot": "713DC",
+  "addr": "710C1",
+  "jp": "ランドバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.7F",
+  "slot": "713E0",
+  "addr": "710CA",
+  "jp": "ランドガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.80",
+  "slot": "713E4",
+  "addr": "710D3",
+  "jp": "ランドチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.81",
+  "slot": "713E8",
+  "addr": "710DC",
+  "jp": "ランドパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.82",
+  "slot": "713EC",
+  "addr": "710E5",
+  "jp": "スペルピストル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.83",
+  "slot": "713F0",
+  "addr": "710EE",
+  "jp": "スペルソフトガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.84",
+  "slot": "713F4",
+  "addr": "710F7",
+  "jp": "スペルマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.85",
+  "slot": "713F8",
+  "addr": "71100",
+  "jp": "スペルライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.86",
+  "slot": "713FC",
+  "addr": "71109",
+  "jp": "スペルアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.87",
+  "slot": "71400",
+  "addr": "71112",
+  "jp": "スペルバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.88",
+  "slot": "71404",
+  "addr": "7111B",
+  "jp": "スペルガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.89",
+  "slot": "71408",
+  "addr": "71124",
+  "jp": "スペルチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.8A",
+  "slot": "7140C",
+  "addr": "7112D",
+  "jp": "スペルパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.8B",
+  "slot": "71410",
+  "addr": "71136",
+  "jp": "ロールフィンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.8C",
+  "slot": "71414",
+  "addr": "71140",
+  "jp": "ロールマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.8D",
+  "slot": "71418",
+  "addr": "7114A",
+  "jp": "ロールライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.8E",
+  "slot": "7141C",
+  "addr": "71154",
+  "jp": "ロールアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.8F",
+  "slot": "71420",
+  "addr": "7115E",
+  "jp": "ロールバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.90",
+  "slot": "71424",
+  "addr": "71168",
+  "jp": "ロールガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.91",
+  "slot": "71428",
+  "addr": "71172",
+  "jp": "ロールチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.92",
+  "slot": "7142C",
+  "addr": "7117C",
+  "jp": "ロールパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.93",
+  "slot": "71430",
+  "addr": "71186",
+  "jp": "シルズフィンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.94",
+  "slot": "71434",
+  "addr": "7118F",
+  "jp": "シルズマシンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.95",
+  "slot": "71438",
+  "addr": "71198",
+  "jp": "シルズライフル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.96",
+  "slot": "7143C",
+  "addr": "711A1",
+  "jp": "シルズアサルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.97",
+  "slot": "71440",
+  "addr": "711AA",
+  "jp": "シルズバルカン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.98",
+  "slot": "71444",
+  "addr": "711B3",
+  "jp": "シルズガトリング[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.99",
+  "slot": "71448",
+  "addr": "711BC",
+  "jp": "シルズチェンガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.9A",
+  "slot": "7144C",
+  "addr": "711C5",
+  "jp": "シルズパルスガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.9B",
+  "slot": "71450",
+  "addr": "711CE",
+  "jp": "エルブメタコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_corpo.9C",
+  "slot": "71454",
+  "addr": "711D7",
+  "jp": "サークメタコルポ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.00",
+  "slot": "71A54",
+  "addr": "71458",
+  "jp": "エルブコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.01",
+  "slot": "71A58",
+  "addr": "71461",
+  "jp": "ガルサコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.02",
+  "slot": "71A5C",
+  "addr": "7146A",
+  "jp": "フォラコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.03",
+  "slot": "71A60",
+  "addr": "71473",
+  "jp": "サークコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.04",
+  "slot": "71A64",
+  "addr": "7147D",
+  "jp": "カイトコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.05",
+  "slot": "71A68",
+  "addr": "71486",
+  "jp": "ゴルガコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.06",
+  "slot": "71A6C",
+  "addr": "7148F",
+  "jp": "チラサコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.07",
+  "slot": "71A70",
+  "addr": "71498",
+  "jp": "ボーガコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.08",
+  "slot": "71A74",
+  "addr": "714A2",
+  "jp": "ジールコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.09",
+  "slot": "71A78",
+  "addr": "714AC",
+  "jp": "ヴァスコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.0A",
+  "slot": "71A7C",
+  "addr": "714B5",
+  "jp": "メイカコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.0B",
+  "slot": "71A80",
+  "addr": "714BE",
+  "jp": "シータコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.0C",
+  "slot": "71A84",
+  "addr": "714C8",
+  "jp": "トラーコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.0D",
+  "slot": "71A88",
+  "addr": "714D2",
+  "jp": "ダンサコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.0E",
+  "slot": "71A8C",
+  "addr": "714DB",
+  "jp": "ネイガコアグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.0F",
+  "slot": "71A90",
+  "addr": "714E4",
+  "jp": "エルブパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.10",
+  "slot": "71A94",
+  "addr": "714ED",
+  "jp": "ガルサパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.11",
+  "slot": "71A98",
+  "addr": "714F6",
+  "jp": "フォラパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.12",
+  "slot": "71A9C",
+  "addr": "714FF",
+  "jp": "サークパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.13",
+  "slot": "71AA0",
+  "addr": "71509",
+  "jp": "カイトパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.14",
+  "slot": "71AA4",
+  "addr": "71512",
+  "jp": "ゴルガパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.15",
+  "slot": "71AA8",
+  "addr": "7151B",
+  "jp": "チラサパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.16",
+  "slot": "71AAC",
+  "addr": "71524",
+  "jp": "ボーガパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.17",
+  "slot": "71AB0",
+  "addr": "7152E",
+  "jp": "ジールパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.18",
+  "slot": "71AB4",
+  "addr": "71538",
+  "jp": "ヴァスパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.19",
+  "slot": "71AB8",
+  "addr": "71541",
+  "jp": "メイカパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.1A",
+  "slot": "71ABC",
+  "addr": "7154A",
+  "jp": "シータパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.1B",
+  "slot": "71AC0",
+  "addr": "71554",
+  "jp": "トラーパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.1C",
+  "slot": "71AC4",
+  "addr": "7155E",
+  "jp": "ダンサパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.1D",
+  "slot": "71AC8",
+  "addr": "71567",
+  "jp": "ネイガパウグロソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.1E",
+  "slot": "71ACC",
+  "addr": "71570",
+  "jp": "ファイクロー　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.1F",
+  "slot": "71AD0",
+  "addr": "7157A",
+  "jp": "ファイクラッシュ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.20",
+  "slot": "71AD4",
+  "addr": "71583",
+  "jp": "ファイナイフ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.21",
+  "slot": "71AD8",
+  "addr": "7158C",
+  "jp": "ファイクラブ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.22",
+  "slot": "71ADC",
+  "addr": "71595",
+  "jp": "ファイソード　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.23",
+  "slot": "71AE0",
+  "addr": "7159F",
+  "jp": "ファイハンマー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.24",
+  "slot": "71AE4",
+  "addr": "715A9",
+  "jp": "ファイドリル　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.25",
+  "slot": "71AE8",
+  "addr": "715B2",
+  "jp": "ファイシックル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.26",
+  "slot": "71AEC",
+  "addr": "715BB",
+  "jp": "ファイブレード　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.27",
+  "slot": "71AF0",
+  "addr": "715C5",
+  "jp": "ファイランサー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.28",
+  "slot": "71AF4",
+  "addr": "715CF",
+  "jp": "ファイジャベリン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.29",
+  "slot": "71AF8",
+  "addr": "715D8",
+  "jp": "ファイランチャー[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.2A",
+  "slot": "71AFC",
+  "addr": "715E2",
+  "jp": "ファイバズーカ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.2B",
+  "slot": "71B00",
+  "addr": "715EC",
+  "jp": "ファイミサイル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.2C",
+  "slot": "71B04",
+  "addr": "715F5",
+  "jp": "ファイキャノン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.2D",
+  "slot": "71B08",
+  "addr": "715FE",
+  "jp": "ファイレーザー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.2E",
+  "slot": "71B0C",
+  "addr": "71609",
+  "jp": "ファイニードル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.2F",
+  "slot": "71B10",
+  "addr": "71613",
+  "jp": "ファイレールガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.30",
+  "slot": "71B14",
+  "addr": "7161D",
+  "jp": "ファイバスター　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.31",
+  "slot": "71B18",
+  "addr": "71627",
+  "jp": "ファイレイシルド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.32",
+  "slot": "71B1C",
+  "addr": "71630",
+  "jp": "ファイショルダー[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.33",
+  "slot": "71B20",
+  "addr": "7163A",
+  "jp": "ヒートシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.34",
+  "slot": "71B24",
+  "addr": "71645",
+  "jp": "ファイシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.35",
+  "slot": "71B28",
+  "addr": "7164F",
+  "jp": "フレムシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.36",
+  "slot": "71B2C",
+  "addr": "71659",
+  "jp": "ナパムシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.37",
+  "slot": "71B30",
+  "addr": "71663",
+  "jp": "ウワラクロー　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.38",
+  "slot": "71B34",
+  "addr": "7166D",
+  "jp": "ウワラクラッシュ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.39",
+  "slot": "71B38",
+  "addr": "71676",
+  "jp": "ウワラナイフ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.3A",
+  "slot": "71B3C",
+  "addr": "7167F",
+  "jp": "ウワラクラブ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.3B",
+  "slot": "71B40",
+  "addr": "71688",
+  "jp": "ウワラソード　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.3C",
+  "slot": "71B44",
+  "addr": "71692",
+  "jp": "ウワラハンマー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.3D",
+  "slot": "71B48",
+  "addr": "7169C",
+  "jp": "ウワラドリル　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.3E",
+  "slot": "71B4C",
+  "addr": "716A5",
+  "jp": "ウワラシックル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.3F",
+  "slot": "71B50",
+  "addr": "716AE",
+  "jp": "ウワラブレード　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.40",
+  "slot": "71B54",
+  "addr": "716B8",
+  "jp": "ウワラランサー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.41",
+  "slot": "71B58",
+  "addr": "716C2",
+  "jp": "ウワラジャベリン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.42",
+  "slot": "71B5C",
+  "addr": "716CB",
+  "jp": "ウワラランチャー[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.43",
+  "slot": "71B60",
+  "addr": "716D5",
+  "jp": "ウワラバズーカ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.44",
+  "slot": "71B64",
+  "addr": "716DF",
+  "jp": "ウワラミサイル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.45",
+  "slot": "71B68",
+  "addr": "716E8",
+  "jp": "ウワラキャノン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.46",
+  "slot": "71B6C",
+  "addr": "716F1",
+  "jp": "ウワラレーザー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.47",
+  "slot": "71B70",
+  "addr": "716FC",
+  "jp": "ウワラニードル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.48",
+  "slot": "71B74",
+  "addr": "71706",
+  "jp": "ウワラレールガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.49",
+  "slot": "71B78",
+  "addr": "71710",
+  "jp": "ウワラバスター　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.4A",
+  "slot": "71B7C",
+  "addr": "7171A",
+  "jp": "ウワラレイシルド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.4B",
+  "slot": "71B80",
+  "addr": "71723",
+  "jp": "ウワラショルダー[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.4C",
+  "slot": "71B84",
+  "addr": "7172D",
+  "jp": "ミストシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.4D",
+  "slot": "71B88",
+  "addr": "71737",
+  "jp": "ウワラシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.4E",
+  "slot": "71B8C",
+  "addr": "71741",
+  "jp": "アクアシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.4F",
+  "slot": "71B90",
+  "addr": "7174B",
+  "jp": "マリンシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.50",
+  "slot": "71B94",
+  "addr": "71755",
+  "jp": "サンダクロー　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.51",
+  "slot": "71B98",
+  "addr": "7175F",
+  "jp": "サンダクラッシュ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.52",
+  "slot": "71B9C",
+  "addr": "71768",
+  "jp": "サンダナイフ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.53",
+  "slot": "71BA0",
+  "addr": "71771",
+  "jp": "サンダクラブ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.54",
+  "slot": "71BA4",
+  "addr": "7177A",
+  "jp": "サンダソード　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.55",
+  "slot": "71BA8",
+  "addr": "71784",
+  "jp": "サンダハンマー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.56",
+  "slot": "71BAC",
+  "addr": "7178E",
+  "jp": "サンダドリル　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.57",
+  "slot": "71BB0",
+  "addr": "71797",
+  "jp": "サンダシックル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.58",
+  "slot": "71BB4",
+  "addr": "717A0",
+  "jp": "サンダブレード　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.59",
+  "slot": "71BB8",
+  "addr": "717AA",
+  "jp": "サンダランサー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.5A",
+  "slot": "71BBC",
+  "addr": "717B4",
+  "jp": "サンダジャベリン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.5B",
+  "slot": "71BC0",
+  "addr": "717BD",
+  "jp": "サンダランチャー[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.5C",
+  "slot": "71BC4",
+  "addr": "717C7",
+  "jp": "サンダバズーカ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.5D",
+  "slot": "71BC8",
+  "addr": "717D1",
+  "jp": "サンダミサイル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.5E",
+  "slot": "71BCC",
+  "addr": "717DA",
+  "jp": "サンダキャノン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.5F",
+  "slot": "71BD0",
+  "addr": "717E3",
+  "jp": "サンダレーザー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.60",
+  "slot": "71BD4",
+  "addr": "717EE",
+  "jp": "サンダニードル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.61",
+  "slot": "71BD8",
+  "addr": "717F8",
+  "jp": "サンダレールガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.62",
+  "slot": "71BDC",
+  "addr": "71802",
+  "jp": "サンダバスター　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.63",
+  "slot": "71BE0",
+  "addr": "7180C",
+  "jp": "サンダレイシルド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.64",
+  "slot": "71BE4",
+  "addr": "71815",
+  "jp": "サンダショルダー[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.65",
+  "slot": "71BE8",
+  "addr": "7181F",
+  "jp": "エレクシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.66",
+  "slot": "71BEC",
+  "addr": "71829",
+  "jp": "サンダシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.67",
+  "slot": "71BF0",
+  "addr": "71833",
+  "jp": "スパクシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.68",
+  "slot": "71BF4",
+  "addr": "7183D",
+  "jp": "ブリツシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.69",
+  "slot": "71BF8",
+  "addr": "71847",
+  "jp": "アースクロー　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.6A",
+  "slot": "71BFC",
+  "addr": "71852",
+  "jp": "アースクラッシュ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.6B",
+  "slot": "71C00",
+  "addr": "7185C",
+  "jp": "アースナイフ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.6C",
+  "slot": "71C04",
+  "addr": "71866",
+  "jp": "アースクラブ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.6D",
+  "slot": "71C08",
+  "addr": "71870",
+  "jp": "アースソード　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.6E",
+  "slot": "71C0C",
+  "addr": "7187B",
+  "jp": "アースハンマー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.6F",
+  "slot": "71C10",
+  "addr": "71886",
+  "jp": "アースドリル　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.70",
+  "slot": "71C14",
+  "addr": "71890",
+  "jp": "アースシックル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.71",
+  "slot": "71C18",
+  "addr": "7189A",
+  "jp": "アースブレード　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.72",
+  "slot": "71C1C",
+  "addr": "718A5",
+  "jp": "アースランサー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.73",
+  "slot": "71C20",
+  "addr": "718B0",
+  "jp": "アースジャベリン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.74",
+  "slot": "71C24",
+  "addr": "718BA",
+  "jp": "アースランチャー[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.75",
+  "slot": "71C28",
+  "addr": "718C5",
+  "jp": "アースバズーカ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.76",
+  "slot": "71C2C",
+  "addr": "718D0",
+  "jp": "アースミサイル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.77",
+  "slot": "71C30",
+  "addr": "718DA",
+  "jp": "アースキャノン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.78",
+  "slot": "71C34",
+  "addr": "718E4",
+  "jp": "アースレーザー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.79",
+  "slot": "71C38",
+  "addr": "718F0",
+  "jp": "アースニードル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.7A",
+  "slot": "71C3C",
+  "addr": "718FB",
+  "jp": "アースレールガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.7B",
+  "slot": "71C40",
+  "addr": "71906",
+  "jp": "アースバスター　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.7C",
+  "slot": "71C44",
+  "addr": "71911",
+  "jp": "アースレイシルド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.7D",
+  "slot": "71C48",
+  "addr": "7191B",
+  "jp": "アースショルダー[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.7E",
+  "slot": "71C4C",
+  "addr": "71926",
+  "jp": "ペブルシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.7F",
+  "slot": "71C50",
+  "addr": "71930",
+  "jp": "アースシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.80",
+  "slot": "71C54",
+  "addr": "7193B",
+  "jp": "テッラシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.81",
+  "slot": "71C58",
+  "addr": "71945",
+  "jp": "ランドシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.82",
+  "slot": "71C5C",
+  "addr": "7194F",
+  "jp": "レバリクロー　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.83",
+  "slot": "71C60",
+  "addr": "71959",
+  "jp": "レバリクラッシュ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.84",
+  "slot": "71C64",
+  "addr": "71962",
+  "jp": "レバリナイフ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.85",
+  "slot": "71C68",
+  "addr": "7196B",
+  "jp": "レバリクラブ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.86",
+  "slot": "71C6C",
+  "addr": "71974",
+  "jp": "レバリソード　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.87",
+  "slot": "71C70",
+  "addr": "7197E",
+  "jp": "レバリハンマー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.88",
+  "slot": "71C74",
+  "addr": "71988",
+  "jp": "レバリドリル　　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.89",
+  "slot": "71C78",
+  "addr": "71991",
+  "jp": "レバリシックル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.8A",
+  "slot": "71C7C",
+  "addr": "7199A",
+  "jp": "レバリブレード　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.8B",
+  "slot": "71C80",
+  "addr": "719A4",
+  "jp": "レバリランサー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.8C",
+  "slot": "71C84",
+  "addr": "719AE",
+  "jp": "レバリジャベリン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.8D",
+  "slot": "71C88",
+  "addr": "719B7",
+  "jp": "レバリランチャー[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.8E",
+  "slot": "71C8C",
+  "addr": "719C1",
+  "jp": "レバリバズーカ　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.8F",
+  "slot": "71C90",
+  "addr": "719CB",
+  "jp": "レバリミサイル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.90",
+  "slot": "71C94",
+  "addr": "719D4",
+  "jp": "レバリキャノン　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.91",
+  "slot": "71C98",
+  "addr": "719DD",
+  "jp": "レバリレーザー　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.92",
+  "slot": "71C9C",
+  "addr": "719E8",
+  "jp": "レバリニードル　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.93",
+  "slot": "71CA0",
+  "addr": "719F2",
+  "jp": "レバリレールガン[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.94",
+  "slot": "71CA4",
+  "addr": "719FC",
+  "jp": "レバリバスター　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.95",
+  "slot": "71CA8",
+  "addr": "71A06",
+  "jp": "レバリレイシルド[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.96",
+  "slot": "71CAC",
+  "addr": "71A0F",
+  "jp": "レバリショルダー[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.97",
+  "slot": "71CB0",
+  "addr": "71A19",
+  "jp": "スペルシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.98",
+  "slot": "71CB4",
+  "addr": "71A23",
+  "jp": "レバリシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.99",
+  "slot": "71CB8",
+  "addr": "71A2D",
+  "jp": "ロールシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.9A",
+  "slot": "71CBC",
+  "addr": "71A38",
+  "jp": "シルズシールド　[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.9B",
+  "slot": "71CC0",
+  "addr": "71A42",
+  "jp": "エルメタグロッソ[close]",
+  "en": ""
+ },
+ {
+  "id": "part_grosso.9C",
+  "slot": "71CC4",
+  "addr": "71A4B",
+  "jp": "サクメタグロッソ[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.00",
+  "slot": "753B4",
+  "addr": "75320",
+  "jp": "エルフェーン　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.01",
+  "slot": "753B8",
+  "addr": "7532A",
+  "jp": "ガルザイン　　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.02",
+  "slot": "753BC",
+  "addr": "75333",
+  "jp": "フォルカス　　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.03",
+  "slot": "753C0",
+  "addr": "7533C",
+  "jp": "サーグレイン　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.04",
+  "slot": "753C4",
+  "addr": "75346",
+  "jp": "カイドーバ　　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.05",
+  "slot": "753C8",
+  "addr": "75350",
+  "jp": "ゴルカセイン　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.06",
+  "slot": "753CC",
+  "addr": "75359",
+  "jp": "チラザフェルト　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.07",
+  "slot": "753D0",
+  "addr": "75362",
+  "jp": "ボーカイザー　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.08",
+  "slot": "753D4",
+  "addr": "7536D",
+  "jp": "ジーライナズ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.09",
+  "slot": "753D8",
+  "addr": "75377",
+  "jp": "ヴァーズール　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.0A",
+  "slot": "753DC",
+  "addr": "75382",
+  "jp": "メイガーガン　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.0B",
+  "slot": "753E0",
+  "addr": "7538C",
+  "jp": "シーダルケ　　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.0C",
+  "slot": "753E4",
+  "addr": "75396",
+  "jp": "トランスマン　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.0D",
+  "slot": "753E8",
+  "addr": "7539F",
+  "jp": "ダルザンゴス　　[close]",
+  "en": ""
+ },
+ {
+  "id": "dino.0E",
+  "slot": "753EC",
+  "addr": "753A8",
+  "jp": "ネイカレーン　　[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.00",
+  "slot": "74DD4",
+  "addr": "74B94",
+  "jp": "ねだん[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.01",
+  "slot": "74DD8",
+  "addr": "74B98",
+  "jp": "しゅつげん[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.02",
+  "slot": "74DDC",
+  "addr": "74B9E",
+  "jp": "デバイス[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.03",
+  "slot": "74DE0",
+  "addr": "74BA3",
+  "jp": "ヘッド[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.04",
+  "slot": "74DE4",
+  "addr": "74BA7",
+  "jp": "ライト[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.05",
+  "slot": "74DE8",
+  "addr": "74BAB",
+  "jp": "レフト[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.06",
+  "slot": "74DEC",
+  "addr": "74BAF",
+  "jp": "ボディ[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.07",
+  "slot": "74DF0",
+  "addr": "74BB3",
+  "jp": "ライド[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.08",
+  "slot": "74DF4",
+  "addr": "74BB7",
+  "jp": "ちゅうせん[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.09",
+  "slot": "74DF8",
+  "addr": "74BBD",
+  "jp": "ノーマル[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.0A",
+  "slot": "74DFC",
+  "addr": "74BC3",
+  "jp": "ルーレット[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.0B",
+  "slot": "74E00",
+  "addr": "74BCA",
+  "jp": "ポイント[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.0C",
+  "slot": "74E04",
+  "addr": "74BCF",
+  "jp": "こしょう[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.0D",
+  "slot": "74E08",
+  "addr": "74BD4",
+  "jp": "つかうメダルを[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.0E",
+  "slot": "74E0C",
+  "addr": "74BDC",
+  "jp": "えらんでください[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.0F",
+  "slot": "74E10",
+  "addr": "74BE5",
+  "jp": "メダル[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.10",
+  "slot": "74E14",
+  "addr": "74BE9",
+  "jp": "ゴールド[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.11",
+  "slot": "74E18",
+  "addr": "74BEF",
+  "jp": "シルバー[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.12",
+  "slot": "74E1C",
+  "addr": "74BF5",
+  "jp": "ブロンズ[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.13",
+  "slot": "74E20",
+  "addr": "74BFA",
+  "jp": "パスワード[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.20",
+  "slot": "74E54",
+  "addr": "74C0D",
+  "jp": "１００[close]",
+  "en": "100[close]"
+ },
+ {
+  "id": "word_gacha.21",
+  "slot": "74E58",
+  "addr": "74C11",
+  "jp": "３００[close]",
+  "en": "300[close]"
+ },
+ {
+  "id": "word_gacha.22",
+  "slot": "74E5C",
+  "addr": "74C15",
+  "jp": "５００[close]",
+  "en": "500[close]"
+ },
+ {
+  "id": "word_gacha.23",
+  "slot": "74E60",
+  "addr": "74C19",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.24",
+  "slot": "74E64",
+  "addr": "74C1D",
+  "jp": "１０００[close]",
+  "en": "1000[close]"
+ },
+ {
+  "id": "word_gacha.25",
+  "slot": "74E68",
+  "addr": "74C22",
+  "jp": "１５００[close]",
+  "en": "1500[close]"
+ },
+ {
+  "id": "word_gacha.26",
+  "slot": "74E6C",
+  "addr": "74C27",
+  "jp": "６００[close]",
+  "en": "600[close]"
+ },
+ {
+  "id": "word_gacha.27",
+  "slot": "74E70",
+  "addr": "74C2B",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.28",
+  "slot": "74E74",
+  "addr": "74C2F",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.29",
+  "slot": "74E78",
+  "addr": "74C33",
+  "jp": "１２００[close]",
+  "en": "1200[close]"
+ },
+ {
+  "id": "word_gacha.2A",
+  "slot": "74E7C",
+  "addr": "74C38",
+  "jp": "１５００[close]",
+  "en": "1500[close]"
+ },
+ {
+  "id": "word_gacha.2B",
+  "slot": "74E80",
+  "addr": "74C3D",
+  "jp": "１６００[close]",
+  "en": "1600[close]"
+ },
+ {
+  "id": "word_gacha.2C",
+  "slot": "74E84",
+  "addr": "74C42",
+  "jp": "３０００[close]",
+  "en": "3000[close]"
+ },
+ {
+  "id": "word_gacha.2D",
+  "slot": "74E88",
+  "addr": "74C47",
+  "jp": "２００[close]",
+  "en": "200[close]"
+ },
+ {
+  "id": "word_gacha.2E",
+  "slot": "74E8C",
+  "addr": "74C4B",
+  "jp": "２００[close]",
+  "en": "200[close]"
+ },
+ {
+  "id": "word_gacha.2F",
+  "slot": "74E90",
+  "addr": "74C4F",
+  "jp": "３００[close]",
+  "en": "300[close]"
+ },
+ {
+  "id": "word_gacha.30",
+  "slot": "74E94",
+  "addr": "74C53",
+  "jp": "　　０[close]",
+  "en": "0[close]"
+ },
+ {
+  "id": "word_gacha.40",
+  "slot": "74ED4",
+  "addr": "74C66",
+  "jp": "デバイス[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.41",
+  "slot": "74ED8",
+  "addr": "74C6B",
+  "jp": "ダイナ[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.42",
+  "slot": "74EDC",
+  "addr": "74C6F",
+  "jp": "マイガチャステ[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.43",
+  "slot": "74EE0",
+  "addr": "74C77",
+  "jp": "メダル[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.45",
+  "slot": "74EE8",
+  "addr": "74C7C",
+  "jp": "ノーマル[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.46",
+  "slot": "74EEC",
+  "addr": "74C82",
+  "jp": "ルーレット[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.47",
+  "slot": "74EF0",
+  "addr": "74C89",
+  "jp": "ポイント[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.48",
+  "slot": "74EF4",
+  "addr": "74C8E",
+  "jp": "こしょう[close]",
+  "en": ""
+ },
+ {
+  "id": "word_gacha.50",
+  "slot": "74F14",
+  "addr": "74C9A",
+  "jp": "１００[close]",
+  "en": "100[close]"
+ },
+ {
+  "id": "word_gacha.51",
+  "slot": "74F18",
+  "addr": "74C9E",
+  "jp": "３００[close]",
+  "en": "300[close]"
+ },
+ {
+  "id": "word_gacha.52",
+  "slot": "74F1C",
+  "addr": "74CA2",
+  "jp": "５００[close]",
+  "en": "500[close]"
+ },
+ {
+  "id": "word_gacha.53",
+  "slot": "74F20",
+  "addr": "74CA6",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.54",
+  "slot": "74F24",
+  "addr": "74CAA",
+  "jp": "１０００[close]",
+  "en": "1000[close]"
+ },
+ {
+  "id": "word_gacha.55",
+  "slot": "74F28",
+  "addr": "74CAF",
+  "jp": "６００[close]",
+  "en": "600[close]"
+ },
+ {
+  "id": "word_gacha.56",
+  "slot": "74F2C",
+  "addr": "74CB3",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.60",
+  "slot": "74F54",
+  "addr": "74CC0",
+  "jp": "１００[close]",
+  "en": "100[close]"
+ },
+ {
+  "id": "word_gacha.61",
+  "slot": "74F58",
+  "addr": "74CC4",
+  "jp": "３００[close]",
+  "en": "300[close]"
+ },
+ {
+  "id": "word_gacha.62",
+  "slot": "74F5C",
+  "addr": "74CC8",
+  "jp": "５００[close]",
+  "en": "500[close]"
+ },
+ {
+  "id": "word_gacha.63",
+  "slot": "74F60",
+  "addr": "74CCC",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.64",
+  "slot": "74F64",
+  "addr": "74CD0",
+  "jp": "１０００[close]",
+  "en": "1000[close]"
+ },
+ {
+  "id": "word_gacha.65",
+  "slot": "74F68",
+  "addr": "74CD5",
+  "jp": "１５００[close]",
+  "en": "1500[close]"
+ },
+ {
+  "id": "word_gacha.66",
+  "slot": "74F6C",
+  "addr": "74CDA",
+  "jp": "６００[close]",
+  "en": "600[close]"
+ },
+ {
+  "id": "word_gacha.67",
+  "slot": "74F70",
+  "addr": "74CDE",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.68",
+  "slot": "74F74",
+  "addr": "74CE2",
+  "jp": "２００[close]",
+  "en": "200[close]"
+ },
+ {
+  "id": "word_gacha.70",
+  "slot": "74F94",
+  "addr": "74CED",
+  "jp": "１００[close]",
+  "en": "100[close]"
+ },
+ {
+  "id": "word_gacha.71",
+  "slot": "74F98",
+  "addr": "74CF1",
+  "jp": "３００[close]",
+  "en": "300[close]"
+ },
+ {
+  "id": "word_gacha.72",
+  "slot": "74F9C",
+  "addr": "74CF5",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.73",
+  "slot": "74FA0",
+  "addr": "74CF9",
+  "jp": "１５００[close]",
+  "en": "1500[close]"
+ },
+ {
+  "id": "word_gacha.74",
+  "slot": "74FA4",
+  "addr": "74CFE",
+  "jp": "６００[close]",
+  "en": "600[close]"
+ },
+ {
+  "id": "word_gacha.75",
+  "slot": "74FA8",
+  "addr": "74D02",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.76",
+  "slot": "74FAC",
+  "addr": "74D06",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.77",
+  "slot": "74FB0",
+  "addr": "74D0A",
+  "jp": "１２００[close]",
+  "en": "1200[close]"
+ },
+ {
+  "id": "word_gacha.78",
+  "slot": "74FB4",
+  "addr": "74D0F",
+  "jp": "１５００[close]",
+  "en": "1500[close]"
+ },
+ {
+  "id": "word_gacha.79",
+  "slot": "74FB8",
+  "addr": "74D14",
+  "jp": "２００[close]",
+  "en": "200[close]"
+ },
+ {
+  "id": "word_gacha.7A",
+  "slot": "74FBC",
+  "addr": "74D18",
+  "jp": "３００[close]",
+  "en": "300[close]"
+ },
+ {
+  "id": "word_gacha.80",
+  "slot": "74FD4",
+  "addr": "74D21",
+  "jp": "３００[close]",
+  "en": "300[close]"
+ },
+ {
+  "id": "word_gacha.81",
+  "slot": "74FD8",
+  "addr": "74D25",
+  "jp": "５００[close]",
+  "en": "500[close]"
+ },
+ {
+  "id": "word_gacha.82",
+  "slot": "74FDC",
+  "addr": "74D29",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.83",
+  "slot": "74FE0",
+  "addr": "74D2D",
+  "jp": "１０００[close]",
+  "en": "1000[close]"
+ },
+ {
+  "id": "word_gacha.84",
+  "slot": "74FE4",
+  "addr": "74D32",
+  "jp": "１５００[close]",
+  "en": "1500[close]"
+ },
+ {
+  "id": "word_gacha.85",
+  "slot": "74FE8",
+  "addr": "74D37",
+  "jp": "６００[close]",
+  "en": "600[close]"
+ },
+ {
+  "id": "word_gacha.86",
+  "slot": "74FEC",
+  "addr": "74D3B",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.87",
+  "slot": "74FF0",
+  "addr": "74D3F",
+  "jp": "８００[close]",
+  "en": "800[close]"
+ },
+ {
+  "id": "word_gacha.88",
+  "slot": "74FF4",
+  "addr": "74D43",
+  "jp": "１２００[close]",
+  "en": "1200[close]"
+ },
+ {
+  "id": "word_gacha.89",
+  "slot": "74FF8",
+  "addr": "74D48",
+  "jp": "１５００[close]",
+  "en": "1500[close]"
+ },
+ {
+  "id": "word_gacha.8A",
+  "slot": "74FFC",
+  "addr": "74D4D",
+  "jp": "１６００[close]",
+  "en": "1600[close]"
+ },
+ {
+  "id": "word_gacha.8B",
+  "slot": "75000",
+  "addr": "74D52",
+  "jp": "３０００[close]",
+  "en": "3000[close]"
+ },
+ {
+  "id": "word_gacha.8C",
+  "slot": "75004",
+  "addr": "74D57",
+  "jp": "２００[close]",
+  "en": "200[close]"
+ },
+ {
+  "id": "word_gacha.8D",
+  "slot": "75008",
+  "addr": "74D5B",
+  "jp": "２００[close]",
+  "en": "200[close]"
+ },
+ {
+  "id": "word_gacha.8E",
+  "slot": "7500C",
+  "addr": "74D5F",
+  "jp": "３００[close]",
+  "en": "300[close]"
+ },
+ {
+  "id": "word_shop.00",
+  "slot": "757F8",
+  "addr": "755A0",
+  "jp": "ゴールドメダル[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.01",
+  "slot": "757FC",
+  "addr": "755A9",
+  "jp": "シルバーメダル[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.02",
+  "slot": "75800",
+  "addr": "755B2",
+  "jp": "ブロンズメダル[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.03",
+  "slot": "75804",
+  "addr": "755BA",
+  "jp": "Ｄバースト[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.04",
+  "slot": "75808",
+  "addr": "755C1",
+  "jp": "Ｄバースト[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.05",
+  "slot": "7580C",
+  "addr": "755C8",
+  "jp": "Ｄバースト[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.06",
+  "slot": "75810",
+  "addr": "755CF",
+  "jp": "Ｄバースト[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.07",
+  "slot": "75814",
+  "addr": "755D6",
+  "jp": "Ｄバースト[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.10",
+  "slot": "75838",
+  "addr": "755E5",
+  "jp": "１２０００[close]",
+  "en": "12000[close]"
+ },
+ {
+  "id": "word_shop.11",
+  "slot": "7583C",
+  "addr": "755EB",
+  "jp": "４０００[close]",
+  "en": "4000[close]"
+ },
+ {
+  "id": "word_shop.12",
+  "slot": "75840",
+  "addr": "755F0",
+  "jp": "２０００[close]",
+  "en": "2000[close]"
+ },
+ {
+  "id": "word_shop.13",
+  "slot": "75844",
+  "addr": "755F5",
+  "jp": "５００[close]",
+  "en": "500[close]"
+ },
+ {
+  "id": "word_shop.14",
+  "slot": "75848",
+  "addr": "755F9",
+  "jp": "１２００[close]",
+  "en": "1200[close]"
+ },
+ {
+  "id": "word_shop.15",
+  "slot": "7584C",
+  "addr": "755FE",
+  "jp": "６８００[close]",
+  "en": "6800[close]"
+ },
+ {
+  "id": "word_shop.16",
+  "slot": "75850",
+  "addr": "75603",
+  "jp": "１７０００[close]",
+  "en": "17000[close]"
+ },
+ {
+  "id": "word_shop.17",
+  "slot": "75854",
+  "addr": "75609",
+  "jp": "３００００[close]",
+  "en": "30000[close]"
+ },
+ {
+  "id": "word_shop.20",
+  "slot": "75878",
+  "addr": "75617",
+  "jp": "ブロンズメダル３まい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.21",
+  "slot": "7587C",
+  "addr": "75622",
+  "jp": "シルバーメダル１まい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.22",
+  "slot": "75880",
+  "addr": "7562E",
+  "jp": "２４００ビット[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.25",
+  "slot": "7588C",
+  "addr": "75638",
+  "jp": "ブロンズメダル７まい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.26",
+  "slot": "75890",
+  "addr": "75643",
+  "jp": "シルバーメダル２まい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.27",
+  "slot": "75894",
+  "addr": "7564F",
+  "jp": "ブロンズメダル３まいと[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.28",
+  "slot": "75898",
+  "addr": "7565B",
+  "jp": "シルバーメダル１まい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.29",
+  "slot": "7589C",
+  "addr": "75667",
+  "jp": "５６００ビット[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.2A",
+  "slot": "758A0",
+  "addr": "7566F",
+  "jp": "ブロンズメダル１２まい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.2B",
+  "slot": "758A4",
+  "addr": "7567B",
+  "jp": "シルバーメダル３まい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.2C",
+  "slot": "758A8",
+  "addr": "75687",
+  "jp": "ゴールドメダル１まい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.2D",
+  "slot": "758AC",
+  "addr": "75693",
+  "jp": "ブロンズメダル９まいと[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.2E",
+  "slot": "758B0",
+  "addr": "7569F",
+  "jp": "シルバーメダル１まい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.2F",
+  "slot": "758B4",
+  "addr": "756AB",
+  "jp": "ブロンズメダル３まいと[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.30",
+  "slot": "758B8",
+  "addr": "756B7",
+  "jp": "シルバーメダル２まい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.31",
+  "slot": "758BC",
+  "addr": "756C3",
+  "jp": "９６００ビット[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.35",
+  "slot": "758CC",
+  "addr": "756CE",
+  "jp": "１０ポイント[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.36",
+  "slot": "758D0",
+  "addr": "756D5",
+  "jp": "２０ポイント[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.37",
+  "slot": "758D4",
+  "addr": "756DC",
+  "jp": "３０ポイント[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.40",
+  "slot": "758F8",
+  "addr": "756EB",
+  "jp": "かう[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.41",
+  "slot": "758FC",
+  "addr": "756EE",
+  "jp": "うる[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.42",
+  "slot": "75900",
+  "addr": "756F1",
+  "jp": "ポイント[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.43",
+  "slot": "75904",
+  "addr": "756F6",
+  "jp": "カタログはんばい[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.44",
+  "slot": "75908",
+  "addr": "756FF",
+  "jp": "バッテリーチャージ[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.50",
+  "slot": "75938",
+  "addr": "75716",
+  "jp": "ディノモショップ[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.51",
+  "slot": "7593C",
+  "addr": "7571F",
+  "jp": "ダイナシティ　　[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.52",
+  "slot": "75940",
+  "addr": "75728",
+  "jp": "サンカルロ　　　[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.53",
+  "slot": "75944",
+  "addr": "75731",
+  "jp": "アタカマラ　　　[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.54",
+  "slot": "75948",
+  "addr": "7573A",
+  "jp": "ダオスタヴィル　[close]",
+  "en": ""
+ },
+ {
+  "id": "word_shop.55",
+  "slot": "7594C",
+  "addr": "75743",
+  "jp": "ダオスタヴィル　[close]",
+  "en": ""
+ },
+ {
+  "id": "word_charger.00",
+  "slot": "799F0",
+  "addr": "79894",
+  "jp": "[player][close]",
+  "en": "[player][close]"
+ },
+ {
+  "id": "word_charger.01",
+  "slot": "799F4",
+  "addr": "79897",
+  "jp": "たんじょうびをにゅうりょくしてください[close]",
+  "en": ""
+ },
+ {
+  "id": "word_charger.02",
+  "slot": "799F8",
+  "addr": "798AB",
+  "jp": "　　Ａボタンでしゅうりょうします　　　[close]",
+  "en": ""
+ },
+ {
+  "id": "word_charger.03",
+  "slot": "799FC",
+  "addr": "798BF",
+  "jp": "ダイナチャージャー[close]",
+  "en": ""
+ },
+ {
+  "id": "word_charger.04",
+  "slot": "79A00",
+  "addr": "798CB",
+  "jp": "カードポイント[close]",
+  "en": ""
+ },
+ {
+  "id": "word_charger.05",
+  "slot": "79A04",
+  "addr": "798D4",
+  "jp": "ゴールドメダル[close]",
+  "en": ""
+ },
+ {
+  "id": "word_charger.06",
+  "slot": "79A08",
+  "addr": "798DD",
+  "jp": "シルバーメダル[close]",
+  "en": ""
+ },
+ {
+  "id": "word_charger.07",
+  "slot": "79A0C",
+  "addr": "798E6",
+  "jp": "ブロンズメダル[close]",
+  "en": ""
+ },
+ {
+  "id": "word_charger.08",
+  "slot": "79A10",
+  "addr": "798EE",
+  "jp": "Ｄバースト[close]",
+  "en": ""
+ },
+ {
+  "id": "word_charger.09",
+  "slot": "79A14",
+  "addr": "798F5",
+  "jp": "うまれ[close]",
+  "en": ""
+ }
+]

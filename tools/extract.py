@@ -74,5 +74,35 @@ def dump(rom: bytes, force: bool):
     print(len(segs), 'segments in', len(files), 'files')
 
 
+def misc_entries(rom: bytes) -> list[dict]:
+    """Non-bank UI strings (tools/misc_tables.py): one entry per pointer slot, id '<table>.<index>'."""
+    import misc_tables
+    out = []
+    for t in misc_tables.TABLES:
+        if t['kind'] != 'ptr':
+            continue
+        for i in range(t['count']):
+            slot = t['addr'] + i * t['stride'] + t['offset']
+            a = misc_tables._ptr(rom, slot)
+            if rom[a] == 0xFF:
+                continue
+            out.append({'id': f"{t['name']}.{i:02X}", 'slot': f'{slot:05X}', 'addr': f'{a:05X}',
+                        'jp': text.decode(rom, a, misc_tables.end_of(rom, a)), 'en': ''})
+    return out
+
+
+def dump_misc(rom: bytes, force: bool):
+    p = ROOT / 'script/misc.json'
+    if p.exists() and not force:
+        raise SystemExit(f'{p} exists; refusing to clobber (use --force)')
+    entries = misc_entries(rom)
+    p.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')
+    print(len(entries), 'misc entries')
+
+
 if __name__ == '__main__':
-    dump((ROOT / 'rom/orig.gba').read_bytes(), '--force' in sys.argv)
+    rom = (ROOT / 'rom/orig.gba').read_bytes()
+    if '--misc' in sys.argv:
+        dump_misc(rom, '--force' in sys.argv)
+    else:
+        dump(rom, '--force' in sys.argv)

@@ -28,7 +28,10 @@ OVERRIDE = {
     0xF3: ['', '', '', '#', '', '', '#', '#'],              # ';' (was 。)
 }
 
-CHARMAP = {' ': b'\x00'}
+# English word space = F0 F9 (narrow); glyph 00 (JP full-width space) stays a full 8 px cell, so the JP padding
+# that menus rely on to overwrite older, longer strings still clears whole cells.
+SPACE = 0xF9
+CHARMAP = {' ': bytes([0xF0, SPACE])}
 for _i, _c in enumerate('0123456789'):
     CHARMAP[_c] = bytes([0x01 + _i])
 for _i, _c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'):
@@ -48,8 +51,10 @@ def build(rom: bytes) -> tuple[bytes, bytes]:
             art = OVERRIDE[c]
             rows = [sum(0x80 >> x for x, ch in enumerate(r) if ch == '#') for r in art]
             w = max(len(r) for r in art) + 1
-        elif c == 0x00:
+        elif c == SPACE:
             rows, w = [0] * 8, SPACE_W
+        elif c == 0x00:
+            rows, w = [0] * 8, 8
         elif c in LATIN and any(rows):
             ink = 0
             for r in rows:

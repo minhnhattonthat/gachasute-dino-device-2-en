@@ -12,6 +12,7 @@ from vwf_font import CHARMAP  # noqa: E402
 VAR_PX = {'[player]': 42, '[partner]': 42}
 HARD = re.compile(r'(\n|\[p\]|\[half\]|\[close\]|\[end\]|\[ret\])')
 TOKEN = re.compile(r'\[[^\]]*\]|.', re.S)
+WORD_SPACE = re.compile(r' (?![^\[]*\])')  # spaces outside [tags]
 
 
 def px(s: str, widths: bytes) -> int:
@@ -40,7 +41,7 @@ def wrap(en: str, widths: bytes, limit: int = 160) -> str:
         elif p:
             # greedy, each line against its own budget (3rd line of a box is shorter)
             fixed, cur = [], ''
-            for w in ([p] if '[opt]' in p else p.split(' ')):
+            for w in ([p] if '[opt]' in p else WORD_SPACE.split(p)):
                 budget = LAST_PX if (n + len(fixed)) % PAGE_LINES == PAGE_LINES - 1 else limit
                 cand = f'{cur} {w}' if cur else w
                 if cur and px(cand, widths) > budget:
