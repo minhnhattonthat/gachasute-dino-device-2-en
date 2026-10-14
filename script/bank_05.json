@@ -1,0 +1,146 @@
+[
+ {
+  "addr": "5D898",
+  "ids": [
+   "0500"
+  ],
+  "fall": false,
+  "jp": "１かいせんめの　たいせんあいては[half][E0 18]せんしゅです[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D8B2",
+  "ids": [
+   "0501"
+  ],
+  "fall": false,
+  "jp": "２かいせんめの　たいせんあいては[half][E0 18]せんしゅです[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D8CC",
+  "ids": [
+   "0502"
+  ],
+  "fall": false,
+  "jp": "けっしょうせんの　たいせんあいては[half][E0 18]せんしゅです[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D8E7",
+  "ids": [
+   "0503"
+  ],
+  "fall": false,
+  "jp": "ゆうしょうしたのは[half][E0 18]せんしゅです！[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D8FC",
+  "ids": [
+   "0504"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D8FD",
+  "ids": [
+   "0505"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D8FE",
+  "ids": [
+   "0506"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D8FF",
+  "ids": [
+   "0507"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D900",
+  "ids": [
+   "0508"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D901",
+  "ids": [
+   "0509"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D902",
+  "ids": [
+   "050A"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D903",
+  "ids": [
+   "050B"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D904",
+  "ids": [
+   "050C"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D905",
+  "ids": [
+   "050D"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D906",
+  "ids": [
+   "050E"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5D907",
+  "ids": [
+   "050F"
+  ],
+  "fall": false,
+  "jp": "[player]せんしゅ　リタイアです[close]",
+  "en": ""
+ }
+]

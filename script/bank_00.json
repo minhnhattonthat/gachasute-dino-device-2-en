@@ -1,0 +1,1298 @@
+[
+ {
+  "addr": "4AB10",
+  "ids": [
+   "0000"
+  ],
+  "fall": false,
+  "jp": "０１２３４５６７８９[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AB1B",
+  "ids": [
+   "0001"
+  ],
+  "fall": false,
+  "jp": "ページきりかえテスト\n１ページめのテキストひょうじ[p]２ページめのテキストひょうじ[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AB47",
+  "ids": [
+   "0002"
+  ],
+  "fall": false,
+  "jp": "２たくテスト\n　　１　　２[E0 01 01 04 00 03 00 04]",
+  "en": ""
+ },
+ {
+  "addr": "4AB5C",
+  "ids": [
+   "0003"
+  ],
+  "fall": false,
+  "jp": "１をせんたく[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AB63",
+  "ids": [
+   "0004"
+  ],
+  "fall": false,
+  "jp": "２をせんたく[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AB6A",
+  "ids": [
+   "0005"
+  ],
+  "fall": false,
+  "jp": "すうちひょうじテスト　Ａ＝[E0 11 00]　Ｂ＝[E0 11 01][close]",
+  "en": ""
+ },
+ {
+  "addr": "4AB83",
+  "ids": [
+   "0006"
+  ],
+  "fall": false,
+  "jp": "もじれつひょうじテスト\n[E0 10 00][close]",
+  "en": ""
+ },
+ {
+  "addr": "4AB93",
+  "ids": [
+   "0007"
+  ],
+  "fall": true,
+  "jp": "デバイスめいしょう　ひょうじテスト\n[E0 20 00 FF]",
+  "en": ""
+ },
+ {
+  "addr": "4ABA9",
+  "ids": [
+   "0008"
+  ],
+  "fall": false,
+  "jp": "−ＤＥＢＵＧ　ＤＡＴＡ−[half]ＯＡＭ＝[half]ＣＮＴ＝[close]",
+  "en": ""
+ },
+ {
+  "addr": "4ABC4",
+  "ids": [
+   "0009"
+  ],
+  "fall": false,
+  "jp": "Ｒ＝[half]Ｌ＝[half]Ｂ＝[close]",
+  "en": ""
+ },
+ {
+  "addr": "4ABD0",
+  "ids": [
+   "000A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4ABD1",
+  "ids": [
+   "000B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4ABD2",
+  "ids": [
+   "000C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4ABD3",
+  "ids": [
+   "000D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4ABD4",
+  "ids": [
+   "000E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4ABD5",
+  "ids": [
+   "000F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4ABD6",
+  "ids": [
+   "0010"
+  ],
+  "fall": false,
+  "jp": "　　せつぞくかくにんします\n　　Ａボタンをおしてください[end]",
+  "en": ""
+ },
+ {
+  "addr": "4ABF3",
+  "ids": [
+   "0011"
+  ],
+  "fall": false,
+  "jp": "[half]　せつぞくたいきちゅうです・・・[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AC08",
+  "ids": [
+   "0012"
+  ],
+  "fall": false,
+  "jp": "[half]　　　　せつぞくしました[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AC16",
+  "ids": [
+   "0013"
+  ],
+  "fall": false,
+  "jp": "[E0 43 2A]つうしんエラーです\nせつぞくかくにんをしてください[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AC34",
+  "ids": [
+   "0014"
+  ],
+  "fall": false,
+  "jp": "[half]　　　ちゅうだんしました[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AC42",
+  "ids": [
+   "0015"
+  ],
+  "fall": false,
+  "jp": "[E0 43 2A]あいても「ダイナデバイス２」です\nデータは　おくれません[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AC65",
+  "ids": [
+   "0016"
+  ],
+  "fall": false,
+  "jp": "[E0 43 2A]　あいてとはちがうコマンドです\n　つうしんを　キャンセルします[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AC88",
+  "ids": [
+   "0017"
+  ],
+  "fall": false,
+  "jp": "　　めいしを　おくりますか？\n　　　　はい　　いいえ[E0 00 03 07 00 18 00 19]",
+  "en": ""
+ },
+ {
+  "addr": "4ACAB",
+  "ids": [
+   "0018"
+  ],
+  "fall": false,
+  "jp": "[half]　つうしんたいきちゅうです・・・[end]",
+  "en": ""
+ },
+ {
+  "addr": "4ACC0",
+  "ids": [
+   "0019"
+  ],
+  "fall": false,
+  "jp": "[half]キャンセルたいきちゅうです・・・[end]",
+  "en": ""
+ },
+ {
+  "addr": "4ACD5",
+  "ids": [
+   "001A"
+  ],
+  "fall": false,
+  "jp": "[half]　　　キャンセルされました[end]",
+  "en": ""
+ },
+ {
+  "addr": "4ACE4",
+  "ids": [
+   "001B"
+  ],
+  "fall": false,
+  "jp": "[half]　　つうしんちゅうです・・・[end]",
+  "en": ""
+ },
+ {
+  "addr": "4ACF7",
+  "ids": [
+   "001C"
+  ],
+  "fall": false,
+  "jp": "[half]　　　しゅうりょうしました[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AD06",
+  "ids": [
+   "001D"
+  ],
+  "fall": false,
+  "jp": "　　チョビぐるみとのつうしん　　[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AD17",
+  "ids": [
+   "001E"
+  ],
+  "fall": false,
+  "jp": "[E0 13]　[E0 12]\nを　てにいれました[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AD27",
+  "ids": [
+   "001F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AD28",
+  "ids": [
+   "0020"
+  ],
+  "fall": false,
+  "jp": "０１２３４５６７８９[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AD33",
+  "ids": [
+   "0021"
+  ],
+  "fall": false,
+  "jp": "　つうしんメニュー[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AD3E",
+  "ids": [
+   "0022"
+  ],
+  "fall": false,
+  "jp": "[E0 32 00 59 00 32]ダイナバトル\nマイガチャステ\nチョビぐるみとつうしん[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AD5F",
+  "ids": [
+   "0023"
+  ],
+  "fall": false,
+  "jp": "　　　　　ダイナバトル　　　　　[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AD70",
+  "ids": [
+   "0024"
+  ],
+  "fall": false,
+  "jp": "つうしんの　さいごに　セーブしますが\nよろしいですか？\n　　　　はい　　いいえ[E0 01 03 07 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4ADA1",
+  "ids": [
+   "0025"
+  ],
+  "fall": false,
+  "jp": "あげる？　もらう？\n　　　あげる　　もらう[E0 03 02 07 00 00 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4ADC2",
+  "ids": [
+   "0026"
+  ],
+  "fall": false,
+  "jp": "[E0 43 2A]あいてと　おなじコマンドです\nつうしんを　キャンセルします[end]",
+  "en": ""
+ },
+ {
+  "addr": "4ADE3",
+  "ids": [
+   "0027"
+  ],
+  "fall": false,
+  "jp": "つうしんに　せいこうしました[end]",
+  "en": ""
+ },
+ {
+  "addr": "4ADF2",
+  "ids": [
+   "0028"
+  ],
+  "fall": false,
+  "jp": "ガチャステに　カプセルが\nほじゅうされるのを　まっています・・・[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AE16",
+  "ids": [
+   "0029"
+  ],
+  "fall": false,
+  "jp": "ガチャステに　カプセルを\nほじゅうしています・・・[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AE33",
+  "ids": [
+   "002A"
+  ],
+  "fall": false,
+  "jp": "あいてが　ガチャステをするのを\nまっています・・・[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AE50",
+  "ids": [
+   "002B"
+  ],
+  "fall": false,
+  "jp": "ガチャステの　けっかを\nおくっています・・・[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AE6A",
+  "ids": [
+   "002C"
+  ],
+  "fall": false,
+  "jp": "ガチャステを　しませんでした[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AE79",
+  "ids": [
+   "002D"
+  ],
+  "fall": false,
+  "jp": "もちきれなかったので\nあいてに　かえしました[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AE90",
+  "ids": [
+   "002E"
+  ],
+  "fall": false,
+  "jp": "おかねが　たりません\nガチャステを　するには\n５００ビットひつようです[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AEB4",
+  "ids": [
+   "002F"
+  ],
+  "fall": false,
+  "jp": "ガチャステに　いれたカプセルが\nぜんぶもどってきました[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AED0",
+  "ids": [
+   "0030"
+  ],
+  "fall": false,
+  "jp": "ガチャステに　カプセルを\nほじゅうしませんでした[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AEE9",
+  "ids": [
+   "0031"
+  ],
+  "fall": false,
+  "jp": "ガチャステに　カプセルが\nほじゅうされませんでした[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF03",
+  "ids": [
+   "0032"
+  ],
+  "fall": false,
+  "jp": "ダイナバトル\n[c:04]マイガチャステ\n[/c]チョビぐるみとつうしん[end]",
+  "en": ""
+ },
+ {
+  "addr": "4AF24",
+  "ids": [
+   "0033"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF25",
+  "ids": [
+   "0034"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF26",
+  "ids": [
+   "0035"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF27",
+  "ids": [
+   "0036"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF28",
+  "ids": [
+   "0037"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF29",
+  "ids": [
+   "0038"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF2A",
+  "ids": [
+   "0039"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF2B",
+  "ids": [
+   "003A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF2C",
+  "ids": [
+   "003B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF2D",
+  "ids": [
+   "003C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF2E",
+  "ids": [
+   "003D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF2F",
+  "ids": [
+   "003E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF30",
+  "ids": [
+   "003F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF31",
+  "ids": [
+   "0040"
+  ],
+  "fall": false,
+  "jp": "　なまえをにゅうりょくしてください　　[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF45",
+  "ids": [
+   "0041"
+  ],
+  "fall": false,
+  "jp": "もどる[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF49",
+  "ids": [
+   "0042"
+  ],
+  "fall": false,
+  "jp": "けってい[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF4E",
+  "ids": [
+   "0043"
+  ],
+  "fall": false,
+  "jp": "これで　いいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4AF6B",
+  "ids": [
+   "0044"
+  ],
+  "fall": false,
+  "jp": "じぶんとおなじなまえです[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF78",
+  "ids": [
+   "0045"
+  ],
+  "fall": false,
+  "jp": "−−−−−−−−[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF89",
+  "ids": [
+   "0046"
+  ],
+  "fall": false,
+  "jp": "ＳＴＡＲＴボタンでしゅうりょうします　[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AF9D",
+  "ids": [
+   "0047"
+  ],
+  "fall": false,
+  "jp": "パスワードをにゅうりょくしてください　[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AFB2",
+  "ids": [
+   "0048"
+  ],
+  "fall": false,
+  "jp": "たんじょうびをにゅうりょくしてください[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AFC6",
+  "ids": [
+   "0049"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AFC7",
+  "ids": [
+   "004A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AFC8",
+  "ids": [
+   "004B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AFC9",
+  "ids": [
+   "004C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AFCA",
+  "ids": [
+   "004D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AFCB",
+  "ids": [
+   "004E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AFCC",
+  "ids": [
+   "004F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AFCD",
+  "ids": [
+   "0050"
+  ],
+  "fall": false,
+  "jp": "いどうさきを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "4AFDD",
+  "ids": [
+   "0051"
+  ],
+  "fall": false,
+  "jp": "ここで　いいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4AFFA",
+  "ids": [
+   "0052"
+  ],
+  "fall": false,
+  "jp": "ステータス\nマイカタログ\nダイナエントリー\nセーブ[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B017",
+  "ids": [
+   "0053"
+  ],
+  "fall": false,
+  "jp": "セーブしますか？\n　　はい　　いいえ[E0 00 01 05 00 54 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B033",
+  "ids": [
+   "0054"
+  ],
+  "fall": false,
+  "jp": "[E0 32 00 A0 00 55]まえに　ほぞんしたデータが　あります\nうわがきしていいですか？\n　　はい　　いいえ[E0 01 01 05 00 55 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B06C",
+  "ids": [
+   "0055"
+  ],
+  "fall": false,
+  "jp": "セーブちゅうです\nでんげんを　きらないでください[E0 84 00 56][E0 44 02][E0 43 34][E0 45]セーブが　しゅうりょうしました[E0 44 1E][close]",
+  "en": ""
+ },
+ {
+  "addr": "4B0A5",
+  "ids": [
+   "0056"
+  ],
+  "fall": false,
+  "jp": "[E0 44 02][E0 45][E0 43 2A][c:09]セーブできませんでした・・・[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B0C3",
+  "ids": [
+   "0057"
+  ],
+  "fall": false,
+  "jp": "キャンセルしますか？\n　　はい　　いいえ[E0 01 01 05 00 55 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B0E1",
+  "ids": [
+   "0058"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B0E2",
+  "ids": [
+   "0059"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B0E3",
+  "ids": [
+   "005A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B0E4",
+  "ids": [
+   "005B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B0E5",
+  "ids": [
+   "005C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B0E6",
+  "ids": [
+   "005D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B0E7",
+  "ids": [
+   "005E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B0E8",
+  "ids": [
+   "005F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B0E9",
+  "ids": [
+   "0060"
+  ],
+  "fall": false,
+  "jp": "[E0 31 00 52 00 61]エントリーしますか？\n　　　　はい　　いいえ[E0 00 03 07 00 61 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B10F",
+  "ids": [
+   "0061"
+  ],
+  "fall": false,
+  "jp": "[E0 13]　[E0 12]\nをエントリーしました[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B121",
+  "ids": [
+   "0062"
+  ],
+  "fall": false,
+  "jp": "このスロットはエントリーされています\n　デバイスセットへ　　エントリーへんこう[E0 03 00 0A 00 00 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B154",
+  "ids": [
+   "0063"
+  ],
+  "fall": false,
+  "jp": "エントリーをしゅうりょうしますか？\n　　　　はい　　いいえ[E0 00 03 07 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B17B",
+  "ids": [
+   "0064"
+  ],
+  "fall": false,
+  "jp": "エントリーがめんへ　もどりますか？\n　　　　はい　　いいえ[E0 00 03 07 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B1A2",
+  "ids": [
+   "0065"
+  ],
+  "fall": false,
+  "jp": "バッテリーをオートチャージしますか？\n　　　　はい　　いいえ[E0 00 03 07 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B1CC",
+  "ids": [
+   "0066"
+  ],
+  "fall": false,
+  "jp": "[half]　バッテリーをチャージしてください[end]",
+  "en": ""
+ },
+ {
+  "addr": "4B1E1",
+  "ids": [
+   "0067"
+  ],
+  "fall": false,
+  "jp": "チャージをしゅうりょうしますか？\n　　　　はい　　いいえ[E0 00 03 07 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B207",
+  "ids": [
+   "0068"
+  ],
+  "fall": false,
+  "jp": "[half]　　　チャージちゅうです・・・[end]",
+  "en": ""
+ },
+ {
+  "addr": "4B21C",
+  "ids": [
+   "0069"
+  ],
+  "fall": true,
+  "jp": "０１２３４５６７８９％９",
+  "en": ""
+ },
+ {
+  "addr": "4B229",
+  "ids": [
+   "006A"
+  ],
+  "fall": false,
+  "jp": "−[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B22C",
+  "ids": [
+   "006B"
+  ],
+  "fall": false,
+  "jp": "こうどうできるダイナがないので\nしゅうりょうすると　まけになります\nチャージをしゅうりょうしますか？\n　　　　はい　　いいえ[E0 01 03 07 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B274",
+  "ids": [
+   "006C"
+  ],
+  "fall": false,
+  "jp": "[half]ダイナのエントリーをしゅうりょうします[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B28A",
+  "ids": [
+   "006D"
+  ],
+  "fall": false,
+  "jp": "[half]　ダイナが　エントリーされていません[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B29F",
+  "ids": [
+   "006E"
+  ],
+  "fall": false,
+  "jp": "[half]　このバトルは　キャンセルできません[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B2B3",
+  "ids": [
+   "006F"
+  ],
+  "fall": false,
+  "jp": "バトルをキャンセルしますか？\n　　　　はい　　いいえ[E0 00 03 07 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "4B2D7",
+  "ids": [
+   "0070"
+  ],
+  "fall": false,
+  "jp": "つうしんバトルなので　バッテリーチャージは\nサービスで　フルチャージされます[p][end]",
+  "en": ""
+ },
+ {
+  "addr": "4B303",
+  "ids": [
+   "0071"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B304",
+  "ids": [
+   "0072"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B305",
+  "ids": [
+   "0073"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B306",
+  "ids": [
+   "0074"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B307",
+  "ids": [
+   "0075"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B308",
+  "ids": [
+   "0076"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B309",
+  "ids": [
+   "0077"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B30A",
+  "ids": [
+   "0078"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B30B",
+  "ids": [
+   "0079"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B30C",
+  "ids": [
+   "007A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B30D",
+  "ids": [
+   "007B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B30E",
+  "ids": [
+   "007C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B30F",
+  "ids": [
+   "007D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B310",
+  "ids": [
+   "007E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B311",
+  "ids": [
+   "007F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B312",
+  "ids": [
+   "0080"
+  ],
+  "fall": false,
+  "jp": "ＰＵＳＨ　ＳＴＡＲＴ　ＢＵＴＴＯＮ[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B324",
+  "ids": [
+   "0081"
+  ],
+  "fall": false,
+  "jp": "　　　　　　　　　　　　　　　　　[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B336",
+  "ids": [
+   "0082"
+  ],
+  "fall": false,
+  "jp": "　[F0 F9]２００３　ロケットカンパニー[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B349",
+  "ids": [
+   "0083"
+  ],
+  "fall": false,
+  "jp": "フェニックスバージョン[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B356",
+  "ids": [
+   "0084"
+  ],
+  "fall": false,
+  "jp": "　　ドラゴンバージョン[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B363",
+  "ids": [
+   "0085"
+  ],
+  "fall": false,
+  "jp": "はじめから\nつづきから\nつうしん[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B374",
+  "ids": [
+   "0086"
+  ],
+  "fall": false,
+  "jp": "ＤＩＮＯ　ＣＨＡＲＧＥ[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B380",
+  "ids": [
+   "0087"
+  ],
+  "fall": false,
+  "jp": "Ｓｅｔｕｐ　Ｄｉｎｏｍｏ　Ｅｎｔｒｙ　１ｓｔ[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B397",
+  "ids": [
+   "0088"
+  ],
+  "fall": false,
+  "jp": "Ｓｅｔｕｐ　Ｄｉｎｏｍｏ　Ｅｎｔｒｙ　２ｎｄ[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B3AE",
+  "ids": [
+   "0089"
+  ],
+  "fall": false,
+  "jp": "Ｓｅｔｕｐ　Ｄｉｎｏｍｏ　Ｅｎｔｒｙ　３ｒｄ[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B3C5",
+  "ids": [
+   "008A"
+  ],
+  "fall": false,
+  "jp": "ＯＫ[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B3C8",
+  "ids": [
+   "008B"
+  ],
+  "fall": false,
+  "jp": "Ｇｏｏｄ　Ｌｕｃｋ！！[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B3D6",
+  "ids": [
+   "008C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B3D7",
+  "ids": [
+   "008D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B3D8",
+  "ids": [
+   "008E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "4B3D9",
+  "ids": [
+   "008F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ }
+]

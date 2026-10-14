@@ -1,0 +1,2306 @@
+[
+ {
+  "addr": "5FC6C",
+  "ids": [
+   "1200"
+  ],
+  "fall": false,
+  "jp": "デバイスセットを　おこないますか？\n　　はい　　いいえ[E0 00 01 05 12 01 12 02]",
+  "en": ""
+ },
+ {
+  "addr": "5FC90",
+  "ids": [
+   "1201"
+  ],
+  "fall": false,
+  "jp": "デバイスセットを　してください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCA0",
+  "ids": [
+   "1202"
+  ],
+  "fall": false,
+  "jp": "デバイスセットを　しゅうりょうして\nエントリーへ　もどります[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCC0",
+  "ids": [
+   "1203"
+  ],
+  "fall": false,
+  "jp": "よろしいですか？\n　　はい　　いいえ[E0 00 01 05 12 02 12 01]",
+  "en": ""
+ },
+ {
+  "addr": "5FCDB",
+  "ids": [
+   "1204"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCDC",
+  "ids": [
+   "1205"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCDD",
+  "ids": [
+   "1206"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCDE",
+  "ids": [
+   "1207"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCDF",
+  "ids": [
+   "1208"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCE0",
+  "ids": [
+   "1209"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCE1",
+  "ids": [
+   "120A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCE2",
+  "ids": [
+   "120B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCE3",
+  "ids": [
+   "120C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCE4",
+  "ids": [
+   "120D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCE5",
+  "ids": [
+   "120E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCE6",
+  "ids": [
+   "120F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FCE7",
+  "ids": [
+   "1210"
+  ],
+  "fall": false,
+  "jp": "デバイスガチャステです\nこれでいいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 12 12]",
+  "en": ""
+ },
+ {
+  "addr": "5FD0F",
+  "ids": [
+   "1211"
+  ],
+  "fall": false,
+  "jp": "デバイスガチャステを\nはじめます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FD20",
+  "ids": [
+   "1212"
+  ],
+  "fall": false,
+  "jp": "ガチャステを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FD30",
+  "ids": [
+   "1213"
+  ],
+  "fall": false,
+  "jp": "ダイナガチャステです\nこれでいいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 12 15]",
+  "en": ""
+ },
+ {
+  "addr": "5FD57",
+  "ids": [
+   "1214"
+  ],
+  "fall": false,
+  "jp": "ダイナガチャステを　はじめます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FD67",
+  "ids": [
+   "1215"
+  ],
+  "fall": false,
+  "jp": "ガチャステを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FD77",
+  "ids": [
+   "1216"
+  ],
+  "fall": false,
+  "jp": "マイガチャステです\nこれでいいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 12 18]",
+  "en": ""
+ },
+ {
+  "addr": "5FD9D",
+  "ids": [
+   "1217"
+  ],
+  "fall": false,
+  "jp": "マイガチャステを　はじめます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FDAC",
+  "ids": [
+   "1218"
+  ],
+  "fall": false,
+  "jp": "ガチャステを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FDBC",
+  "ids": [
+   "1219"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 12 1A 12 1B]",
+  "en": ""
+ },
+ {
+  "addr": "5FDDA",
+  "ids": [
+   "121A"
+  ],
+  "fall": false,
+  "jp": "マップに　もどります[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FDE5",
+  "ids": [
+   "121B"
+  ],
+  "fall": false,
+  "jp": "ガチャステを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FDF5",
+  "ids": [
+   "121C"
+  ],
+  "fall": false,
+  "jp": "おかねが　たりません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FE00",
+  "ids": [
+   "121D"
+  ],
+  "fall": false,
+  "jp": "メダルが　ありません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FE0B",
+  "ids": [
+   "121E"
+  ],
+  "fall": false,
+  "jp": "デバイスガチャステです[p]ポイントカードは　これいじょう\nもてませんが　いいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 12 1F]",
+  "en": ""
+ },
+ {
+  "addr": "5FE48",
+  "ids": [
+   "121F"
+  ],
+  "fall": false,
+  "jp": "ガチャステを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FE58",
+  "ids": [
+   "1220"
+  ],
+  "fall": false,
+  "jp": "これで　いいですか？\n　　はい　　いいえ[E0 00 01 05 12 26 12 22]",
+  "en": ""
+ },
+ {
+  "addr": "5FE76",
+  "ids": [
+   "1221"
+  ],
+  "fall": false,
+  "jp": "ちゅうせんを　はじめます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FE83",
+  "ids": [
+   "1222"
+  ],
+  "fall": false,
+  "jp": "つかうメダルを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FE94",
+  "ids": [
+   "1223"
+  ],
+  "fall": false,
+  "jp": "ダイナ　[E0 13]　\n　　　　[E0 12]　が　あたった！[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FEAC",
+  "ids": [
+   "1224"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 12 25 12 22]",
+  "en": ""
+ },
+ {
+  "addr": "5FECA",
+  "ids": [
+   "1225"
+  ],
+  "fall": false,
+  "jp": "ガチャステパークに\nもどります[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FEDB",
+  "ids": [
+   "1226"
+  ],
+  "fall": false,
+  "jp": "メダルを　いれます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FEE5",
+  "ids": [
+   "1227"
+  ],
+  "fall": false,
+  "jp": "メダルが　ありません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FEF0",
+  "ids": [
+   "1228"
+  ],
+  "fall": false,
+  "jp": "メダルが　ありません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FEFB",
+  "ids": [
+   "1229"
+  ],
+  "fall": false,
+  "jp": "ダイナは　５０たいいじょう\nもてません[p]つかうメダルを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF20",
+  "ids": [
+   "122A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF21",
+  "ids": [
+   "122B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF22",
+  "ids": [
+   "122C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF23",
+  "ids": [
+   "122D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF24",
+  "ids": [
+   "122E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF25",
+  "ids": [
+   "122F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF26",
+  "ids": [
+   "1230"
+  ],
+  "fall": false,
+  "jp": "ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 12 33 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "5FF45",
+  "ids": [
+   "1231"
+  ],
+  "fall": false,
+  "jp": "ちゅうせんを　はじめます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF52",
+  "ids": [
+   "1232"
+  ],
+  "fall": false,
+  "jp": "ガチャステパークに\nもどります[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF63",
+  "ids": [
+   "1233"
+  ],
+  "fall": false,
+  "jp": "おかねを　いれます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF6D",
+  "ids": [
+   "1234"
+  ],
+  "fall": false,
+  "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　が　あたった！[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FF87",
+  "ids": [
+   "1235"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 12 36 12 30]",
+  "en": ""
+ },
+ {
+  "addr": "5FFA5",
+  "ids": [
+   "1236"
+  ],
+  "fall": false,
+  "jp": "ガチャステパークに\nもどります[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FFB6",
+  "ids": [
+   "1237"
+  ],
+  "fall": false,
+  "jp": "おかねが　たりません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FFC1",
+  "ids": [
+   "1238"
+  ],
+  "fall": false,
+  "jp": "ガチャステが\n[E0 11 00]かい　できます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FFD3",
+  "ids": [
+   "1239"
+  ],
+  "fall": false,
+  "jp": "ちゅうせんを　はじめます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FFE0",
+  "ids": [
+   "123A"
+  ],
+  "fall": false,
+  "jp": "パスワードを　いれてください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5FFF0",
+  "ids": [
+   "123B"
+  ],
+  "fall": false,
+  "jp": "ポイントカードは　これいじょう\nもてません[p]ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 12 33 12 32]",
+  "en": ""
+ },
+ {
+  "addr": "60026",
+  "ids": [
+   "123C"
+  ],
+  "fall": false,
+  "jp": "なにもおこらない[close]",
+  "en": ""
+ },
+ {
+  "addr": "6002F",
+  "ids": [
+   "123D"
+  ],
+  "fall": false,
+  "jp": "３２こもっている　デバイスは\nこれいじょうもてません[p]ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 12 33 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "60069",
+  "ids": [
+   "123E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6006A",
+  "ids": [
+   "123F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6006B",
+  "ids": [
+   "1240"
+  ],
+  "fall": false,
+  "jp": "マイガチャステを　みますか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "6008C",
+  "ids": [
+   "1241"
+  ],
+  "fall": false,
+  "jp": "なかみを　みます[close]",
+  "en": ""
+ },
+ {
+  "addr": "60095",
+  "ids": [
+   "1242"
+  ],
+  "fall": false,
+  "jp": "ガチャステパークに　もどります[close]",
+  "en": ""
+ },
+ {
+  "addr": "600A6",
+  "ids": [
+   "1243"
+  ],
+  "fall": false,
+  "jp": "マイガチャステへ　ほじゅうする\nダイナかデバイスを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "600C9",
+  "ids": [
+   "1244"
+  ],
+  "fall": false,
+  "jp": "[E0 13]　[E0 12]　で\nいいですか？\n　　はい　　いいえ[E0 00 01 05 12 45 12 46]",
+  "en": ""
+ },
+ {
+  "addr": "600EA",
+  "ids": [
+   "1245"
+  ],
+  "fall": false,
+  "jp": "デバイスを　ほじゅうします[close]",
+  "en": ""
+ },
+ {
+  "addr": "600F8",
+  "ids": [
+   "1246"
+  ],
+  "fall": false,
+  "jp": "マイガチャステへ　ほじゅうする\nダイナかデバイスを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "6011B",
+  "ids": [
+   "1247"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 12 48 12 49]",
+  "en": ""
+ },
+ {
+  "addr": "60139",
+  "ids": [
+   "1248"
+  ],
+  "fall": false,
+  "jp": "ガチャステパークに　もどります[close]",
+  "en": ""
+ },
+ {
+  "addr": "6014A",
+  "ids": [
+   "1249"
+  ],
+  "fall": false,
+  "jp": "マイガチャステへ　ほじゅうする\nダイナかデバイスを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "6016D",
+  "ids": [
+   "124A"
+  ],
+  "fall": false,
+  "jp": "マイガチャステが　いっぱいになりました\nどれか　うれるまで　ほじゅうはできません[close]",
+  "en": ""
+ },
+ {
+  "addr": "60196",
+  "ids": [
+   "124B"
+  ],
+  "fall": false,
+  "jp": "このデバイスは　マイガチャステに\nいれました[close]",
+  "en": ""
+ },
+ {
+  "addr": "601AD",
+  "ids": [
+   "124C"
+  ],
+  "fall": false,
+  "jp": "カプセルが　[E0 11 00]こ　うれて\n[E0 11 01]ビット　てにいれた！[p]マイガチャステを　みますか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "601EC",
+  "ids": [
+   "124D"
+  ],
+  "fall": false,
+  "jp": "カプセルは　１コもひかれませんでした[p]マイガチャステを　みますか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "60220",
+  "ids": [
+   "124E"
+  ],
+  "fall": false,
+  "jp": "\n　　[E0 13]　[E0 12]　[close]",
+  "en": ""
+ },
+ {
+  "addr": "6022A",
+  "ids": [
+   "124F"
+  ],
+  "fall": false,
+  "jp": "カプセルが　ありません[close]",
+  "en": ""
+ },
+ {
+  "addr": "60236",
+  "ids": [
+   "1250"
+  ],
+  "fall": false,
+  "jp": "マイガチャステを　つかうのは\nもうすこし　あとにしましょう[close]",
+  "en": ""
+ },
+ {
+  "addr": "60254",
+  "ids": [
+   "1251"
+  ],
+  "fall": false,
+  "jp": "エントリーちゅうのダイナです\nほじゅうは　できません[close]",
+  "en": ""
+ },
+ {
+  "addr": "60270",
+  "ids": [
+   "1252"
+  ],
+  "fall": false,
+  "jp": "そうびちゅうのデバイスです\nほじゅうは　できません[close]",
+  "en": ""
+ },
+ {
+  "addr": "6028A",
+  "ids": [
+   "1253"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6028B",
+  "ids": [
+   "1254"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6028C",
+  "ids": [
+   "1255"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6028D",
+  "ids": [
+   "1256"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6028E",
+  "ids": [
+   "1257"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6028F",
+  "ids": [
+   "1258"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60290",
+  "ids": [
+   "1259"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60291",
+  "ids": [
+   "125A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60292",
+  "ids": [
+   "125B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60293",
+  "ids": [
+   "125C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60294",
+  "ids": [
+   "125D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60295",
+  "ids": [
+   "125E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60296",
+  "ids": [
+   "125F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60297",
+  "ids": [
+   "1260"
+  ],
+  "fall": false,
+  "jp": "ダイナ　[E0 13]　\n　　　　[E0 12]　が　あたった！[close]",
+  "en": ""
+ },
+ {
+  "addr": "602AF",
+  "ids": [
+   "1261"
+  ],
+  "fall": false,
+  "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　が　あたった！[close]",
+  "en": ""
+ },
+ {
+  "addr": "602C9",
+  "ids": [
+   "1262"
+  ],
+  "fall": false,
+  "jp": "ダイナ　[E0 13]　\n　　　　[E0 12]　が　あたった！[p]これいじょう　もてません\nこのダイナを　あきらめますか？\n　　はい　　いいえ[E0 01 01 05 12 63 12 64]",
+  "en": ""
+ },
+ {
+  "addr": "60310",
+  "ids": [
+   "1263"
+  ],
+  "fall": false,
+  "jp": "あきらめました[close]",
+  "en": ""
+ },
+ {
+  "addr": "60318",
+  "ids": [
+   "1264"
+  ],
+  "fall": false,
+  "jp": "すてるダイナを　えらんでください[E0 51]ダイナ　[E0 13]　\n　　　　[E0 12]　を　すてました[close]",
+  "en": ""
+ },
+ {
+  "addr": "60341",
+  "ids": [
+   "1265"
+  ],
+  "fall": false,
+  "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　が　あたった！[p]これいじょう　もてません\nこのデバイスを　あきらめますか？\n　　はい　　いいえ[E0 01 01 05 12 66 12 67]",
+  "en": ""
+ },
+ {
+  "addr": "6038B",
+  "ids": [
+   "1266"
+  ],
+  "fall": false,
+  "jp": "あきらめました[close]",
+  "en": ""
+ },
+ {
+  "addr": "60393",
+  "ids": [
+   "1267"
+  ],
+  "fall": false,
+  "jp": "すてるデバイスを　えらんでください[E0 51]デバイス　[E0 13]　\n　　　　　[E0 12]　を　すてました[close]",
+  "en": ""
+ },
+ {
+  "addr": "603BF",
+  "ids": [
+   "1268"
+  ],
+  "fall": false,
+  "jp": "ポイントカードを　[E0 11 00]まいてにいれた[close]",
+  "en": ""
+ },
+ {
+  "addr": "603D4",
+  "ids": [
+   "1269"
+  ],
+  "fall": false,
+  "jp": "パスワードが　ちがいます[close]",
+  "en": ""
+ },
+ {
+  "addr": "603E2",
+  "ids": [
+   "126A"
+  ],
+  "fall": false,
+  "jp": "ポイントカードは　これいじょう\nもてません[close]",
+  "en": ""
+ },
+ {
+  "addr": "603F9",
+  "ids": [
+   "126B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "603FA",
+  "ids": [
+   "126C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "603FB",
+  "ids": [
+   "126D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "603FC",
+  "ids": [
+   "126E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "603FD",
+  "ids": [
+   "126F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "603FE",
+  "ids": [
+   "1270"
+  ],
+  "fall": false,
+  "jp": "これが　デバイスガチャステ\nこんかい　わたしたちが\nやるのがこれ[close]",
+  "en": ""
+ },
+ {
+  "addr": "6041F",
+  "ids": [
+   "1271"
+  ],
+  "fall": false,
+  "jp": "で　こっちが　ダイナガチャステ\nこれは　とくしゅなメダル\nじゃないと　できないわ[close]",
+  "en": ""
+ },
+ {
+  "addr": "60448",
+  "ids": [
+   "1272"
+  ],
+  "fall": false,
+  "jp": "さいごに　これがマイガチャステ\nいらなくなったものが\nできたときや\nにもつが　いっぱいになったとき\nここをりようするのよ[close]",
+  "en": ""
+ },
+ {
+  "addr": "60485",
+  "ids": [
+   "1273"
+  ],
+  "fall": false,
+  "jp": "とりあえず\nこのデバイスガチャステで\nやってみようか[close]",
+  "en": ""
+ },
+ {
+  "addr": "604A0",
+  "ids": [
+   "1274"
+  ],
+  "fall": false,
+  "jp": "ごめん　これは\nたかくて　できないわ[p]このガチャステをやるのに\nひつような　ねだんが\nうえに　かいてあるの[p]てもちの　おかねが\nすくないときは\nこのねだんに\nちゅういしてね[p]いまは　２００ビットしか\nもってないから\nべつのに　しましょう[close]",
+  "en": ""
+ },
+ {
+  "addr": "60517",
+  "ids": [
+   "1275"
+  ],
+  "fall": false,
+  "jp": "いどうするわ[close]",
+  "en": ""
+ },
+ {
+  "addr": "6051E",
+  "ids": [
+   "1276"
+  ],
+  "fall": false,
+  "jp": "このガチャステを　やりましょう[close]",
+  "en": ""
+ },
+ {
+  "addr": "6052E",
+  "ids": [
+   "1277"
+  ],
+  "fall": false,
+  "jp": "よかった\nこっちはだいじょうぶね\nあと　ねだんのしたの\nしゅつげんデバイスを　みれば\nどのぶぶんの　デバイスが\nでてくるのか　わかるのよ\nたとえば　これは　ライトと\nレフトが　ＯＫ！ってこと\nだから\nみぎうでと　ひだりうでの\nデバイスが　でるってことよ[p]ヘッドは　あたま\nボディは　からだ\nライドは　あしのデバイスよ[p]みぎがわの　すうじは\nいま　もっているかずね[p]そのしたの　ちゅうせんだけど\nノーマルは　ふつうに\nガチャステができて[p]ルーレットは　あたれば\nなんかいも　ガチャステが\nできるんだよ[p]ポイントは　デバイスと\nポイントが　もらえるんだけど\nショップで　つかえるみたい[p]もういちどきく？\n　　はい　　いいえ[E0 00 01 05 12 78 12 79]",
+  "en": ""
+ },
+ {
+  "addr": "6066F",
+  "ids": [
+   "1278"
+  ],
+  "fall": false,
+  "jp": "ヘッドはあたまのデバイス\nライトはみぎうでのデバイス\nレフトはひだりうでのデバイス\nボディはからだのデバイス\nライドはあしのデバイスよ[p]みぎがわの　すうじは\nいま　もっているかずね[p]そのしたの　ちゅうせんだけど\nノーマルは　ふつうに\nガチャステができて[p]ルーレットは　あたれば\nなんかいも　ガチャステが\nできるんだよ[p]ポイントは　デバイスと\nポイントが　もらえるんだけど\nショップで　つかえるみたい[p]もういちどきく？\n　　はい　　いいえ[E0 00 01 05 12 78 12 79]",
+  "en": ""
+ },
+ {
+  "addr": "60754",
+  "ids": [
+   "1279"
+  ],
+  "fall": false,
+  "jp": "じゃ　とりあえず\nやってみようよ\nここでＡボタンを\nおしてみて[close]",
+  "en": ""
+ },
+ {
+  "addr": "60774",
+  "ids": [
+   "127A"
+  ],
+  "fall": false,
+  "jp": "せっかくだから\nもういっかい\nやってみようよ\nはい　Ａボタンをおしてみて[close]",
+  "en": ""
+ },
+ {
+  "addr": "60799",
+  "ids": [
+   "127B"
+  ],
+  "fall": false,
+  "jp": "おかねが　なくなったから\nもどるわ[close]",
+  "en": ""
+ },
+ {
+  "addr": "607AB",
+  "ids": [
+   "127C"
+  ],
+  "fall": false,
+  "jp": "また　おかねがたまったら\nここに　こようね[E0 20 00 52][close]",
+  "en": ""
+ },
+ {
+  "addr": "607C5",
+  "ids": [
+   "127D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "607C6",
+  "ids": [
+   "127E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "607C7",
+  "ids": [
+   "127F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "607C8",
+  "ids": [
+   "1280"
+  ],
+  "fall": false,
+  "jp": "さいしょの　ガチャステは\nダイナガチャステだよ\nそれで　ダイナガチャステは\nよこの　かべにあるやつが\nそうよ[close]",
+  "en": ""
+ },
+ {
+  "addr": "607FF",
+  "ids": [
+   "1281"
+  ],
+  "fall": false,
+  "jp": "これが　ダイナガチャステよ[close]",
+  "en": ""
+ },
+ {
+  "addr": "6080D",
+  "ids": [
+   "1282"
+  ],
+  "fall": false,
+  "jp": "ここで　つかうメダルを\nえらぶのよ[p]ガチャステの　よこには\nいま　あなたがもっている\nメダルのまいすうが\nひょうじされてるの\nいまは\nゴールドメダルのところに\n１ってすうじが　あるよね\nそれが　メダルのまいすうよ\nつかってみて[close]",
+  "en": ""
+ },
+ {
+  "addr": "60880",
+  "ids": [
+   "1283"
+  ],
+  "fall": false,
+  "jp": "え〜！？　スゴ〜イ！！\nそのダイナ　めちゃレアだよ〜[p]なかなか　でないのに\n１かいででるなんて\nすごいね〜[p]せつめいは　これで　おしまい\nどお？　かんたんでしょ[close]",
+  "en": ""
+ },
+ {
+  "addr": "608DA",
+  "ids": [
+   "1284"
+  ],
+  "fall": false,
+  "jp": "これは　デバイスガチャステ\nおかねがないと　できないわ[close]",
+  "en": ""
+ },
+ {
+  "addr": "608F6",
+  "ids": [
+   "1285"
+  ],
+  "fall": false,
+  "jp": "これは　マイガチャステ\nいらなくなったものが\nできたときや\nにもつが　いっぱいになったとき\nここをりようするのよ[close]",
+  "en": ""
+ },
+ {
+  "addr": "6092F",
+  "ids": [
+   "1286"
+  ],
+  "fall": false,
+  "jp": "ねえ　さっきのダイナ\nそとにでて　もういちどみせて[close]",
+  "en": ""
+ },
+ {
+  "addr": "60949",
+  "ids": [
+   "1287"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6094A",
+  "ids": [
+   "1288"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6094B",
+  "ids": [
+   "1289"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6094C",
+  "ids": [
+   "128A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6094D",
+  "ids": [
+   "128B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6094E",
+  "ids": [
+   "128C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "6094F",
+  "ids": [
+   "128D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60950",
+  "ids": [
+   "128E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60951",
+  "ids": [
+   "128F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60952",
+  "ids": [
+   "1290"
+  ],
+  "fall": false,
+  "jp": "まんなかにある\nマイガチャステを　えらんでみて[close]",
+  "en": ""
+ },
+ {
+  "addr": "6096A",
+  "ids": [
+   "1291"
+  ],
+  "fall": false,
+  "jp": "これは\nマイガチャステじゃないわ\nダイナガチャステよ[close]",
+  "en": ""
+ },
+ {
+  "addr": "60985",
+  "ids": [
+   "1292"
+  ],
+  "fall": false,
+  "jp": "これは\nマイガチャステじゃないわ\nデバイスガチャステよ[close]",
+  "en": ""
+ },
+ {
+  "addr": "609A1",
+  "ids": [
+   "1293"
+  ],
+  "fall": false,
+  "jp": "これが　マイガチャステよ[close]",
+  "en": ""
+ },
+ {
+  "addr": "609AE",
+  "ids": [
+   "1294"
+  ],
+  "fall": false,
+  "jp": "つかいかたなんだけど[p]したにある　リストから\nいらない　ダイナや　デバイスを\nえらぶの[p]いちど　けっていしたら\nもう　もどってこないから\nきをつけてね[p]さっそく　あまってるデバイスを\nいれてみましょう[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A13",
+  "ids": [
+   "1295"
+  ],
+  "fall": false,
+  "jp": "これで　ときどき　ここにきて\nいれたものが　うれているか\nかくにんに　くるといいわ[p]こんなかんじで　ほかのひとが\nガチャステを　やってくれるのを\nまってればいいってわけ[p]いれおわったら　Ｂボタンを\nおしてね[p]マイガチャステのせつめいは\nこれでおわりよ[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A91",
+  "ids": [
+   "1296"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A92",
+  "ids": [
+   "1297"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A93",
+  "ids": [
+   "1298"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A94",
+  "ids": [
+   "1299"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A95",
+  "ids": [
+   "129A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A96",
+  "ids": [
+   "129B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A97",
+  "ids": [
+   "129C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A98",
+  "ids": [
+   "129D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A99",
+  "ids": [
+   "129E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A9A",
+  "ids": [
+   "129F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60A9B",
+  "ids": [
+   "12A0"
+  ],
+  "fall": false,
+  "jp": "[E0 46][E0 44 06][E0 43 20]おおあたり！\nガチャステが　４かいできます[E0 44 FA][E0 47][close]",
+  "en": ""
+ },
+ {
+  "addr": "60ABF",
+  "ids": [
+   "12A1"
+  ],
+  "fall": false,
+  "jp": "あたり！\nガチャステが　２かいできます[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AD4",
+  "ids": [
+   "12A2"
+  ],
+  "fall": false,
+  "jp": "はずれ\nガチャステが　１かいできます[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AE7",
+  "ids": [
+   "12A3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AE8",
+  "ids": [
+   "12A4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AE9",
+  "ids": [
+   "12A5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AEA",
+  "ids": [
+   "12A6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AEB",
+  "ids": [
+   "12A7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AEC",
+  "ids": [
+   "12A8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AED",
+  "ids": [
+   "12A9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AEE",
+  "ids": [
+   "12AA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AEF",
+  "ids": [
+   "12AB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AF0",
+  "ids": [
+   "12AC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AF1",
+  "ids": [
+   "12AD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AF2",
+  "ids": [
+   "12AE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AF3",
+  "ids": [
+   "12AF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60AF4",
+  "ids": [
+   "12B0"
+  ],
+  "fall": false,
+  "jp": "あげるデバイスを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B06",
+  "ids": [
+   "12B1"
+  ],
+  "fall": false,
+  "jp": "ダイナ　[E0 13]　\n　　　　[E0 12]　を　あげました[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B1D",
+  "ids": [
+   "12B2"
+  ],
+  "fall": false,
+  "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　を　あげました[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B36",
+  "ids": [
+   "12B3"
+  ],
+  "fall": false,
+  "jp": "これでいいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "60B52",
+  "ids": [
+   "12B4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B53",
+  "ids": [
+   "12B5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B54",
+  "ids": [
+   "12B6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B55",
+  "ids": [
+   "12B7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B56",
+  "ids": [
+   "12B8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B57",
+  "ids": [
+   "12B9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B58",
+  "ids": [
+   "12BA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B59",
+  "ids": [
+   "12BB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B5A",
+  "ids": [
+   "12BC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B5B",
+  "ids": [
+   "12BD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B5C",
+  "ids": [
+   "12BE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B5D",
+  "ids": [
+   "12BF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B5E",
+  "ids": [
+   "12C0"
+  ],
+  "fall": false,
+  "jp": "ガチャステをしますか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "60B7C",
+  "ids": [
+   "12C1"
+  ],
+  "fall": false,
+  "jp": "ダイナ　[E0 13]　\n　　　　[E0 12]　を　てにいれた[close]",
+  "en": ""
+ },
+ {
+  "addr": "60B93",
+  "ids": [
+   "12C2"
+  ],
+  "fall": false,
+  "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　を　てにいれた[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BAC",
+  "ids": [
+   "12C3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BAD",
+  "ids": [
+   "12C4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BAE",
+  "ids": [
+   "12C5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BAF",
+  "ids": [
+   "12C6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BB0",
+  "ids": [
+   "12C7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BB1",
+  "ids": [
+   "12C8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BB2",
+  "ids": [
+   "12C9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BB3",
+  "ids": [
+   "12CA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BB4",
+  "ids": [
+   "12CB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BB5",
+  "ids": [
+   "12CC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BB6",
+  "ids": [
+   "12CD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BB7",
+  "ids": [
+   "12CE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BB8",
+  "ids": [
+   "12CF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BB9",
+  "ids": [
+   "12D0"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "60BD7",
+  "ids": [
+   "12D1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BD8",
+  "ids": [
+   "12D2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BD9",
+  "ids": [
+   "12D3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BDA",
+  "ids": [
+   "12D4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BDB",
+  "ids": [
+   "12D5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BDC",
+  "ids": [
+   "12D6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BDD",
+  "ids": [
+   "12D7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BDE",
+  "ids": [
+   "12D8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BDF",
+  "ids": [
+   "12D9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BE0",
+  "ids": [
+   "12DA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BE1",
+  "ids": [
+   "12DB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BE2",
+  "ids": [
+   "12DC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BE3",
+  "ids": [
+   "12DD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BE4",
+  "ids": [
+   "12DE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BE5",
+  "ids": [
+   "12DF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BE6",
+  "ids": [
+   "12E0"
+  ],
+  "fall": false,
+  "jp": "なにか　おとがした！[close]",
+  "en": ""
+ },
+ {
+  "addr": "60BF2",
+  "ids": [
+   "12E1"
+  ],
+  "fall": false,
+  "jp": "こら〜！\nなにやってんだ〜！[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C05",
+  "ids": [
+   "12E2"
+  ],
+  "fall": false,
+  "jp": "ただで　できそうだ[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C0F",
+  "ids": [
+   "12E3"
+  ],
+  "fall": false,
+  "jp": "もう　できないみたいだ[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C1B",
+  "ids": [
+   "12E4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C1C",
+  "ids": [
+   "12E5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C1D",
+  "ids": [
+   "12E6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C1E",
+  "ids": [
+   "12E7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C1F",
+  "ids": [
+   "12E8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C20",
+  "ids": [
+   "12E9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C21",
+  "ids": [
+   "12EA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C22",
+  "ids": [
+   "12EB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C23",
+  "ids": [
+   "12EC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C24",
+  "ids": [
+   "12ED"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C25",
+  "ids": [
+   "12EE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C26",
+  "ids": [
+   "12EF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C27",
+  "ids": [
+   "12F0"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C28",
+  "ids": [
+   "12F1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C29",
+  "ids": [
+   "12F2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C2A",
+  "ids": [
+   "12F3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C2B",
+  "ids": [
+   "12F4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C2C",
+  "ids": [
+   "12F5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C2D",
+  "ids": [
+   "12F6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C2E",
+  "ids": [
+   "12F7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C2F",
+  "ids": [
+   "12F8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C30",
+  "ids": [
+   "12F9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C31",
+  "ids": [
+   "12FA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C32",
+  "ids": [
+   "12FB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C33",
+  "ids": [
+   "12FC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C34",
+  "ids": [
+   "12FD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C35",
+  "ids": [
+   "12FE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "60C36",
+  "ids": [
+   "12FF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ }
+]

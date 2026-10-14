@@ -1,0 +1,2306 @@
+[
+ {
+  "addr": "5F0D4",
+  "ids": [
+   "1100"
+  ],
+  "fall": false,
+  "jp": "バトルに　エントリーする\nバッテリーヘッドを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F0F6",
+  "ids": [
+   "1101"
+  ],
+  "fall": false,
+  "jp": "よろしいですか？\n　　はい　　いいえ[E0 00 01 05 11 02 11 00]",
+  "en": ""
+ },
+ {
+  "addr": "5F111",
+  "ids": [
+   "1102"
+  ],
+  "fall": false,
+  "jp": "エントリーします[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F11B",
+  "ids": [
+   "1103"
+  ],
+  "fall": false,
+  "jp": "バトルを　やめますか？\n　　はい　　いいえ[E0 00 01 05 11 04 11 01]",
+  "en": ""
+ },
+ {
+  "addr": "5F139",
+  "ids": [
+   "1104"
+  ],
+  "fall": false,
+  "jp": "エントリーを　しゅうりょうします[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F14B",
+  "ids": [
+   "1105"
+  ],
+  "fall": false,
+  "jp": "エントリーしますか？\n　　はい　　いいえ[E0 00 01 05 11 06 11 01]",
+  "en": ""
+ },
+ {
+  "addr": "5F169",
+  "ids": [
+   "1106"
+  ],
+  "fall": false,
+  "jp": "バトルに　はいります[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F174",
+  "ids": [
+   "1107"
+  ],
+  "fall": false,
+  "jp": "エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 06 11 00]",
+  "en": ""
+ },
+ {
+  "addr": "5F195",
+  "ids": [
+   "1108"
+  ],
+  "fall": false,
+  "jp": "このエントリーで　よろしいですか？\n　　はい　　いいえ[E0 01 01 05 11 06 11 14]",
+  "en": ""
+ },
+ {
+  "addr": "5F1BA",
+  "ids": [
+   "1109"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F1DA",
+  "ids": [
+   "110A"
+  ],
+  "fall": false,
+  "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F1FA",
+  "ids": [
+   "110B"
+  ],
+  "fall": false,
+  "jp": "３ｒｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F21A",
+  "ids": [
+   "110C"
+  ],
+  "fall": false,
+  "jp": "よろしいですか？\n　　はい　　いいえ[E0 00 01 05 11 02 11 0F]",
+  "en": ""
+ },
+ {
+  "addr": "5F235",
+  "ids": [
+   "110D"
+  ],
+  "fall": false,
+  "jp": "よろしいですか？\n　　はい　　いいえ[E0 00 01 05 11 02 11 10]",
+  "en": ""
+ },
+ {
+  "addr": "5F250",
+  "ids": [
+   "110E"
+  ],
+  "fall": false,
+  "jp": "よろしいですか？\n　　はい　　いいえ[E0 00 01 05 11 02 11 11]",
+  "en": ""
+ },
+ {
+  "addr": "5F26B",
+  "ids": [
+   "110F"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F28B",
+  "ids": [
+   "1110"
+  ],
+  "fall": false,
+  "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F2AB",
+  "ids": [
+   "1111"
+  ],
+  "fall": false,
+  "jp": "３ｒｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F2CB",
+  "ids": [
+   "1112"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 15 11 0A]",
+  "en": ""
+ },
+ {
+  "addr": "5F2F0",
+  "ids": [
+   "1113"
+  ],
+  "fall": false,
+  "jp": "エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 14 11 0B]",
+  "en": ""
+ },
+ {
+  "addr": "5F311",
+  "ids": [
+   "1114"
+  ],
+  "fall": false,
+  "jp": "かえたい　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F32A",
+  "ids": [
+   "1115"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F34A",
+  "ids": [
+   "1116"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 0F 11 08]",
+  "en": ""
+ },
+ {
+  "addr": "5F36F",
+  "ids": [
+   "1117"
+  ],
+  "fall": false,
+  "jp": "２ｎｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 15 11 08]",
+  "en": ""
+ },
+ {
+  "addr": "5F394",
+  "ids": [
+   "1118"
+  ],
+  "fall": false,
+  "jp": "３ｒｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 15 11 08]",
+  "en": ""
+ },
+ {
+  "addr": "5F3B9",
+  "ids": [
+   "1119"
+  ],
+  "fall": false,
+  "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F3D9",
+  "ids": [
+   "111A"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 1B 11 1C]",
+  "en": ""
+ },
+ {
+  "addr": "5F3FE",
+  "ids": [
+   "111B"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F41E",
+  "ids": [
+   "111C"
+  ],
+  "fall": false,
+  "jp": "３ｒｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F43E",
+  "ids": [
+   "111D"
+  ],
+  "fall": false,
+  "jp": "２ｎｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 1E 11 1C]",
+  "en": ""
+ },
+ {
+  "addr": "5F463",
+  "ids": [
+   "111E"
+  ],
+  "fall": false,
+  "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F483",
+  "ids": [
+   "111F"
+  ],
+  "fall": false,
+  "jp": "３ｒｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 20 11 1C]",
+  "en": ""
+ },
+ {
+  "addr": "5F4A8",
+  "ids": [
+   "1120"
+  ],
+  "fall": false,
+  "jp": "３ｒｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F4C8",
+  "ids": [
+   "1121"
+  ],
+  "fall": false,
+  "jp": "エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 14 11 08]",
+  "en": ""
+ },
+ {
+  "addr": "5F4E9",
+  "ids": [
+   "1122"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 23 11 08]",
+  "en": ""
+ },
+ {
+  "addr": "5F50E",
+  "ids": [
+   "1123"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F52E",
+  "ids": [
+   "1124"
+  ],
+  "fall": false,
+  "jp": "２ｎｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 25 11 08]",
+  "en": ""
+ },
+ {
+  "addr": "5F553",
+  "ids": [
+   "1125"
+  ],
+  "fall": false,
+  "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F573",
+  "ids": [
+   "1126"
+  ],
+  "fall": false,
+  "jp": "３ｒｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 27 11 08]",
+  "en": ""
+ },
+ {
+  "addr": "5F598",
+  "ids": [
+   "1127"
+  ],
+  "fall": false,
+  "jp": "３ｒｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F5B8",
+  "ids": [
+   "1128"
+  ],
+  "fall": false,
+  "jp": "エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 29 11 2A]",
+  "en": ""
+ },
+ {
+  "addr": "5F5D9",
+  "ids": [
+   "1129"
+  ],
+  "fall": false,
+  "jp": "かえたい　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F5F2",
+  "ids": [
+   "112A"
+  ],
+  "fall": false,
+  "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F612",
+  "ids": [
+   "112B"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 2C 11 2D]",
+  "en": ""
+ },
+ {
+  "addr": "5F637",
+  "ids": [
+   "112C"
+  ],
+  "fall": false,
+  "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F657",
+  "ids": [
+   "112D"
+  ],
+  "fall": false,
+  "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F677",
+  "ids": [
+   "112E"
+  ],
+  "fall": false,
+  "jp": "バッテリーヘッドの　じゅうでんりょうに\n０があります[p]エントリーした　バッテリーヘッドから\nじゅうでんりょうを　へらしてください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F6BB",
+  "ids": [
+   "112F"
+  ],
+  "fall": false,
+  "jp": "バッテリーはいぶんを　しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 11 08 11 31]",
+  "en": ""
+ },
+ {
+  "addr": "5F6E5",
+  "ids": [
+   "1130"
+  ],
+  "fall": false,
+  "jp": "このじゅうでんりょうでは\nバトルができないので　やりなおしてください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F708",
+  "ids": [
+   "1131"
+  ],
+  "fall": false,
+  "jp": "バッテリーはいぶんを　やりなおしてください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F71F",
+  "ids": [
+   "1132"
+  ],
+  "fall": false,
+  "jp": "バッテリーはいぶんを　してください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F732",
+  "ids": [
+   "1133"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F733",
+  "ids": [
+   "1134"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F734",
+  "ids": [
+   "1135"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F735",
+  "ids": [
+   "1136"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F736",
+  "ids": [
+   "1137"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F737",
+  "ids": [
+   "1138"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F738",
+  "ids": [
+   "1139"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F739",
+  "ids": [
+   "113A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F73A",
+  "ids": [
+   "113B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F73B",
+  "ids": [
+   "113C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F73C",
+  "ids": [
+   "113D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F73D",
+  "ids": [
+   "113E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F73E",
+  "ids": [
+   "113F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F73F",
+  "ids": [
+   "1140"
+  ],
+  "fall": false,
+  "jp": "ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 11 41 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "5F75E",
+  "ids": [
+   "1141"
+  ],
+  "fall": false,
+  "jp": "パスワードを\nにゅうりょくしてください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F773",
+  "ids": [
+   "1142"
+  ],
+  "fall": false,
+  "jp": "３２こもっている　デバイスは\nこれいじょうもてません[p]ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 11 41 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "5F7AD",
+  "ids": [
+   "1143"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7AE",
+  "ids": [
+   "1144"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7AF",
+  "ids": [
+   "1145"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7B0",
+  "ids": [
+   "1146"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7B1",
+  "ids": [
+   "1147"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7B2",
+  "ids": [
+   "1148"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7B3",
+  "ids": [
+   "1149"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7B4",
+  "ids": [
+   "114A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7B5",
+  "ids": [
+   "114B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7B6",
+  "ids": [
+   "114C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7B7",
+  "ids": [
+   "114D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7B8",
+  "ids": [
+   "114E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7B9",
+  "ids": [
+   "114F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7BA",
+  "ids": [
+   "1150"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7BB",
+  "ids": [
+   "1151"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7BC",
+  "ids": [
+   "1152"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7BD",
+  "ids": [
+   "1153"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7BE",
+  "ids": [
+   "1154"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7BF",
+  "ids": [
+   "1155"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7C0",
+  "ids": [
+   "1156"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7C1",
+  "ids": [
+   "1157"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7C2",
+  "ids": [
+   "1158"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7C3",
+  "ids": [
+   "1159"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7C4",
+  "ids": [
+   "115A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7C5",
+  "ids": [
+   "115B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7C6",
+  "ids": [
+   "115C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7C7",
+  "ids": [
+   "115D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7C8",
+  "ids": [
+   "115E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7C9",
+  "ids": [
+   "115F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7CA",
+  "ids": [
+   "1160"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7CB",
+  "ids": [
+   "1161"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7CC",
+  "ids": [
+   "1162"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7CD",
+  "ids": [
+   "1163"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7CE",
+  "ids": [
+   "1164"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7CF",
+  "ids": [
+   "1165"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7D0",
+  "ids": [
+   "1166"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7D1",
+  "ids": [
+   "1167"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7D2",
+  "ids": [
+   "1168"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7D3",
+  "ids": [
+   "1169"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7D4",
+  "ids": [
+   "116A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7D5",
+  "ids": [
+   "116B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7D6",
+  "ids": [
+   "116C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7D7",
+  "ids": [
+   "116D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7D8",
+  "ids": [
+   "116E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7D9",
+  "ids": [
+   "116F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7DA",
+  "ids": [
+   "1170"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7DB",
+  "ids": [
+   "1171"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7DC",
+  "ids": [
+   "1172"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7DD",
+  "ids": [
+   "1173"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7DE",
+  "ids": [
+   "1174"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7DF",
+  "ids": [
+   "1175"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7E0",
+  "ids": [
+   "1176"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7E1",
+  "ids": [
+   "1177"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7E2",
+  "ids": [
+   "1178"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7E3",
+  "ids": [
+   "1179"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7E4",
+  "ids": [
+   "117A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7E5",
+  "ids": [
+   "117B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7E6",
+  "ids": [
+   "117C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7E7",
+  "ids": [
+   "117D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7E8",
+  "ids": [
+   "117E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7E9",
+  "ids": [
+   "117F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7EA",
+  "ids": [
+   "1180"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7EB",
+  "ids": [
+   "1181"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7EC",
+  "ids": [
+   "1182"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7ED",
+  "ids": [
+   "1183"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7EE",
+  "ids": [
+   "1184"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7EF",
+  "ids": [
+   "1185"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7F0",
+  "ids": [
+   "1186"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7F1",
+  "ids": [
+   "1187"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7F2",
+  "ids": [
+   "1188"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7F3",
+  "ids": [
+   "1189"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7F4",
+  "ids": [
+   "118A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7F5",
+  "ids": [
+   "118B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7F6",
+  "ids": [
+   "118C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7F7",
+  "ids": [
+   "118D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7F8",
+  "ids": [
+   "118E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7F9",
+  "ids": [
+   "118F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7FA",
+  "ids": [
+   "1190"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7FB",
+  "ids": [
+   "1191"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7FC",
+  "ids": [
+   "1192"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7FD",
+  "ids": [
+   "1193"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7FE",
+  "ids": [
+   "1194"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F7FF",
+  "ids": [
+   "1195"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F800",
+  "ids": [
+   "1196"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F801",
+  "ids": [
+   "1197"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F802",
+  "ids": [
+   "1198"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F803",
+  "ids": [
+   "1199"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F804",
+  "ids": [
+   "119A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F805",
+  "ids": [
+   "119B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F806",
+  "ids": [
+   "119C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F807",
+  "ids": [
+   "119D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F808",
+  "ids": [
+   "119E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F809",
+  "ids": [
+   "119F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F80A",
+  "ids": [
+   "11A0"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F80B",
+  "ids": [
+   "11A1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F80C",
+  "ids": [
+   "11A2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F80D",
+  "ids": [
+   "11A3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F80E",
+  "ids": [
+   "11A4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F80F",
+  "ids": [
+   "11A5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F810",
+  "ids": [
+   "11A6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F811",
+  "ids": [
+   "11A7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F812",
+  "ids": [
+   "11A8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F813",
+  "ids": [
+   "11A9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F814",
+  "ids": [
+   "11AA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F815",
+  "ids": [
+   "11AB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F816",
+  "ids": [
+   "11AC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F817",
+  "ids": [
+   "11AD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F818",
+  "ids": [
+   "11AE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F819",
+  "ids": [
+   "11AF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F81A",
+  "ids": [
+   "11B0"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F81B",
+  "ids": [
+   "11B1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F81C",
+  "ids": [
+   "11B2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F81D",
+  "ids": [
+   "11B3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F81E",
+  "ids": [
+   "11B4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F81F",
+  "ids": [
+   "11B5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F820",
+  "ids": [
+   "11B6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F821",
+  "ids": [
+   "11B7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F822",
+  "ids": [
+   "11B8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F823",
+  "ids": [
+   "11B9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F824",
+  "ids": [
+   "11BA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F825",
+  "ids": [
+   "11BB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F826",
+  "ids": [
+   "11BC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F827",
+  "ids": [
+   "11BD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F828",
+  "ids": [
+   "11BE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F829",
+  "ids": [
+   "11BF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F82A",
+  "ids": [
+   "11C0"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F82B",
+  "ids": [
+   "11C1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F82C",
+  "ids": [
+   "11C2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F82D",
+  "ids": [
+   "11C3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F82E",
+  "ids": [
+   "11C4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F82F",
+  "ids": [
+   "11C5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F830",
+  "ids": [
+   "11C6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F831",
+  "ids": [
+   "11C7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F832",
+  "ids": [
+   "11C8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F833",
+  "ids": [
+   "11C9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F834",
+  "ids": [
+   "11CA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F835",
+  "ids": [
+   "11CB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F836",
+  "ids": [
+   "11CC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F837",
+  "ids": [
+   "11CD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F838",
+  "ids": [
+   "11CE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F839",
+  "ids": [
+   "11CF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F83A",
+  "ids": [
+   "11D0"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F83B",
+  "ids": [
+   "11D1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F83C",
+  "ids": [
+   "11D2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F83D",
+  "ids": [
+   "11D3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F83E",
+  "ids": [
+   "11D4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F83F",
+  "ids": [
+   "11D5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F840",
+  "ids": [
+   "11D6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F841",
+  "ids": [
+   "11D7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F842",
+  "ids": [
+   "11D8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F843",
+  "ids": [
+   "11D9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F844",
+  "ids": [
+   "11DA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F845",
+  "ids": [
+   "11DB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F846",
+  "ids": [
+   "11DC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F847",
+  "ids": [
+   "11DD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F848",
+  "ids": [
+   "11DE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F849",
+  "ids": [
+   "11DF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F84A",
+  "ids": [
+   "11E0"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F84B",
+  "ids": [
+   "11E1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F84C",
+  "ids": [
+   "11E2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F84D",
+  "ids": [
+   "11E3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F84E",
+  "ids": [
+   "11E4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F84F",
+  "ids": [
+   "11E5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F850",
+  "ids": [
+   "11E6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F851",
+  "ids": [
+   "11E7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F852",
+  "ids": [
+   "11E8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F853",
+  "ids": [
+   "11E9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F854",
+  "ids": [
+   "11EA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F855",
+  "ids": [
+   "11EB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F856",
+  "ids": [
+   "11EC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F857",
+  "ids": [
+   "11ED"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F858",
+  "ids": [
+   "11EE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F859",
+  "ids": [
+   "11EF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F85A",
+  "ids": [
+   "11F0"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F85B",
+  "ids": [
+   "11F1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F85C",
+  "ids": [
+   "11F2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F85D",
+  "ids": [
+   "11F3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F85E",
+  "ids": [
+   "11F4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F85F",
+  "ids": [
+   "11F5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F860",
+  "ids": [
+   "11F6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F861",
+  "ids": [
+   "11F7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F862",
+  "ids": [
+   "11F8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F863",
+  "ids": [
+   "11F9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F864",
+  "ids": [
+   "11FA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F865",
+  "ids": [
+   "11FB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F866",
+  "ids": [
+   "11FC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F867",
+  "ids": [
+   "11FD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F868",
+  "ids": [
+   "11FE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5F869",
+  "ids": [
+   "11FF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ }
+]

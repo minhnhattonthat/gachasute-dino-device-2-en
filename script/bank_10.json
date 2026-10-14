@@ -1,0 +1,2306 @@
+[
+ {
+  "addr": "5E590",
+  "ids": [
+   "1000"
+  ],
+  "fall": false,
+  "jp": "しょうりした！[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E599",
+  "ids": [
+   "1001"
+  ],
+  "fall": false,
+  "jp": "まけてしまった[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E5A1",
+  "ids": [
+   "1002"
+  ],
+  "fall": false,
+  "jp": "メダルを　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E5AC",
+  "ids": [
+   "1003"
+  ],
+  "fall": false,
+  "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　を　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E5C5",
+  "ids": [
+   "1004"
+  ],
+  "fall": false,
+  "jp": "[E0 11 00]ビットを　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E5D3",
+  "ids": [
+   "1005"
+  ],
+  "fall": false,
+  "jp": "[E0 11 01]けいけんちを　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E5E3",
+  "ids": [
+   "1006"
+  ],
+  "fall": false,
+  "jp": "レベルが　[E0 11 02]にあがった！[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E5F3",
+  "ids": [
+   "1007"
+  ],
+  "fall": false,
+  "jp": "ボルトオンを　てにいれた！[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E602",
+  "ids": [
+   "1008"
+  ],
+  "fall": false,
+  "jp": "ゴールドメダルを　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E612",
+  "ids": [
+   "1009"
+  ],
+  "fall": false,
+  "jp": "シルバーメダルを　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E622",
+  "ids": [
+   "100A"
+  ],
+  "fall": false,
+  "jp": "ブロンズメダルを　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E631",
+  "ids": [
+   "100B"
+  ],
+  "fall": false,
+  "jp": "Ｄバースト＋１０を　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E643",
+  "ids": [
+   "100C"
+  ],
+  "fall": false,
+  "jp": "Ｄバーストｘ２を　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E653",
+  "ids": [
+   "100D"
+  ],
+  "fall": false,
+  "jp": "Ｄバーストｘ４を　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E663",
+  "ids": [
+   "100E"
+  ],
+  "fall": false,
+  "jp": "Ｄバーストｘ１０を　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E674",
+  "ids": [
+   "100F"
+  ],
+  "fall": false,
+  "jp": "Ｄバーストｘ２０を　てにいれた[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E685",
+  "ids": [
+   "1010"
+  ],
+  "fall": false,
+  "jp": "デバイスが　これいじょう　もてません[half]かくとくしたデバイスを　あきらめますか？[half]　　はい　　いいえ[E0 01 01 05 10 11 10 12]",
+  "en": ""
+ },
+ {
+  "addr": "5E6BF",
+  "ids": [
+   "1011"
+  ],
+  "fall": false,
+  "jp": "あきらめました[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6C7",
+  "ids": [
+   "1012"
+  ],
+  "fall": false,
+  "jp": "すてるデバイスを　えらんでください[E0 51][end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6DB",
+  "ids": [
+   "1013"
+  ],
+  "fall": false,
+  "jp": "まけてしまった[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6E3",
+  "ids": [
+   "1014"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6E4",
+  "ids": [
+   "1015"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6E5",
+  "ids": [
+   "1016"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6E6",
+  "ids": [
+   "1017"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6E7",
+  "ids": [
+   "1018"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6E8",
+  "ids": [
+   "1019"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6E9",
+  "ids": [
+   "101A"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6EA",
+  "ids": [
+   "101B"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6EB",
+  "ids": [
+   "101C"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6EC",
+  "ids": [
+   "101D"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6ED",
+  "ids": [
+   "101E"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6EE",
+  "ids": [
+   "101F"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E6EF",
+  "ids": [
+   "1020"
+  ],
+  "fall": false,
+  "jp": "カタログひょうじを　しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 10 21 10 22]",
+  "en": ""
+ },
+ {
+  "addr": "5E717",
+  "ids": [
+   "1021"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうします[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E721",
+  "ids": [
+   "1022"
+  ],
+  "fall": false,
+  "jp": "カタログひょうじに　もどります[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E731",
+  "ids": [
+   "1023"
+  ],
+  "fall": false,
+  "jp": "カタログひょうじです[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E73C",
+  "ids": [
+   "1024"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E73D",
+  "ids": [
+   "1025"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E73E",
+  "ids": [
+   "1026"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E73F",
+  "ids": [
+   "1027"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E740",
+  "ids": [
+   "1028"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E741",
+  "ids": [
+   "1029"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E742",
+  "ids": [
+   "102A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E743",
+  "ids": [
+   "102B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E744",
+  "ids": [
+   "102C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E745",
+  "ids": [
+   "102D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E746",
+  "ids": [
+   "102E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E747",
+  "ids": [
+   "102F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E748",
+  "ids": [
+   "1030"
+  ],
+  "fall": false,
+  "jp": "かいたいアイテムと\nこすうを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E760",
+  "ids": [
+   "1031"
+  ],
+  "fall": false,
+  "jp": "かうのを　やめますか？\n　　はい　　いいえ[E0 00 01 05 10 32 10 30]",
+  "en": ""
+ },
+ {
+  "addr": "5E77E",
+  "ids": [
+   "1032"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうします[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E788",
+  "ids": [
+   "1033"
+  ],
+  "fall": false,
+  "jp": "[E0 11 00]ビットに　なります[half]かいますか？[half]　　はい　　いいえ[E0 00 01 05 10 34 10 35]",
+  "en": ""
+ },
+ {
+  "addr": "5E7AE",
+  "ids": [
+   "1034"
+  ],
+  "fall": false,
+  "jp": "まいど　ありがとうございました[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7BE",
+  "ids": [
+   "1035"
+  ],
+  "fall": false,
+  "jp": "えらびなおしてください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7CA",
+  "ids": [
+   "1036"
+  ],
+  "fall": false,
+  "jp": "これいじょう　もてません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7D7",
+  "ids": [
+   "1037"
+  ],
+  "fall": false,
+  "jp": "おかねが　たりません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7E2",
+  "ids": [
+   "1038"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7E3",
+  "ids": [
+   "1039"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7E4",
+  "ids": [
+   "103A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7E5",
+  "ids": [
+   "103B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7E6",
+  "ids": [
+   "103C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7E7",
+  "ids": [
+   "103D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7E8",
+  "ids": [
+   "103E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7E9",
+  "ids": [
+   "103F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E7EA",
+  "ids": [
+   "1040"
+  ],
+  "fall": false,
+  "jp": "うりたいアイテムと\nこすうを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E802",
+  "ids": [
+   "1041"
+  ],
+  "fall": false,
+  "jp": "うるのを　やめますか？\n　　はい　　いいえ[E0 00 01 05 10 42 10 40]",
+  "en": ""
+ },
+ {
+  "addr": "5E820",
+  "ids": [
+   "1042"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうします[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E82A",
+  "ids": [
+   "1043"
+  ],
+  "fall": false,
+  "jp": "[E0 11 00]ビットに　なります[half]うりますか？[half]　　はい　　いいえ[E0 00 01 05 10 44 10 45]",
+  "en": ""
+ },
+ {
+  "addr": "5E850",
+  "ids": [
+   "1044"
+  ],
+  "fall": false,
+  "jp": "まいど　ありがとうございました[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E860",
+  "ids": [
+   "1045"
+  ],
+  "fall": false,
+  "jp": "えらびなおしてください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E86C",
+  "ids": [
+   "1046"
+  ],
+  "fall": false,
+  "jp": "アイテムが　ありません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E878",
+  "ids": [
+   "1047"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E879",
+  "ids": [
+   "1048"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E87A",
+  "ids": [
+   "1049"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E87B",
+  "ids": [
+   "104A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E87C",
+  "ids": [
+   "104B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E87D",
+  "ids": [
+   "104C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E87E",
+  "ids": [
+   "104D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E87F",
+  "ids": [
+   "104E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E880",
+  "ids": [
+   "104F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E881",
+  "ids": [
+   "1050"
+  ],
+  "fall": false,
+  "jp": "げんざい[E0 11 00]ポイントです\nポイントのこうかんは　できません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E8A0",
+  "ids": [
+   "1051"
+  ],
+  "fall": false,
+  "jp": "げんざい[E0 11 00]ポイントです\nポイントのこうかんが　できます\nポイントでけいひんを　こうかんしますか？\n　　はい　　いいえ[E0 00 01 05 10 52 10 53]",
+  "en": ""
+ },
+ {
+  "addr": "5E8E5",
+  "ids": [
+   "1052"
+  ],
+  "fall": false,
+  "jp": "つかうポイントとけいひんを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E8FC",
+  "ids": [
+   "1053"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうします[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E906",
+  "ids": [
+   "1054"
+  ],
+  "fall": false,
+  "jp": "ポイントでけいひんのこうかんを　やめますか？\n　　はい　　いいえ[E0 00 01 05 10 53 10 52]",
+  "en": ""
+ },
+ {
+  "addr": "5E92F",
+  "ids": [
+   "1055"
+  ],
+  "fall": false,
+  "jp": "これでいいですか？\n　　はい　　いいえ[E0 00 01 05 10 56 10 57]",
+  "en": ""
+ },
+ {
+  "addr": "5E94B",
+  "ids": [
+   "1056"
+  ],
+  "fall": false,
+  "jp": "まいど　ありがとうございました[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E95B",
+  "ids": [
+   "1057"
+  ],
+  "fall": false,
+  "jp": "けいひんを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E96A",
+  "ids": [
+   "1058"
+  ],
+  "fall": false,
+  "jp": "これでいいですか？\n　　はい　　いいえ[E0 00 01 05 10 59 10 5A]",
+  "en": ""
+ },
+ {
+  "addr": "5E986",
+  "ids": [
+   "1059"
+  ],
+  "fall": false,
+  "jp": "まいど　ありがとうございました[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E996",
+  "ids": [
+   "105A"
+  ],
+  "fall": false,
+  "jp": "けいひんを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9A5",
+  "ids": [
+   "105B"
+  ],
+  "fall": false,
+  "jp": "これでいいですか？\n　　はい　　いいえ[E0 00 01 05 10 5C 10 5D]",
+  "en": ""
+ },
+ {
+  "addr": "5E9C1",
+  "ids": [
+   "105C"
+  ],
+  "fall": false,
+  "jp": "まいど　ありがとうございました[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9D1",
+  "ids": [
+   "105D"
+  ],
+  "fall": false,
+  "jp": "けいひんを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9E0",
+  "ids": [
+   "105E"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうします[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9EA",
+  "ids": [
+   "105F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9EB",
+  "ids": [
+   "1060"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9EC",
+  "ids": [
+   "1061"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9ED",
+  "ids": [
+   "1062"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9EE",
+  "ids": [
+   "1063"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9EF",
+  "ids": [
+   "1064"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9F0",
+  "ids": [
+   "1065"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9F1",
+  "ids": [
+   "1066"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9F2",
+  "ids": [
+   "1067"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9F3",
+  "ids": [
+   "1068"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9F4",
+  "ids": [
+   "1069"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9F5",
+  "ids": [
+   "106A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9F6",
+  "ids": [
+   "106B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9F7",
+  "ids": [
+   "106C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9F8",
+  "ids": [
+   "106D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9F9",
+  "ids": [
+   "106E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9FA",
+  "ids": [
+   "106F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5E9FB",
+  "ids": [
+   "1070"
+  ],
+  "fall": false,
+  "jp": "とりよせるダイナかデバイスを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EA13",
+  "ids": [
+   "1071"
+  ],
+  "fall": false,
+  "jp": "カタログはんばいを　しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 10 72 10 73]",
+  "en": ""
+ },
+ {
+  "addr": "5EA3B",
+  "ids": [
+   "1072"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうします[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EA45",
+  "ids": [
+   "1073"
+  ],
+  "fall": false,
+  "jp": "カタログはんばいに　もどります[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EA55",
+  "ids": [
+   "1074"
+  ],
+  "fall": false,
+  "jp": "このデバイスは　えらぶことができません\nいちど　てにいれると　えらぶことができます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EA7F",
+  "ids": [
+   "1075"
+  ],
+  "fall": false,
+  "jp": "てすうりょうこみで　[E0 11 00]ビットになります[half]よろしいですか？\n　　はい　　いいえ[E0 00 01 05 10 76 10 77]",
+  "en": ""
+ },
+ {
+  "addr": "5EAB0",
+  "ids": [
+   "1076"
+  ],
+  "fall": false,
+  "jp": "まいど　ありがとうございました[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EAC0",
+  "ids": [
+   "1077"
+  ],
+  "fall": false,
+  "jp": "とりよせるダイナかデバイスを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EAD8",
+  "ids": [
+   "1078"
+  ],
+  "fall": false,
+  "jp": "ざんねんですが　おかねがたりません\nおかねがあるとき　おこしください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EAFB",
+  "ids": [
+   "1079"
+  ],
+  "fall": false,
+  "jp": "これいじょう　もてません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB08",
+  "ids": [
+   "107A"
+  ],
+  "fall": false,
+  "jp": "とりよせるダイナかデバイスを　えらんでください[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB20",
+  "ids": [
+   "107B"
+  ],
+  "fall": false,
+  "jp": "このダイナは　えらぶことができません\nいちど　てにいれると　えらぶことができます[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB49",
+  "ids": [
+   "107C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB4A",
+  "ids": [
+   "107D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB4B",
+  "ids": [
+   "107E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB4C",
+  "ids": [
+   "107F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB4D",
+  "ids": [
+   "1080"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB4E",
+  "ids": [
+   "1081"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB4F",
+  "ids": [
+   "1082"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB50",
+  "ids": [
+   "1083"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB51",
+  "ids": [
+   "1084"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB52",
+  "ids": [
+   "1085"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB53",
+  "ids": [
+   "1086"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB54",
+  "ids": [
+   "1087"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB55",
+  "ids": [
+   "1088"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB56",
+  "ids": [
+   "1089"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB57",
+  "ids": [
+   "108A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB58",
+  "ids": [
+   "108B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB59",
+  "ids": [
+   "108C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB5A",
+  "ids": [
+   "108D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB5B",
+  "ids": [
+   "108E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB5C",
+  "ids": [
+   "108F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EB5D",
+  "ids": [
+   "1090"
+  ],
+  "fall": false,
+  "jp": "いらっしゃいませ\nなにを　ごきぼうでしょうか？[end]",
+  "en": ""
+ },
+ {
+  "addr": "5EB76",
+  "ids": [
+   "1091"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 10 92 10 93]",
+  "en": ""
+ },
+ {
+  "addr": "5EB94",
+  "ids": [
+   "1092"
+  ],
+  "fall": false,
+  "jp": "まいど　ありがとうございました[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBA4",
+  "ids": [
+   "1093"
+  ],
+  "fall": false,
+  "jp": "なにを\nごきぼうでしょうか？[end]",
+  "en": ""
+ },
+ {
+  "addr": "5EBB4",
+  "ids": [
+   "1094"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBB5",
+  "ids": [
+   "1095"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBB6",
+  "ids": [
+   "1096"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBB7",
+  "ids": [
+   "1097"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBB8",
+  "ids": [
+   "1098"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBB9",
+  "ids": [
+   "1099"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBBA",
+  "ids": [
+   "109A"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBBB",
+  "ids": [
+   "109B"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBBC",
+  "ids": [
+   "109C"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBBD",
+  "ids": [
+   "109D"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBBE",
+  "ids": [
+   "109E"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBBF",
+  "ids": [
+   "109F"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBC0",
+  "ids": [
+   "10A0"
+  ],
+  "fall": false,
+  "jp": "バッテリーチャージが　しゅうりょうしました\nまいど　ありがとうございました[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EBE8",
+  "ids": [
+   "10A1"
+  ],
+  "fall": false,
+  "jp": "バッテリーは　まんたんです\nチャージのひつようは　ありません[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC09",
+  "ids": [
+   "10A2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC0A",
+  "ids": [
+   "10A3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC0B",
+  "ids": [
+   "10A4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC0C",
+  "ids": [
+   "10A5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC0D",
+  "ids": [
+   "10A6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC0E",
+  "ids": [
+   "10A7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC0F",
+  "ids": [
+   "10A8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC10",
+  "ids": [
+   "10A9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC11",
+  "ids": [
+   "10AA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC12",
+  "ids": [
+   "10AB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC13",
+  "ids": [
+   "10AC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC14",
+  "ids": [
+   "10AD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC15",
+  "ids": [
+   "10AE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC16",
+  "ids": [
+   "10AF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC17",
+  "ids": [
+   "10B0"
+  ],
+  "fall": false,
+  "jp": "ステータスひょうじです[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC24",
+  "ids": [
+   "10B1"
+  ],
+  "fall": false,
+  "jp": "ステータスひょうじを　しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 10 B2 10 B3]",
+  "en": ""
+ },
+ {
+  "addr": "5EC4E",
+  "ids": [
+   "10B2"
+  ],
+  "fall": false,
+  "jp": "しゅうりょうします[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC58",
+  "ids": [
+   "10B3"
+  ],
+  "fall": false,
+  "jp": "ステータスひょうじに　もどります[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC6A",
+  "ids": [
+   "10B4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC6B",
+  "ids": [
+   "10B5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC6C",
+  "ids": [
+   "10B6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC6D",
+  "ids": [
+   "10B7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC6E",
+  "ids": [
+   "10B8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC6F",
+  "ids": [
+   "10B9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC70",
+  "ids": [
+   "10BA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC71",
+  "ids": [
+   "10BB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC72",
+  "ids": [
+   "10BC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC73",
+  "ids": [
+   "10BD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC74",
+  "ids": [
+   "10BE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC75",
+  "ids": [
+   "10BF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC76",
+  "ids": [
+   "10C0"
+  ],
+  "fall": false,
+  "jp": "これでいいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
+  "en": ""
+ },
+ {
+  "addr": "5EC92",
+  "ids": [
+   "10C1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC93",
+  "ids": [
+   "10C2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC94",
+  "ids": [
+   "10C3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC95",
+  "ids": [
+   "10C4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC96",
+  "ids": [
+   "10C5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC97",
+  "ids": [
+   "10C6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC98",
+  "ids": [
+   "10C7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC99",
+  "ids": [
+   "10C8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC9A",
+  "ids": [
+   "10C9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC9B",
+  "ids": [
+   "10CA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC9C",
+  "ids": [
+   "10CB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC9D",
+  "ids": [
+   "10CC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC9E",
+  "ids": [
+   "10CD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5EC9F",
+  "ids": [
+   "10CE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECA0",
+  "ids": [
+   "10CF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECA1",
+  "ids": [
+   "10D0"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECA2",
+  "ids": [
+   "10D1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECA3",
+  "ids": [
+   "10D2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECA4",
+  "ids": [
+   "10D3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECA5",
+  "ids": [
+   "10D4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECA6",
+  "ids": [
+   "10D5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECA7",
+  "ids": [
+   "10D6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECA8",
+  "ids": [
+   "10D7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECA9",
+  "ids": [
+   "10D8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECAA",
+  "ids": [
+   "10D9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECAB",
+  "ids": [
+   "10DA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECAC",
+  "ids": [
+   "10DB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECAD",
+  "ids": [
+   "10DC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECAE",
+  "ids": [
+   "10DD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECAF",
+  "ids": [
+   "10DE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECB0",
+  "ids": [
+   "10DF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECB1",
+  "ids": [
+   "10E0"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECB2",
+  "ids": [
+   "10E1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECB3",
+  "ids": [
+   "10E2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECB4",
+  "ids": [
+   "10E3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECB5",
+  "ids": [
+   "10E4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECB6",
+  "ids": [
+   "10E5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECB7",
+  "ids": [
+   "10E6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECB8",
+  "ids": [
+   "10E7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECB9",
+  "ids": [
+   "10E8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECBA",
+  "ids": [
+   "10E9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECBB",
+  "ids": [
+   "10EA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECBC",
+  "ids": [
+   "10EB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECBD",
+  "ids": [
+   "10EC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECBE",
+  "ids": [
+   "10ED"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECBF",
+  "ids": [
+   "10EE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECC0",
+  "ids": [
+   "10EF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECC1",
+  "ids": [
+   "10F0"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECC2",
+  "ids": [
+   "10F1"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECC3",
+  "ids": [
+   "10F2"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECC4",
+  "ids": [
+   "10F3"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECC5",
+  "ids": [
+   "10F4"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECC6",
+  "ids": [
+   "10F5"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECC7",
+  "ids": [
+   "10F6"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECC8",
+  "ids": [
+   "10F7"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECC9",
+  "ids": [
+   "10F8"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECCA",
+  "ids": [
+   "10F9"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECCB",
+  "ids": [
+   "10FA"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECCC",
+  "ids": [
+   "10FB"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECCD",
+  "ids": [
+   "10FC"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECCE",
+  "ids": [
+   "10FD"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECCF",
+  "ids": [
+   "10FE"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ },
+ {
+  "addr": "5ECD0",
+  "ids": [
+   "10FF"
+  ],
+  "fall": false,
+  "jp": "[close]",
+  "en": ""
+ }
+]

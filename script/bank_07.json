@@ -1,0 +1,434 @@
+[
+ {
+  "addr": "5E22C",
+  "ids": [
+   "0700"
+  ],
+  "fall": false,
+  "jp": "おいおい\nそのそうびで　ボクにかてるのかい？[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E244",
+  "ids": [
+   "0701"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E245",
+  "ids": [
+   "0702"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E246",
+  "ids": [
+   "0703"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E247",
+  "ids": [
+   "0704"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E248",
+  "ids": [
+   "0705"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E249",
+  "ids": [
+   "0706"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E24A",
+  "ids": [
+   "0707"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E24B",
+  "ids": [
+   "0708"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E24C",
+  "ids": [
+   "0709"
+  ],
+  "fall": false,
+  "jp": "いまから　こうさんしても\nいいんだぜ！[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E261",
+  "ids": [
+   "070A"
+  ],
+  "fall": false,
+  "jp": "まけたときの　ことをかんがえると\nかわいそうですねー[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E27D",
+  "ids": [
+   "070B"
+  ],
+  "fall": false,
+  "jp": "ほ〜ぉあぁた〜〜！！\n２りゅうと　１りゅうの　バトルのさを\nみせてあげましょう[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E2AA",
+  "ids": [
+   "070C"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E2AB",
+  "ids": [
+   "070D"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E2AC",
+  "ids": [
+   "070E"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E2AD",
+  "ids": [
+   "070F"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E2AE",
+  "ids": [
+   "0710"
+  ],
+  "fall": false,
+  "jp": "おんな　だからって　あまくみたら\nいたいめ　みるわよ[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E2C9",
+  "ids": [
+   "0711"
+  ],
+  "fall": false,
+  "jp": "なんだ　よわそうな　やつだな[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E2D8",
+  "ids": [
+   "0712"
+  ],
+  "fall": false,
+  "jp": "あいてが　こどもでも\nては　ぬかないよ[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E2EC",
+  "ids": [
+   "0713"
+  ],
+  "fall": false,
+  "jp": "おやおや　かわいい\nおとこのこだね〜[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E300",
+  "ids": [
+   "0714"
+  ],
+  "fall": false,
+  "jp": "へっ　オレのかちは\nきまったな[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E310",
+  "ids": [
+   "0715"
+  ],
+  "fall": false,
+  "jp": "なんか　このバトル\nわたしが　かっちゃいそー[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E328",
+  "ids": [
+   "0716"
+  ],
+  "fall": false,
+  "jp": "ボクの　かちはきまりかな〜[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E337",
+  "ids": [
+   "0717"
+  ],
+  "fall": false,
+  "jp": "あ　あの〜・・・\nわたし　あんまり　つよくないので\nまけてください[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E35D",
+  "ids": [
+   "0718"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E35E",
+  "ids": [
+   "0719"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E35F",
+  "ids": [
+   "071A"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E360",
+  "ids": [
+   "071B"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E361",
+  "ids": [
+   "071C"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E362",
+  "ids": [
+   "071D"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E363",
+  "ids": [
+   "071E"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E364",
+  "ids": [
+   "071F"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E365",
+  "ids": [
+   "0720"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E366",
+  "ids": [
+   "0721"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E367",
+  "ids": [
+   "0722"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E368",
+  "ids": [
+   "0723"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E369",
+  "ids": [
+   "0724"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E36A",
+  "ids": [
+   "0725"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E36B",
+  "ids": [
+   "0726"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E36C",
+  "ids": [
+   "0727"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E36D",
+  "ids": [
+   "0728"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E36E",
+  "ids": [
+   "0729"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E36F",
+  "ids": [
+   "072A"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E370",
+  "ids": [
+   "072B"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E371",
+  "ids": [
+   "072C"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E372",
+  "ids": [
+   "072D"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E373",
+  "ids": [
+   "072E"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ },
+ {
+  "addr": "5E374",
+  "ids": [
+   "072F"
+  ],
+  "fall": false,
+  "jp": "[end]",
+  "en": ""
+ }
+]
