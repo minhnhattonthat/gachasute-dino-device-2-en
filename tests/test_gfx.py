@@ -11,9 +11,10 @@ ROM = (ROOT / 'rom/orig.gba').read_bytes()
 
 
 def test_pat_roundtrip():
-    p = G.load(ROM, 1, 2997)  # a plain entry: its size runs into the padding before the next entry
-    q = GB.pat_build(GB.pat_parse(p))
-    assert p[:len(q)] == q and not any(p[len(q):])
+    for i in (2997, 3120):
+        p = G.load(ROM, 1, i)  # a plain entry: its size runs into the padding before the next entry
+        q = GB.pat_build(GB.pat_parse(p))
+        assert p[:len(q)] == q and not any(p[len(q):])
 
 
 def test_applied_maps_show_the_pngs():

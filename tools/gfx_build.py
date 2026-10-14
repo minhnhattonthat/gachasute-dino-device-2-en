@@ -8,6 +8,8 @@ gfx/*.png are indexed PNGs in the game's own palette (index = colour number; ind
   title_obj.png   256x152, OBJ sheet 1/2995, 4bpp; pixel = palette bank * 16 + colour (bank only for viewing)
   intro_logo.png  512x160, BG0 maps 1/3021 (left half) + 1/3022 (right half), tiles 1/3019 (4bpp, shared with 1/3020)
   ui_sheet.png    256x64, UI sheet 1/2966 (4bpp, shown in bank 1); name-entry button bars 1/2972-2974 widened in code
+  catalog_sheet.png 2/1260 (My Catalog / Catalog Order side tabs), shop_sheet.png 2/1282 (SELECT footer),
+  setdev_glyphs.png 1/3119 (Set Devices slot-name letters; PAT 1/3120 spells the names)
 Editing a PNG by hand is fine (keep the palette, no dithering); `draw` overwrites them.
 """
 import struct
@@ -537,6 +539,246 @@ T:
 .#.
 .#.
 .#.
+S:
+.##
+#..
+.#.
+..#
+##.
+E:
+###
+#..
+##.
+#..
+###
+L:
+#..
+#..
+#..
+#..
+###
+C:
+.##
+#..
+#..
+#..
+.##
+U:
+#.#
+#.#
+#.#
+#.#
+.##
+::
+.
+#
+.
+#
+.
+''')
+
+# My Catalog / Catalog Order side tabs: 6 rows, 1 px strokes, white on the tab's dark box (18 px inside).
+TAB = art('''
+D:
+##.
+#.#
+#.#
+#.#
+#.#
+##.
+I:
+#
+#
+#
+#
+#
+#
+N:
+#..#
+##.#
+##.#
+#.##
+#.##
+#..#
+O:
+.#.
+#.#
+#.#
+#.#
+#.#
+.#.
+H:
+#.#
+#.#
+###
+#.#
+#.#
+#.#
+E:
+###
+#..
+##.
+#..
+#..
+###
+A:
+.#.
+#.#
+#.#
+###
+#.#
+#.#
+R:
+##.
+#.#
+#.#
+##.
+#.#
+#.#
+G:
+.##
+#..
+#..
+#.#
+#.#
+.##
+T:
+###
+.#.
+.#.
+.#.
+.#.
+.#.
+L:
+#..
+#..
+#..
+#..
+#..
+###
+F:
+###
+#..
+##.
+#..
+#..
+#..
+B:
+##.
+#.#
+##.
+#.#
+#.#
+##.
+Y:
+#.#
+#.#
+.#.
+.#.
+.#.
+.#.
+''')
+
+# Set Devices slot name (OBJ, typed one 8x8 glyph tile per letter): 5x6 caps, colour 1.
+SLOT = art('''
+H:
+#...#
+#...#
+#####
+#...#
+#...#
+#...#
+E:
+#####
+#....
+####.
+#....
+#....
+#####
+A:
+.###.
+#...#
+#...#
+#####
+#...#
+#...#
+D:
+####.
+#...#
+#...#
+#...#
+#...#
+####.
+B:
+####.
+#...#
+####.
+#...#
+#...#
+####.
+O:
+.###.
+#...#
+#...#
+#...#
+#...#
+.###.
+Y:
+#...#
+#...#
+.#.#.
+..#..
+..#..
+..#..
+N:
+#...#
+##..#
+#.#.#
+#..##
+#...#
+#...#
+R:
+####.
+#...#
+#...#
+####.
+#..#.
+#...#
+I:
+.###.
+..#..
+..#..
+..#..
+..#..
+.###.
+L:
+#....
+#....
+#....
+#....
+#....
+#####
+F:
+#####
+#....
+####.
+#....
+#....
+#....
+G:
+.###.
+#....
+#.###
+#...#
+#...#
+.###.
+T:
+#####
+..#..
+..#..
+..#..
+..#..
+..#..
 ''')
 
 # Title "© 2003 ROCKET COMPANY": letters missing from the sheet's PUSH START BUTTON font (7x6 fill, shared outline).
@@ -887,6 +1129,312 @@ def ui_maps(rom) -> dict:
         out[i] = bytes(p)
     return out
 
+# -- shared 4bpp UI sheets: catalog tabs, shop footer, Set Devices slot glyphs
+
+SHEETS = {  # png: (group, index, PLT entry for viewing, bank)
+    'catalog_sheet.png': (2, 1260, (2, 1261), 0),
+    'shop_sheet.png': (2, 1282, (2, 1283), 2),
+    'setdev_glyphs.png': (1, 3119, None, 0),
+    'catalog_obj.png': (2, 1268, (2, 1269), 0),
+}
+TAB_OVERLAYS = {(2, 8): 'DINO', (2, 12): 'HEAD', (3, 8): 'RIGHT', (3, 12): 'LEFT', (4, 8): 'BODY', (5, 8): 'RIDE'}
+TABS = {(0x149, 0x14A, 0x14B): 'DINO', (0x119, 0x11A, 0x11B): 'HEAD', (0x11C, 0x11D, 0x11E): 'RIGHT',
+        (0x11F, 0x120, 0x121): 'LEFT', (0x122, 0x123, 0x124): 'BODY', (0x125, 0x126, 0x127): 'RIDE'}
+# "SELECTボタン=ステータス" footer: two tile runs sharing the middle six tiles (shop menus / Catalog Order)
+FOOTERS = ([249, 206, 207, 208, 209, 210, 211, 250], [205, 206, 207, 208, 209, 210, 211, 212])
+SLOTS = [(1, 'HEAD'), (5, 'BODY'), (9, 'END'), (13, 'RIDE'), (17, 'LEFT'), (21, 'RIGHT')]  # first PAT 1/3120 pattern
+SLOT_LETTERS = 'HEADBOYNRILFGT'   # glyph tiles 1.. of 1/3119 (tile 0 = the typing cursor)
+
+
+def sheet_image(rom, g, i, plt, bank) -> Image.Image:
+    p = G.load(rom, g, i)
+    w = p[5]
+    im = Image.new('P', (w * 8, p[6] * 8))
+    for k, t in enumerate(tiles4(p[8:])):
+        for j, c in enumerate(t):
+            if c:
+                im.putpixel((k % w * 8 + j % 8, k // w * 8 + j // 8), bank * 16 + c)
+    rgb = plt_rgb(G.load(rom, *plt)) if plt else [(0, 0, 0), (255, 255, 255)]
+    im.putpalette(palette_flat(rgb))
+    return im
+
+
+def put_strip(im, strip, cells, bank) -> None:
+    w = im.width // 8
+    for n, t in enumerate(cells):
+        for y in range(8):
+            for x in range(8):
+                im.putpixel((t % w * 8 + x, t // w * 8 + y), bank * 16 + strip[y][n * 8 + x])
+
+
+def get_strip(im, cells) -> list[list[int]]:
+    w = im.width // 8
+    return [[im.getpixel((t % w * 8 + x, t // w * 8 + y)) & 15 for t in cells for x in range(8)] for y in range(8)]
+
+
+def tab_text(text: str) -> set:
+    """Tab label pixels in its 24x8 strip: centred in the 18 px box, rows 2-7."""
+    m, w, _h = text_mask(text, TAB, 1, 3)
+    return {(3 + (18 - w) // 2 + x, y + 2) for x, y in m}
+
+
+def draw_catalog_obj(rom) -> Image.Image:
+    """Selected-tab blink overlay (OBJ 1/... sheet 2/1268, 15 tiles wide): the label's text pixels in colour 14."""
+    g, i, plt, bank = SHEETS['catalog_obj.png']
+    im = sheet_image(rom, g, i, plt, bank)
+    for (r, c), text in TAB_OVERLAYS.items():
+        s = [[0] * 24 for _ in range(8)]
+        for x, y in tab_text(text):
+            s[y][x] = 0xE
+        put_strip(im, s, [r * 15 + c + k for k in range(3)], bank)
+    return im
+
+
+def draw_catalog(rom) -> Image.Image:
+    g, i, plt, bank = SHEETS['catalog_sheet.png']
+    im = sheet_image(rom, g, i, plt, bank)
+    for cells, text in TABS.items():
+        s = get_strip(im, cells)
+        for y in range(8):
+            for x in range(2, 22):  # box: '6' border columns 2 and 21 (some kana ran over them), dark inside
+                s[y][x] = 6 if x in (2, 21) else 1
+        for x, y in tab_text(text):
+            s[y][x] = 0xF
+        put_strip(im, s, cells, bank)
+    # Catalog Order footer "SELECTボタン=ステータス": tiles 229-236, text rows 3-7 on scanline stripes
+    cells = list(range(229, 237))
+    s = get_strip(im, cells)
+    m, w, _h = text_mask('SELECT: STATUS', LABEL, 1, 3)
+    for y in range(3, 8):
+        for x in range(64):
+            s[y][x] = 6 if y % 2 else 3
+    for x, y in m:
+        s[y + 3][(62 - w) // 2 + x] = 0xF
+    put_strip(im, s, cells, bank)
+    return im
+
+
+def draw_shop(rom) -> Image.Image:
+    g, i, plt, bank = SHEETS['shop_sheet.png']
+    im = sheet_image(rom, g, i, plt, bank)
+    m, w, _h = text_mask('SELECT: STATUS', LABEL, 1, 3)
+    done = {}
+    for cells in FOOTERS:
+        s = get_strip(im, cells)
+        for y in range(6):  # scanline-striped background, text rows 0-4
+            for x in range(63 if cells[-1] == 212 else 64):  # 212 ends in the frame column
+                s[y][x] = 6 if y % 2 == 0 else 3
+        for x, y in m:
+            s[y][(62 - w) // 2 + x] = 0xF
+        put_strip(im, s, cells, bank)
+        for n, t in enumerate(cells):
+            tile = [s[y][n * 8 + x] for y in range(8) for x in range(8)]
+            assert done.setdefault(t, tile) == tile, f'footer tile {t} differs between the two runs'
+    return im
+
+
+def draw_setdev(rom) -> Image.Image:
+    g, i, plt, bank = SHEETS['setdev_glyphs.png']
+    im = sheet_image(rom, g, i, plt, bank)
+    for x in range(8, 128):
+        for y in range(8):
+            im.putpixel((x, y), 0)
+    for n, ch in enumerate(SLOT_LETTERS):
+        for y, row in enumerate(SLOT[ch]):
+            for x, v in enumerate(row):
+                if v == '#':
+                    im.putpixel(((n + 1) * 8 + 1 + x, 1 + y), 1)
+    return im
+
+
+# Battle effect sheets (1/2583..2655, plain IMG 16x4): the katakana sound effect is a 16x16 sprite at cols 14-15,
+# rows 0-1 (left / upper word half, tile 14) and rows 2-3 (right / lower half, tile 78), shown side by side.
+SFX = {2583: ('POP',), 2601: ('BL', 'AM'), 2619: ('ZA', 'P!'), 2637: ('BO', 'OM'), 2655: ('ZI', 'NG')}
+SFX_FONT = art('''
+B:
+####.
+##.##
+##.##
+##.##
+####.
+##.##
+##.##
+##.##
+##.##
+####.
+L:
+##...
+##...
+##...
+##...
+##...
+##...
+##...
+##...
+#####
+#####
+A:
+.###.
+##.##
+##.##
+##.##
+##.##
+#####
+##.##
+##.##
+##.##
+##.##
+M:
+##..##
+######
+######
+##..##
+##..##
+##..##
+##..##
+##..##
+##..##
+##..##
+O:
+.###.
+##.##
+##.##
+##.##
+##.##
+##.##
+##.##
+##.##
+##.##
+.###.
+Z:
+#####
+#####
+...##
+..##.
+..##.
+.##..
+.##..
+##...
+#####
+#####
+I:
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+N:
+##..##
+###.##
+###.##
+######
+######
+##.###
+##.###
+##..##
+##..##
+##..##
+G:
+.####
+##...
+##...
+##...
+##.##
+##.##
+##.##
+##.##
+##.##
+.####
+P:
+####.
+##.##
+##.##
+##.##
+####.
+##...
+##...
+##...
+##...
+##...
+!:
+##
+##
+##
+##
+##
+##
+##
+..
+##
+##
+p:
+###.
+##.#
+##.#
+##.#
+###.
+##..
+##..
+##..
+##..
+##..
+o:
+.##.
+##.#
+##.#
+##.#
+##.#
+##.#
+##.#
+##.#
+##.#
+.##.
+''')
+SFX_FILL = [0xF, 0xF, 0xF, 0xF, 0xE, 0xE, 0xD, 0xD, 0xC, 0xB]  # white to grey like the kana, outline 1
+
+
+def draw_sfx(rom) -> Image.Image:
+    im = Image.new('P', (16 * len(SFX), 32))
+    for k, words in enumerate(SFX.values()):
+        for half, word in enumerate(words):
+            font = SFX_FONT if len(word) < 3 else {'P': SFX_FONT['p'], 'O': SFX_FONT['o']}  # 3 letters: 4 px wide
+            m, w, _h = text_mask(word, font, 1, 3)
+            ox, oy = k * 16 + (16 - w) // 2, half * 16 + 3
+            paint(im, dilate(m), 1, ox, oy)
+            for x, y in m:
+                im.putpixel((ox + x, oy + y), SFX_FILL[y])
+    im.putpalette(palette_flat([(255, 0, 255)] + [(i * 17, i * 17, i * 17) for i in range(1, 16)]))
+    return im
+
+
+def sfx_payload(rom, png: Image.Image, k: int, i: int) -> bytes:
+    p = bytearray(G.load(rom, 1, i))
+    for r in range(4):
+        for c in range(2):
+            t = bytes(png.getpixel((k * 16 + c * 8 + x, r * 8 + y)) & 15
+                      for y in range(8) for x in range(8))
+            p[8 + 32 * (r * 16 + 14 + c):8 + 32 * (r * 16 + 15 + c)] = pack4(t)
+    return bytes(p)
+
+
+def setdev_patterns(rom) -> list:
+    """PAT 1/3120: the slot name typed in (4 patterns per slot: 3 typing steps with cursor tile 0 after the
+    letters, the last one = the whole word; the game blinks the cursor by alternating patterns 3 and 4)."""
+    pats = pat_parse(G.load(rom, 1, 3120))
+    for first, word in SLOTS:
+        n = len(word)
+        x0 = -4 - 3 * n  # 6 px pitch, centred where the 3 kana were
+        tiles = [1 + SLOT_LETTERS.index(c) for c in word]
+        for step, k in enumerate((max(1, round(n / 3)), round(2 * n / 3), n)):
+            pats[first + step] = [[0x2000, x0 + 6 * k, -8, 0]] + [[0x2000, x0 + 6 * j, -8, tiles[j]] for j in range(k)]
+        pats[first + 3] = [[0x2000, x0 + 6 * j, -8, tiles[j]] for j in range(n)]
+    return pats
+
 # ---------------------------------------------------------------- import (build)
 
 
@@ -896,11 +1444,17 @@ def load_png(name: str) -> Image.Image:
     return im
 
 
-def img_payload(tiles: list[bytes], bpp: int) -> bytes:
-    """IMG header [5] = 32 tiles wide, [6] = rows of 32-byte units (an 8bpp tile counts as two)."""
+def img_payload(tiles: list[bytes], bpp: int, w: int = 32) -> bytes:
+    """IMG header [5] = w tiles wide, [6] = rows of 32-byte units (an 8bpp tile counts as two)."""
     data = b''.join(tiles) if bpp == 8 else b''.join(pack4(t) for t in tiles)
-    data += bytes(-len(data) % 1024)
-    return b'IMG\0' + bytes([0, 32, len(data) // 1024, 0]) + data
+    data += bytes(-len(data) % (32 * w))
+    return b'IMG\0' + bytes([0, w, len(data) // (32 * w), 0]) + data
+
+
+def sheet_tiles(im: Image.Image) -> list[bytes]:
+    """4bpp sheet PNG -> tiles in row-major order (colour = pixel & 15)."""
+    return [bytes(c & 15 for c in tile_at(im, k % (im.width // 8), k // (im.width // 8)))
+            for k in range(im.width // 8 * im.height // 8)]
 
 
 def tileize(im: Image.Image, w: int, h: int, x0: int, tiles: list, index: dict, mask: int, flips: bool) -> list[int]:
@@ -950,6 +1504,16 @@ def blocks(rom: bytes) -> dict:
     out[1, 2966] = img_payload([bytes(c & 15 for c in tile_at(ui, k % 32, k // 32)) for k in range(256)], 4)
     for i, p in ui_maps(rom).items():
         out[1, i] = p
+
+    for name, (g, i, _plt, _bank) in SHEETS.items():
+        im = load_png(name)
+        head = G.load(rom, g, i)
+        assert im.size == (head[5] * 8, head[6] * 8), name
+        out[g, i] = img_payload(sheet_tiles(im), 4, head[5])
+    out[1, 3120] = pat_build(setdev_patterns(rom))
+    sfx = load_png('battle_sfx.png')
+    for k, i in enumerate(SFX):
+        out[1, i] = sfx_payload(rom, sfx, k, i)
     return out
 
 
@@ -971,7 +1535,9 @@ def draw() -> None:
     rom = (ROOT / 'rom/orig.gba').read_bytes()
     GFX.mkdir(exist_ok=True)
     for name, fn in (('title_logo.png', draw_title_logo), ('title_obj.png', draw_title_obj),
-                     ('intro_logo.png', draw_intro), ('ui_sheet.png', draw_ui)):
+                     ('intro_logo.png', draw_intro), ('ui_sheet.png', draw_ui), ('catalog_sheet.png', draw_catalog),
+                     ('shop_sheet.png', draw_shop), ('setdev_glyphs.png', draw_setdev),
+                     ('catalog_obj.png', draw_catalog_obj), ('battle_sfx.png', draw_sfx)):
         fn(rom).save(GFX / name)
         print(GFX / name)
 

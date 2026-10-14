@@ -83,6 +83,14 @@ BG2 tiles must stay below the maps at 0x0600F000, i.e. at most 448 8bpp tiles).
   Birthday SCR 1/2970: 年月日 cells blanked, Year / Month / Day above the fields (row 6). UI sheet empty tiles used:
   207-209, 244-255 (no 2966 screen maps them). ビット tiles (240-241) unused on known screens; redrawn as BIT anyway.
 - Not seen in-game: Link (shows only with a link partner?), PHOENIX (other version's subtitle).
+- My Catalog / Catalog Order side tabs: BG sheet 2/1260 (labels 0x119-0x127 + 0x149-0x14B, 3 tiles each, text in an
+  18 px box) + the selected-tab blink overlay OBJ sheet 2/1268 (same text pixels in colour 14). Catalog Order footer:
+  2/1260 tiles 229-236. Shop footer: 2/1282, two tile runs sharing tiles 206-211. All "SELECT: STATUS".
+- Set Devices slot name: OBJ glyph strip 1/3119 (one letter per 8x8 tile) spelled by PAT 1/3120 (4 patterns per
+  slot: typing steps with cursor tile 0, then the word; patterns 3/4 alternate = blinking cursor).
+- Battle sound effects: plain IMG 1/2583, 2601, 2619, 2637, 2655 (16x4 effect sheets, 2D OBJ mapping) hold katakana
+  SFX as two 16x16 sprites (tile 14 = left, tile 78 = right) -> POP, BL|AM, ZA|P!, BO|OM, ZI|NG. Savestates taken
+  mid-battle keep the old sheets in VRAM: check from a state before the battle loads.
 
 Finding the source of any screen: extract every IMG payload (`gfxcodec.entries` + `load`, strip 8 bytes) to a
 directory, dump VRAM on the screen (`probes/ppudump.lua`), run `vramfind.py VRAM DIR --fmt gba4`. To see which
