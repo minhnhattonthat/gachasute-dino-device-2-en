@@ -51,7 +51,7 @@
   ],
   "fall": true,
   "jp": "さいごに　ボルトオンっていう\nひっさつわざについて\nおしえるわね[p]ボルトオンは　バーストっていう\nたまを　つかうんだけど\nこんかいは　１こ　あげるわね[p][player]は\n[E0 43 2B][c:0A]ＤバーストＸ２０[/c]を\nてにいれた[E0 44 1C][p][E0 7D 04 00 00]",
-  "en": "Last of all, let me teach you about a special move called a Bolt-On.[p]Bolt-Ons use balls called Bursts. I'll give you one this time.[p][player] got [E0 43 2B][c:0A]D-Burst x20[/c]![E0 44 1C][p][E0 7D 04 00 00]"
+  "en": "Last of all, let me teach you about a special move called a Bolt-On.[p]Bolt-Ons use balls called Bursts. I'll give you one this time.[p][player] got a [E0 43 2B][c:0A]D-Burst x20[/c]![E0 44 1C][p][E0 7D 04 00 00]"
  },
  {
   "addr": "5DBBD",
@@ -186,7 +186,7 @@
   ],
   "fall": false,
   "jp": "えらんだら　Ａボタンね[close]",
-  "en": "Then press the A Button.[close]"
+  "en": "Once you've picked one, press the A Button![close]"
  },
  {
   "addr": "5DEFF",

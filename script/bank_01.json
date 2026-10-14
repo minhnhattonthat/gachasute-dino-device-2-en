@@ -907,7 +907,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]ああ　べつにかまわないよ[p][face:12]おお　すまんのお\nほれ　ではこれと　こうかんじゃ[p][noface][player]は\n[E0 43 26][c:0D]ボロボロのデバイス[/c]を　てにいれた[E0 44 10][p][face:01]なんか　これ　まえのより\nもっと　ふるそうだわ\nこれも　ぜったい\nデバイスセットには　つかえないわ[E0 20 00 1F][close]",
-  "en": "[face2:00]Sure, I don't mind.[p][face:12]Oh, much obliged! Here, this is yours in exchange.[p][noface][player] got the [E0 43 26][c:0D]Battered Device[/c]![E0 44 10][p][face:01]Hmm, this one looks even older than the last one. There's no way we can use this one in Device Set either.[E0 20 00 1F][close]"
+  "en": "[face2:00]Sure, I don't mind.[p][face:12]Oh, much obliged! Here, this is yours in exchange.[p][noface][player] got the [E0 43 26][c:0D]Battered Device[/c]![E0 44 10][p][face:01]Hmm, this one looks even older than the last one. There's no way we can use this one in the Device Set either.[E0 20 00 1F][close]"
  },
  {
   "addr": "5024D",
@@ -925,7 +925,7 @@
   ],
   "fall": false,
   "jp": "[face:12]また　ひやかしに　きたのか\nそれなら　かえっとくれ[p]それとも　デバイスを\nこうかんしてくれるのか？\n　　はい　　いいえ[E0 00 01 05 01 65 01 66]",
-  "en": "[face:12]Back to tease me again, are you? Then off you go.[p]Or are you going to trade me that Device?\n[opt]Yes[opt]No[E0 00 01 05 01 65 01 66]"
+  "en": "[face:12]Just here to gawk again, are you? Then off you go.[p]Or are you going to trade me that Device?\n[opt]Yes[opt]No[E0 00 01 05 01 65 01 66]"
  },
  {
   "addr": "502D5",
@@ -1078,7 +1078,7 @@
   ],
   "fall": false,
   "jp": "またの　ごりようを　おまちしております[close]",
-  "en": "Please come again soon.[close]"
+  "en": "We look forward to seeing you again.[close]"
  },
  {
   "addr": "50840",
@@ -1114,7 +1114,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]よ〜し\nしょうぶだっ！[p][face:02]のぞむところだっ！！[p][noface][E0 89 01 7D][face:01]いいバトルだったのに〜[p][face:02][player]！！\nいいバトルだったぜ\nこんかいは　ボクのかちだ\nあたらしい　ダイナチャージャーは\nボクが　もらえるけど\nきみの　どりょくを　みとめて\nそのけんりを　きみに　ゆずるよ[p][face:01]え〜　ウソッ\nもらえるの？[p][face:02]あたらしい　ダイナチャージャーをつかって\nきみにかっても\nダイナチャージャーの　さでまけた\nなんて　いわれたくないからな[p][face:01]どうもありがとう[p][E0 30 01 7E]",
-  "en": "[face2:00]All right! Let's battle![p][face:02]Bring it on![p][noface][E0 89 01 7D][face:01]And it was such a good battle, too...[p][face:02][player]! That was a great battle. This time, I win. The new Dino Charger goes to me, but I respect all your hard work, so I'm giving the right to you.[p][face:01]Huh? No way! We get it?[p][face:02]If I beat you with a new Dino Charger, I don't want anyone saying you only lost because of the Dino Charger.[p][face:01]Thank you so much![p][E0 30 01 7E]"
+  "en": "[face2:00]All right! Let's battle![p][face:02]Bring it on![p][noface][E0 89 01 7D][face:01]And it was such a good battle, too...[p][face:02][player]! That was a great battle. This time, I win. The new Dino Charger goes to me, but I respect all your hard work, so I'll let you have it instead.[p][face:01]Huh? No way! We can really have it?[p][face:02]If I beat you with a new Dino Charger, I don't want to hear that you lost just because of the Dino Charger.[p][face:01]Thank you so much![p][E0 30 01 7E]"
  },
  {
   "addr": "50B49",
@@ -1312,7 +1312,7 @@
   ],
   "fall": false,
   "jp": "[player]は　けずらないことにした[close]",
-  "en": "[player] left the wall alone.[close]"
+  "en": "[player] decided not to chip away at the wall.[close]"
  },
  {
   "addr": "51D16",
@@ -2059,7 +2059,7 @@
   ],
   "fall": false,
   "jp": "ＯＫ　てんそうは　ちゅうしだね[close]",
-  "en": "OK, warp canceled.[close]"
+  "en": "OK, I'll cancel the warp, then.[close]"
  },
  {
   "addr": "540C7",

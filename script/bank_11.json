@@ -24,7 +24,7 @@
   ],
   "fall": false,
   "jp": "エントリーします[close]",
-  "en": "Entering![close]"
+  "en": "Your Entry is all set![close]"
  },
  {
   "addr": "5F11B",
@@ -42,7 +42,7 @@
   ],
   "fall": false,
   "jp": "エントリーを　しゅうりょうします[close]",
-  "en": "Ending Entry.[close]"
+  "en": "Leaving the Entry screen.[close]"
  },
  {
   "addr": "5F14B",
@@ -60,7 +60,7 @@
   ],
   "fall": false,
   "jp": "バトルに　はいります[close]",
-  "en": "Into battle![close]"
+  "en": "Heading into battle![close]"
  },
  {
   "addr": "5F174",
@@ -447,7 +447,7 @@
   ],
   "fall": false,
   "jp": "バッテリーはいぶんを　やりなおしてください[close]",
-  "en": "Divide the Battery again.[close]"
+  "en": "Please divide the Battery again.[close]"
  },
  {
   "addr": "5F71F",
@@ -600,7 +600,7 @@
   ],
   "fall": false,
   "jp": "３２こもっている　デバイスは\nこれいじょうもてません[p]ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 11 41 00 00]",
-  "en": "You have 32 Devices, so you can't carry any more.[p]Play Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 11 41 00 00]"
+  "en": "You can't carry more than 32 of the same Device.[p]Play Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 11 41 00 00]"
  },
  {
   "addr": "5F7AD",

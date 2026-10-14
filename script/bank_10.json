@@ -60,7 +60,7 @@
   ],
   "fall": false,
   "jp": "レベルが　[E0 11 02]にあがった！[end]",
-  "en": "Level up to [E0 11 02]![end]"
+  "en": "Your level went up to [E0 11 02]![end]"
  },
  {
   "addr": "5E5F3",
@@ -159,7 +159,7 @@
   ],
   "fall": false,
   "jp": "あきらめました[end]",
-  "en": "Gave it up.[end]"
+  "en": "You gave up the Device.[end]"
  },
  {
   "addr": "5E6C7",
@@ -168,7 +168,7 @@
   ],
   "fall": false,
   "jp": "すてるデバイスを　えらんでください[E0 51][end]",
-  "en": "Choose a Device to toss.[E0 51][end]"
+  "en": "Please choose a Device to throw away.[E0 51][end]"
  },
  {
   "addr": "5E6DB",
@@ -303,7 +303,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": "Closing.[close]"
+  "en": "Closing the Catalog view.[close]"
  },
  {
   "addr": "5E721",
@@ -312,7 +312,7 @@
   ],
   "fall": false,
   "jp": "カタログひょうじに　もどります[close]",
-  "en": "Back to the Catalog.[close]"
+  "en": "Returning to the Catalog view.[close]"
  },
  {
   "addr": "5E731",
@@ -321,7 +321,7 @@
   ],
   "fall": false,
   "jp": "カタログひょうじです[close]",
-  "en": "Catalog view.[close]"
+  "en": "This is the Catalog view.[close]"
  },
  {
   "addr": "5E73C",
@@ -456,7 +456,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": "Closing.[close]"
+  "en": "You've finished shopping.[close]"
  },
  {
   "addr": "5E788",
@@ -483,7 +483,7 @@
   ],
   "fall": false,
   "jp": "えらびなおしてください[close]",
-  "en": "Choose again.[close]"
+  "en": "Please choose again.[close]"
  },
  {
   "addr": "5E7CA",
@@ -492,7 +492,7 @@
   ],
   "fall": false,
   "jp": "これいじょう　もてません[close]",
-  "en": "Can't carry more.[close]"
+  "en": "You can't carry any more.[close]"
  },
  {
   "addr": "5E7D7",
@@ -501,7 +501,7 @@
   ],
   "fall": false,
   "jp": "おかねが　たりません[close]",
-  "en": "Can't afford it.[close]"
+  "en": "You don't have enough money.[close]"
  },
  {
   "addr": "5E7E2",
@@ -600,7 +600,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": "Closing.[close]"
+  "en": "You've finished selling.[close]"
  },
  {
   "addr": "5E82A",
@@ -627,7 +627,7 @@
   ],
   "fall": false,
   "jp": "えらびなおしてください[close]",
-  "en": "Choose again.[close]"
+  "en": "Please choose again.[close]"
  },
  {
   "addr": "5E86C",
@@ -636,7 +636,7 @@
   ],
   "fall": false,
   "jp": "アイテムが　ありません[close]",
-  "en": "No items.[close]"
+  "en": "You don't have any items.[close]"
  },
  {
   "addr": "5E878",
@@ -744,7 +744,7 @@
   ],
   "fall": false,
   "jp": "つかうポイントとけいひんを　えらんでください[close]",
-  "en": "Pick points to use and a prize.[close]"
+  "en": "Please choose the points to use and a prize.[close]"
  },
  {
   "addr": "5E8FC",
@@ -753,7 +753,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": "All done.[close]"
+  "en": "Ending the point exchange.[close]"
  },
  {
   "addr": "5E906",
@@ -852,7 +852,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": "All done.[close]"
+  "en": "Ending the point exchange.[close]"
  },
  {
   "addr": "5E9EA",
@@ -1014,7 +1014,7 @@
   ],
   "fall": false,
   "jp": "とりよせるダイナかデバイスを　えらんでください[close]",
-  "en": "Pick a Dino or Device to order.[close]"
+  "en": "Please choose a Dino or Device to order.[close]"
  },
  {
   "addr": "5EA13",
@@ -1032,7 +1032,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": "All done.[close]"
+  "en": "Closing catalog shopping.[close]"
  },
  {
   "addr": "5EA45",
@@ -1041,7 +1041,7 @@
   ],
   "fall": false,
   "jp": "カタログはんばいに　もどります[close]",
-  "en": "Back to the catalog.[close]"
+  "en": "Returning to catalog shopping.[close]"
  },
  {
   "addr": "5EA55",
@@ -1077,7 +1077,7 @@
   ],
   "fall": false,
   "jp": "とりよせるダイナかデバイスを　えらんでください[close]",
-  "en": "Pick a Dino or Device to order.[close]"
+  "en": "Please choose a Dino or Device to order.[close]"
  },
  {
   "addr": "5EAD8",
@@ -1095,7 +1095,7 @@
   ],
   "fall": false,
   "jp": "これいじょう　もてません[close]",
-  "en": "Can't carry more.[close]"
+  "en": "You can't carry any more.[close]"
  },
  {
   "addr": "5EB08",
@@ -1104,7 +1104,7 @@
   ],
   "fall": false,
   "jp": "とりよせるダイナかデバイスを　えらんでください[close]",
-  "en": "Pick a Dino or Device to order.[close]"
+  "en": "Please choose a Dino or Device to order.[close]"
  },
  {
   "addr": "5EB20",
@@ -1590,7 +1590,7 @@
   ],
   "fall": false,
   "jp": "ステータスひょうじです[close]",
-  "en": "Showing Status.[close]"
+  "en": "This is the Status screen.[close]"
  },
  {
   "addr": "5EC24",
@@ -1608,7 +1608,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": "All done.[close]"
+  "en": "Closing the Status screen.[close]"
  },
  {
   "addr": "5EC58",
@@ -1617,7 +1617,7 @@
   ],
   "fall": false,
   "jp": "ステータスひょうじに　もどります[close]",
-  "en": "Back to Status.[close]"
+  "en": "Returning to the Status screen.[close]"
  },
  {
   "addr": "5EC6A",

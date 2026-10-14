@@ -429,7 +429,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]いったん　おちつこう[p][face:01]ふ〜・・・\nやっぱり　ドキドキするわね[p][face2:00]よし　いくぞ！[p][noface]なにいろのコードを　きりますか？\n　　あお　　きいろ[E0 03 01 05 04 43 04 44 04 2F]",
-  "en": "[face2:00]Okay, calm down first.[p][face:01]Phew... This is so nerve-racking.[p][face2:00]All right, here goes![p][noface]Which wire will you cut?\n[opt]Blue[opt]Yellow[E0 03 01 05 04 43 04 44 04 2F]"
+  "en": "[face2:00]Okay, calm down first.[p][face:01]Phew... This is so nerve-racking.[p][face2:00]All right, here goes![p][noface]Which color wire will you cut?\n[opt]Blue[opt]Yellow[E0 03 01 05 04 43 04 44 04 2F]"
  },
  {
   "addr": "5B294",

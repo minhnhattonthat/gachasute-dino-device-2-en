@@ -321,7 +321,7 @@
   ],
   "fall": false,
   "jp": "おめでとう　バトルにかったね[close]",
-  "en": "Congrats! You won![close]"
+  "en": "Congratulations! You won the battle![close]"
  },
  {
   "addr": "558B4",
@@ -339,7 +339,7 @@
   ],
   "fall": false,
   "jp": "わたしは　かつっておもってたよ[close]",
-  "en": "I knew you'd win![close]"
+  "en": "I just knew you were going to win![close]"
  },
  {
   "addr": "558D5",
@@ -348,7 +348,7 @@
   ],
   "fall": false,
   "jp": "けっこう　いいかんじで　かてたね[close]",
-  "en": "That was a nice win![close]"
+  "en": "You won that one pretty smoothly![close]"
  },
  {
   "addr": "558E6",
@@ -366,7 +366,7 @@
   ],
   "fall": false,
   "jp": "[player]さ　さいこーさねぇ\nつよいんだねぇ[close]",
-  "en": "[player], ya'r the best, ain'tcha! So strong, y'are![close]"
+  "en": "[player], ya're the best, ain'tcha! So strong, y'are![close]"
  },
  {
   "addr": "5590F",
@@ -483,7 +483,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]・・・！[p]みさり　あれ・・・[p][face:01]あ　このしゃしんのこ\nまなぶくん？[p]・・・てことは\nあなたに　むすこさん　いませんか？[p][face:0E]たしかにいるが　それは　おまえたちに\nかんけいないだろう？[p][face2:00]いいえ　むすこさんから\nにもつを　あずかってきました\nこれです　みてください[p][noface][player]は\n[c:0D]おとこのこの　たからもの[/c]を\nおとこにみせた[p][face:0E]む？\nこ　これは・・・\n[face:01]まなぶくん　いまでもこれを\nたからものとして　だいじに\nもっているんです[p][face:0E]おお　まなぶ・・・\nこんなパパのことを・・・\n[face:01]わたしたち　まなぶくんと\nやくそくしたんです\nおとうさんを　みつけたら\nかならず　もどってくるように\nつたえるって[p][face:0E]・・・まなぶが？[p][face:01]はい　いまでも　おとうさんが\nかえってくるのを\nまいにちまっています[p][face:0E]そうか　まなぶ　パパを\nゆるしてくれるのか？\n[face:01]かえってあげてください[p][face:0E]わかった　そうしよう\nいまから　むすこのところに　かえるよ\nきみたちには　なんていったらいいか\nいまのオレには　なにもないが\nそうだ　これをあげるよ[p][noface][player]は\n[E0 73 01 02][E0 73 02 05][E0 43 2C][c:0A]シルバーメダル　２まい[/c]と\n[c:0A]ブロンズメダル　５まい[/c]を　てにいれた[E0 44 14][E0 20 00 19][close]",
-  "en": "[face2:00]...![p]Misari, look at that...[p][face:01]Oh! The kid in this photo... Is that Manabu?[p]...Which means... Sir, do you have a son?[p][face:0E]I do, but what's that got to do with you?[p][face2:00]Actually, your son asked us to bring you something. Here it is. Please take a look.[p][noface][player] showed the man the [c:0D]Boy's Treasure[/c].[p][face:0E]Hm? Th-this is...\n[face:01]Manabu still keeps this safe as his treasure.[p][face:0E]Oh, Manabu... Even after everything his papa did...\n[face:01]We made Manabu a promise. If we found his dad, we'd tell him he has to come home.[p][face:0E]...Manabu said that?[p][face:01]Yes. He's still waiting every day for his dad to come home.[p][face:0E]I see. Manabu... Will you forgive your papa?\n[face:01]Please go home to him.[p][face:0E]All right. I'll do that. I'm going home to my son right now. I don't know how to thank you two. I don't have much to give you right now, but... Oh, I know. Take this.[p][noface][player] got [E0 73 01 02][E0 73 02 05][E0 43 2C][c:0A]2 Silver Medals[/c] and [c:0A]5 Bronze Medals[/c]![E0 44 14][E0 20 00 19][close]"
+  "en": "[face2:00]...![p]Misari, look at that...[p][face:01]Oh! The kid in this photo... Is that Manabu?[p]...Which means... Sir, do you have a son?[p][face:0E]I do, but what's that got to do with you?[p][face2:00]Actually, your son asked us to bring you something. Here it is. Please take a look.[p][noface][player] showed the man the [c:0D]Boy's Treasure[/c].[p][face:0E]Hm? Th-this is...\n[face:01]Manabu still keeps this safe as his treasure.[p][face:0E]Oh, Manabu... After everything this papa of yours did...\n[face:01]We made Manabu a promise. If we found his dad, we'd tell him he has to come home.[p][face:0E]...Manabu said that?[p][face:01]Yes. He's still waiting every day for his dad to come home.[p][face:0E]I see. Manabu... Will you forgive your papa?\n[face:01]Please go home to him.[p][face:0E]All right. I'll do that. I'm going home to my son right now. I don't know how to thank you two. I don't have much to give you right now, but... Oh, I know. Take this.[p][noface][player] got [E0 73 01 02][E0 73 02 05][E0 43 2C][c:0A]2 Silver Medals[/c] and [c:0A]5 Bronze Medals[/c]![E0 44 14][E0 20 00 19][close]"
  },
  {
   "addr": "55E9E",
@@ -1275,7 +1275,7 @@
   ],
   "fall": false,
   "jp": "なら　もうすこし　ここにいるんだな[close]",
-  "en": "Then stay here a while.[close]"
+  "en": "Then I guess you'll be staying here a little longer.[close]"
  },
  {
   "addr": "57481",
