@@ -74,11 +74,59 @@ def build_reloc(lang: str = 'jp') -> bytearray:
     return rom
 
 
+def encode_en(e: dict, en: str | None) -> bytes:
+    from vwf_font import CHARMAP
+    return text.encode(en, CHARMAP) if en else text.encode(e['jp'])
+
+
+def apply_engine(rom: bytearray, out: Path) -> bytearray:
+    """VWF font + asm/vwf.asm into the expanded area; armips patches the file in place."""
+    import subprocess
+    import vwf_font
+    glyphs, widths = vwf_font.build(bytes(rom[:ORIG.stat().st_size]))
+    rom[VWF_FONT:VWF_FONT + len(glyphs)] = glyphs
+    rom[VWF_WIDTHS:VWF_WIDTHS + len(widths)] = widths
+    out.write_bytes(rom)
+    res = subprocess.run([str(ARMIPS), str(ROOT / 'asm/vwf.asm'), '-strequ', 'ROM', str(out),
+                          '-definelabel', 'CodeBase', hex(0x08000000 + CODE_BASE),
+                          '-definelabel', 'VwfFont', hex(0x08000000 + VWF_FONT),
+                          '-definelabel', 'VwfWidths', hex(0x08000000 + VWF_WIDTHS)],
+                         capture_output=True, text=True, cwd=ROOT)
+    if res.returncode:
+        raise SystemExit('armips failed:\n' + res.stdout + res.stderr)
+    return bytearray(out.read_bytes())
+
+
+def build_lang(out: Path, mode: str) -> bytearray:
+    """mode 'english': en fields (jp where empty); 'marker': every entry replaced by marker filler."""
+    import marker
+    import vwf_font
+    rom = bytearray(ORIG.read_bytes()) + b'\xff' * (ROM_SIZE - ORIG.stat().st_size)
+    entries = load_script()
+    if mode == 'marker':
+        _g, widths = vwf_font.build(bytes(rom))
+        blobs = [encode_en(e, marker.marker(e, widths)) for e in entries]
+    else:
+        blobs = [encode_en(e, e['en']) for e in entries]
+    write_banks(rom, entries, blobs, layout_sequential(entries, blobs, TEXT_BASE, TEXT_END))
+    return apply_engine(rom, out)
+
+
+ARMIPS = ROOT / 'tools/armips/armips.exe'
+TEXT_END = 0x7E0000
+VWF_FONT = 0x7E0000      # 256 x 8 bytes
+VWF_WIDTHS = 0x7E0800    # 256 bytes
+CODE_BASE = 0x7E1000
+
+
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'identity'
     BUILD.mkdir(exist_ok=True)
-    rom = {'identity': build_identity, 'reloc': build_reloc}[cmd]()
-    out = BUILD / f'{cmd}.gba'
+    out = BUILD / {'english': 'dino2_en.gba'}.get(cmd, f'{cmd}.gba')
+    if cmd in ('english', 'marker'):
+        rom = build_lang(out, cmd)
+    else:
+        rom = {'identity': build_identity, 'reloc': build_reloc}[cmd]()
     out.write_bytes(rom)
     print(out)
 

@@ -3,7 +3,7 @@
 Text form:
   newline F8 -> real '\n'.  Tags: [half] F9, [p] FC, [ret] FD, [end] FE, [close] FF,
   [c:NN] E0 40 NN (colour on), [/c] E0 41, [player] E0 14, [partner] E0 15,
-  [face:NN] E0 60 NN, [face2:NN] E0 62 NN, [noface] E0 61,
+  [face:NN] E0 60 NN, [face2:NN] E0 62 NN, [noface] E0 61, [tab:NN] F1 NN (English only, VWF tab to cell NN),
   any other control: [E0 xx aa bb ..] / 2-byte glyph [F1 xx]; unknown-duplicate glyphs as [Gxx] / [F0 xx].
 Glyph bytes 00-DF (+ E1-EF single byte) decode through tbl/font.tbl; F0 xx through the same table (row E0-FF).
 """
@@ -113,6 +113,8 @@ def encode(s: str, charmap: dict[str, bytes] | None = None) -> bytes:
             named = {v: k for k, v in NAMED.items()}
             if t in named:
                 out += bytes([0xE0, *named[t]])
+            elif body.startswith('tab:'):  # VWF: continue at cell NN of the line (asm/vwf.asm glyph 0x1NN)
+                out += bytes([0xF1, int(body[4:], 16)])
             elif ':' in body:
                 name, val = body.split(':', 1)
                 sub = {v: k for k, v in NAMED1.items()}[name]
