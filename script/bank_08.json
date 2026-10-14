@@ -6,7 +6,7 @@
   ],
   "fall": false,
   "jp": "キャラクターデザイン\n　ふじおか　かつとし\n[close]",
-  "en": ""
+  "en": "Character Design\n  Katsutoshi Fujioka\n[close]"
  },
  {
   "addr": "5E450",
@@ -15,7 +15,7 @@
   ],
   "fall": false,
   "jp": "プログラム\n　たけしげ　ひでき\n　わたなべ　まなぶ\n\nゲームデザイン\n　まつやま　としや\n　あかいし　たつや\n[close]",
-  "en": ""
+  "en": "Programming\n  Hideki Takeshige\n  Manabu Watanabe\n\nGame Design\n  Toshiya Matsuyama\n  Tatsuya Akaishi\n[close]"
  },
  {
   "addr": "5E489",
@@ -24,7 +24,7 @@
   ],
   "fall": false,
   "jp": "グラフィック\n　よかスタジオ\n　　あべ　けいすけ\n　　こみやま　けいた\n　　さいとう　あやの\n　[half]　まつざわ　しのぶ\n　なかむら　たかこ\n　みうら　ゆうき\n　だいな　ジロー\n[close]",
-  "en": ""
+  "en": "Graphics\n  Yoka Studio\n    Keisuke Abe\n    Keita Komiyama\n    Ayano Saito\n  [half]  Shinobu Matsuzawa\n  Takako Nakamura\n  Yuki Miura\n  Jiro Daina\n[close]"
  },
  {
   "addr": "5E4E2",
@@ -33,7 +33,7 @@
   ],
   "fall": false,
   "jp": "おんがく\n　すえむら　けんのすけ\nこうかおん　と　さうんど\n　かさい　りょう\nさうんど　でぃれくたー\n　まつお　あつや\nおんきょう\n　すたじお　ぴーじぇー\n[close]",
-  "en": ""
+  "en": "Music\n  Kennosuke Suemura\nSound Effects & Sound\n  Ryo Kasai\nSound Director\n  Atsuya Matsuo\nAudio\n  Studio PJ\n[close]"
  },
  {
   "addr": "5E534",
@@ -42,6 +42,6 @@
   ],
   "fall": false,
   "jp": "アシスタントディレクター\n　ほしの　さとみ\nディレクター\n　こばやし　こういち\nエグゼクティブプロデューサー\n　ほりうち　ひかる\n[close]",
-  "en": ""
+  "en": "Assistant Director\n  Satomi Hoshino\nDirector\n  Koichi Kobayashi\nExecutive Producer\n  Hikaru Horiuchi\n[close]"
  }
 ]

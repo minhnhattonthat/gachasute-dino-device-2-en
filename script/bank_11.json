@@ -6,7 +6,7 @@
   ],
   "fall": false,
   "jp": "バトルに　エントリーする\nバッテリーヘッドを　えらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Heads to enter in the battle.[close]"
  },
  {
   "addr": "5F0F6",
@@ -15,7 +15,7 @@
   ],
   "fall": false,
   "jp": "よろしいですか？\n　　はい　　いいえ[E0 00 01 05 11 02 11 00]",
-  "en": ""
+  "en": "Is that OK?\n[opt]Yes[opt]No[E0 00 01 05 11 02 11 00]"
  },
  {
   "addr": "5F111",
@@ -24,7 +24,7 @@
   ],
   "fall": false,
   "jp": "エントリーします[close]",
-  "en": ""
+  "en": "Entering![close]"
  },
  {
   "addr": "5F11B",
@@ -33,7 +33,7 @@
   ],
   "fall": false,
   "jp": "バトルを　やめますか？\n　　はい　　いいえ[E0 00 01 05 11 04 11 01]",
-  "en": ""
+  "en": "Quit the battle?\n[opt]Yes[opt]No[E0 00 01 05 11 04 11 01]"
  },
  {
   "addr": "5F139",
@@ -42,7 +42,7 @@
   ],
   "fall": false,
   "jp": "エントリーを　しゅうりょうします[close]",
-  "en": ""
+  "en": "Ending Entry.[close]"
  },
  {
   "addr": "5F14B",
@@ -51,7 +51,7 @@
   ],
   "fall": false,
   "jp": "エントリーしますか？\n　　はい　　いいえ[E0 00 01 05 11 06 11 01]",
-  "en": ""
+  "en": "Enter the battle?\n[opt]Yes[opt]No[E0 00 01 05 11 06 11 01]"
  },
  {
   "addr": "5F169",
@@ -60,7 +60,7 @@
   ],
   "fall": false,
   "jp": "バトルに　はいります[close]",
-  "en": ""
+  "en": "Into battle![close]"
  },
  {
   "addr": "5F174",
@@ -69,7 +69,7 @@
   ],
   "fall": false,
   "jp": "エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 06 11 00]",
-  "en": ""
+  "en": "Change your Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 06 11 00]"
  },
  {
   "addr": "5F195",
@@ -78,7 +78,7 @@
   ],
   "fall": false,
   "jp": "このエントリーで　よろしいですか？\n　　はい　　いいえ[E0 01 01 05 11 06 11 14]",
-  "en": ""
+  "en": "Go with this Entry?\n[opt]Yes[opt]No[E0 01 01 05 11 06 11 14]"
  },
  {
   "addr": "5F1BA",
@@ -87,7 +87,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 1st Entry.[close]"
  },
  {
   "addr": "5F1DA",
@@ -96,7 +96,7 @@
   ],
   "fall": false,
   "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 2nd Entry.[close]"
  },
  {
   "addr": "5F1FA",
@@ -105,7 +105,7 @@
   ],
   "fall": false,
   "jp": "３ｒｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 3rd Entry.[close]"
  },
  {
   "addr": "5F21A",
@@ -114,7 +114,7 @@
   ],
   "fall": false,
   "jp": "よろしいですか？\n　　はい　　いいえ[E0 00 01 05 11 02 11 0F]",
-  "en": ""
+  "en": "Is that OK?\n[opt]Yes[opt]No[E0 00 01 05 11 02 11 0F]"
  },
  {
   "addr": "5F235",
@@ -123,7 +123,7 @@
   ],
   "fall": false,
   "jp": "よろしいですか？\n　　はい　　いいえ[E0 00 01 05 11 02 11 10]",
-  "en": ""
+  "en": "Is that OK?\n[opt]Yes[opt]No[E0 00 01 05 11 02 11 10]"
  },
  {
   "addr": "5F250",
@@ -132,7 +132,7 @@
   ],
   "fall": false,
   "jp": "よろしいですか？\n　　はい　　いいえ[E0 00 01 05 11 02 11 11]",
-  "en": ""
+  "en": "Is that OK?\n[opt]Yes[opt]No[E0 00 01 05 11 02 11 11]"
  },
  {
   "addr": "5F26B",
@@ -141,7 +141,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 1st Entry.[close]"
  },
  {
   "addr": "5F28B",
@@ -150,7 +150,7 @@
   ],
   "fall": false,
   "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 2nd Entry.[close]"
  },
  {
   "addr": "5F2AB",
@@ -159,7 +159,7 @@
   ],
   "fall": false,
   "jp": "３ｒｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 3rd Entry.[close]"
  },
  {
   "addr": "5F2CB",
@@ -168,7 +168,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 15 11 0A]",
-  "en": ""
+  "en": "Change your 1st Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 15 11 0A]"
  },
  {
   "addr": "5F2F0",
@@ -177,7 +177,7 @@
   ],
   "fall": false,
   "jp": "エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 14 11 0B]",
-  "en": ""
+  "en": "Change your Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 14 11 0B]"
  },
  {
   "addr": "5F311",
@@ -186,7 +186,7 @@
   ],
   "fall": false,
   "jp": "かえたい　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head you want to change.[close]"
  },
  {
   "addr": "5F32A",
@@ -195,7 +195,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 1st Entry.[close]"
  },
  {
   "addr": "5F34A",
@@ -204,7 +204,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 0F 11 08]",
-  "en": ""
+  "en": "Change your 1st Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 0F 11 08]"
  },
  {
   "addr": "5F36F",
@@ -213,7 +213,7 @@
   ],
   "fall": false,
   "jp": "２ｎｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 15 11 08]",
-  "en": ""
+  "en": "Change your 2nd Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 15 11 08]"
  },
  {
   "addr": "5F394",
@@ -222,7 +222,7 @@
   ],
   "fall": false,
   "jp": "３ｒｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 15 11 08]",
-  "en": ""
+  "en": "Change your 3rd Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 15 11 08]"
  },
  {
   "addr": "5F3B9",
@@ -231,7 +231,7 @@
   ],
   "fall": false,
   "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 2nd Entry.[close]"
  },
  {
   "addr": "5F3D9",
@@ -240,7 +240,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 1B 11 1C]",
-  "en": ""
+  "en": "Change your 1st Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 1B 11 1C]"
  },
  {
   "addr": "5F3FE",
@@ -249,7 +249,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 1st Entry.[close]"
  },
  {
   "addr": "5F41E",
@@ -258,7 +258,7 @@
   ],
   "fall": false,
   "jp": "３ｒｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 3rd Entry.[close]"
  },
  {
   "addr": "5F43E",
@@ -267,7 +267,7 @@
   ],
   "fall": false,
   "jp": "２ｎｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 1E 11 1C]",
-  "en": ""
+  "en": "Change your 2nd Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 1E 11 1C]"
  },
  {
   "addr": "5F463",
@@ -276,7 +276,7 @@
   ],
   "fall": false,
   "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 2nd Entry.[close]"
  },
  {
   "addr": "5F483",
@@ -285,7 +285,7 @@
   ],
   "fall": false,
   "jp": "３ｒｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 20 11 1C]",
-  "en": ""
+  "en": "Change your 3rd Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 20 11 1C]"
  },
  {
   "addr": "5F4A8",
@@ -294,7 +294,7 @@
   ],
   "fall": false,
   "jp": "３ｒｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 3rd Entry.[close]"
  },
  {
   "addr": "5F4C8",
@@ -303,7 +303,7 @@
   ],
   "fall": false,
   "jp": "エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 14 11 08]",
-  "en": ""
+  "en": "Change your Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 14 11 08]"
  },
  {
   "addr": "5F4E9",
@@ -312,7 +312,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 23 11 08]",
-  "en": ""
+  "en": "Change your 1st Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 23 11 08]"
  },
  {
   "addr": "5F50E",
@@ -321,7 +321,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 1st Entry.[close]"
  },
  {
   "addr": "5F52E",
@@ -330,7 +330,7 @@
   ],
   "fall": false,
   "jp": "２ｎｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 25 11 08]",
-  "en": ""
+  "en": "Change your 2nd Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 25 11 08]"
  },
  {
   "addr": "5F553",
@@ -339,7 +339,7 @@
   ],
   "fall": false,
   "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 2nd Entry.[close]"
  },
  {
   "addr": "5F573",
@@ -348,7 +348,7 @@
   ],
   "fall": false,
   "jp": "３ｒｄ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 27 11 08]",
-  "en": ""
+  "en": "Change your 3rd Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 27 11 08]"
  },
  {
   "addr": "5F598",
@@ -357,7 +357,7 @@
   ],
   "fall": false,
   "jp": "３ｒｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 3rd Entry.[close]"
  },
  {
   "addr": "5F5B8",
@@ -366,7 +366,7 @@
   ],
   "fall": false,
   "jp": "エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 29 11 2A]",
-  "en": ""
+  "en": "Change your Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 29 11 2A]"
  },
  {
   "addr": "5F5D9",
@@ -375,7 +375,7 @@
   ],
   "fall": false,
   "jp": "かえたい　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head you want to change.[close]"
  },
  {
   "addr": "5F5F2",
@@ -384,7 +384,7 @@
   ],
   "fall": false,
   "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 2nd Entry.[close]"
  },
  {
   "addr": "5F612",
@@ -393,7 +393,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーを　かえますか？\n　　はい　　いいえ[E0 00 01 05 11 2C 11 2D]",
-  "en": ""
+  "en": "Change your 1st Entry?\n[opt]Yes[opt]No[E0 00 01 05 11 2C 11 2D]"
  },
  {
   "addr": "5F637",
@@ -402,7 +402,7 @@
   ],
   "fall": false,
   "jp": "１ｓｔ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 1st Entry.[close]"
  },
  {
   "addr": "5F657",
@@ -411,7 +411,7 @@
   ],
   "fall": false,
   "jp": "２ｎｄ　エントリーの　バッテリーヘッドを\nえらんでください[close]",
-  "en": ""
+  "en": "Please choose the Battery Head for your 2nd Entry.[close]"
  },
  {
   "addr": "5F677",
@@ -420,7 +420,7 @@
   ],
   "fall": false,
   "jp": "バッテリーヘッドの　じゅうでんりょうに\n０があります[p]エントリーした　バッテリーヘッドから\nじゅうでんりょうを　へらしてください[close]",
-  "en": ""
+  "en": "One of your Battery Heads has a charge of 0.[p]Please take some charge away from the Battery Heads you entered.[close]"
  },
  {
   "addr": "5F6BB",
@@ -429,7 +429,7 @@
   ],
   "fall": false,
   "jp": "バッテリーはいぶんを　しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 11 08 11 31]",
-  "en": ""
+  "en": "Stop dividing the Battery?\n[opt]Yes[opt]No[E0 00 01 05 11 08 11 31]"
  },
  {
   "addr": "5F6E5",
@@ -438,7 +438,7 @@
   ],
   "fall": false,
   "jp": "このじゅうでんりょうでは\nバトルができないので　やりなおしてください[close]",
-  "en": ""
+  "en": "You can't battle with this charge. Please try again.[close]"
  },
  {
   "addr": "5F708",
@@ -447,7 +447,7 @@
   ],
   "fall": false,
   "jp": "バッテリーはいぶんを　やりなおしてください[close]",
-  "en": ""
+  "en": "Divide the Battery again.[close]"
  },
  {
   "addr": "5F71F",
@@ -456,7 +456,7 @@
   ],
   "fall": false,
   "jp": "バッテリーはいぶんを　してください[close]",
-  "en": ""
+  "en": "Please divide the Battery.[close]"
  },
  {
   "addr": "5F732",
@@ -582,7 +582,7 @@
   ],
   "fall": false,
   "jp": "ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 11 41 00 00]",
-  "en": ""
+  "en": "Play Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 11 41 00 00]"
  },
  {
   "addr": "5F75E",
@@ -591,7 +591,7 @@
   ],
   "fall": false,
   "jp": "パスワードを\nにゅうりょくしてください[close]",
-  "en": ""
+  "en": "Please enter the password.[close]"
  },
  {
   "addr": "5F773",
@@ -600,7 +600,7 @@
   ],
   "fall": false,
   "jp": "３２こもっている　デバイスは\nこれいじょうもてません[p]ガチャステを　しますか？\n　　はい　　いいえ[E0 00 01 05 11 41 00 00]",
-  "en": ""
+  "en": "You have 32 Devices, so you can't carry any more.[p]Play Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 11 41 00 00]"
  },
  {
   "addr": "5F7AD",

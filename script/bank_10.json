@@ -6,7 +6,7 @@
   ],
   "fall": false,
   "jp": "しょうりした！[end]",
-  "en": ""
+  "en": "You won![end]"
  },
  {
   "addr": "5E599",
@@ -15,7 +15,7 @@
   ],
   "fall": false,
   "jp": "まけてしまった[end]",
-  "en": ""
+  "en": "You lost...[end]"
  },
  {
   "addr": "5E5A1",
@@ -24,7 +24,7 @@
   ],
   "fall": false,
   "jp": "メダルを　てにいれた[end]",
-  "en": ""
+  "en": "Got a Medal![end]"
  },
  {
   "addr": "5E5AC",
@@ -33,7 +33,7 @@
   ],
   "fall": false,
   "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　を　てにいれた[end]",
-  "en": ""
+  "en": "Got Device [E0 13]\n[E0 12]![end]"
  },
  {
   "addr": "5E5C5",
@@ -42,7 +42,7 @@
   ],
   "fall": false,
   "jp": "[E0 11 00]ビットを　てにいれた[end]",
-  "en": ""
+  "en": "Got [E0 11 00] Bits![end]"
  },
  {
   "addr": "5E5D3",
@@ -51,7 +51,7 @@
   ],
   "fall": false,
   "jp": "[E0 11 01]けいけんちを　てにいれた[end]",
-  "en": ""
+  "en": "Got [E0 11 01] Experience![end]"
  },
  {
   "addr": "5E5E3",
@@ -60,7 +60,7 @@
   ],
   "fall": false,
   "jp": "レベルが　[E0 11 02]にあがった！[end]",
-  "en": ""
+  "en": "Level up to [E0 11 02]![end]"
  },
  {
   "addr": "5E5F3",
@@ -69,7 +69,7 @@
   ],
   "fall": false,
   "jp": "ボルトオンを　てにいれた！[end]",
-  "en": ""
+  "en": "Got a Bolt-On![end]"
  },
  {
   "addr": "5E602",
@@ -78,7 +78,7 @@
   ],
   "fall": false,
   "jp": "ゴールドメダルを　てにいれた[end]",
-  "en": ""
+  "en": "Got a Gold Medal![end]"
  },
  {
   "addr": "5E612",
@@ -87,7 +87,7 @@
   ],
   "fall": false,
   "jp": "シルバーメダルを　てにいれた[end]",
-  "en": ""
+  "en": "Got a Silver Medal![end]"
  },
  {
   "addr": "5E622",
@@ -96,7 +96,7 @@
   ],
   "fall": false,
   "jp": "ブロンズメダルを　てにいれた[end]",
-  "en": ""
+  "en": "Got a Bronze Medal![end]"
  },
  {
   "addr": "5E631",
@@ -105,7 +105,7 @@
   ],
   "fall": false,
   "jp": "Ｄバースト＋１０を　てにいれた[end]",
-  "en": ""
+  "en": "Got D-Burst +10![end]"
  },
  {
   "addr": "5E643",
@@ -114,7 +114,7 @@
   ],
   "fall": false,
   "jp": "Ｄバーストｘ２を　てにいれた[end]",
-  "en": ""
+  "en": "Got D-Burst x2![end]"
  },
  {
   "addr": "5E653",
@@ -123,7 +123,7 @@
   ],
   "fall": false,
   "jp": "Ｄバーストｘ４を　てにいれた[end]",
-  "en": ""
+  "en": "Got D-Burst x4![end]"
  },
  {
   "addr": "5E663",
@@ -132,7 +132,7 @@
   ],
   "fall": false,
   "jp": "Ｄバーストｘ１０を　てにいれた[end]",
-  "en": ""
+  "en": "Got D-Burst x10![end]"
  },
  {
   "addr": "5E674",
@@ -141,7 +141,7 @@
   ],
   "fall": false,
   "jp": "Ｄバーストｘ２０を　てにいれた[end]",
-  "en": ""
+  "en": "Got D-Burst x20![end]"
  },
  {
   "addr": "5E685",
@@ -150,7 +150,7 @@
   ],
   "fall": false,
   "jp": "デバイスが　これいじょう　もてません[half]かくとくしたデバイスを　あきらめますか？[half]　　はい　　いいえ[E0 01 01 05 10 11 10 12]",
-  "en": ""
+  "en": "You can't carry any more Devices.[half]Give up the Device you just got?[half][opt]Yes[opt]No[E0 01 01 05 10 11 10 12]"
  },
  {
   "addr": "5E6BF",
@@ -159,7 +159,7 @@
   ],
   "fall": false,
   "jp": "あきらめました[end]",
-  "en": ""
+  "en": "Gave it up.[end]"
  },
  {
   "addr": "5E6C7",
@@ -168,7 +168,7 @@
   ],
   "fall": false,
   "jp": "すてるデバイスを　えらんでください[E0 51][end]",
-  "en": ""
+  "en": "Choose a Device to toss.[E0 51][end]"
  },
  {
   "addr": "5E6DB",
@@ -177,7 +177,7 @@
   ],
   "fall": false,
   "jp": "まけてしまった[end]",
-  "en": ""
+  "en": "You lost...[end]"
  },
  {
   "addr": "5E6E3",
@@ -294,7 +294,7 @@
   ],
   "fall": false,
   "jp": "カタログひょうじを　しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 10 21 10 22]",
-  "en": ""
+  "en": "Stop viewing the Catalog?\n[opt]Yes[opt]No[E0 00 01 05 10 21 10 22]"
  },
  {
   "addr": "5E717",
@@ -303,7 +303,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": ""
+  "en": "Closing.[close]"
  },
  {
   "addr": "5E721",
@@ -312,7 +312,7 @@
   ],
   "fall": false,
   "jp": "カタログひょうじに　もどります[close]",
-  "en": ""
+  "en": "Back to the Catalog.[close]"
  },
  {
   "addr": "5E731",
@@ -321,7 +321,7 @@
   ],
   "fall": false,
   "jp": "カタログひょうじです[close]",
-  "en": ""
+  "en": "Catalog view.[close]"
  },
  {
   "addr": "5E73C",
@@ -438,7 +438,7 @@
   ],
   "fall": false,
   "jp": "かいたいアイテムと\nこすうを　えらんでください[close]",
-  "en": ""
+  "en": "Please choose the item and how many you want to buy.[close]"
  },
  {
   "addr": "5E760",
@@ -447,7 +447,7 @@
   ],
   "fall": false,
   "jp": "かうのを　やめますか？\n　　はい　　いいえ[E0 00 01 05 10 32 10 30]",
-  "en": ""
+  "en": "Stop shopping?\n[opt]Yes[opt]No[E0 00 01 05 10 32 10 30]"
  },
  {
   "addr": "5E77E",
@@ -456,7 +456,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": ""
+  "en": "Closing.[close]"
  },
  {
   "addr": "5E788",
@@ -465,7 +465,7 @@
   ],
   "fall": false,
   "jp": "[E0 11 00]ビットに　なります[half]かいますか？[half]　　はい　　いいえ[E0 00 01 05 10 34 10 35]",
-  "en": ""
+  "en": "That'll be [E0 11 00] Bits.[half]Buy it?[half][opt]Yes[opt]No[E0 00 01 05 10 34 10 35]"
  },
  {
   "addr": "5E7AE",
@@ -474,7 +474,7 @@
   ],
   "fall": false,
   "jp": "まいど　ありがとうございました[close]",
-  "en": ""
+  "en": "Thank you very much![close]"
  },
  {
   "addr": "5E7BE",
@@ -483,7 +483,7 @@
   ],
   "fall": false,
   "jp": "えらびなおしてください[close]",
-  "en": ""
+  "en": "Choose again.[close]"
  },
  {
   "addr": "5E7CA",
@@ -492,7 +492,7 @@
   ],
   "fall": false,
   "jp": "これいじょう　もてません[close]",
-  "en": ""
+  "en": "Can't carry more.[close]"
  },
  {
   "addr": "5E7D7",
@@ -501,7 +501,7 @@
   ],
   "fall": false,
   "jp": "おかねが　たりません[close]",
-  "en": ""
+  "en": "Can't afford it.[close]"
  },
  {
   "addr": "5E7E2",
@@ -582,7 +582,7 @@
   ],
   "fall": false,
   "jp": "うりたいアイテムと\nこすうを　えらんでください[close]",
-  "en": ""
+  "en": "Please choose the item and how many you want to sell.[close]"
  },
  {
   "addr": "5E802",
@@ -591,7 +591,7 @@
   ],
   "fall": false,
   "jp": "うるのを　やめますか？\n　　はい　　いいえ[E0 00 01 05 10 42 10 40]",
-  "en": ""
+  "en": "Stop selling?\n[opt]Yes[opt]No[E0 00 01 05 10 42 10 40]"
  },
  {
   "addr": "5E820",
@@ -600,7 +600,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": ""
+  "en": "Closing.[close]"
  },
  {
   "addr": "5E82A",
@@ -609,7 +609,7 @@
   ],
   "fall": false,
   "jp": "[E0 11 00]ビットに　なります[half]うりますか？[half]　　はい　　いいえ[E0 00 01 05 10 44 10 45]",
-  "en": ""
+  "en": "That'll be [E0 11 00] Bits.[half]Sell it?[half][opt]Yes[opt]No[E0 00 01 05 10 44 10 45]"
  },
  {
   "addr": "5E850",
@@ -618,7 +618,7 @@
   ],
   "fall": false,
   "jp": "まいど　ありがとうございました[close]",
-  "en": ""
+  "en": "Thank you very much![close]"
  },
  {
   "addr": "5E860",
@@ -627,7 +627,7 @@
   ],
   "fall": false,
   "jp": "えらびなおしてください[close]",
-  "en": ""
+  "en": "Choose again.[close]"
  },
  {
   "addr": "5E86C",
@@ -636,7 +636,7 @@
   ],
   "fall": false,
   "jp": "アイテムが　ありません[close]",
-  "en": ""
+  "en": "No items.[close]"
  },
  {
   "addr": "5E878",
@@ -726,7 +726,7 @@
   ],
   "fall": false,
   "jp": "げんざい[E0 11 00]ポイントです\nポイントのこうかんは　できません[close]",
-  "en": ""
+  "en": "You have [E0 11 00] points now.\nPoints can't be exchanged.[close]"
  },
  {
   "addr": "5E8A0",
@@ -735,7 +735,7 @@
   ],
   "fall": false,
   "jp": "げんざい[E0 11 00]ポイントです\nポイントのこうかんが　できます\nポイントでけいひんを　こうかんしますか？\n　　はい　　いいえ[E0 00 01 05 10 52 10 53]",
-  "en": ""
+  "en": "You have [E0 11 00] points right now. You can exchange your points. Exchange points for a prize?\n[opt]Yes[opt]No[E0 00 01 05 10 52 10 53]"
  },
  {
   "addr": "5E8E5",
@@ -744,7 +744,7 @@
   ],
   "fall": false,
   "jp": "つかうポイントとけいひんを　えらんでください[close]",
-  "en": ""
+  "en": "Pick points to use and a prize.[close]"
  },
  {
   "addr": "5E8FC",
@@ -753,7 +753,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": ""
+  "en": "All done.[close]"
  },
  {
   "addr": "5E906",
@@ -762,7 +762,7 @@
   ],
   "fall": false,
   "jp": "ポイントでけいひんのこうかんを　やめますか？\n　　はい　　いいえ[E0 00 01 05 10 53 10 52]",
-  "en": ""
+  "en": "Stop exchanging points for prizes?\n[opt]Yes[opt]No[E0 00 01 05 10 53 10 52]"
  },
  {
   "addr": "5E92F",
@@ -771,7 +771,7 @@
   ],
   "fall": false,
   "jp": "これでいいですか？\n　　はい　　いいえ[E0 00 01 05 10 56 10 57]",
-  "en": ""
+  "en": "Is this OK?\n[opt]Yes[opt]No[E0 00 01 05 10 56 10 57]"
  },
  {
   "addr": "5E94B",
@@ -780,7 +780,7 @@
   ],
   "fall": false,
   "jp": "まいど　ありがとうございました[close]",
-  "en": ""
+  "en": "Thank you very much![close]"
  },
  {
   "addr": "5E95B",
@@ -789,7 +789,7 @@
   ],
   "fall": false,
   "jp": "けいひんを　えらんでください[close]",
-  "en": ""
+  "en": "Please choose a prize.[close]"
  },
  {
   "addr": "5E96A",
@@ -798,7 +798,7 @@
   ],
   "fall": false,
   "jp": "これでいいですか？\n　　はい　　いいえ[E0 00 01 05 10 59 10 5A]",
-  "en": ""
+  "en": "Is this OK?\n[opt]Yes[opt]No[E0 00 01 05 10 59 10 5A]"
  },
  {
   "addr": "5E986",
@@ -807,7 +807,7 @@
   ],
   "fall": false,
   "jp": "まいど　ありがとうございました[close]",
-  "en": ""
+  "en": "Thank you very much![close]"
  },
  {
   "addr": "5E996",
@@ -816,7 +816,7 @@
   ],
   "fall": false,
   "jp": "けいひんを　えらんでください[close]",
-  "en": ""
+  "en": "Please choose a prize.[close]"
  },
  {
   "addr": "5E9A5",
@@ -825,7 +825,7 @@
   ],
   "fall": false,
   "jp": "これでいいですか？\n　　はい　　いいえ[E0 00 01 05 10 5C 10 5D]",
-  "en": ""
+  "en": "Is this OK?\n[opt]Yes[opt]No[E0 00 01 05 10 5C 10 5D]"
  },
  {
   "addr": "5E9C1",
@@ -834,7 +834,7 @@
   ],
   "fall": false,
   "jp": "まいど　ありがとうございました[close]",
-  "en": ""
+  "en": "Thank you very much![close]"
  },
  {
   "addr": "5E9D1",
@@ -843,7 +843,7 @@
   ],
   "fall": false,
   "jp": "けいひんを　えらんでください[close]",
-  "en": ""
+  "en": "Please choose a prize.[close]"
  },
  {
   "addr": "5E9E0",
@@ -852,7 +852,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": ""
+  "en": "All done.[close]"
  },
  {
   "addr": "5E9EA",
@@ -1014,7 +1014,7 @@
   ],
   "fall": false,
   "jp": "とりよせるダイナかデバイスを　えらんでください[close]",
-  "en": ""
+  "en": "Pick a Dino or Device to order.[close]"
  },
  {
   "addr": "5EA13",
@@ -1023,7 +1023,7 @@
   ],
   "fall": false,
   "jp": "カタログはんばいを　しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 10 72 10 73]",
-  "en": ""
+  "en": "Finish shopping from the catalog?\n[opt]Yes[opt]No[E0 00 01 05 10 72 10 73]"
  },
  {
   "addr": "5EA3B",
@@ -1032,7 +1032,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": ""
+  "en": "All done.[close]"
  },
  {
   "addr": "5EA45",
@@ -1041,7 +1041,7 @@
   ],
   "fall": false,
   "jp": "カタログはんばいに　もどります[close]",
-  "en": ""
+  "en": "Back to the catalog.[close]"
  },
  {
   "addr": "5EA55",
@@ -1050,7 +1050,7 @@
   ],
   "fall": false,
   "jp": "このデバイスは　えらぶことができません\nいちど　てにいれると　えらぶことができます[close]",
-  "en": ""
+  "en": "You can't choose this Device. You can choose it once you've gotten it.[close]"
  },
  {
   "addr": "5EA7F",
@@ -1059,7 +1059,7 @@
   ],
   "fall": false,
   "jp": "てすうりょうこみで　[E0 11 00]ビットになります[half]よろしいですか？\n　　はい　　いいえ[E0 00 01 05 10 76 10 77]",
-  "en": ""
+  "en": "That comes to [E0 11 00] Bits, handling fee included.[half]Is that OK?\n[opt]Yes[opt]No[E0 00 01 05 10 76 10 77]"
  },
  {
   "addr": "5EAB0",
@@ -1068,7 +1068,7 @@
   ],
   "fall": false,
   "jp": "まいど　ありがとうございました[close]",
-  "en": ""
+  "en": "Thank you very much![close]"
  },
  {
   "addr": "5EAC0",
@@ -1077,7 +1077,7 @@
   ],
   "fall": false,
   "jp": "とりよせるダイナかデバイスを　えらんでください[close]",
-  "en": ""
+  "en": "Pick a Dino or Device to order.[close]"
  },
  {
   "addr": "5EAD8",
@@ -1086,7 +1086,7 @@
   ],
   "fall": false,
   "jp": "ざんねんですが　おかねがたりません\nおかねがあるとき　おこしください[close]",
-  "en": ""
+  "en": "Sorry, but you don't have enough money. Please come back when you do.[close]"
  },
  {
   "addr": "5EAFB",
@@ -1095,7 +1095,7 @@
   ],
   "fall": false,
   "jp": "これいじょう　もてません[close]",
-  "en": ""
+  "en": "Can't carry more.[close]"
  },
  {
   "addr": "5EB08",
@@ -1104,7 +1104,7 @@
   ],
   "fall": false,
   "jp": "とりよせるダイナかデバイスを　えらんでください[close]",
-  "en": ""
+  "en": "Pick a Dino or Device to order.[close]"
  },
  {
   "addr": "5EB20",
@@ -1113,7 +1113,7 @@
   ],
   "fall": false,
   "jp": "このダイナは　えらぶことができません\nいちど　てにいれると　えらぶことができます[close]",
-  "en": ""
+  "en": "You can't choose this Dino. You can choose it once you've gotten it.[close]"
  },
  {
   "addr": "5EB49",
@@ -1302,7 +1302,7 @@
   ],
   "fall": false,
   "jp": "いらっしゃいませ\nなにを　ごきぼうでしょうか？[end]",
-  "en": ""
+  "en": "Welcome! What can I do for you?[end]"
  },
  {
   "addr": "5EB76",
@@ -1311,7 +1311,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 10 92 10 93]",
-  "en": ""
+  "en": "Are you finished?\n[opt]Yes[opt]No[E0 00 01 05 10 92 10 93]"
  },
  {
   "addr": "5EB94",
@@ -1320,7 +1320,7 @@
   ],
   "fall": false,
   "jp": "まいど　ありがとうございました[close]",
-  "en": ""
+  "en": "Thank you very much![close]"
  },
  {
   "addr": "5EBA4",
@@ -1329,7 +1329,7 @@
   ],
   "fall": false,
   "jp": "なにを\nごきぼうでしょうか？[end]",
-  "en": ""
+  "en": "What can I do for you?[end]"
  },
  {
   "addr": "5EBB4",
@@ -1446,7 +1446,7 @@
   ],
   "fall": false,
   "jp": "バッテリーチャージが　しゅうりょうしました\nまいど　ありがとうございました[close]",
-  "en": ""
+  "en": "Your Battery is all charged up. Thank you very much![close]"
  },
  {
   "addr": "5EBE8",
@@ -1455,7 +1455,7 @@
   ],
   "fall": false,
   "jp": "バッテリーは　まんたんです\nチャージのひつようは　ありません[close]",
-  "en": ""
+  "en": "Your Battery is full. It doesn't need a charge.[close]"
  },
  {
   "addr": "5EC09",
@@ -1590,7 +1590,7 @@
   ],
   "fall": false,
   "jp": "ステータスひょうじです[close]",
-  "en": ""
+  "en": "Showing Status.[close]"
  },
  {
   "addr": "5EC24",
@@ -1599,7 +1599,7 @@
   ],
   "fall": false,
   "jp": "ステータスひょうじを　しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 10 B2 10 B3]",
-  "en": ""
+  "en": "Close the Status screen?\n[opt]Yes[opt]No[E0 00 01 05 10 B2 10 B3]"
  },
  {
   "addr": "5EC4E",
@@ -1608,7 +1608,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうします[close]",
-  "en": ""
+  "en": "All done.[close]"
  },
  {
   "addr": "5EC58",
@@ -1617,7 +1617,7 @@
   ],
   "fall": false,
   "jp": "ステータスひょうじに　もどります[close]",
-  "en": ""
+  "en": "Back to Status.[close]"
  },
  {
   "addr": "5EC6A",
@@ -1734,7 +1734,7 @@
   ],
   "fall": false,
   "jp": "これでいいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
-  "en": ""
+  "en": "Is this OK?\n[opt]Yes[opt]No[E0 00 01 05 00 00 00 00]"
  },
  {
   "addr": "5EC92",

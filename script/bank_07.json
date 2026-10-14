@@ -6,7 +6,7 @@
   ],
   "fall": false,
   "jp": "おいおい\nそのそうびで　ボクにかてるのかい？[end]",
-  "en": ""
+  "en": "Whoa, whoa!\nYou think you can beat me with that gear?[end]"
  },
  {
   "addr": "5E244",
@@ -87,7 +87,7 @@
   ],
   "fall": false,
   "jp": "いまから　こうさんしても\nいいんだぜ！[end]",
-  "en": ""
+  "en": "You can give up right now if you want![end]"
  },
  {
   "addr": "5E261",
@@ -96,7 +96,7 @@
   ],
   "fall": false,
   "jp": "まけたときの　ことをかんがえると\nかわいそうですねー[end]",
-  "en": ""
+  "en": "When I think about how you'll feel after you lose, I almost feel sorry for you~[end]"
  },
  {
   "addr": "5E27D",
@@ -105,7 +105,7 @@
   ],
   "fall": false,
   "jp": "ほ〜ぉあぁた〜〜！！\n２りゅうと　１りゅうの　バトルのさを\nみせてあげましょう[end]",
-  "en": ""
+  "en": "Hwoooaaataaah!!\nAllow me to show you the gap between second-rate and first-rate![end]"
  },
  {
   "addr": "5E2AA",
@@ -150,7 +150,7 @@
   ],
   "fall": false,
   "jp": "おんな　だからって　あまくみたら\nいたいめ　みるわよ[end]",
-  "en": ""
+  "en": "Go easy on me just 'cause I'm a girl, and you'll get hurt![end]"
  },
  {
   "addr": "5E2C9",
@@ -159,7 +159,7 @@
   ],
   "fall": false,
   "jp": "なんだ　よわそうな　やつだな[end]",
-  "en": ""
+  "en": "Huh, you look pretty weak.[end]"
  },
  {
   "addr": "5E2D8",
@@ -168,7 +168,7 @@
   ],
   "fall": false,
   "jp": "あいてが　こどもでも\nては　ぬかないよ[end]",
-  "en": ""
+  "en": "Even if you're just a kid, I won't hold back.[end]"
  },
  {
   "addr": "5E2EC",
@@ -177,7 +177,7 @@
   ],
   "fall": false,
   "jp": "おやおや　かわいい\nおとこのこだね〜[end]",
-  "en": ""
+  "en": "Well, well, what a cute little boy~[end]"
  },
  {
   "addr": "5E300",
@@ -186,7 +186,7 @@
   ],
   "fall": false,
   "jp": "へっ　オレのかちは\nきまったな[end]",
-  "en": ""
+  "en": "Heh, my win's in the bag.[end]"
  },
  {
   "addr": "5E310",
@@ -195,7 +195,7 @@
   ],
   "fall": false,
   "jp": "なんか　このバトル\nわたしが　かっちゃいそー[end]",
-  "en": ""
+  "en": "Somehow I think I'm gonna win this battle~[end]"
  },
  {
   "addr": "5E328",
@@ -204,7 +204,7 @@
   ],
   "fall": false,
   "jp": "ボクの　かちはきまりかな〜[end]",
-  "en": ""
+  "en": "Looks like the win is mine~[end]"
  },
  {
   "addr": "5E337",
@@ -213,7 +213,7 @@
   ],
   "fall": false,
   "jp": "あ　あの〜・・・\nわたし　あんまり　つよくないので\nまけてください[end]",
-  "en": ""
+  "en": "Um, uh...\nI'm not very strong, so please let me win...[end]"
  },
  {
   "addr": "5E35D",

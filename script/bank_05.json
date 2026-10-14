@@ -6,7 +6,7 @@
   ],
   "fall": false,
   "jp": "１かいせんめの　たいせんあいては[half][E0 18]せんしゅです[end]",
-  "en": ""
+  "en": "Your first-round opponent is[half][E0 18]![end]"
  },
  {
   "addr": "5D8B2",
@@ -15,7 +15,7 @@
   ],
   "fall": false,
   "jp": "２かいせんめの　たいせんあいては[half][E0 18]せんしゅです[end]",
-  "en": ""
+  "en": "Your second-round opponent is[half][E0 18]![end]"
  },
  {
   "addr": "5D8CC",
@@ -24,7 +24,7 @@
   ],
   "fall": false,
   "jp": "けっしょうせんの　たいせんあいては[half][E0 18]せんしゅです[end]",
-  "en": ""
+  "en": "Your opponent in the Final is[half][E0 18]![end]"
  },
  {
   "addr": "5D8E7",
@@ -33,7 +33,7 @@
   ],
   "fall": false,
   "jp": "ゆうしょうしたのは[half][E0 18]せんしゅです！[end]",
-  "en": ""
+  "en": "And the winner is[half][E0 18]![end]"
  },
  {
   "addr": "5D8FC",
@@ -141,6 +141,6 @@
   ],
   "fall": false,
   "jp": "[player]せんしゅ　リタイアです[close]",
-  "en": ""
+  "en": "[player] has dropped out![close]"
  }
 ]

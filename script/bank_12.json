@@ -1095,7 +1095,7 @@
   ],
   "fall": false,
   "jp": "じゃ　とりあえず\nやってみようよ\nここでＡボタンを\nおしてみて[close]",
-  "en": ""
+  "en": "Okay, let's just give it a try. Press the A Button here.[close]"
  },
  {
   "addr": "60774",
@@ -1104,7 +1104,7 @@
   ],
   "fall": false,
   "jp": "せっかくだから\nもういっかい\nやってみようよ\nはい　Ａボタンをおしてみて[close]",
-  "en": ""
+  "en": "Since we're here, let's try one more time! Go on, press the A Button.[close]"
  },
  {
   "addr": "60799",
@@ -1113,7 +1113,7 @@
   ],
   "fall": false,
   "jp": "おかねが　なくなったから\nもどるわ[close]",
-  "en": ""
+  "en": "We're out of money, so let's head back.[close]"
  },
  {
   "addr": "607AB",
@@ -1122,7 +1122,7 @@
   ],
   "fall": false,
   "jp": "また　おかねがたまったら\nここに　こようね[E0 20 00 52][close]",
-  "en": ""
+  "en": "Let's come back here once we've saved up more money![E0 20 00 52][close]"
  },
  {
   "addr": "607C5",
@@ -1158,7 +1158,7 @@
   ],
   "fall": false,
   "jp": "さいしょの　ガチャステは\nダイナガチャステだよ\nそれで　ダイナガチャステは\nよこの　かべにあるやつが\nそうよ[close]",
-  "en": ""
+  "en": "The first Gachasute is the Dino Gachasute. And the Dino Gachasute is the one on the side wall.[close]"
  },
  {
   "addr": "607FF",
@@ -1167,7 +1167,7 @@
   ],
   "fall": false,
   "jp": "これが　ダイナガチャステよ[close]",
-  "en": ""
+  "en": "This is the Dino Gachasute.[close]"
  },
  {
   "addr": "6080D",
@@ -1176,7 +1176,7 @@
   ],
   "fall": false,
   "jp": "ここで　つかうメダルを\nえらぶのよ[p]ガチャステの　よこには\nいま　あなたがもっている\nメダルのまいすうが\nひょうじされてるの\nいまは\nゴールドメダルのところに\n１ってすうじが　あるよね\nそれが　メダルのまいすうよ\nつかってみて[close]",
-  "en": ""
+  "en": "Here you choose which Medal to use.[p]Next to the Gachasute, it shows how many Medals you have right now. See the 1 next to the Gold Medal? That's how many Medals you have. Go ahead, use it![close]"
  },
  {
   "addr": "60880",
@@ -1185,7 +1185,7 @@
   ],
   "fall": false,
   "jp": "え〜！？　スゴ〜イ！！\nそのダイナ　めちゃレアだよ〜[p]なかなか　でないのに\n１かいででるなんて\nすごいね〜[p]せつめいは　これで　おしまい\nどお？　かんたんでしょ[close]",
-  "en": ""
+  "en": "Whaaat?! Amazing!! That Dino is super rare![p]It hardly ever comes out, and you got it on your first try! That's incredible![p]And that's the end of my explanation. So? Easy, right?[close]"
  },
  {
   "addr": "608DA",
@@ -1194,7 +1194,7 @@
   ],
   "fall": false,
   "jp": "これは　デバイスガチャステ\nおかねがないと　できないわ[close]",
-  "en": ""
+  "en": "This is the Device Gachasute. You can't play it without money.[close]"
  },
  {
   "addr": "608F6",
@@ -1203,7 +1203,7 @@
   ],
   "fall": false,
   "jp": "これは　マイガチャステ\nいらなくなったものが\nできたときや\nにもつが　いっぱいになったとき\nここをりようするのよ[close]",
-  "en": ""
+  "en": "This is My Gachasute. You use it when you've got stuff you don't need anymore, or when your bag is full.[close]"
  },
  {
   "addr": "6092F",
@@ -1212,7 +1212,7 @@
   ],
   "fall": false,
   "jp": "ねえ　さっきのダイナ\nそとにでて　もういちどみせて[close]",
-  "en": ""
+  "en": "Hey, let's go outside so you can show me that Dino again![close]"
  },
  {
   "addr": "60949",
@@ -1302,7 +1302,7 @@
   ],
   "fall": false,
   "jp": "まんなかにある\nマイガチャステを　えらんでみて[close]",
-  "en": ""
+  "en": "Try choosing My Gachasute, the one in the middle.[close]"
  },
  {
   "addr": "6096A",
@@ -1311,7 +1311,7 @@
   ],
   "fall": false,
   "jp": "これは\nマイガチャステじゃないわ\nダイナガチャステよ[close]",
-  "en": ""
+  "en": "This isn't My Gachasute. It's the Dino Gachasute.[close]"
  },
  {
   "addr": "60985",
@@ -1320,7 +1320,7 @@
   ],
   "fall": false,
   "jp": "これは\nマイガチャステじゃないわ\nデバイスガチャステよ[close]",
-  "en": ""
+  "en": "This isn't My Gachasute. It's the Device Gachasute.[close]"
  },
  {
   "addr": "609A1",
@@ -1329,7 +1329,7 @@
   ],
   "fall": false,
   "jp": "これが　マイガチャステよ[close]",
-  "en": ""
+  "en": "It's My Gachasute.[close]"
  },
  {
   "addr": "609AE",
@@ -1338,7 +1338,7 @@
   ],
   "fall": false,
   "jp": "つかいかたなんだけど[p]したにある　リストから\nいらない　ダイナや　デバイスを\nえらぶの[p]いちど　けっていしたら\nもう　もどってこないから\nきをつけてね[p]さっそく　あまってるデバイスを\nいれてみましょう[close]",
-  "en": ""
+  "en": "Here's how you use it.[p]From the list below, choose the Dinos or Devices you don't need.[p]Once you confirm, they won't come back, so be careful![p]Let's put in one of your spare Devices right away![close]"
  },
  {
   "addr": "60A13",
@@ -1347,7 +1347,7 @@
   ],
   "fall": false,
   "jp": "これで　ときどき　ここにきて\nいれたものが　うれているか\nかくにんに　くるといいわ[p]こんなかんじで　ほかのひとが\nガチャステを　やってくれるのを\nまってればいいってわけ[p]いれおわったら　Ｂボタンを\nおしてね[p]マイガチャステのせつめいは\nこれでおわりよ[close]",
-  "en": ""
+  "en": "Now just come back here every so often and check whether the things you put in have sold.[p]Basically, you just wait for other people to play your Gachasute, like this.[p]When you're done putting things in, press the B Button.[p]That's all for My Gachasute![close]"
  },
  {
   "addr": "60A91",
@@ -1446,7 +1446,7 @@
   ],
   "fall": false,
   "jp": "[E0 46][E0 44 06][E0 43 20]おおあたり！\nガチャステが　４かいできます[E0 44 FA][E0 47][close]",
-  "en": ""
+  "en": "[E0 46][E0 44 06][E0 43 20]Jackpot!\nYou can play Gachasute 4 times![E0 44 FA][E0 47][close]"
  },
  {
   "addr": "60ABF",
@@ -1455,7 +1455,7 @@
   ],
   "fall": false,
   "jp": "あたり！\nガチャステが　２かいできます[close]",
-  "en": ""
+  "en": "A win!\nYou can play Gachasute twice![close]"
  },
  {
   "addr": "60AD4",
@@ -1464,7 +1464,7 @@
   ],
   "fall": false,
   "jp": "はずれ\nガチャステが　１かいできます[close]",
-  "en": ""
+  "en": "A miss...\nYou can play Gachasute once.[close]"
  },
  {
   "addr": "60AE7",
@@ -1590,7 +1590,7 @@
   ],
   "fall": false,
   "jp": "あげるデバイスを　えらんでください[close]",
-  "en": ""
+  "en": "Choose a Device to give.[close]"
  },
  {
   "addr": "60B06",
@@ -1599,7 +1599,7 @@
   ],
   "fall": false,
   "jp": "ダイナ　[E0 13]　\n　　　　[E0 12]　を　あげました[close]",
-  "en": ""
+  "en": "Gave away the Dino\n[E0 13] [E0 12].[close]"
  },
  {
   "addr": "60B1D",
@@ -1608,7 +1608,7 @@
   ],
   "fall": false,
   "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　を　あげました[close]",
-  "en": ""
+  "en": "Gave away the Device\n[E0 13] [E0 12].[close]"
  },
  {
   "addr": "60B36",
@@ -1617,7 +1617,7 @@
   ],
   "fall": false,
   "jp": "これでいいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
-  "en": ""
+  "en": "Is this okay?\n[opt]Yes[opt]No[E0 00 01 05 00 00 00 00]"
  },
  {
   "addr": "60B52",
@@ -1734,7 +1734,7 @@
   ],
   "fall": false,
   "jp": "ガチャステをしますか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
-  "en": ""
+  "en": "Play Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 00 00 00 00]"
  },
  {
   "addr": "60B7C",
@@ -1743,7 +1743,7 @@
   ],
   "fall": false,
   "jp": "ダイナ　[E0 13]　\n　　　　[E0 12]　を　てにいれた[close]",
-  "en": ""
+  "en": "Got the Dino\n[E0 13] [E0 12]![close]"
  },
  {
   "addr": "60B93",
@@ -1752,7 +1752,7 @@
   ],
   "fall": false,
   "jp": "デバイス　[E0 13]　\n　　　　　[E0 12]　を　てにいれた[close]",
-  "en": ""
+  "en": "Got the Device\n[E0 13] [E0 12]![close]"
  },
  {
   "addr": "60BAC",
@@ -1878,7 +1878,7 @@
   ],
   "fall": false,
   "jp": "しゅうりょうしますか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
-  "en": ""
+  "en": "Do you want to quit?\n[opt]Yes[opt]No[E0 00 01 05 00 00 00 00]"
  },
  {
   "addr": "60BD7",
@@ -2022,7 +2022,7 @@
   ],
   "fall": false,
   "jp": "なにか　おとがした！[close]",
-  "en": ""
+  "en": "I heard a noise![close]"
  },
  {
   "addr": "60BF2",
@@ -2031,7 +2031,7 @@
   ],
   "fall": false,
   "jp": "こら〜！\nなにやってんだ〜！[close]",
-  "en": ""
+  "en": "Hey!\nWhat do you think you're doing?![close]"
  },
  {
   "addr": "60C05",
@@ -2040,7 +2040,7 @@
   ],
   "fall": false,
   "jp": "ただで　できそうだ[close]",
-  "en": ""
+  "en": "Free to play![close]"
  },
  {
   "addr": "60C0F",
@@ -2049,7 +2049,7 @@
   ],
   "fall": false,
   "jp": "もう　できないみたいだ[close]",
-  "en": ""
+  "en": "No more plays.[close]"
  },
  {
   "addr": "60C1B",

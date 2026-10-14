@@ -186,7 +186,7 @@
   ],
   "fall": false,
   "jp": "ダイナにそうびする　デバイスの\nぞくせいを　すべて　ダイナと\nおなじぞくせいで　そろえると\nこうげきりょくが　アップするんだ[p]ぎゃくに　バラバラの　ぞくせいだと\nこうげきりょくが　さがるから\nきをつけたほうが　いいよ[p]とくに　ライドデバイスは\nぞくせいをもたない　デバイスばかりだから\nぞくせいを　あわせるには\nダイナそれぞれに　せんように\nつくられた　せんようデバイスを\nそうびするひつようが　あるんだ\nせんようデバイスは　かなりレアだから\nものすごく　たくさんガチャステを\nやらないと　てにはいらないんだ\nしかも　デバイスガチャステなら\nどれでも　でるわけじゃないんだ\nオレが　しってるのは\n１ばん　ねだんが　たかい\nガチャステなんだけど\nこのまちの　ガチャステパークには\nないんだよなぁ\nもっと　さきのまちにある\nガチャステパークに　あるよ[p][face:01]ありがとう\nわたしたちも　がんばって\nせんようデバイスが\nそうびできるよう　がんばるわ[p][E0 32 00 57 04 18][face:08]それから　ぞくせいの　あいしょうだけど\nしってるかい？\n　　はい　　いいえ[E0 01 01 05 04 18 04 19]",
-  "en": ""
+  "en": "If every Device you equip on a Dino has the same element as the Dino, its attack power goes up![p]But if the elements are all mixed up, its attack power goes down, so you'd better be careful.[p]Ride Devices are a special case. Almost none of them have an element, so to match elements, you need to equip an Exclusive Device made just for that one Dino.[p]Exclusive Devices are super rare, so you have to play a whole lot of Gachasute to get one. And not every Device Gachasute gives them out, either.[p]The one I know of is the most expensive Gachasute, but this town's Gachasute Park doesn't have it. You'll find it at the Gachasute Park in a town farther ahead.[p][face:01]Thank you! We'll do our best too, so we can equip Exclusive Devices![p][E0 32 00 57 04 18][face:08]Next up, element matchups. Do you know about them?\n[opt]Yes[opt]No[E0 01 01 05 04 18 04 19]"
  },
  {
   "addr": "5AFC0",
@@ -195,7 +195,7 @@
   ],
   "fall": false,
   "jp": "[face:01]なにかしらこれ\nちょっと　かわった　ガチャステね\nもじを　にゅうりょくする　タイプね[p]この　ガチャステ　やってみる？\n　　はい　　いいえ[E0 00 01 05 04 16 04 17]",
-  "en": ""
+  "en": "[face:01]What's this? It's a kind of unusual Gachasute. Looks like the type where you type in letters.[p]Want to try this Gachasute?\n[opt]Yes[opt]No[E0 00 01 05 04 16 04 17]"
  },
  {
   "addr": "5B010",
@@ -204,7 +204,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]おもしろそうだから　やってみよう[p][E0 8E][close]",
-  "en": ""
+  "en": "[face2:00]Looks like fun. Let's try it![p][E0 8E][close]"
  },
  {
   "addr": "5B027",
@@ -213,7 +213,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]いまは　やめとくよ[close]",
-  "en": ""
+  "en": "[face2:00]I'll pass for now.[close]"
  },
  {
   "addr": "5B034",
@@ -222,7 +222,7 @@
   ],
   "fall": false,
   "jp": "[face:08]そうかい\nじゃあ　けんとうを　いのってるよ[close]",
-  "en": ""
+  "en": "[face:08]I see. Well then, good luck out there![close]"
  },
  {
   "addr": "5B04D",
@@ -231,7 +231,7 @@
   ],
   "fall": false,
   "jp": "[face:08]いいかい　ちゅういして　きいといてくれよ[p]ほのおは　みずにつよくて\nみずは　かみなりにつよくて\nかみなりは　だいちにつよくて\nだいちは　ほのおにつよいんだ\nとくしゅは　どのぞくせいに　たいしても\nこうかは　おなじだよ[p]ちゃんと　おぼえたかい？\n　　はい　　いいえ[E0 01 01 05 04 1A 04 19]",
-  "en": ""
+  "en": "[face:08]Okay, listen carefully now.[p]Fire is strong against Water, Water is strong against Thunder, Thunder is strong against Earth, and Earth is strong against Fire. Special works the same against every element.[p]Got all that?\n[opt]Yes[opt]No[E0 01 01 05 04 1A 04 19]"
  },
  {
   "addr": "5B0DC",
@@ -240,7 +240,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]ありがとう　よくおぼえておくよ[p][face:08]じゃあ　けんとうを　いのってるよ[close]",
-  "en": ""
+  "en": "[face2:00]Thanks! I'll be sure to remember it.[p][face:08]Well then, good luck out there![close]"
  },
  {
   "addr": "5B103",
@@ -294,7 +294,7 @@
   ],
   "fall": false,
   "jp": "[noface]にもつが　いっぱいです\nうけとりを　あきらめますか？\n　　はい　　いいえ[E0 00 01 05 04 21 04 22]",
-  "en": ""
+  "en": "[noface]Your bag is full. Give up on receiving it?\n[opt]Yes[opt]No[E0 00 01 05 04 21 04 22]"
  },
  {
   "addr": "5B137",
@@ -303,7 +303,7 @@
   ],
   "fall": false,
   "jp": "[player]は　にもつを　あきらめた[close]",
-  "en": ""
+  "en": "[player] gave up the package.[close]"
  },
  {
   "addr": "5B146",
@@ -312,7 +312,7 @@
   ],
   "fall": false,
   "jp": "しょじひんから　すてるものを　えらんで\nＡボタンをおしてください[E0 23 04 88][E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][player]は\n[E0 23 04 88][E0 70 04 88 04 22][E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][p][E0 30 01 8B]",
-  "en": ""
+  "en": "Choose something to throw away and press the A Button.[E0 23 04 88][E0 51][E0 78][player] threw away\n[c:09][E0 13] [E0 12][/c].[p][player] got\n[E0 23 04 88][E0 70 04 88 04 22][E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][p][E0 30 01 8B]"
  },
  {
   "addr": "5B1AC",
@@ -321,7 +321,7 @@
   ],
   "fall": false,
   "jp": "にもつが　いっぱいです\nうけとりを　あきらめますか？\n　　はい　　いいえ[E0 00 01 05 04 21 04 24]",
-  "en": ""
+  "en": "Your bag is full. Give up on receiving it?\n[opt]Yes[opt]No[E0 00 01 05 04 21 04 24]"
  },
  {
   "addr": "5B1D9",
@@ -330,7 +330,7 @@
   ],
   "fall": false,
   "jp": "しょじひんから　すてるものを　えらんで\nＡボタンをおしてください[E0 51][E0 78][player]は\n[c:09][E0 13]　[E0 12][/c]を\nすてた[p][player]は\n[E0 43 22][c:0A][E0 13]　[E0 12][/c]を\nてにいれた[E0 44 14][close]",
-  "en": ""
+  "en": "Choose something to throw away and press the A Button.[E0 51][E0 78][player] threw away\n[c:09][E0 13] [E0 12][/c].[p][player] got\n[E0 43 22][c:0A][E0 13] [E0 12][/c]![E0 44 14][close]"
  },
  {
   "addr": "5B22D",
@@ -429,7 +429,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]いったん　おちつこう[p][face:01]ふ〜・・・\nやっぱり　ドキドキするわね[p][face2:00]よし　いくぞ！[p][noface]なにいろのコードを　きりますか？\n　　あお　　きいろ[E0 03 01 05 04 43 04 44 04 2F]",
-  "en": ""
+  "en": "[face2:00]Okay, calm down first.[p][face:01]Phew... This is so nerve-racking.[p][face2:00]All right, here goes![p][noface]Which wire will you cut?\n[opt]Blue[opt]Yellow[E0 03 01 05 04 43 04 44 04 2F]"
  },
  {
   "addr": "5B294",
@@ -438,7 +438,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5D 01 08][E0 31 00 65 04 34][E0 31 00 63 04 31][face:01]あ　けいじさん\nたいへん！！[p][face:09]ど　どうしたんだい\nそんなに　あわてて[p][face:01]ば　ばくだんです[p][face:09]ええ！！　それは　きけんだよ\nどこで　みかけたんだい？[p][face2:00]ちがうんです\n「ダオスタヴィル」で　あった\nガンテってじいさんが　いろんなまちに\nばくだんをしかけたって　いってるんです[p][face:09]なんと！\nそうか　ほうこく　ありがとう[p]ぜんしょを　あげて　このまちに\nしかけられた　ばくだんを\nかならず　はっけんするよ[p]それから　まちのひとには\nこのことを　はなすのは\nひかえてくれないか\nパニックに　なってしまうことが\nあるからね[p][face2:00]わかりました\nそうさのほう　おねがいします\nおれたちも　ほかを　さがしてみます[p][face:01][player]って\nなんか　たくましくなったね\nわたしより　かなり\nおちついているように　みえるもん[p][face2:00]そんなことないよ\nさっきも　けいじさんと\nはなしてるときなんか\nひざが　ガクガクしてたもん[p][face:01]でも　まえより　ずっと\nたのもしいよ[E0 20 00 63][close]",
-  "en": ""
+  "en": "[E0 31 00 5D 01 08][E0 31 00 65 04 34][E0 31 00 63 04 31][face:01]Oh, Detective! It's terrible!![p][face:09]Wh-what's wrong? Why are you in such a hurry?[p][face:01]A b-bomb![p][face:09]What?! That's dangerous! Where did you see it?[p][face2:00]No, it's not like that. An old man named Gante, who we met in \"Daostaville\", says he's planted bombs in all kinds of towns.[p][face:09]What?! I see. Thank you for telling me.[p]The whole station will get on it. We'll find any bomb planted in this town, I promise.[p]Also, could you please not tell the townspeople about this? It might cause a panic.[p][face2:00]Got it. Please take care of the investigation. We'll go look in other places too.[p][face:01][player], you've gotten kind of tough, huh? You look a lot calmer than me.[p][face2:00]No way. Just now, when I was talking to the Detective, my knees were shaking like crazy.[p][face:01]Still, you're way more reliable than before.[E0 20 00 63][close]"
  },
  {
   "addr": "5B463",
@@ -447,7 +447,7 @@
   ],
   "fall": false,
   "jp": "[face:09]こちらで　しらべた　けっか\nディノモしゃが　ねらわれそうだと\nかんがえられるので　そのしゅうへんを[p]ちょうさ　することにしたよ[E0 20 00 65][close]",
-  "en": ""
+  "en": "[face:09]From what we've found, it looks like Dinomo Inc. could be the target, so we've decided to search[p]the area around it.[E0 20 00 65][close]"
  },
  {
   "addr": "5B4AA",
@@ -456,7 +456,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5D 01 0D][E0 31 00 64 04 33][face:1E]やあ　こんにちは\nみさりちゃん[p][face:01]たいへんなんです！！[p][face:1E]また　そんなに　あわてて\nなにかの　じけんかい？[p][face2:00]そうなんだ　こんどは\nもっと　きけんなんだよ[p]このまちに　ばくだんが\nしかけられてるんだ[p][face:1E]ええっ！！\nそ　それは　きけんだね\nわたしも　ゆうびんぶつに\nあやしいものがないか　しらべてみるよ[p][face2:00]おねがいします[E0 20 00 64][close]",
-  "en": ""
+  "en": "[E0 31 00 5D 01 0D][E0 31 00 64 04 33][face:1E]Well, hello there, Misari.[p][face:01]It's terrible!![p][face:1E]In such a rush again? Is something going on?[p][face2:00]Yes! And this time it's even more dangerous.[p]Someone's planted a bomb in this town![p][face:1E]What?! Th-that's dangerous! I'll check the mail for anything suspicious too.[p][face2:00]Thank you![E0 20 00 64][close]"
  },
  {
   "addr": "5B56C",
@@ -465,7 +465,7 @@
   ],
   "fall": false,
   "jp": "[face:1E]あれから　にもつを　しらべてるけど\nあやしいものは　みつかってないよ[p][face2:00]わかりました\nべつのところへ　いってみます[close]",
-  "en": ""
+  "en": "[face:1E]I've been checking the packages since then, but I haven't found anything suspicious.[p][face2:00]Okay. We'll try somewhere else.[close]"
  },
  {
   "addr": "5B5AB",
@@ -474,7 +474,7 @@
   ],
   "fall": false,
   "jp": "けいじさんは　がいしゅつ　しているようだ[close]",
-  "en": ""
+  "en": "The Detective seems to be out.[close]"
  },
  {
   "addr": "5B5C0",
@@ -483,7 +483,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5D 01 07][face:01]いえのなかには　ばくだんらしいものは\nみあたらないわ\nほかを　さがしてみましょう[close]",
-  "en": ""
+  "en": "[E0 31 00 5D 01 07][face:01]I don't see anything like a bomb in the house. Let's look somewhere else.[close]"
  },
  {
   "addr": "5B5F2",
@@ -501,7 +501,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5D 02 1E][E0 31 00 63 04 48][face:01]こんにちは〜[p][noface]・・・[p][face:01]おるすみたいね[close]",
-  "en": ""
+  "en": "[E0 31 00 5D 02 1E][E0 31 00 63 04 48][face:01]Hello~?[p][noface]...[p][face:01]Looks like nobody's home.[close]"
  },
  {
   "addr": "5B62D",
@@ -510,7 +510,7 @@
   ],
   "fall": false,
   "jp": "[face:08]ねえ　しってるかい？\nいま　けいさつが　まちじゅうを\nうろついてるだろ？[p]どうやら　ドロボーが\nにげだした　らしいって\nうわさだぜ[close]",
-  "en": ""
+  "en": "[face:08]Hey, you know what? The police are all over town right now, right?[p]Word is, some thief broke out and ran off.[close]"
  },
  {
   "addr": "5B675",
@@ -519,7 +519,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5D 04 15][E0 31 00 67 04 42][E0 31 00 66 04 41][E0 31 00 63 04 38][face:08]なあ　みずぞくせいに　よわい\nぞくせいは　おぼえているかい？[p]ダイナバトラーなら\nとうぜん　しってるよな[close]",
-  "en": ""
+  "en": "[E0 31 00 5D 04 15][E0 31 00 67 04 42][E0 31 00 66 04 41][E0 31 00 63 04 38][face:08]Hey, do you remember which element is weak against Water?[p]Any Dino Battler should know that, huh?[close]"
  },
  {
   "addr": "5B6C7",
@@ -528,7 +528,7 @@
   ],
   "fall": false,
   "jp": "[face:01]おとうさんと　みずいらずのところを\nじゃましちゃいけないわね[close]",
-  "en": ""
+  "en": "[face:01]We shouldn't interrupt their family time with their dad.[close]"
  },
  {
   "addr": "5B6E9",
@@ -537,7 +537,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5D 04 47][E0 31 00 66 04 3C][face:01]もう　ここには　だれもいないわね\nここなら　ばくだんしかけるのに\nだれにも　みられないわね[p]ここは　かなり　あやしいわ\nちょっと　しらべてみましょう[p][noface]・[p]・・[p]・・・[p][face2:00]それらしいのは　みつからないな[p][face:01]そうね　ここじゃ　ないのかしら\nほかを　あたってみましょう[close]",
-  "en": ""
+  "en": "[E0 31 00 5D 04 47][E0 31 00 66 04 3C][face:01]Nobody's around here anymore. If someone planted a bomb here, no one would see them.[p]This place is really suspicious. Let's search it.[p][noface].[p]..[p]...[p][face2:00]I don't see anything like that.[p][face:01]You're right. Maybe it isn't here. Let's try somewhere else.[close]"
  },
  {
   "addr": "5B788",
@@ -546,7 +546,7 @@
   ],
   "fall": false,
   "jp": "[face:01]あれ？　なんか　ひとがはいった\nあとがあるわ\nしらべてみましょう[p][noface]・[p]・・[p]・・・[p][face2:00]それらしいのは　みつからないな[p]きっと　けいさつが　さきにきて\nしらべたのかもな[p][face:01]そうね　ここじゃ　ないのかしら\nほかを　あたってみましょう[E0 20 00 67][close]",
-  "en": ""
+  "en": "[face:01]Huh? Looks like somebody's been in here. Let's search it.[p][noface].[p]..[p]...[p][face2:00]I don't see anything like that.[p]Maybe the police got here first and searched it already.[p][face:01]You're right. Maybe it isn't here. Let's try somewhere else.[E0 20 00 67][close]"
  },
  {
   "addr": "5B80F",
@@ -555,7 +555,7 @@
   ],
   "fall": false,
   "jp": "[face:01]ここは　ひとの　めに　つきやすいから\nばくだんは　しかけられないわね[p]かいものの　ようが　あるなら\nよっていきましょう[p][face2:1C]いらっしゃいませ〜　ディノモショップです[p][E0 83][close]",
-  "en": ""
+  "en": "[face:01]Lots of people would see someone here, so nobody could plant a bomb in this place.[p]If you need to buy anything, let's stop by.[p][face2:1C]Welcome~! This is the Dinomo Shop![p][E0 83][close]"
  },
  {
   "addr": "5B86A",
@@ -564,7 +564,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5D 02 44][E0 31 00 67 04 40][E0 31 00 65 04 3F][face:01]やっぱり　ここにしかける\nかのうせいが　いちばん　たかいわよね[p][face:1B]いらっしゃいませ　ディノモしゃへようこそ[p]ほんじつは　どなたかと\nおやくそくが　ございますか？\n[face:01]いいえ　ないんですけど\nだいじな　ことなんです[p]この　かいしゃに　ばくだんが\nしかけられてるかも　しれないんです[p][face:1B]はい　うけたまわりました\nでは　さっそく　たんとうの　ものに\nれんらく　いたします[p][face:01]あの　いたずらとかじゃ　ないんです\nしんじてください[p][face:1B]このけんに　かんしましては\nわたくしどもから　けいさつのほうに\nれんらく　いたしますので\nごあんしんくださいませ[p][face2:00]みさり　かえろう\nこれいじょういても　らちあかないぞ[p][face:01]うん　わかった\nべつのところへ　いったほうが\nいいようね[close]",
-  "en": ""
+  "en": "[E0 31 00 5D 02 44][E0 31 00 67 04 40][E0 31 00 65 04 3F][face:01]I knew it. This is the most likely place for them to plant it, right?[p][face:1B]Welcome to Dinomo Inc.[p]Do you have an appointment with anyone today?\n[face:01]No, we don't, but it's important![p]There might be a bomb planted in this company![p][face:1B]Very well, I understand. I will contact the person in charge right away.[p][face:01]Um, this isn't a prank or anything! Please believe us![p][face:1B]Regarding this matter, we will contact the police ourselves, so please rest assured.[p][face2:00]Misari, let's go. We won't get anywhere if we stay here.[p][face:01]Yeah, okay. I guess we'd better go somewhere else.[close]"
  },
  {
   "addr": "5B9D4",
@@ -573,7 +573,7 @@
   ],
   "fall": false,
   "jp": "[face:09]やあ　みさりちゃん[p][face:01]けいじさん　きてたんですか[p][face:09]ああ　こちらのしらべでも\nここに　しかけられる　かのうせいが\nいちばんだからね[p][face:01]けいじさんが　いれば　もうあんしんね[p][face:09]うん　まかせておいてくれ\nはっけんは　じかんの　もんだいだと\nおもうよ[p][face2:00]じゃあ　おれたちは　ねんのため\nほかを　あたってみます[p][face:09]そうか　じゃあ　よろしくたのむよ[E0 20 00 66][close]",
-  "en": ""
+  "en": "[face:09]Hey there, Misari.[p][face:01]Detective! You're here?[p][face:09]Yep. Our investigation also says this is the most likely place for a bomb.[p][face:01]If you're here, Detective, then we've got nothing to worry about![p][face:09]Right, just leave it to me. I'd say finding it is only a matter of time.[p][face2:00]Then we'll check other places, just in case.[p][face:09]I see. Well then, I'm counting on you.[E0 20 00 66][close]"
  },
  {
   "addr": "5BA91",
@@ -582,7 +582,7 @@
   ],
   "fall": false,
   "jp": "[face:01]まだ　ばくだんは　みつかりませんか？[p][face:09]そうなんだ　ぜんりょくを　あげて\nしらべているんだが　まだ\nはっけん　できないんだよ[p][face:01]もしかしたら　ほかのところかしら[p][face:09]そのかのうせいも　ありそうだから\nほかも　てわけして\nさがして　いるところだよ[p][face2:00]じゃあ　おれたちも　みおとしがないか\nいっかい　いったところも\nもういちど　さがしなおしてみるよ[p][face:09]そうか　きみらなら　しんらいできるから\nよろしくたのむよ[close]",
-  "en": ""
+  "en": "[face:01]Haven't you found the bomb yet?[p][face:09]Nope. We're searching with everything we've got, but we still haven't found it.[p][face:01]Maybe it's somewhere else?[p][face:09]That could be, so we've split up to search other places too.[p][face2:00]Then we'll go back to the places we already visited and search them again, so we don't miss anything.[p][face:09]I see. I know I can trust you two, so I'm counting on you.[close]"
  },
  {
   "addr": "5BB69",
@@ -591,7 +591,7 @@
   ],
   "fall": false,
   "jp": "[face:01]こんにちは〜[p][noface]・・・[p][face:01]あれ？　だれもいないみたいね[close]",
-  "en": ""
+  "en": "[face:01]Hellooo![p][noface]...[p][face:01]Huh? Looks like nobody's here.[close]"
  },
  {
   "addr": "5BB90",
@@ -600,7 +600,7 @@
   ],
   "fall": false,
   "jp": "[face:01]こんにちは〜[p][noface]・・・[p][face:01]あれ？　だれもいないみたいね[p][face2:00]まて　みさり！\nあそこに　なにかあるぞ！！[p][face:01]え？[p]あ　ほんとだ！！[p][face2:00]これ　どうみても　ばくだんだよな[p][face:01]ええ　まちがいないわ[p]このばくだんに　コードが　２ほん\nみえるわ[p][face2:00]どっちを　きれば　いいんだ？[p][face:01]よくかんがえてから　きってね[p][noface]なにいろのコードを　きりますか？\n　　あお　　きいろ[E0 03 01 05 04 43 04 44 04 2F]",
-  "en": ""
+  "en": "[face:01]Hellooo![p][noface]...[p][face:01]Huh? Looks like nobody's here.[p][face2:00]Wait, Misari! There's something over there!![p][face:01]Huh?[p]Oh, you're right!![p][face2:00]No matter how you look at it, this is a bomb, right?[p][face:01]Yeah, no doubt about it.[p]I can see two wires on this bomb.[p][face2:00]Which one am I supposed to cut?[p][face:01]Think it over carefully before you cut![p][noface]Which color wire will you cut?\n[opt]Blue[opt]Yellow[E0 03 01 05 04 43 04 44 04 2F]"
  },
  {
   "addr": "5BC6B",
@@ -609,7 +609,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]よし　こっちだ！！[p]パチン！[p]パチン！[E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 43 09][E0 44 0A][E0 43 09][E0 44 0A][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 12][E0 44 14][E0 47][E0 42 0F][E0 44 3C][face:01]！？[p][player]！？[p][E0 42 00][face2:00]・・・ん！？[p]あれ？\nおれ　ゆめみてたのか？[p][E0 42 08][face:01]なにいってるの？\nきんちょう　しすぎじゃないの？[p][face2:00]そうだな[p][face:01]よくかんがえてから　きってね[p][noface]なにいろのコードを　きりますか？\n　　あお　　きいろ[E0 03 01 05 04 43 04 44 04 2F]",
-  "en": ""
+  "en": "[face2:00]All right, this one!![p]Snip![p]Snip![E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 43 09][E0 44 0A][E0 43 09][E0 44 0A][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 12][E0 44 14][E0 47][E0 42 0F][E0 44 3C][face:01]?![p][player]?![p][E0 42 00][face2:00]...Huh?![p]What?\nWas I dreaming?[p][E0 42 08][face:01]What are you talking about? Aren't you just way too nervous?[p][face2:00]Yeah, I guess.[p][face:01]Think it over carefully before you cut![p][noface]Which color wire will you cut?\n[opt]Blue[opt]Yellow[E0 03 01 05 04 43 04 44 04 2F]"
  },
  {
   "addr": "5BD5A",
@@ -618,7 +618,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]よし　こっちだ！！[p]パチン！[p]パチン！[E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 44 06][E0 43 20][E0 44 FA][E0 47][face:01]ヤッター！！\nせいこうだわ！[p][face2:00]よーし[p]かいたい　せいこうだぜ！！[E0 20 00 5D][close]",
-  "en": ""
+  "en": "[face2:00]All right, this one!![p]Snip![p]Snip![E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 44 06][E0 43 20][E0 44 FA][E0 47][face:01]Yaaay!!\nWe did it![p][face2:00]All right![p]Bomb defused!![E0 20 00 5D][close]"
  },
  {
   "addr": "5BDBE",
@@ -627,7 +627,7 @@
   ],
   "fall": false,
   "jp": "[face:01]もう　このまちのばくだんは\nかいたいしたから\nほかの　まちにいきましょう[close]",
-  "en": ""
+  "en": "[face:01]We've already defused the bomb in this town, so let's go to another town.[close]"
  },
  {
   "addr": "5BDE6",
@@ -636,7 +636,7 @@
   ],
   "fall": false,
   "jp": "[face:1B]いらっしゃいませ　ディノモしゃへようこそ[p][face:01]あれ？　けいじさんたち　かえったのかな？[p][face:1B]はい　さきほど　けいさつしょへ\nもどられました[p][face:01]あ　そうなんだ　わかりました\nありがとう[close]",
-  "en": ""
+  "en": "[face:1B]Welcome to Dinomo Inc.[p][face:01]Huh? Did the Detective and the others go home?[p][face:1B]Yes, they returned to the Police Station a little while ago.[p][face:01]Oh, I see. Got it. Thank you![close]"
  },
  {
   "addr": "5BE4B",
@@ -645,7 +645,7 @@
   ],
   "fall": false,
   "jp": "[face:01]もう　ここにくる　ようが　ないわ[close]",
-  "en": ""
+  "en": "[face:01]We don't have any reason to come here anymore.[close]"
  },
  {
   "addr": "5BE5F",
@@ -654,7 +654,7 @@
   ],
   "fall": false,
   "jp": "[face:0C]ねえ　そとが　なんだか\nさわがしいんだけど\nなにか　あるのかしら[close]",
-  "en": ""
+  "en": "[face:0C]Say, it's kind of noisy outside. I wonder if something's going on.[close]"
  },
  {
   "addr": "5BE83",
@@ -663,7 +663,7 @@
   ],
   "fall": false,
   "jp": "[face:0C]やっと　そとが　しずかになったわ\nいったい　なんだったのかしら[close]",
-  "en": ""
+  "en": "[face:0C]It's finally quiet outside. I wonder what that was all about.[close]"
  },
  {
   "addr": "5BEA6",
@@ -672,7 +672,7 @@
   ],
   "fall": false,
   "jp": "[face:14]けいさつが　ディノモしゃのまわりに\nおおぜい　あつまってるけど\nなにかあったのかな〜[p][face2:00]このまちに　ば・・・\nウグ・・・[p][face:14]ん？　どうしたんだい\nなにか　しってるの？\nば　なんていったの[p][face:01]あ　しらないです\nかれ　くいいじはってるので\nバリバリ　めしくいて〜が\nくちぐせなんです[p]じゃあ　これでしつれいします[p][face:14]ああ　さよなら\nたくさん　ごはんたべなよー[p][face:01]もうっ！！\nダメじゃない　ばくだんのこと\nけいじさんに　くちどめされてるのに[p][face2:00]おう　ゴメンゴメン\nきを　つけるよ[close]",
-  "en": ""
+  "en": "[face:14]Lots of police are gathered around Dinomo Inc. I wonder if something happened~[p][face2:00]There's a bo... in this town...\nUrk...[p][face:14]Hm? What's wrong? Do you know something? \"Bo\" what? What did you say?[p][face:01]Oh, we don't know anything! He's a really big eater, so \"Bowls and bowls of food!\" is his catchphrase.[p]Well, we'll be going now![p][face:14]Okay, bye. Eat lots of food, now![p][face:01]Jeez!! You can't do that! The Detective told us to keep quiet about the bombs![p][face2:00]Oh, sorry, sorry. I'll be careful.[close]"
  },
  {
   "addr": "5BFAF",
@@ -681,7 +681,7 @@
   ],
   "fall": false,
   "jp": "[face:14]どうやら　おちついた　みたいだね\nしずかになって　よかったよ[close]",
-  "en": ""
+  "en": "[face:14]Looks like things have settled down. Glad it's quiet again.[close]"
  },
  {
   "addr": "5BFD1",
@@ -690,7 +690,7 @@
   ],
   "fall": false,
   "jp": "[face:09]ふたりとも　ごくろうさま\nはなしは　ぶかから　きいたよ\nきみたちの　かつやくで\nダイナシティは　まもられたよ\nぜんしみんを　だいひょうして\nおれいを　いうよ[p]どうもありがとう[p][face2:00]おれは　このまちが　すきだから\nとうぜんのことを　しただけです[p][E0 31 00 5E 04 4D][face:01]まだ　ほかのまちの　ばくだんが\nのこっているわ\nいそいで　かいたいに　いきましょう[p][face:09]きみたちなら　かならずできるよ\nせいこうを　いのっているよ[p][face2:00]ありがとう\nガンバルぜ！！[close]",
-  "en": ""
+  "en": "[face:09]Good work, you two. I heard all about it from my men. Thanks to you, Dino City is safe. On behalf of everyone in town, I want to thank you.[p]Thank you very much.[p][face2:00]I love this town, so I only did what anyone would do.[p][E0 31 00 5E 04 4D][face:01]There are still bombs left in the other towns. Let's hurry and go defuse them![p][face:09]I know you two can do it. I'm wishing you luck.[p][face2:00]Thanks! We'll give it our all!![close]"
  },
  {
   "addr": "5C0B6",
@@ -699,7 +699,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5F 04 4E][face:01]まだ　ほかのまちの　ばくだんが\nのこっているわ\nいそいで　かいたいに　いきましょう[p][face:09]きみたちなら　かならずできるよ\nせいこうを　いのっているよ[p][face2:00]ありがとう\nガンバルぜ！！[close]",
-  "en": ""
+  "en": "[E0 31 00 5F 04 4E][face:01]There are still bombs left in the other towns. Let's hurry and go defuse them![p][face:09]I know you two can do it. I'm wishing you luck.[p][face2:00]Thanks! We'll give it our all!![close]"
  },
  {
   "addr": "5C11D",
@@ -708,7 +708,7 @@
   ],
   "fall": false,
   "jp": "[face:01]これで　ばくだんは　ぜんぶよね\nあとは　「ダオスタヴィル」に\nもどりましょう[close]",
-  "en": ""
+  "en": "[face:01]That should be all the bombs, right? Now let's head back to \"Daostaville.\"[close]"
  },
  {
   "addr": "5C149",
@@ -717,7 +717,7 @@
   ],
   "fall": false,
   "jp": "[face:01]こんにちは\nばくだんは　ぶじ　かいたいしたわ[p][face:1E]へえ　そうか　それは　よかったよ\nまた　みさりちゃんたちの　おてがらだね[close]",
-  "en": ""
+  "en": "[face:01]Hello! We safely defused the bomb.[p][face:1E]Oh, really? That's great. Another job well done by Misari and friends![close]"
  },
  {
   "addr": "5C18B",
@@ -726,7 +726,7 @@
   ],
   "fall": false,
   "jp": "[face:01]このまちの　ばくだんは　\nかいたいしたわ[close]",
-  "en": ""
+  "en": "[face:01]We defused the bomb in this town.[close]"
  },
  {
   "addr": "5C1A3",
@@ -735,7 +735,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 68 04 52][face:0D]いらっしゃいませ[p][face2:00]マスター\nもし　わるいやつが　ばくだんを\nしかけても　わかりにくい\nばしょといったら　どこかなぁ[p][face:0D]おや　いきなり　ぶっそうな\nはなしですね[p]ん〜　どうでしょう・・・\nちょっと　おもいあたるばしょが\nありませんねェー[p][face2:00]ありがとう\nきょうは　いそいでるので\nこれで　しつれいします[p]ほら　いくぞ　みさり[p][face:01]え〜〜！！　うそー\nタルトたべてないよ〜[E0 20 00 68][close]",
-  "en": ""
+  "en": "[E0 31 00 68 04 52][face:0D]Welcome.[p][face2:00]Master, if some bad guy planted a bomb, where would be a hard place to spot it?[p][face:0D]My, what an alarming thing to ask out of nowhere.[p]Hmm, let me see... No place comes to mind, I'm afraid.[p][face2:00]Thanks. We're in a hurry today, so we'll be going now.[p]Come on, let's go, Misari.[p][face:01]Whaaat?! No way! I didn't get to eat any tarts![E0 20 00 68][close]"
  },
  {
   "addr": "5C27C",
@@ -744,7 +744,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]おい　どこいくんだ？\nほかのところへ　いくんだから[p][face:01]あ〜ん　タルト〜〜[close]",
-  "en": ""
+  "en": "[face2:00]Hey, where are you going? We're heading somewhere else.[p][face:01]Awww, my tart~![close]"
  },
  {
   "addr": "5C2AA",
@@ -753,7 +753,7 @@
   ],
   "fall": false,
   "jp": "[face:01]ここには　だれもいないようね[p][E0 31 00 68 04 54][face:01]べつのところ　いきましょう[close]",
-  "en": ""
+  "en": "[face:01]Looks like nobody's here.[p][E0 31 00 68 04 54][face:01]Let's go somewhere else.[close]"
  },
  {
   "addr": "5C2D3",
@@ -762,7 +762,7 @@
   ],
   "fall": false,
   "jp": "[face:01]マスターにきいても　わからなかったけど\nいろいろ　しらべてみましょう[p][noface]・[p]・・[p]・・・[p][face:01]なにも　みつからなかったわね[E0 20 00 69][close]",
-  "en": ""
+  "en": "[face:01]Asking the Master didn't help, but let's look around anyway.[p][noface].[p]..[p]...[p][face:01]We didn't find anything, huh?[E0 20 00 69][close]"
  },
  {
   "addr": "5C321",
@@ -771,7 +771,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5E 04 6A][face:01]むじんとうに　ばくだんを　しかけても\nいみないから\nしらべるひつようも　ないわね[close]",
-  "en": ""
+  "en": "[E0 31 00 5E 04 6A][face:01]There's no point planting a bomb on a Deserted Island, so we don't need to search here.[close]"
  },
  {
   "addr": "5C353",
@@ -780,7 +780,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5E 04 70][E0 31 00 69 04 57][face:12]なんじゃね？\nなんか　ようかのう[p][face2:00]ここ　さいきん　かわったことや\nあやしいひとを\nみかけませんでしたか？[p][face:12]さあ　なあ〜\nさいきんのことは　よくおぼえとらんのう[p]ん〜・・・\nちょっと　まっとくれ\nいまおもいだしてるところじゃ[p]・・・[p]ん〜・・・[p]やっぱり　だめじゃ\nおもいだせんのう[p][face2:00]そ　そうですか・・・\nわかりました\nまたきます[p][face:12]またきても　おもいだすとは\nかぎらんがのう[close]",
-  "en": ""
+  "en": "[E0 31 00 5E 04 70][E0 31 00 69 04 57][face:12]What's that? Need something?[p][face2:00]Have you noticed anything strange around here lately, or seen anyone suspicious?[p][face:12]Hmm, let's see...\nI don't remember recent things very well.[p]Hmmm...\nHold on a moment. I'm trying to remember.[p]...[p]Hmmm...[p]Nope, it's no good. I can't remember.[p][face2:00]O-oh, I see...\nOkay. I'll come back later.[p][face:12]Coming back won't mean I'll remember, mind you.[close]"
  },
  {
   "addr": "5C43A",
@@ -789,7 +789,7 @@
   ],
   "fall": false,
   "jp": "[face:12]なんじゃね？\nなんか　ようかのう[p][face2:00]ここ　さいきん　かわったことや\nあやしいひとを\nみかけませんでしたか？[p][face:12]さあ　なあ〜\nさいきんのことは　よくおぼえとらんのう[p]ん〜・・・\nちょっと　まっとくれ\nいまおもいだしてるところじゃ[p]・・・[p]ん〜・・・[p]おー　そうじゃ！\nこのまえ　２Ｆで　なにか\nものおとが　きこえたぞ[p][face2:00]おお！！\nありがとう　じいさん[p][face:12]なーに　れいには　およばんよ[E0 20 00 6A][close]",
-  "en": ""
+  "en": "[face:12]What's that? Need something?[p][face2:00]Have you noticed anything strange around here lately, or seen anyone suspicious?[p][face:12]Hmm, let's see...\nI don't remember recent things very well.[p]Hmmm...\nHold on a moment. I'm trying to remember.[p]...[p]Hmmm...[p]Oh, that's right!\nThe other day, I heard some noises up on the 2nd floor.[p][face2:00]Whoa!!\nThanks, gramps![p][face:12]Oh, don't mention it.[E0 20 00 6A][close]"
  },
  {
   "addr": "5C51B",
@@ -798,7 +798,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 6A 04 59][face:01]ひとの　けはいを　かんじないわ\nこっちは　しばらく　だれも　すんでない\nみたいね[close]",
-  "en": ""
+  "en": "[E0 31 00 6A 04 59][face:01]I don't sense anyone here. Looks like nobody's lived over here for a while.[close]"
  },
  {
   "addr": "5C54D",
@@ -807,7 +807,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5E 04 72][face:01]ゆかいちめん　ほこりが　かぶっているわね[p]ひとの　けはいを　かんじないわ\nこっちは　しばらく　だれも　すんでない\nみたいね[p][face2:00]あ！　よくみたら　さいきんできた\nあしあとが　あるぞ！！[p][face:01]あ〜　ほんとだ　ゆかのほこりが\nあしあとで　きえてるわね[p][face2:00]おくにいってみよう！！[p][face:01]あっ　なにか　あるわ！[p][face2:00]これ　どうみても　ばくだんだよな[p][face:01]ええ　まちがいないわ[p]このばくだんに　コードが　２ほん\nみえるわ[p][face2:00]どっちを　きれば　いいんだ？[p][face:01]よくかんがえてから　きってね[p][noface]なにいろのコードを　きりますか？\n　　あか　　あお[E0 03 01 05 04 5A 04 5B 04 5C]",
-  "en": ""
+  "en": "[E0 31 00 5E 04 72][face:01]The whole floor is covered in dust.[p]I don't sense anyone here. Looks like nobody's lived over here for a while.[p][face2:00]Hey! If you look closely, there are fresh footprints!![p][face:01]Oh, you're right! The footprints wiped away the dust on the floor.[p][face2:00]Let's check out the back!![p][face:01]Ah, there's something here![p][face2:00]No matter how you look at it, this is a bomb.[p][face:01]Yeah, no doubt about it.[p]I can see two wires on this bomb.[p][face2:00]Which one should I cut?[p][face:01]Think carefully before you cut, okay?[p][noface]Which color wire will you cut?\n[opt]Red[opt]Blue[E0 03 01 05 04 5A 04 5B 04 5C]"
  },
  {
   "addr": "5C67E",
@@ -816,7 +816,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]よし　こっちだ！！[p]パチン！[p]パチン！[E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 43 09][E0 44 0A][E0 43 09][E0 44 0A][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 12][E0 44 14][E0 47][E0 42 0F][E0 44 3C][face:01]！？[p][player]！？[p][E0 42 00][face2:00]・・・ん！？[p]あれ？\nおれ　ゆめみてたのか？[p][E0 42 09][face:01]なにいってるの？\nきんちょう　しすぎじゃないの？[p][face2:00]そうだな[p][face:01]よくかんがえてから　きってね[p][noface]なにいろのコードを　きりますか？\n　　あか　　あお[E0 03 01 05 04 5A 04 5B 04 5C]",
-  "en": ""
+  "en": "[face2:00]Okay, this one!![p]Snip![p]Snip![E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 43 09][E0 44 0A][E0 43 09][E0 44 0A][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 12][E0 44 14][E0 47][E0 42 0F][E0 44 3C][face:01]?![p][player]?![p][E0 42 00][face2:00]...Huh?![p]What?\nWas I dreaming?[p][E0 42 09][face:01]What are you talking about? Aren't you way too nervous?[p][face2:00]Yeah, maybe.[p][face:01]Think carefully before you cut, okay?[p][noface]Which color wire will you cut?\n[opt]Red[opt]Blue[E0 03 01 05 04 5A 04 5B 04 5C]"
  },
  {
   "addr": "5C76C",
@@ -825,7 +825,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]よし　こっちだ！！[p]パチン！[p]パチン！[E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 44 06][E0 43 20][E0 44 FA][E0 47][face:01]ヤッター！！\nせいこうだわ！[p][face2:00]よーし[p]かいたい　せいこうだぜ！！[E0 20 00 5E][close]",
-  "en": ""
+  "en": "[face2:00]Okay, this one!![p]Snip![p]Snip![E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 44 06][E0 43 20][E0 44 FA][E0 47][face:01]Yaaay!!\nWe did it![p][face2:00]All right![p]Bomb defused!![E0 20 00 5E][close]"
  },
  {
   "addr": "5C7D0",
@@ -834,7 +834,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]いったん　おちつこう[p][face:01]ふ〜・・・\nやっぱり　ドキドキするわね[p][face2:00]よし　いくぞ！[p][noface]なにいろのコードを　きりますか？\n　　あか　　あお[E0 03 01 05 04 5A 04 5B 04 5C]",
-  "en": ""
+  "en": "[face2:00]Let's calm down for a sec.[p][face:01]Phew...\nThis still makes my heart pound.[p][face2:00]Okay, here goes![p][noface]Which color wire will you cut?\n[opt]Red[opt]Blue[E0 03 01 05 04 5A 04 5B 04 5C]"
  },
  {
   "addr": "5C82C",
@@ -843,7 +843,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5F 04 74][E0 31 00 6D 04 6B][face:11]あら　どうしたの？\nなんか　きんちょうした\nひょうじょうだけど[close]",
-  "en": ""
+  "en": "[E0 31 00 5F 04 74][E0 31 00 6D 04 6B][face:11]Oh my, what's wrong? You look awfully tense.[close]"
  },
  {
   "addr": "5C85C",
@@ -852,7 +852,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5F 04 6F][face:01]あ　あの　にもつのおくに\nなにか　みえるわ[p][face2:00]よし　しらべてみよう[p][face:01]うん[p][face2:00]これ　どうみても　ばくだんだよな[p][face:01]ええ　まちがいないわ[p]このばくだんに　コードが　２ほん\nみえるわ[p][face2:00]どっちを　きれば　いいんだ？[p][face:01]よくかんがえてから　きってね[p][noface]なにいろのコードを　きりますか？\n　　ちゃいろ　　あか[E0 03 01 07 04 5F 04 60 04 61]",
-  "en": ""
+  "en": "[E0 31 00 5F 04 6F][face:01]Ah, I can see something behind that luggage.[p][face2:00]Okay, let's check it out.[p][face:01]Yeah.[p][face2:00]No matter how you look at it, this is a bomb.[p][face:01]Yeah, no doubt about it.[p]I can see two wires on this bomb.[p][face2:00]Which one should I cut?[p][face:01]Think carefully before you cut, okay?[p][noface]Which color wire will you cut?\n[opt]Brown[opt]Red[E0 03 01 07 04 5F 04 60 04 61]"
  },
  {
   "addr": "5C916",
@@ -861,7 +861,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]よし　こっちだ！！[p]パチン！[p]パチン！[E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 43 09][E0 44 0A][E0 43 09][E0 44 0A][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 12][E0 44 14][E0 47][E0 42 0F][E0 44 3C][face:01]！？[p][player]！？[p][E0 42 00][face2:00]・・・ん！？[p]あれ？\nおれ　ゆめみてたのか？[p][E0 42 0A][face:01]なにいってるの？\nきんちょう　しすぎじゃないの？[p][face2:00]そうだな[p][face:01]よくかんがえてから　きってね[p][noface]なにいろのコードを　きりますか？\n　　ちゃいろ　　あか[E0 03 01 07 04 5F 04 60 04 61]",
-  "en": ""
+  "en": "[face2:00]Okay, this one!![p]Snip![p]Snip![E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 43 09][E0 44 0A][E0 43 09][E0 44 0A][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 11][E0 44 14][E0 43 09][E0 44 06][E0 43 12][E0 44 14][E0 47][E0 42 0F][E0 44 3C][face:01]?![p][player]?![p][E0 42 00][face2:00]...Huh?![p]What?\nWas I dreaming?[p][E0 42 0A][face:01]What are you talking about? Aren't you way too nervous?[p][face2:00]Yeah, maybe.[p][face:01]Think carefully before you cut, okay?[p][noface]Which color wire will you cut?\n[opt]Brown[opt]Red[E0 03 01 07 04 5F 04 60 04 61]"
  },
  {
   "addr": "5CA06",
@@ -870,7 +870,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]よし　こっちだ！！[p]パチン！[p]パチン！[E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 44 06][E0 43 20][E0 44 FA][E0 47][face:01]ヤッター！！\nせいこうだわ！[p][face2:00]よーし[p]かいたい　せいこうだぜ！！[E0 20 00 5F][close]",
-  "en": ""
+  "en": "[face2:00]Okay, this one!![p]Snip![p]Snip![E0 46][E0 44 1E][E0 43 19][E0 44 1E][E0 45][E0 44 06][E0 43 20][E0 44 FA][E0 47][face:01]Yaaay!!\nWe did it![p][face2:00]All right![p]Bomb defused!![E0 20 00 5F][close]"
  },
  {
   "addr": "5CA6A",
@@ -879,7 +879,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]いったん　おちつこう[p][face:01]ふ〜・・・\nやっぱり　ドキドキするわね[p][face2:00]よし　いくぞ！[p][noface]なにいろのコードを　きりますか？\n　　ちゃいろ　　あか[E0 03 01 07 04 5F 04 60 04 61]",
-  "en": ""
+  "en": "[face2:00]Let's calm down for a sec.[p][face:01]Phew...\nThis still makes my heart pound.[p][face2:00]Okay, here goes![p][noface]Which color wire will you cut?\n[opt]Brown[opt]Red[E0 03 01 07 04 5F 04 60 04 61]"
  },
  {
   "addr": "5CAC8",
@@ -888,7 +888,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5F 01 86][E0 31 00 6B 04 64][face:01]あ〜　のどかわいちゃった\nここの　おみずを　のんでから\nばくだん　さがしにいきましょう[close]",
-  "en": ""
+  "en": "[E0 31 00 5F 01 86][E0 31 00 6B 04 64][face:01]Ahh, I'm so thirsty. Let's drink some water here, then go look for bombs.[close]"
  },
  {
   "addr": "5CB04",
@@ -897,7 +897,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 6E 04 5E][face:01]ここは　すごく　ひとがおおいから\nばくだんなんて　しかけてたら\nみつかっちゃうから\nかくすことなんて　できないわよね[E0 20 00 6B][close]",
-  "en": ""
+  "en": "[E0 31 00 6E 04 5E][face:01]There are way too many people here. If someone planted a bomb, they'd get spotted, so there's no way to hide one.[E0 20 00 6B][close]"
  },
  {
   "addr": "5CB4C",
@@ -906,7 +906,7 @@
   ],
   "fall": false,
   "jp": "[face:01]ちょっとまって\nつかれたから　ここで　ちょっと\nやすんでいこう[p][face:11]こんにちは\nかんこうですか？[p][face2:00]ダイナバトラーです[p][face:11]そう　じゃあ　いま　アッパークラスの\nにんていしょを　めざしているのね[p][face2:00]いえ　もう　ここの　にんていしょは\nもってるんです[p][face:11]あら　すごいじゃない！！\nでも　なんで　まだこのまちにいるの？[p]あら　きいちゃまずかったかしら[p][face2:00]じつは　このまちに　ばくだんが\nしかけられてるかも　しれないんです[p][face:11]まさか　こんな　いせきだけのまちを\nばくはつさせても　とくになることなんて\nないとおもうけど・・・[p][face:01]わたしたち　そのばくだんを\nかいたいに　きたんです[p][face:11]そう\nきけんそうだけど\nがんばってね[p][face:01]ありがとう　がんばるわ\nじゃあ　ほかのところを\nさがしにいきましょう[E0 20 00 6C][close]",
-  "en": ""
+  "en": "[face:01]Wait a sec. I'm tired, so let's take a little rest here.[p][face:11]Hello! Are you here sightseeing?[p][face2:00]No, I'm a Dino Battler.[p][face:11]Oh, I see. So you're aiming for the Upper Class Certificate now?[p][face2:00]No, I already have this town's Certificate.[p][face:11]My, isn't that amazing!! But then why are you still in this town?[p]Oh dear, maybe I shouldn't have asked.[p][face2:00]Actually, someone might have planted a bomb in this town.[p][face:11]Surely not! I can't see what anyone would gain by blowing up a town that's nothing but ruins...[p][face:01]We came here to defuse that bomb.[p][face:11]I see. It sounds dangerous, but good luck![p][face:01]Thank you, we'll do our best! Well then, let's go search somewhere else.[E0 20 00 6C][close]"
  },
  {
   "addr": "5CCC5",
@@ -915,7 +915,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5F 04 75][E0 31 00 6C 04 66][face:01]ここには　だれも　いないのかしら\n・・・[p]だれも　いないみたいね[close]",
-  "en": ""
+  "en": "[E0 31 00 5F 04 75][E0 31 00 6C 04 66][face:01]I wonder if there's anybody here...[p]Looks like nobody's here.[close]"
  },
  {
   "addr": "5CCF8",
@@ -924,7 +924,7 @@
   ],
   "fall": true,
   "jp": "[face:01]ここには　だれも　いないのかしら\n・・・[p][face:12]だれじゃ！[p][face:01]キャッ！？[p][E0 31 00 4B 04 68][E0 31 00 1F 04 68][E0 31 00 20 04 68]",
-  "en": ""
+  "en": "[face:01]I wonder if there's anybody here...[p][face:12]Who's there?![p][face:01]Eek?![p][E0 31 00 4B 04 68][E0 31 00 1F 04 68][E0 31 00 20 04 68]"
  },
  {
   "addr": "5CD3A",
@@ -933,7 +933,7 @@
   ],
   "fall": false,
   "jp": "[face:12]わしをみて　おどろくとは\nしつれいなやつじゃ[p][face:01]ごめんなさい\nいきなり　こえをかけられたので\nびっくりしちゃって[p][face:12]まあ　よい\nどうやら　とうくつだんじゃ\nなさそうじゃからの[p]で　なにようで　こんな\nいせきに　きたのだ[p][E0 30 04 69]",
-  "en": ""
+  "en": "[face:12]How rude, jumping like that at the sight of me![p][face:01]I'm sorry. You called out so suddenly, it gave me a fright.[p][face:12]Well, never mind. Doesn't look like you're grave robbers, anyhow.[p]So, what business brings you to these ruins?[p][E0 30 04 69]"
  },
  {
   "addr": "5CDB3",
@@ -942,7 +942,7 @@
   ],
   "fall": true,
   "jp": "[face:12]なんじゃ　また　おまえたちか\nなんの　ようじゃ[p]",
-  "en": ""
+  "en": "[face:12]What, you two again? What do you want?[p]"
  },
  {
   "addr": "5CDCE",
@@ -951,7 +951,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]じつは　このまちに　しかけられた\nばくだんを　かいたいにきたんだ[p][face:12]ばくだんとは　また　バカなことを\nするやつが　おるのー[p][face2:00]ガンテってじいさんが　しかけたんだ[p][face:12]なんと！！　ガンテとはまた\nなつかしいなを　きいたもんじゃ\nあやつなら　しそうなことじゃ[p][face2:00]ガンテをしってるんですか！？[p][face:12]まあな\nはるかむかしの　ことじゃがな\nあのころは　おたがいに　わかかったのー[p]あやつが　つくった　デバイスで\nおおきなじこが　おきて　たくさんの\nけがにんを　だしたんじゃ[p][face2:00]へえー\nいまは　ディノモしゃがとうろくした\nデバイスしか　つかえないから\nじぶんで　つくっても\nいみないからなー[p][face:12]まあ　むかしのはなしじゃ[p]ちなみに　わしが　さがしてるデバイスが\nそのじっけんで　つかわれた\nさいきょうの　デバイスじゃ\nいまは　まぼろしの　デバイスと\nよばれたりもするがな[p][face2:00]ありがとう\nいろいろ　さんこうに　なったよ[E0 20 00 6D][close]",
-  "en": ""
+  "en": "[face2:00]Actually, we came to defuse a bomb that someone planted in this town.[p][face:12]A bomb, you say? Some fool's up to something stupid again, eh?[p][face2:00]An old man named Gante planted it.[p][face:12]What?! Gante?! Now there's a name I haven't heard in ages. That sounds just like something he'd do.[p][face2:00]You know Gante?![p][face:12]Well, yes. It was a long, long time ago, though. We were both young back then.[p]A Device he built caused a big accident, and lots of people got hurt.[p][face2:00]Wow... These days you can only use Devices registered by Dinomo Inc., so there's no point in making your own.[p][face:12]Well, that's all in the past.[p]By the way, the Device I'm searching for is the strongest Device of all, the one used in that experiment. Nowadays some folks call it the Phantom Device.[p][face2:00]Thanks. That was really helpful.[E0 20 00 6D][close]"
  },
  {
   "addr": "5CF7D",
@@ -960,7 +960,7 @@
   ],
   "fall": false,
   "jp": "[face:01]むじんとうで　あそんでる\nばあいじゃないわね\nさきを　いそぎましょう[close]",
-  "en": ""
+  "en": "[face:01]This is no time to be playing around on the Deserted Island. Let's hurry on.[close]"
  },
  {
   "addr": "5CFA3",
@@ -969,7 +969,7 @@
   ],
   "fall": false,
   "jp": "[face:11]ちょっときいてよ\nこのまえね　ゆびわを　なくして\nさがしてたら　おまめを　いれた\nうつわのなかにあったの[p]あんな　たくさんの　まめのなかから\nゆびわを　みつけるのって\nたいへんだったのよー[p][face:01]そうね　たくさんの　なかから\nだいじなものを　みつけるのって\nたいへんよね・・・[p]あ〜〜！！　わかった〜[p][face:11]え？[p][face:01]あ　こちらのことです！！\nごめんなさい　いま　いそいでるので\nこれで　しつれいします[p][face2:00]どうしたんだよ\nそんなに　あわてて[p][face:01]ばくだんの　ありそうなばしょが\nわかったのよ\nひとが　おおければ　ばくだんを\nかくしても　わかりにくい\nこともあるわ[p][face2:00]おお！　すげー　みさり\nさっそく　「[c:08]いちば[/c]」へ　いってみようぜ！[E0 20 00 6E][close]",
-  "en": ""
+  "en": "[face:11]Oh, listen to this! The other day I lost my ring, and when I went looking for it, it was in a bowl full of beans.[p]Finding a ring among all those beans was such a pain![p][face:01]Yeah, finding something important among lots of other things is really hard...[p]Ah! I've got it![p][face:11]Huh?[p][face:01]Oh, never mind, I was talking to myself! Sorry, we're in a hurry, so we'll be going now![p][face2:00]What's up? Why are you in such a rush?[p][face:01]I figured out where the bomb might be! When there are lots of people around, a hidden bomb can be hard to spot.[p][face2:00]Whoa! Awesome, Misari! Let's head to the \"[c:08]Market[/c]\" right away![E0 20 00 6E][close]"
  },
  {
   "addr": "5D102",
@@ -978,7 +978,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 5F 04 73][E0 31 00 72 04 6D][face:14]やあ　きみたち　あそびに\nきてくれたのかい？[p]ん？　なんか　ひょうじょうが\nうかないかんじだね\nどうしたんだい？[p][face2:00]このまちに　ばくだんを　しかけたやつが\nいるんだ[p]おれたち　そのばくだんを　みつけて\nかいたいしなきゃ　いけないんだよ[p][face:14]それは　ぶっそうな　はなしだね\nでも　このみずくみばにいれば\nあんしんだね[p]もともと　こわれていて　ひとけもないから\nここに　ばくだんを　しかけるやつなんて\nいないだろうね[p][face2:00]ああ　そうおもうけど\nどこにあるかわからないから\nなにか　みつけたら　おれに\nおしえて　ほしいんだ[p][face:14]そうだね　わかったよ\nなにかみつけたら　しらせるよ[E0 20 00 72][close]",
-  "en": ""
+  "en": "[E0 31 00 5F 04 73][E0 31 00 72 04 6D][face:14]Hey, you two! Did you come to visit?[p]Hm? You both look kind of gloomy. What's wrong?[p][face2:00]Somebody planted a bomb in this town.[p]We've gotta find that bomb and defuse it.[p][face:14]That's scary stuff. But you'd be safe here at the well.[p]It was broken to begin with, and nobody comes around, so I doubt anyone would plant a bomb here.[p][face2:00]Yeah, I think so too. But we don't know where it is, so if you find anything, please let me know.[p][face:14]Sure, got it. I'll tell you if I find anything.[E0 20 00 72][close]"
  },
  {
   "addr": "5D23C",
@@ -987,7 +987,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]そのご　なにか　みつかりましたか？[p][face:14]いや　みつからないねー\nたぶん　ここには　ないと\nおもうんだけどなー[close]",
-  "en": ""
+  "en": "[face2:00]Have you found anything since then?[p][face:14]Nope, nothing. I don't think it's here.[close]"
  },
  {
   "addr": "5D27A",
@@ -996,7 +996,7 @@
   ],
   "fall": false,
   "jp": "[face2:00]ここの　ばくだんは　ぶじ\nかいたいしたし　きても　いみないな[p][face:01]そうね　このへやには　ほかに\nめだつものもないしね\nほかいきましょう[close]",
-  "en": ""
+  "en": "[face2:00]We already defused the bomb here, so there's no point coming back.[p][face:01]Right. There's nothing else that stands out in this room either. Let's go somewhere else.[close]"
  },
  {
   "addr": "5D2C2",
@@ -1005,7 +1005,7 @@
   ],
   "fall": false,
   "jp": "[noface]いまは　いちばが　ひらかれていないようだ[close]",
-  "en": ""
+  "en": "[noface]The Market doesn't seem to be open right now.[close]"
  },
  {
   "addr": "5D2D9",
@@ -1014,7 +1014,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 7C 04 71][face:12]どうしたんじゃ？\n２Ｆに　なにかあったのかね？[p][face2:00]ああ　ばくだんが\nしかけられてたんだけど\nぶじ　おれたちで　かいたいしたよ[p][face:12]なんと　ぶっそうじゃのう\nまあ　だいじにいたらず　なによりじゃ[E0 20 00 7C][close]",
-  "en": ""
+  "en": "[E0 31 00 7C 04 71][face:12]What's the matter? Did something happen on the 2nd floor?[p][face2:00]Yeah, someone planted a bomb up there, but we defused it safely.[p][face:12]My, how dangerous! Well, I'm glad nothing serious came of it.[E0 20 00 7C][close]"
  },
  {
   "addr": "5D34C",
@@ -1023,7 +1023,7 @@
   ],
   "fall": false,
   "jp": "[face:12]なんじゃ？\nまだ　ばくだんでも　あるのかね？[p][face2:00]ちがうんだ　ちょっと　ようすを\nみにきただけだよ[close]",
-  "en": ""
+  "en": "[face:12]What is it? Is there another bomb or something?[p][face2:00]No, no. We just came by to see how things are.[close]"
  },
  {
   "addr": "5D384",
@@ -1032,7 +1032,7 @@
   ],
   "fall": false,
   "jp": "[face:01]いまは　だれも　すんでない　へやみたいね[close]",
-  "en": ""
+  "en": "[face:01]Looks like nobody lives in this room right now.[close]"
  },
  {
   "addr": "5D39C",
@@ -1041,7 +1041,7 @@
   ],
   "fall": false,
   "jp": "[face:14]ごめんね\nいま　このみずくみばを　なおすのに\nいそがしいんだ[close]",
-  "en": ""
+  "en": "[face:14]Sorry. I'm busy fixing this well right now.[close]"
  },
  {
   "addr": "5D3BE",
@@ -1050,7 +1050,7 @@
   ],
   "fall": false,
   "jp": "[face:11]サンカルロへいけば　みずに\nこまることはないけど　やっぱり\nここを　はなれられないのよね[close]",
-  "en": ""
+  "en": "[face:11]If I went to San Carlo, I'd never be short of water, but I just can't bring myself to leave this place.[close]"
  },
  {
   "addr": "5D3EE",
@@ -1059,7 +1059,7 @@
   ],
   "fall": false,
   "jp": "・・・　ひとの　けはいが　しない\nだれもいないようだ[close]",
-  "en": ""
+  "en": "... No sign of anyone. Looks like nobody's here.[close]"
  },
  {
   "addr": "5D40C",
