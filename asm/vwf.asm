@@ -315,6 +315,15 @@ VwfMenu:
     mov r2, r8
     bl VwfRender
     mov r6, r0
+    ; Upload a tile only when it is complete or the string ends here: some screens redraw the same string
+    ; every frame, and a half-built tile written over the finished one flickers.
+    bl @@at_end
+    mov r5, r0                  ; r5 = 1 if this is the string's last glyph
+    cmp r6, #8
+    bhs @@up0
+    cmp r5, #0
+    beq @@no_spill
+@@up0:
     ldr r0, [r7, #S_CURT]
     mov r1, r7
     add r1, #S_BUF
@@ -324,6 +333,8 @@ VwfMenu:
     bl @@put_map
     cmp r6, #8
     bls @@no_spill
+    cmp r5, #0
+    beq @@no_spill              ; the spill tile is still being built
     ldr r0, [r7, #S_CURT]
     add r0, #1
     mov r1, r7
@@ -398,6 +409,25 @@ VwfMenu:
     lsl r2, r2, #12
     orr r1, r2
     strh r1, [r0]
+    bx lr
+
+; r0 = 1 if the menu printer's next text byte (S+8) ends this run of glyphs: FF/FE/FD/FC end, F8/F9 newline,
+; E0 control (name insert). F0-F7/FA/FB are 2-byte glyph prefixes, not an end.
+@@at_end:
+    ldr r0, [r4, #8]
+    ldrb r0, [r0]
+    cmp r0, #0xE0
+    beq @@end_yes
+    cmp r0, #0xF8
+    beq @@end_yes
+    cmp r0, #0xF9
+    beq @@end_yes
+    cmp r0, #0xFC
+    bhs @@end_yes
+    mov r0, #0
+    bx lr
+@@end_yes:
+    mov r0, #1
     bx lr
 
 ; original fixed-cell draw of glyph r6 at S's map entry/tile (what 0x0800BE60 did)

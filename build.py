@@ -156,6 +156,9 @@ def build_lang(out: Path, mode: str) -> bytearray:
         blobs = [encode_en(e, e['en']) for e in entries]
     write_banks(rom, entries, blobs, place)
     write_misc(rom, misc, [encode_en(e, e['en']) for e in misc], place)
+    if mode == 'english':
+        import gfx_build
+        gfx_build.apply(rom)
     return apply_engine(rom, out)
 
 

@@ -73,6 +73,17 @@ BG2 tiles must stay below the maps at 0x0600F000, i.e. at most 448 8bpp tiles).
 | Name entry | grid kana, もどる / けってい, STARTボタンでしゅうりょうします | font (391 tiles not in any IMG) | text work, not graphics |
 | Battle / other menus | not surveyed yet | dump VRAM, then `vramfind.py VRAM imgs/` with every IMG payload extracted | |
 
+## English graphics (done 2026-10-15: `tools/gfx_build.py`, art in `gfx/*.png`, written at 0x7E3000+ by build.py)
+
+- Title logo: plates kept, katakana redrawn as GACHASUTE! / DINO DEVICE, small romanised strip emptied (208 tiles).
+- Title OBJ: DRAGON, PHOENIX, "© 2003 ROCKET COMPANY" (sheet grown to 32x19; PAT 1/2997 pattern 3 = 6 sprites
+  on row 17), menu New Game / Continue (pattern 6 -> rows 17-18) / Link. Menu text width limit: 41 px (device screen).
+- Intro: 1/3021-3022 cut-outs redrawn (tileset 1/3019 rebuilt, 1/3020 re-encoded unchanged; VRAM room 512 tiles).
+- Name entry: SCR 1/2972-2974 = button bar per input mode (26x2); kana labels widened to 5 cells (HIRAGANA, KATAKANA).
+  Birthday SCR 1/2970: 年月日 cells blanked, Year / Month / Day above the fields (row 6). UI sheet empty tiles used:
+  207-209, 244-255 (no 2966 screen maps them). ビット tiles (240-241) unused on known screens; redrawn as BIT anyway.
+- Not seen in-game: Link (shows only with a link partner?), PHOENIX (other version's subtitle).
+
 Finding the source of any screen: extract every IMG payload (`gfxcodec.entries` + `load`, strip 8 bytes) to a
 directory, dump VRAM on the screen (`probes/ppudump.lua`), run `vramfind.py VRAM DIR --fmt gba4`. To see which
 entries a scene loads: exec hook on `0x08003784`, log r0/r1.
