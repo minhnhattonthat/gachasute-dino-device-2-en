@@ -1,0 +1,14 @@
+rom/
+build/
+work/
+dist/
+release/
+tools/mesen2/
+tools/armips/
+__pycache__/
+*.pyc
+*.mss
+*.sav
+*.srm
+.agents/skills/
+.claude/skills/
