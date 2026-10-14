@@ -9,7 +9,7 @@ Read it before ROM, text or QA work. `$SKILL` below = that directory.
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/dino2_en.gba --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - JP scan:  `python -X utf8 tools/jpcheck.py` (every bank + name-table pointer slot; must print 0 runs)
 - Text:     batches `tools/batches.py make|check|apply|status`; dry-run wrap `tools/fit.py "text"`; review pairs `tools/pairs.py`.
-- Release:  `python -X utf8 tools/release.py` [not written yet] (patch + verify; never publish without the user)
+- Release:  `python -X utf8 tools/release.py --version X.Y` -> release/*.zip (gate + BPS + verify; never publish without the user)
 
 ## Paths
 - Original ROM: `rom/orig.gba` (gitignored; SHA-1 8bb322121ca889ed8a7b22a907cd835e23fd4449, CRC32 A63DFD2C, EEPROM_V124).
@@ -32,8 +32,12 @@ Read it before ROM, text or QA work. `$SKILL` below = that directory.
   152 px on each box's 3rd line, auto-page after 3 lines). Name-table budget = longest JP name in the table.
 - Font strips printed once and reused as tiles (digits: 0000/0020/0069) need [mono].
 
-## Status (2026-10-14)
-- Done: all 2798 entries translated + lint clean; VWF + narrow font; status/map/menus checked in-game; JP scan clean.
-- Running/next: graphics text (title logo, OBJ title menu, intro logo, name-entry buttons), polish of lines shortened
-  under the old UI rule, 7-slice review; then deeper in-game QA (Gachasute Park, battles, shops) and release tooling.
-- Open: part_corpo.30 "Napalm Machine Gun" uses a provisional 72 px budget (check the parts list window).
+## Status (2026-10-15)
+- Done: all 2798 entries translated, reviewed (7 slices) and polished; VWF + condensed name font; per-window box
+  widths (15/20/22 cells); graphics text (title logo/sprites/menu, intro logo, name entry, birthday, catalog tabs,
+  Set Devices, shop footer, battle SFX); QA tour of map, menus, park, shop, catalog, tournaments, save/continue.
+  Release gate passes; local v1.0 package in release/ (not published).
+- Open: battle SFX sprites not watched in a fresh battle; My Gachasute/Link/late game/credits unvisited.
+- QA states in work/states/qa_*.mss (made by a QA pass; regenerate after text-layout changes); RAM pokes in
+  tools/lua/poke.lua (battle HP 0x020044D2 / opponent 0x0200454E).
+- Name-table slots are fixed 8 tiles (VS screen: player tiles 0x10-0x17, opponent 0x18-0x1F): never exceed.

@@ -30,7 +30,16 @@ Play notes
 - Name entry has an ABC mode (L button) for English names.
 
 Known issues
-- (filled in before release)
+- Not yet seen in testing: My Gachasute, Link (cable) screens, the late
+  game and the ending/credits; battle sound-effect words were redrawn in
+  English but not yet watched in a live battle. Reports welcome.
+- Some long boxes end with one short line on a new page; the game pages
+  automatically when a box is full.
+- One Device name is squeezed to fit its slot: "NapalmMachineGun".
+- Staff names in the credits are written in hiragana in the original;
+  the romanizations are best guesses.
+- The element chart in the tutorial (Fire beats Water...) is as written
+  in the original game.
 
 Credits
 - Translation, engine work and tools: fan translation project, made with
