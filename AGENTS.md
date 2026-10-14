@@ -4,25 +4,36 @@ Skill: translate-retro-game (H:/translation/gachasute-dino-device-2-dragon/.clau
 Read it before ROM, text or QA work. `$SKILL` below = that directory.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 build.py english` -> build/dino2_en.gba (`identity`, `marker` also) [not written yet]
-- Check:    `python -X utf8 tools/check.py` (pytest over tests/; the pre-commit hook runs this)
+- Build:    `python -X utf8 build.py english` -> build/dino2_en.gba (8 MiB). Also `identity` (== original), `marker`, `reloc`.
+- Check:    `python -X utf8 tools/check.py` (pytest: identity, roundtrip, lint, tools; the pre-commit hook runs it)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/dino2_en.gba --out work/qa/smoke --route tools/routes/boot.txt --smoke`
-- Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user) [not written yet]
-- Font:     `python -X utf8 tools/font.py render` -> work/font.png; table: `python -X utf8 tools/mktbl.py` -> tbl/font.tbl
+- JP scan:  `python -X utf8 tools/jpcheck.py` (every bank + name-table pointer slot; must print 0 runs)
+- Text:     batches `tools/batches.py make|check|apply|status`; dry-run wrap `tools/fit.py "text"`; review pairs `tools/pairs.py`.
+- Release:  `python -X utf8 tools/release.py` [not written yet] (patch + verify; never publish without the user)
 
 ## Paths
-- Original ROM: `rom/orig.gba` (copy of `rom/Gachasute! Dino Device 2 - Dragon (Japan).gba`, gitignored;
-  SHA-1 8bb322121ca889ed8a7b22a907cd835e23fd4449, CRC32 A63DFD2C, 4 MiB, EEPROM_V124, code A4XJ).
-- Emulator: `tools/mesen2/Mesen.exe` + `Firmware/gba_bios.bin` (from rom/); assembler `tools/armips/armips.exe`.
-  emu.py `--emu` needs an absolute path (or omit it; tools/** is searched).
-- RE notes: `docs/re/text.md` (encoding, renderer, font), `docs/re/ctrl_codes.md` (E0 subcommands).
-- States: `work/states/` (name_entry.mss = INPUT A NAME screen, from cold-boot route in docs/re/text.md).
+- Original ROM: `rom/orig.gba` (gitignored; SHA-1 8bb322121ca889ed8a7b22a907cd835e23fd4449, CRC32 A63DFD2C, EEPROM_V124).
+- Emulator `tools/mesen2/Mesen.exe` (+Firmware/gba_bios.bin); armips `tools/armips/armips.exe`.
+- Script: `script/bank_BB.json` (dialogue, ids BBII) + `script/misc.json` (name tables). Briefs: docs/translator-brief.md,
+  docs/reviewer-brief.md, docs/style-reference.md. Glossary + rulings: glossary.md.
+- RE: docs/re/text.md, ctrl_codes.md, misc_text.md, graphics.md (ECD/LZSS archive, tools/gfxcodec.py).
+- Engine: asm/vwf.asm (VWF for dialogue 0x0800D210 + menu printer 0x0800BE60; [tab:NN], [mono], [narrow] modes),
+  fonts tools/vwf_font.py + tools/narrow_font.py. ROM map: text 0x400000+, fonts/code 0x7E0000-0x7E2FFF, gfx 0x7E3000+.
+- States: work/states/ (en_name_entry, en_map, en_status) - regenerate after any build change (cold boot routes in docs/re/text.md).
 
 ## Rulings (user, 2026-10-14) - details in glossary.md
 - Drop honorifics, Western name order. Credits English. All graphics text in scope (title logo too).
 - Full names/terms, engine work before abbreviation. Pre-approved: keep going, report at milestones.
-- Edit source files only with the file-edit tool. Dialogue uses ダイナ = "Dino" (game's own romanization).
+- Edit source files only with the file-edit tool. ダイナ = "Dino" (game's own romanization).
+
+## Gotchas
+- Savestates from an older build show garbage (text moved): always cold boot after rebuilding.
+- UI (fixed-window) strings = misc tables + bank 00 only; banks 01+ go through the dialogue box (wrap 160 px,
+  152 px on each box's 3rd line, auto-page after 3 lines). Name-table budget = longest JP name in the table.
+- Font strips printed once and reused as tiles (digits: 0000/0020/0069) need [mono].
 
 ## Status (2026-10-14)
-- Done: Step 0 setup, original boots (smoke ok). Recon: text is uncompressed 1-byte codes, font map found.
-- Next: control-code table, pointer/text coverage, identity + extract, VWF spike.
+- Done: all 2798 entries translated + lint clean; VWF + narrow font; status/map/menus checked in-game; JP scan clean.
+- Running/next: graphics text (title logo, OBJ title menu, intro logo, name-entry buttons), polish of lines shortened
+  under the old UI rule, 7-slice review; then deeper in-game QA (Gachasute Park, battles, shops) and release tooling.
+- Open: part_corpo.30 "Napalm Machine Gun" uses a provisional 72 px budget (check the parts list window).
