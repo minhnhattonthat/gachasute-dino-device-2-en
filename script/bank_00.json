@@ -312,7 +312,7 @@
   ],
   "fall": false,
   "jp": "[E0 32 00 59 00 32]ダイナバトル\nマイガチャステ\nチョビぐるみとつうしん[end]",
-  "en": "[E0 32 00 59 00 32]Dino Battle\nMy Gachasute\nLink with Chobigurumi[end]"
+  "en": "[E0 32 00 59 00 32]Dino Battle\nMy Gachasute\nLink: Chobigurumi[end]"
  },
  {
   "addr": "4AD5F",
@@ -456,7 +456,7 @@
   ],
   "fall": false,
   "jp": "ダイナバトル\n[c:04]マイガチャステ\n[/c]チョビぐるみとつうしん[end]",
-  "en": "Dino Battle\n[c:04]My Gachasute\n[/c]Link with Chobigurumi[end]"
+  "en": "Dino Battle\n[c:04]My Gachasute\n[/c]Link: Chobigurumi[end]"
  },
  {
   "addr": "4AF24",

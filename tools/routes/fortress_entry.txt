@@ -1,0 +1,16 @@
+# map -> Fortress challenge -> setup -> ENTRY END (from work/states/dr_setup.mss)
+30 -
+6 a
+120 -
+6 a
+150 -
+6 a
+300 -
+6 down
+20 -
+6 down
+20 -
+6 down
+20 -
+6 a
+200 -

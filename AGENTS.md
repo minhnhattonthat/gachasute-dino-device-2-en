@@ -12,7 +12,7 @@ Read it before ROM, text or QA work. `$SKILL` below = that directory.
 - Release:  `python -X utf8 tools/release.py --version X.Y` -> release/*.zip, one per variant (gate + BPS + verify; never publish without the user)
 - Phoenix:  `python -X utf8 tools/phoenix.py` -> build/dino2_en_phoenix.gba. The Phoenix ROM (rom/Gachasute! ... Phoenix (Japan).gba,
   SHA-1 a209ab6e216a1054961bb25c26aef79c749e2d67) differs from Dragon only in the header + a copy at 0x1D6EBE, so it reuses the
-  Dragon build with those bytes swapped (tests/test_phoenix.py guards that). Saves for both in saves/ (Phoenix one = new-game start).
+  Dragon build with those bytes swapped (tests/test_phoenix.py guards that). Saves for both in saves/ (Dragon: late game at Daostaville Fortress; Phoenix: Dino City, 51000 bits).
 
 ## Paths
 - Original ROM: `rom/orig.gba` (gitignored; SHA-1 8bb322121ca889ed8a7b22a907cd835e23fd4449, CRC32 A63DFD2C, EEPROM_V124).
@@ -41,7 +41,14 @@ Read it before ROM, text or QA work. `$SKILL` below = that directory.
   Set Devices, shop footer, battle SFX); QA tour of map, menus, park, shop, catalog, tournaments, save/continue.
   Release gate passes; local v1.0 packages (Dragon + Phoenix) in release/ (not published). Phoenix: title/menus/dialogue
   checked from its save; subtitle logo already shows PHOENIX.
-- Open: battle SFX sprites not watched in a fresh battle; My Gachasute/Link/late game/credits unvisited.
+- Dragon save QA (2026-10-15): late game (Daostaville), Link menu, status/catalog/setup, ending dialogue + credits seen.
+  Fixed: Link menu row 3 overflowed the 30-tile ring ("Link: Chobigurumi"), credits "Sound FX & Sound" clipped at x=240.
+- Open: battle SFX sprites not watched live (a battle runs from work/states/qa_practice_battle.mss, no SFX word seen);
+  My Gachasute + cable Link screens unvisited; no static check for dialogue-window tile-ring overflow (use tilewrap.lua).
+- User .srm saves have each 8-byte EEPROM word reversed: `tools/savefix.py "saves/X.srm" work/saves/X.sav` before `emu.py --sav`.
+  Title menu with a save = New Game/Continue/Link, cursor starts on Continue (no `down`).
+- QA helpers: tools/lua/tilewrap.lua (ring overflow), dlglog.lua (glyph calls), forcetext.lua (jump to a text id, e.g. the
+  ending 0x0379 -> credits), tools/montage.py (zoomed frame sheet), tools/routes/fortress_entry.txt.
 - QA states in work/states/qa_*.mss (made by a QA pass; regenerate after text-layout changes); RAM pokes in
   tools/lua/poke.lua (battle HP 0x020044D2 / opponent 0x0200454E).
 - Name-table slots are fixed 8 tiles (VS screen: player tiles 0x10-0x17, opponent 0x18-0x1F): never exceed.
