@@ -708,7 +708,7 @@
   ],
   "fall": false,
   "jp": "\n　　[E0 13]　[E0 12]　[close]",
-  "en": "\n[E0 13][E0 12][close]"
+  "en": "\n  [E0 13] [E0 12][close]"
  },
  {
   "addr": "6022A",

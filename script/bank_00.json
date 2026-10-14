@@ -15,7 +15,7 @@
   ],
   "fall": false,
   "jp": "ページきりかえテスト\n１ページめのテキストひょうじ[p]２ページめのテキストひょうじ[close]",
-  "en": ""
+  "en": "Page switch test\nPage 1 text display[p]Page 2 text display[close]"
  },
  {
   "addr": "4AB47",
@@ -24,7 +24,7 @@
   ],
   "fall": false,
   "jp": "２たくテスト\n　　１　　２[E0 01 01 04 00 03 00 04]",
-  "en": ""
+  "en": "2-choice test\n[opt]1[opt]2[E0 01 01 04 00 03 00 04]"
  },
  {
   "addr": "4AB5C",
@@ -33,7 +33,7 @@
   ],
   "fall": false,
   "jp": "１をせんたく[close]",
-  "en": ""
+  "en": "Chose 1[close]"
  },
  {
   "addr": "4AB63",
@@ -42,7 +42,7 @@
   ],
   "fall": false,
   "jp": "２をせんたく[close]",
-  "en": ""
+  "en": "Chose 2[close]"
  },
  {
   "addr": "4AB6A",
@@ -51,7 +51,7 @@
   ],
   "fall": false,
   "jp": "すうちひょうじテスト　Ａ＝[E0 11 00]　Ｂ＝[E0 11 01][close]",
-  "en": ""
+  "en": "Number test A=[E0 11 00] B=[E0 11 01][close]"
  },
  {
   "addr": "4AB83",
@@ -60,7 +60,7 @@
   ],
   "fall": false,
   "jp": "もじれつひょうじテスト\n[E0 10 00][close]",
-  "en": ""
+  "en": "String display test\n[E0 10 00][close]"
  },
  {
   "addr": "4AB93",
@@ -69,7 +69,7 @@
   ],
   "fall": true,
   "jp": "デバイスめいしょう　ひょうじテスト\n[E0 20 00 FF]",
-  "en": ""
+  "en": "Device name display test\n[E0 20 00 FF]"
  },
  {
   "addr": "4ABA9",
@@ -78,7 +78,7 @@
   ],
   "fall": false,
   "jp": "−ＤＥＢＵＧ　ＤＡＴＡ−[half]ＯＡＭ＝[half]ＣＮＴ＝[close]",
-  "en": "-DEBUGDATA-[half]OAM=[half]CNT=[close]"
+  "en": "-DEBUG DATA-[half]OAM=[half]CNT=[close]"
  },
  {
   "addr": "4ABC4",
@@ -150,7 +150,7 @@
   ],
   "fall": false,
   "jp": "　　せつぞくかくにんします\n　　Ａボタンをおしてください[end]",
-  "en": ""
+  "en": "Checking the connection.\nPlease press the A Button.[end]"
  },
  {
   "addr": "4ABF3",
@@ -159,7 +159,7 @@
   ],
   "fall": false,
   "jp": "[half]　せつぞくたいきちゅうです・・・[end]",
-  "en": ""
+  "en": "[half]Waiting to connect...[end]"
  },
  {
   "addr": "4AC08",
@@ -168,7 +168,7 @@
   ],
   "fall": false,
   "jp": "[half]　　　　せつぞくしました[end]",
-  "en": ""
+  "en": "[half]Connected![end]"
  },
  {
   "addr": "4AC16",
@@ -177,7 +177,7 @@
   ],
   "fall": false,
   "jp": "[E0 43 2A]つうしんエラーです\nせつぞくかくにんをしてください[end]",
-  "en": ""
+  "en": "[E0 43 2A]Link error.\nPlease check the connection.[end]"
  },
  {
   "addr": "4AC34",
@@ -186,7 +186,7 @@
   ],
   "fall": false,
   "jp": "[half]　　　ちゅうだんしました[end]",
-  "en": ""
+  "en": "[half]Link interrupted.[end]"
  },
  {
   "addr": "4AC42",
@@ -195,7 +195,7 @@
   ],
   "fall": false,
   "jp": "[E0 43 2A]あいても「ダイナデバイス２」です\nデータは　おくれません[end]",
-  "en": ""
+  "en": "[E0 43 2A]The other player also has \"Dino Device 2.\"\nData can't be sent.[end]"
  },
  {
   "addr": "4AC65",
@@ -204,7 +204,7 @@
   ],
   "fall": false,
   "jp": "[E0 43 2A]　あいてとはちがうコマンドです\n　つうしんを　キャンセルします[end]",
-  "en": ""
+  "en": "[E0 43 2A]Your command doesn't match the other player's.\nCanceling the link.[end]"
  },
  {
   "addr": "4AC88",
@@ -213,7 +213,7 @@
   ],
   "fall": false,
   "jp": "　　めいしを　おくりますか？\n　　　　はい　　いいえ[E0 00 03 07 00 18 00 19]",
-  "en": ""
+  "en": "Send your Profile Card?\n[opt]Yes[opt]No[E0 00 03 07 00 18 00 19]"
  },
  {
   "addr": "4ACAB",
@@ -222,7 +222,7 @@
   ],
   "fall": false,
   "jp": "[half]　つうしんたいきちゅうです・・・[end]",
-  "en": ""
+  "en": "[half]Waiting to link...[end]"
  },
  {
   "addr": "4ACC0",
@@ -231,7 +231,7 @@
   ],
   "fall": false,
   "jp": "[half]キャンセルたいきちゅうです・・・[end]",
-  "en": ""
+  "en": "[half]Waiting to cancel...[end]"
  },
  {
   "addr": "4ACD5",
@@ -240,7 +240,7 @@
   ],
   "fall": false,
   "jp": "[half]　　　キャンセルされました[end]",
-  "en": ""
+  "en": "[half]Canceled.[end]"
  },
  {
   "addr": "4ACE4",
@@ -249,7 +249,7 @@
   ],
   "fall": false,
   "jp": "[half]　　つうしんちゅうです・・・[end]",
-  "en": ""
+  "en": "[half]Linking...[end]"
  },
  {
   "addr": "4ACF7",
@@ -258,7 +258,7 @@
   ],
   "fall": false,
   "jp": "[half]　　　しゅうりょうしました[end]",
-  "en": ""
+  "en": "[half]Link finished.[end]"
  },
  {
   "addr": "4AD06",
@@ -267,7 +267,7 @@
   ],
   "fall": false,
   "jp": "　　チョビぐるみとのつうしん　　[close]",
-  "en": ""
+  "en": "Link with Chobigurumi[close]"
  },
  {
   "addr": "4AD17",
@@ -276,7 +276,7 @@
   ],
   "fall": false,
   "jp": "[E0 13]　[E0 12]\nを　てにいれました[close]",
-  "en": ""
+  "en": "You got\n[E0 13] [E0 12]![close]"
  },
  {
   "addr": "4AD27",
@@ -303,7 +303,7 @@
   ],
   "fall": false,
   "jp": "　つうしんメニュー[close]",
-  "en": ""
+  "en": "Link Menu[close]"
  },
  {
   "addr": "4AD3E",
@@ -312,7 +312,7 @@
   ],
   "fall": false,
   "jp": "[E0 32 00 59 00 32]ダイナバトル\nマイガチャステ\nチョビぐるみとつうしん[end]",
-  "en": ""
+  "en": "[E0 32 00 59 00 32]Dino Battle\nMy Gachasute\nLink with Chobigurumi[end]"
  },
  {
   "addr": "4AD5F",
@@ -321,7 +321,7 @@
   ],
   "fall": false,
   "jp": "　　　　　ダイナバトル　　　　　[close]",
-  "en": ""
+  "en": "Dino Battle[close]"
  },
  {
   "addr": "4AD70",
@@ -330,7 +330,7 @@
   ],
   "fall": false,
   "jp": "つうしんの　さいごに　セーブしますが\nよろしいですか？\n　　　　はい　　いいえ[E0 01 03 07 00 00 00 00]",
-  "en": ""
+  "en": "The game will save at the end of the link. Is that OK?\n[opt]Yes[opt]No[E0 01 03 07 00 00 00 00]"
  },
  {
   "addr": "4ADA1",
@@ -339,7 +339,7 @@
   ],
   "fall": false,
   "jp": "あげる？　もらう？\n　　　あげる　　もらう[E0 03 02 07 00 00 00 00 00 00]",
-  "en": ""
+  "en": "Give or receive?\n[opt]Give[opt]Receive[E0 03 02 07 00 00 00 00 00 00]"
  },
  {
   "addr": "4ADC2",
@@ -348,7 +348,7 @@
   ],
   "fall": false,
   "jp": "[E0 43 2A]あいてと　おなじコマンドです\nつうしんを　キャンセルします[end]",
-  "en": ""
+  "en": "[E0 43 2A]You both chose the same command.\nCanceling the link.[end]"
  },
  {
   "addr": "4ADE3",
@@ -357,7 +357,7 @@
   ],
   "fall": false,
   "jp": "つうしんに　せいこうしました[end]",
-  "en": ""
+  "en": "Link successful![end]"
  },
  {
   "addr": "4ADF2",
@@ -366,7 +366,7 @@
   ],
   "fall": false,
   "jp": "ガチャステに　カプセルが\nほじゅうされるのを　まっています・・・[end]",
-  "en": ""
+  "en": "Waiting for the Gachasute to be refilled with Capsules...[end]"
  },
  {
   "addr": "4AE16",
@@ -375,7 +375,7 @@
   ],
   "fall": false,
   "jp": "ガチャステに　カプセルを\nほじゅうしています・・・[end]",
-  "en": ""
+  "en": "Refilling the Gachasute with Capsules...[end]"
  },
  {
   "addr": "4AE33",
@@ -384,7 +384,7 @@
   ],
   "fall": false,
   "jp": "あいてが　ガチャステをするのを\nまっています・・・[end]",
-  "en": ""
+  "en": "Waiting for the other player to play Gachasute...[end]"
  },
  {
   "addr": "4AE50",
@@ -393,7 +393,7 @@
   ],
   "fall": false,
   "jp": "ガチャステの　けっかを\nおくっています・・・[end]",
-  "en": ""
+  "en": "Sending the Gachasute results...[end]"
  },
  {
   "addr": "4AE6A",
@@ -402,7 +402,7 @@
   ],
   "fall": false,
   "jp": "ガチャステを　しませんでした[close]",
-  "en": ""
+  "en": "Didn't play Gachasute.[close]"
  },
  {
   "addr": "4AE79",
@@ -411,7 +411,7 @@
   ],
   "fall": false,
   "jp": "もちきれなかったので\nあいてに　かえしました[close]",
-  "en": ""
+  "en": "You couldn't carry it all, so it was sent back to the other player.[close]"
  },
  {
   "addr": "4AE90",
@@ -420,7 +420,7 @@
   ],
   "fall": false,
   "jp": "おかねが　たりません\nガチャステを　するには\n５００ビットひつようです[close]",
-  "en": ""
+  "en": "Not enough money!\nYou need 500 Bits to play Gachasute.[close]"
  },
  {
   "addr": "4AEB4",
@@ -429,7 +429,7 @@
   ],
   "fall": false,
   "jp": "ガチャステに　いれたカプセルが\nぜんぶもどってきました[close]",
-  "en": ""
+  "en": "All the Capsules you put in the Gachasute came back.[close]"
  },
  {
   "addr": "4AED0",
@@ -438,7 +438,7 @@
   ],
   "fall": false,
   "jp": "ガチャステに　カプセルを\nほじゅうしませんでした[close]",
-  "en": ""
+  "en": "You didn't refill the Gachasute with Capsules.[close]"
  },
  {
   "addr": "4AEE9",
@@ -447,7 +447,7 @@
   ],
   "fall": false,
   "jp": "ガチャステに　カプセルが\nほじゅうされませんでした[close]",
-  "en": ""
+  "en": "The Gachasute wasn't refilled with Capsules.[close]"
  },
  {
   "addr": "4AF03",
@@ -456,7 +456,7 @@
   ],
   "fall": false,
   "jp": "ダイナバトル\n[c:04]マイガチャステ\n[/c]チョビぐるみとつうしん[end]",
-  "en": ""
+  "en": "Dino Battle\n[c:04]My Gachasute\n[/c]Link with Chobigurumi[end]"
  },
  {
   "addr": "4AF24",
@@ -582,7 +582,7 @@
   ],
   "fall": false,
   "jp": "　なまえをにゅうりょくしてください　　[close]",
-  "en": ""
+  "en": "Please enter a name.[close]"
  },
  {
   "addr": "4AF45",
@@ -591,7 +591,7 @@
   ],
   "fall": false,
   "jp": "もどる[close]",
-  "en": ""
+  "en": "Back[close]"
  },
  {
   "addr": "4AF49",
@@ -600,7 +600,7 @@
   ],
   "fall": false,
   "jp": "けってい[close]",
-  "en": ""
+  "en": "OK[close]"
  },
  {
   "addr": "4AF4E",
@@ -609,7 +609,7 @@
   ],
   "fall": false,
   "jp": "これで　いいですか？\n　　はい　　いいえ[E0 00 01 05 00 00 00 00]",
-  "en": ""
+  "en": "Is this OK?\n[opt]Yes[opt]No[E0 00 01 05 00 00 00 00]"
  },
  {
   "addr": "4AF6B",
@@ -618,7 +618,7 @@
   ],
   "fall": false,
   "jp": "じぶんとおなじなまえです[close]",
-  "en": ""
+  "en": "That's your name![close]"
  },
  {
   "addr": "4AF78",
@@ -636,7 +636,7 @@
   ],
   "fall": false,
   "jp": "ＳＴＡＲＴボタンでしゅうりょうします　[close]",
-  "en": ""
+  "en": "Press START to finish.[close]"
  },
  {
   "addr": "4AF9D",
@@ -645,7 +645,7 @@
   ],
   "fall": false,
   "jp": "パスワードをにゅうりょくしてください　[close]",
-  "en": ""
+  "en": "Please enter the password.[close]"
  },
  {
   "addr": "4AFB2",
@@ -654,7 +654,7 @@
   ],
   "fall": false,
   "jp": "たんじょうびをにゅうりょくしてください[close]",
-  "en": ""
+  "en": "Please enter your birthday.[close]"
  },
  {
   "addr": "4AFC6",
@@ -726,7 +726,7 @@
   ],
   "fall": false,
   "jp": "いどうさきを　えらんでください[close]",
-  "en": ""
+  "en": "Choose where to go.[close]"
  },
  {
   "addr": "4AFDD",
@@ -744,7 +744,7 @@
   ],
   "fall": false,
   "jp": "ステータス\nマイカタログ\nダイナエントリー\nセーブ[close]",
-  "en": ""
+  "en": "Status\nMy Catalog\nDino Entry\nSave[close]"
  },
  {
   "addr": "4B017",
@@ -753,7 +753,7 @@
   ],
   "fall": false,
   "jp": "セーブしますか？\n　　はい　　いいえ[E0 00 01 05 00 54 00 00]",
-  "en": ""
+  "en": "Save the game?\n[opt]Yes[opt]No[E0 00 01 05 00 54 00 00]"
  },
  {
   "addr": "4B033",
@@ -762,7 +762,7 @@
   ],
   "fall": false,
   "jp": "[E0 32 00 A0 00 55]まえに　ほぞんしたデータが　あります\nうわがきしていいですか？\n　　はい　　いいえ[E0 01 01 05 00 55 00 00]",
-  "en": ""
+  "en": "[E0 32 00 A0 00 55]There's already some saved data.\nOK to overwrite it?\n[opt]Yes[opt]No[E0 01 01 05 00 55 00 00]"
  },
  {
   "addr": "4B06C",
@@ -771,7 +771,7 @@
   ],
   "fall": false,
   "jp": "セーブちゅうです\nでんげんを　きらないでください[E0 84 00 56][E0 44 02][E0 43 34][E0 45]セーブが　しゅうりょうしました[E0 44 1E][close]",
-  "en": ""
+  "en": "Saving...\nPlease don't turn off the power.[E0 84 00 56][E0 44 02][E0 43 34][E0 45]Save complete.[E0 44 1E][close]"
  },
  {
   "addr": "4B0A5",
@@ -780,7 +780,7 @@
   ],
   "fall": false,
   "jp": "[E0 44 02][E0 45][E0 43 2A][c:09]セーブできませんでした・・・[close]",
-  "en": ""
+  "en": "[E0 44 02][E0 45][E0 43 2A][c:09]Couldn't save...[close]"
  },
  {
   "addr": "4B0C3",
@@ -789,7 +789,7 @@
   ],
   "fall": false,
   "jp": "キャンセルしますか？\n　　はい　　いいえ[E0 01 01 05 00 55 00 00]",
-  "en": ""
+  "en": "Cancel?\n[opt]Yes[opt]No[E0 01 01 05 00 55 00 00]"
  },
  {
   "addr": "4B0E1",
@@ -870,7 +870,7 @@
   ],
   "fall": false,
   "jp": "[E0 31 00 52 00 61]エントリーしますか？\n　　　　はい　　いいえ[E0 00 03 07 00 61 00 00]",
-  "en": ""
+  "en": "[E0 31 00 52 00 61]Enter this Dino?\n[opt]Yes[opt]No[E0 00 03 07 00 61 00 00]"
  },
  {
   "addr": "4B10F",
@@ -879,7 +879,7 @@
   ],
   "fall": false,
   "jp": "[E0 13]　[E0 12]\nをエントリーしました[close]",
-  "en": ""
+  "en": "[E0 13] [E0 12]\nhas been entered![close]"
  },
  {
   "addr": "4B121",
@@ -888,7 +888,7 @@
   ],
   "fall": false,
   "jp": "このスロットはエントリーされています\n　デバイスセットへ　　エントリーへんこう[E0 03 00 0A 00 00 00 00 00 00]",
-  "en": ""
+  "en": "This slot already has an Entry.\n[opt]Device Set[opt]Change Entry[E0 03 00 0A 00 00 00 00 00 00]"
  },
  {
   "addr": "4B154",
@@ -897,7 +897,7 @@
   ],
   "fall": false,
   "jp": "エントリーをしゅうりょうしますか？\n　　　　はい　　いいえ[E0 00 03 07 00 00 00 00]",
-  "en": ""
+  "en": "Finish your Entry?\n[opt]Yes[opt]No[E0 00 03 07 00 00 00 00]"
  },
  {
   "addr": "4B17B",
@@ -906,7 +906,7 @@
   ],
   "fall": false,
   "jp": "エントリーがめんへ　もどりますか？\n　　　　はい　　いいえ[E0 00 03 07 00 00 00 00]",
-  "en": ""
+  "en": "Go back to the Entry screen?\n[opt]Yes[opt]No[E0 00 03 07 00 00 00 00]"
  },
  {
   "addr": "4B1A2",
@@ -915,7 +915,7 @@
   ],
   "fall": false,
   "jp": "バッテリーをオートチャージしますか？\n　　　　はい　　いいえ[E0 00 03 07 00 00 00 00]",
-  "en": ""
+  "en": "Auto-charge the Battery?\n[opt]Yes[opt]No[E0 00 03 07 00 00 00 00]"
  },
  {
   "addr": "4B1CC",
@@ -924,7 +924,7 @@
   ],
   "fall": false,
   "jp": "[half]　バッテリーをチャージしてください[end]",
-  "en": ""
+  "en": "[half]Please charge the Battery.[end]"
  },
  {
   "addr": "4B1E1",
@@ -933,7 +933,7 @@
   ],
   "fall": false,
   "jp": "チャージをしゅうりょうしますか？\n　　　　はい　　いいえ[E0 00 03 07 00 00 00 00]",
-  "en": ""
+  "en": "Finish charging?\n[opt]Yes[opt]No[E0 00 03 07 00 00 00 00]"
  },
  {
   "addr": "4B207",
@@ -942,7 +942,7 @@
   ],
   "fall": false,
   "jp": "[half]　　　チャージちゅうです・・・[end]",
-  "en": ""
+  "en": "[half]Charging...[end]"
  },
  {
   "addr": "4B21C",
@@ -969,7 +969,7 @@
   ],
   "fall": false,
   "jp": "こうどうできるダイナがないので\nしゅうりょうすると　まけになります\nチャージをしゅうりょうしますか？\n　　　　はい　　いいえ[E0 01 03 07 00 00 00 00]",
-  "en": ""
+  "en": "None of your Dinos can act, so if you finish now, you lose.\nFinish charging?\n[opt]Yes[opt]No[E0 01 03 07 00 00 00 00]"
  },
  {
   "addr": "4B274",
@@ -978,7 +978,7 @@
   ],
   "fall": false,
   "jp": "[half]ダイナのエントリーをしゅうりょうします[close]",
-  "en": ""
+  "en": "[half]Finishing the Dino Entry.[close]"
  },
  {
   "addr": "4B28A",
@@ -987,7 +987,7 @@
   ],
   "fall": false,
   "jp": "[half]　ダイナが　エントリーされていません[close]",
-  "en": ""
+  "en": "[half]No Dinos have been entered.[close]"
  },
  {
   "addr": "4B29F",
@@ -996,7 +996,7 @@
   ],
   "fall": false,
   "jp": "[half]　このバトルは　キャンセルできません[close]",
-  "en": ""
+  "en": "[half]This battle can't be canceled.[close]"
  },
  {
   "addr": "4B2B3",
@@ -1005,7 +1005,7 @@
   ],
   "fall": false,
   "jp": "バトルをキャンセルしますか？\n　　　　はい　　いいえ[E0 00 03 07 00 00 00 00]",
-  "en": ""
+  "en": "Cancel the battle?\n[opt]Yes[opt]No[E0 00 03 07 00 00 00 00]"
  },
  {
   "addr": "4B2D7",
@@ -1014,7 +1014,7 @@
   ],
   "fall": false,
   "jp": "つうしんバトルなので　バッテリーチャージは\nサービスで　フルチャージされます[p][end]",
-  "en": ""
+  "en": "It's a Link Battle, so your Battery gets a full charge for free![p][end]"
  },
  {
   "addr": "4B303",
@@ -1158,7 +1158,7 @@
   ],
   "fall": false,
   "jp": "ＰＵＳＨ　ＳＴＡＲＴ　ＢＵＴＴＯＮ[close]",
-  "en": "PUSHSTARTBUTTON[close]"
+  "en": "PUSH START BUTTON[close]"
  },
  {
   "addr": "4B324",
@@ -1176,7 +1176,7 @@
   ],
   "fall": false,
   "jp": "　[F0 F9]２００３　ロケットカンパニー[close]",
-  "en": ""
+  "en": "[F0 F9]2003 Rocket Company[close]"
  },
  {
   "addr": "4B349",
@@ -1185,7 +1185,7 @@
   ],
   "fall": false,
   "jp": "フェニックスバージョン[close]",
-  "en": ""
+  "en": "Phoenix Version[close]"
  },
  {
   "addr": "4B356",
@@ -1194,7 +1194,7 @@
   ],
   "fall": false,
   "jp": "　　ドラゴンバージョン[close]",
-  "en": ""
+  "en": "Dragon Version[close]"
  },
  {
   "addr": "4B363",
@@ -1203,7 +1203,7 @@
   ],
   "fall": false,
   "jp": "はじめから\nつづきから\nつうしん[close]",
-  "en": ""
+  "en": "New Game\nContinue\nLink[close]"
  },
  {
   "addr": "4B374",
@@ -1212,7 +1212,7 @@
   ],
   "fall": false,
   "jp": "ＤＩＮＯ　ＣＨＡＲＧＥ[close]",
-  "en": "DINOCHARGE[close]"
+  "en": "DINO CHARGE[close]"
  },
  {
   "addr": "4B380",
@@ -1221,7 +1221,7 @@
   ],
   "fall": false,
   "jp": "Ｓｅｔｕｐ　Ｄｉｎｏｍｏ　Ｅｎｔｒｙ　１ｓｔ[close]",
-  "en": "SetupDinomoEntry1st[close]"
+  "en": "Setup Dinomo Entry 1st[close]"
  },
  {
   "addr": "4B397",
@@ -1230,7 +1230,7 @@
   ],
   "fall": false,
   "jp": "Ｓｅｔｕｐ　Ｄｉｎｏｍｏ　Ｅｎｔｒｙ　２ｎｄ[close]",
-  "en": "SetupDinomoEntry2nd[close]"
+  "en": "Setup Dinomo Entry 2nd[close]"
  },
  {
   "addr": "4B3AE",
@@ -1239,7 +1239,7 @@
   ],
   "fall": false,
   "jp": "Ｓｅｔｕｐ　Ｄｉｎｏｍｏ　Ｅｎｔｒｙ　３ｒｄ[close]",
-  "en": "SetupDinomoEntry3rd[close]"
+  "en": "Setup Dinomo Entry 3rd[close]"
  },
  {
   "addr": "4B3C5",
@@ -1257,7 +1257,7 @@
   ],
   "fall": false,
   "jp": "Ｇｏｏｄ　Ｌｕｃｋ！！[close]",
-  "en": "GoodLuck!![close]"
+  "en": "Good Luck!![close]"
  },
  {
   "addr": "4B3D6",

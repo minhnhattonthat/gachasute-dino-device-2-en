@@ -44,9 +44,18 @@ def has_kana(jp: str) -> bool:
     return bool(re.search(r'[぀-ヿ一-鿿]', jp))
 
 
-def autofill():
-    """No visible text: en = jp. No kana (numbers, Latin codes): en = ASCII form without padding."""
+def ascii_form(jp: str) -> str:
+    """Kana-free JP -> ASCII: leading full-width spaces kept (alignment), inner ones -> ' ', trailing dropped
+    (the build re-pads UI strings)."""
     import unicodedata
+    m = re.match(r'^((?:\[[^\]]*\])*)(　*)(.*?)　*((?:\[(?:close|end)\])?)$', jp, re.S)
+    tags, lead, body, end = m.groups()
+    body = unicodedata.normalize('NFKC', body.replace('　', ' ')).replace('−', '-')
+    return tags + lead + body + end
+
+
+def autofill():
+    """No visible text: en = jp. No kana (numbers, Latin codes): en = ascii_form(jp)."""
     files = load()
     n = 0
     for p, es in files.items():
@@ -56,7 +65,7 @@ def autofill():
             if not has_text(e['jp']):
                 e['en'] = e['jp']
             elif not has_kana(e['jp']):
-                e['en'] = unicodedata.normalize('NFKC', e['jp'].replace('　', '')).replace('−', '-')
+                e['en'] = ascii_form(e['jp'])
             else:
                 continue
             n += 1

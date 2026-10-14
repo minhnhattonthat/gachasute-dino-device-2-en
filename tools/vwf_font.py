@@ -31,7 +31,7 @@ OVERRIDE = {
 # English word space = F0 F9 (narrow); glyph 00 (JP full-width space) stays a full 8 px cell, so the JP padding
 # that menus rely on to overwrite older, longer strings still clears whole cells.
 SPACE = 0xF9
-CHARMAP = {' ': bytes([0xF0, SPACE])}
+CHARMAP = {' ': bytes([0xF0, SPACE]), '　': b'\x00'}  # '　' = clearing/alignment cell
 for _i, _c in enumerate('0123456789'):
     CHARMAP[_c] = bytes([0x01 + _i])
 for _i, _c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'):

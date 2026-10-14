@@ -24,7 +24,7 @@ NAME_PX = 42          # 6-letter English name, wide letters
 VAR_PX = {'[player]': NAME_PX, '[partner]': NAME_PX}
 LAYOUT = {'\n', '[p]', '[half]', '[opt]'}
 TOKEN = re.compile(r'\[[^\]]*\]|\n')
-JP = re.compile(r'[぀-ヿ一-鿿　]')
+JP = re.compile(r'[぀-ヿ一-鿿]')  # '　' is allowed: an 8 px alignment/clearing cell
 CHOICE_TAG = re.compile(r'\[E0 0([0-3])((?: [0-9A-F]{2})+)\]')
 
 

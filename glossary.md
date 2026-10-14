@@ -106,6 +106,28 @@ Source research: docs/terms_proposal.md (portrait evidence, scene notes).
 | チョビぐるみ | Chobigurumi | | link target device | |
 | ペットロボット | pet robot | | | |
 | けってい / もどる | OK / Back | | | |
+| おおきなにもつ | Big Package | | key item | |
+| ようぎしゃのちず | Suspect's Map | | | |
+| おとこのこの たからもの | Boy's Treasure | | | |
+| あつでのぬのぶくろ | Heavy Cloth Sack | | | |
+| ふるびたデバイス | Old Device | | item; lowercase "old Device" for any old one | |
+| ボロボロのデバイス | Battered Device | | | |
+| くだいたがんせき | Crushed Rock | | | |
+| シスコのみ / シスコのき | Sisco fruit / Sisco tree | | | |
+| ベイタルト | Bay Tart | | | |
+| プラクティスバトル | Practice Battle | | | |
+| つうしんバトル | Link Battle | | | |
+| たいかい | tournament | | | |
+| システムメニュー | System Menu | | | |
+| マイカタログ / ステータス | My Catalog / Status | | | |
+| はじめから / つづきから | New Game / Continue | | title menu | |
+| ダイナエントリー | Dino Entry | | | |
+| キャラバンたい | the caravan | | | |
+| みずくみば | well | | dry one: Dry Well | |
+| キャタピラタイプ | Caterpillar-type | | | |
+| プラズマクラスター | Plasma Cluster | | | |
+| ようこうろ | smelting furnace | | | |
+| バック (item bag) | bag | | | |
 
 ## Decisions from earlier batches
 - Dialect win lines (0228-022C): playful accents in English, not standard speech.
