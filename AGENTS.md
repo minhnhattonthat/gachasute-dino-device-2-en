@@ -48,8 +48,8 @@ Read it before ROM, text or QA work. `$SKILL` below = that directory.
 - Agent playtest 2026-10-20 (docs/playtester-brief.md, sessions work/playtest/s1-s4): new game to partner name entry,
   all field menus + My Gachasute, 2 battles, Phoenix Dino City. Fixed: save-overwrite question pushed off its page,
   text touching the page arrow (ARROW_PX 10), " Born" spacing, こしょう = "Broken", page splits. Left as original art:
-  "YouLose" banner, "bolt on" boost label, status "BIT:". Open questions for the user: ボーガ "Boga" vs style code
-  FVOG ("Voga"?); name entry opens on hiragana (default name only via Start).
+  "YouLose" banner, "bolt on" boost label, status "BIT:". User rulings: ボーガ = "Voga";
+  name/partner entry opens on the ABC page (asm/vwf.asm patch at 0x0801EB06, page byte 0x020046B2).
 - User .srm saves have each 8-byte EEPROM word reversed: `tools/savefix.py "saves/X.srm" work/saves/X.sav` before `emu.py --sav`.
   Title menu with a save = New Game/Continue/Link, cursor starts on Continue (no `down`).
 - QA helpers: tools/lua/tilewrap.lua (ring overflow), dlglog.lua (glyph calls), forcetext.lua (jump to a text id, e.g. the

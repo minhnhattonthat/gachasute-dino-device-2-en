@@ -634,7 +634,7 @@
   "slot": "70264",
   "addr": "7014C",
   "jp": "ボーガコアヘッド[close]",
-  "en": "Boga Core Head[close]"
+  "en": "Voga Core Head[close]"
  },
  {
   "id": "part_head.08",
@@ -739,7 +739,7 @@
   "slot": "702A0",
   "addr": "701D8",
   "jp": "ボーガパウヘッド[close]",
-  "en": "Boga Pow Head[close]"
+  "en": "Voga Pow Head[close]"
  },
  {
   "id": "part_head.17",
@@ -865,7 +865,7 @@
   "slot": "707D4",
   "addr": "7030C",
   "jp": "ボーガコアボディ[close]",
-  "en": "Boga Core Body[close]"
+  "en": "Voga Core Body[close]"
  },
  {
   "id": "part_body.08",
@@ -970,7 +970,7 @@
   "slot": "70810",
   "addr": "70398",
   "jp": "ボーガパウボディ[close]",
-  "en": "Boga Pow Body[close]"
+  "en": "Voga Pow Body[close]"
  },
  {
   "id": "part_body.17",
@@ -1789,7 +1789,7 @@
   "slot": "70BA0",
   "addr": "70A08",
   "jp": "ボーガコアライド[close]",
-  "en": "Boga Core Ride[close]"
+  "en": "Voga Core Ride[close]"
  },
  {
   "id": "part_ride.08",
@@ -1894,7 +1894,7 @@
   "slot": "70BDC",
   "addr": "70A94",
   "jp": "ボーガパウライド[close]",
-  "en": "Boga Pow Ride[close]"
+  "en": "Voga Pow Ride[close]"
  },
  {
   "id": "part_ride.17",
@@ -2118,7 +2118,7 @@
   "slot": "71200",
   "addr": "70C80",
   "jp": "ボーガコアコルポ[close]",
-  "en": "Boga Core Corpo[close]"
+  "en": "Voga Core Corpo[close]"
  },
  {
   "id": "part_corpo.08",
@@ -2223,7 +2223,7 @@
   "slot": "7123C",
   "addr": "70D0C",
   "jp": "ボーガパウコルポ[close]",
-  "en": "Boga Pow Corpo[close]"
+  "en": "Voga Pow Corpo[close]"
  },
  {
   "id": "part_corpo.17",
@@ -3217,7 +3217,7 @@
   "slot": "71A70",
   "addr": "71498",
   "jp": "ボーガコアグロソ[close]",
-  "en": "Boga Core Grosso[close]"
+  "en": "Voga Core Grosso[close]"
  },
  {
   "id": "part_grosso.08",
@@ -3322,7 +3322,7 @@
   "slot": "71AAC",
   "addr": "71524",
   "jp": "ボーガパウグロソ[close]",
-  "en": "Boga Pow Grosso[close]"
+  "en": "Voga Pow Grosso[close]"
  },
  {
   "id": "part_grosso.17",

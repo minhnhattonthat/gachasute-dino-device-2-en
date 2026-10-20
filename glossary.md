@@ -9,6 +9,8 @@ Source research: docs/terms_proposal.md (portrait evidence, scene notes).
 - Credits: English. All graphics text in scope (title logo included).
 - Abbreviations: full names and terms everywhere; prefer engine changes (VWF, wider boxes, extra pages) over shortening.
 - Workflow: pre-approved; keep going through phases, report at milestones.
+- ボーガ Device series = "Voga" (matches its style code FVOG; user, 2026-10-20).
+- Name entry localized: opens on the ABC grid (user, 2026-10-20).
 
 ## Style rules
 - Punctuation map: 「」 -> "...", 『』 -> '...', ・・・ -> ..., ！？ -> ?!, 〜 drawl -> drop or a single ~ sparingly.

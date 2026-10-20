@@ -35,6 +35,17 @@ S_BUF       equ 0x20            ; 64 bytes: current tile, next tile
     bx r3
 .word VwfMenu | 1
 
+; Name entry opens on the ABC page: the grid state init (shared with the password screen, which sets page 2
+; itself afterwards) also sets page byte 0x020046B2 = 2 (0 hiragana, 1 katakana, 2 ABC). Same 14 bytes.
+.org 0x0801EB06
+.thumb
+    strb r6, [r4, #0x17]
+    strb r5, [r4, #0x16]
+    mov r0, #2
+    strb r0, [r4, #0x12]
+    add sp, #4
+    pop {r4-r6, pc}
+
 .org CodeBase
 .thumb
 .align 4

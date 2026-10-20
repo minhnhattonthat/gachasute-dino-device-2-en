@@ -75,7 +75,7 @@ budget); trailing full-width spaces in the JP are padding the build re-adds, don
   (ウニボンバー -> Urchin Bomber), Hepburn for Japanese names, Western order (よざくら かずき -> Kazuki Yozakura).
 - Dinos (`dino.*`): romanize to a pronounceable fantasy name (エルフェーン Elfeen, チラザフェルト Chirazafelt...).
 - Parts (`part_*`): one consistent scheme. Series prefixes: エルブ Elb, ガルサ Galsa, フォラ Fora, サーク Sark,
-  カイト Kite, ゴルガ Golga, チラサ Chirasa, ボーガ Boga, ジール Zeal, ヴァス Vas, メイカ Meika, シータ Theta,
+  カイト Kite, ゴルガ Golga, チラサ Chirasa, ボーガ Voga, ジール Zeal, ヴァス Vas, メイカ Meika, シータ Theta,
   トラー Tra, ダンサ Dansa, ネイガ Neiga; grades コア Core, パウ Pow, メタ Meta; slots ヘッド Head, ボディ Body,
   ライド Ride, コルポ Corpo, グロソ/グロッソ Grosso. Element prefixes: ヒート Heat, フレム Flame, ナパム Napalm,
   ファイ Fire, ミスト Mist, アクア Aqua, マリン Marine, ウワラ Uwara, エレク Elec, スパク Spark, ブリツ Blitz,
