@@ -43,8 +43,13 @@ Read it before ROM, text or QA work. `$SKILL` below = that directory.
   checked from its save; subtitle logo already shows PHOENIX.
 - Dragon save QA (2026-10-15): late game (Daostaville), Link menu, status/catalog/setup, ending dialogue + credits seen.
   Fixed: Link menu row 3 overflowed the 30-tile ring ("Link: Chobigurumi"), credits "Sound FX & Sound" clipped at x=240.
-- Open: battle SFX sprites not watched live (a battle runs from work/states/qa_practice_battle.mss, no SFX word seen);
-  My Gachasute + cable Link screens unvisited; no static check for dialogue-window tile-ring overflow (use tilewrap.lua).
+- Open: battle SFX sprites not watched live (2 Practice battles played 2026-10-20, no SFX word ever shown);
+  cable Link screens unvisited; no static check for dialogue-window tile-ring overflow (use tilewrap.lua).
+- Agent playtest 2026-10-20 (docs/playtester-brief.md, sessions work/playtest/s1-s4): new game to partner name entry,
+  all field menus + My Gachasute, 2 battles, Phoenix Dino City. Fixed: save-overwrite question pushed off its page,
+  text touching the page arrow (ARROW_PX 10), " Born" spacing, こしょう = "Broken", page splits. Left as original art:
+  "YouLose" banner, "bolt on" boost label, status "BIT:". Open questions for the user: ボーガ "Boga" vs style code
+  FVOG ("Voga"?); name entry opens on hiragana (default name only via Start).
 - User .srm saves have each 8-byte EEPROM word reversed: `tools/savefix.py "saves/X.srm" work/saves/X.sav` before `emu.py --sav`.
   Title menu with a save = New Game/Continue/Link, cursor starts on Continue (no `down`).
 - QA helpers: tools/lua/tilewrap.lua (ring overflow), dlglog.lua (glyph calls), forcetext.lua (jump to a text id, e.g. the

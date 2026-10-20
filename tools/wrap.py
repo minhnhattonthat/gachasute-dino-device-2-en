@@ -25,7 +25,7 @@ def px(s: str, widths: bytes) -> int:
     return n
 
 
-ARROW_PX = 8  # the page arrow sits in the last cell of every box's 3rd line
+ARROW_PX = 10  # the page arrow sits in the last cell of every box's 3rd line; +2 px gap so text doesn't touch it
 PAGE_LINES = 3
 
 
@@ -64,7 +64,8 @@ def budgets(laid_out: str, limit: int = 160):
         elif p in ('\n', '[half]'):
             n += 1
         elif p:
-            yield p, limit - ARROW_PX if n % PAGE_LINES == PAGE_LINES - 1 else limit
+            arrow = n % PAGE_LINES == PAGE_LINES - 1 and '[tab:' not in p  # choice rows show a cursor, no arrow
+            yield p, limit - ARROW_PX if arrow else limit
 
 
 if __name__ == '__main__':

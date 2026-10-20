@@ -4456,7 +4456,7 @@
   "slot": "74E04",
   "addr": "74BCF",
   "jp": "こしょう[close]",
-  "en": "Error[close]"
+  "en": "Broken[close]"
  },
  {
   "id": "word_gacha.0D",
@@ -4680,7 +4680,7 @@
   "slot": "74EF4",
   "addr": "74C8E",
   "jp": "こしょう[close]",
-  "en": "Error[close]"
+  "en": "Broken[close]"
  },
  {
   "id": "word_gacha.50",
@@ -5366,6 +5366,6 @@
   "slot": "79A14",
   "addr": "798F5",
   "jp": "うまれ[close]",
-  "en": "Born[close]"
+  "en": " Born[close]"
  }
 ]

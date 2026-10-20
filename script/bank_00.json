@@ -762,7 +762,7 @@
   ],
   "fall": false,
   "jp": "[E0 32 00 A0 00 55]まえに　ほぞんしたデータが　あります\nうわがきしていいですか？\n　　はい　　いいえ[E0 01 01 05 00 55 00 00]",
-  "en": "[E0 32 00 A0 00 55]There's already some saved data.\nOK to overwrite it?\n[opt]Yes[opt]No[E0 01 01 05 00 55 00 00]"
+  "en": "[E0 32 00 A0 00 55]Saved data already exists.\nOK to overwrite it?\n[opt]Yes[opt]No[E0 01 01 05 00 55 00 00]"
  },
  {
   "addr": "4B06C",
@@ -771,7 +771,7 @@
   ],
   "fall": false,
   "jp": "セーブちゅうです\nでんげんを　きらないでください[E0 84 00 56][E0 44 02][E0 43 34][E0 45]セーブが　しゅうりょうしました[E0 44 1E][close]",
-  "en": "Saving...\nPlease don't turn off the power.[E0 84 00 56][E0 44 02][E0 43 34][E0 45]Save complete.[E0 44 1E][close]"
+  "en": "Saving... Please don't\nturn off the power.[E0 84 00 56][E0 44 02][E0 43 34][E0 45]Save complete.[E0 44 1E][close]"
  },
  {
   "addr": "4B0A5",

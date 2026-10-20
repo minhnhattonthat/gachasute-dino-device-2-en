@@ -30,8 +30,7 @@ Play notes
 - Name entry has an ABC mode (L button) for English names.
 
 Known issues
-- Not yet seen in testing: the My Gachasute screen and the cable Link
-  screens; battle sound-effect words were redrawn in English but not yet
+- Not yet seen in testing: the cable Link screens; battle sound-effect words were redrawn in English but not yet
   watched in a live battle. The late-game Fortress scenes and the ending
   credits were checked in the emulator (Dragon). Reports welcome.
 - Some long boxes end with one short line on a new page; the game pages
