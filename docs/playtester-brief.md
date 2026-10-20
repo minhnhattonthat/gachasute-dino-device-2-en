@@ -1,6 +1,6 @@
 # Playtester brief - Gachasute! Dino Device 2 - Dragon (GBA)
 
-`$SKILL` = C:/Users/Nathan/.claude/plugins/cache/retro-translation/translate-retro-game/29344d005fa4/skills/translate-retro-game
+`$SKILL` = the translate-retro-game skill directory (the one holding SKILL.md); the controller passes its path.
 
 ## This game
 - Monster-collecting RPG for kids: walk a map, talk, buy Dino Devices, battle in tournaments. A confirms/advances, B cancels.
