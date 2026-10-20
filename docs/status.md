@@ -13,8 +13,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Agent playtest 2026-10-20 (docs/playtester-brief.md, sessions work/playtest/s1-s4): new game to the partner's
     name entry, every field menu + My Gachasute, 2 Practice battles, Phoenix Dino City. Fixes committed.
   - Repo set up from fan-translation-template (README, LICENSE, issue form, rom.sha1 check, docs).
-- **Next:** create the GitHub repo and publish v1.0 (Dragon + Phoenix zips from `tools/release.py`) when the user
-  says so.
+- **Published:** v1.0 (Dragon + Phoenix) on 2026-10-20 at
+  https://github.com/minhnhattonthat/gachasute-dino-device-2-en/releases/tag/v1.0 (public repo).
+- **Next:** triage player reports (`gh issue list --label bug`).
 - **Open bugs:**
   - Battle SFX sprites never seen live (2 Practice battles, no SFX word shown); may need a specific weapon.
   - Cable Link screens unvisited (need a link partner).
