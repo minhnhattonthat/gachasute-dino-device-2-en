@@ -1,9 +1,14 @@
 import sys
 from pathlib import Path
 
+import pytest
+
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 import phoenix as P  # noqa: E402
+
+if not (P.DRAGON.is_file() and P.PHOENIX.is_file()):
+    pytest.skip('needs both Japanese dumps in rom/', allow_module_level=True)
 
 DRAGON = P.DRAGON.read_bytes()
 PHOENIX = P.PHOENIX.read_bytes()

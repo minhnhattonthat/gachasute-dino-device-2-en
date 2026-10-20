@@ -10,6 +10,7 @@ DRAGON = ROOT / 'rom/orig.gba'
 PHOENIX = ROOT / 'rom/Gachasute! Dino Device 2 - Phoenix (Japan).gba'
 EN = ROOT / 'build/dino2_en.gba'
 OUT = ROOT / 'build/dino2_en_phoenix.gba'
+PHOENIX_SHA1 = 'a209ab6e216a1054961bb25c26aef79c749e2d67'
 
 
 def diff_ranges(a: bytes, b: bytes):
@@ -39,5 +40,12 @@ def make(en: bytes, dragon: bytes, phoenix: bytes) -> bytes:
 
 
 if __name__ == '__main__':
-    OUT.write_bytes(make(EN.read_bytes(), DRAGON.read_bytes(), PHOENIX.read_bytes()))
+    import hashlib
+    import sys
+    if not PHOENIX.is_file():
+        sys.exit(f'missing {PHOENIX.relative_to(ROOT)}: copy your Phoenix dump there (see README)')
+    phoenix = PHOENIX.read_bytes()
+    if hashlib.sha1(phoenix).hexdigest() != PHOENIX_SHA1:
+        sys.exit(f'{PHOENIX.name}: not the supported dump (SHA-1 {PHOENIX_SHA1})')
+    OUT.write_bytes(make(EN.read_bytes(), DRAGON.read_bytes(), phoenix))
     print('wrote', OUT)

@@ -163,6 +163,8 @@ def build_lang(out: Path, mode: str) -> bytearray:
 
 
 def main():
+    import check_rom
+    check_rom.check()
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'identity'
     BUILD.mkdir(exist_ok=True)
     out = BUILD / {'english': 'dino2_en.gba'}.get(cmd, f'{cmd}.gba')

@@ -1,0 +1,4 @@
+# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too).
+# Gachasute! Dino Device 2 - Dragon (Japan).gba, copied to rom/orig.gba.
+# The Phoenix variant (tools/phoenix.py) checks its own dump: a209ab6e216a1054961bb25c26aef79c749e2d67.
+8bb322121ca889ed8a7b22a907cd835e23fd4449  rom/orig.gba

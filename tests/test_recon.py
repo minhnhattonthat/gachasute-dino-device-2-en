@@ -2,7 +2,11 @@ import hashlib
 import sys
 from pathlib import Path
 
+import pytest
+
 ROOT = Path(__file__).resolve().parents[1]
+if not (ROOT / 'rom/orig.gba').is_file():
+    pytest.skip('needs rom/orig.gba', allow_module_level=True)
 sys.path.insert(0, str(ROOT / 'tools'))
 
 ROM = (ROOT / 'rom/orig.gba').read_bytes()

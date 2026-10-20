@@ -9,8 +9,8 @@ What is translated
   Dinos, Devices (parts), people and places, and the staff credits.
 - A variable-width font was added so English fits the original windows;
   long Device names use a condensed font.
-- Text drawn as graphics (title logo, title menu, name-entry buttons):
-  see "Known issues" for anything still in Japanese.
+- Text drawn as graphics (title logo, title menu, name-entry buttons,
+  catalog tabs, battle sound effects) is redrawn in English.
 
 How to apply
 1. You need your own dump of the Japanese cartridge. Expected file:
@@ -27,12 +27,15 @@ Play notes
   emulators (mGBA, NanoBoyAdvance) and flash carts should work.
 - Start a new game, or start the patched ROM from a cold boot: savestates
   made with the Japanese ROM or an older patch version will show garbage.
-- Name entry has an ABC mode (L button) for English names.
+- Name entry opens on the ABC page; L and R switch to the kana pages.
 
 Known issues
-- Not yet seen in testing: the cable Link screens; battle sound-effect words were redrawn in English but not yet
-  watched in a live battle. The late-game Fortress scenes and the ending
-  credits were checked in the emulator (Dragon). Reports welcome.
+- Not yet seen in testing: the cable Link screens; battle sound-effect
+  words were redrawn in English but not yet watched in a live battle.
+  The late-game Fortress scenes and the ending credits were checked in
+  the emulator (Dragon).
+- Found a bug? Report it with a savestate at
+  https://github.com/minhnhattonthat/gachasute-dino-device-2-en/issues
 - Some long boxes end with one short line on a new page; the game pages
   automatically when a box is full.
 - One Device name is squeezed to fit its slot: "NapalmMachineGun".
