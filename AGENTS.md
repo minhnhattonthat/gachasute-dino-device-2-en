@@ -1,6 +1,6 @@
 # Gachasute! Dino Device 2 - Dragon (GBA) English translation
 
-Skill: translate-retro-game (H:/translation/gachasute-dino-device-2-dragon/.claude/skills/translate-retro-game/SKILL.md).
+Skill: translate-retro-game (plugin translate-retro-game@retro-translation).
 Read it before ROM, text or QA work. `$SKILL` below = that directory.
 
 ## Commands (run from repo root)

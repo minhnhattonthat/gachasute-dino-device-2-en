@@ -11,7 +11,9 @@ import zlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / '.claude/skills/translate-retro-game/scripts'
+# newest installed copy of the translate-retro-game plugin
+SKILL = max((Path.home() / '.claude/plugins/cache/retro-translation/translate-retro-game').glob('*/skills/translate-retro-game/scripts'),
+           key=lambda p: p.stat().st_mtime)
 PY = [sys.executable, '-X', 'utf8']
 # (name, original ROM, English build): the Phoenix build is the Dragon build with the Phoenix header (tools/phoenix.py)
 VARIANTS = [('Dragon', 'rom/orig.gba', 'build/dino2_en.gba'),
