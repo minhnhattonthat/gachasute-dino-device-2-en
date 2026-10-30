@@ -10,6 +10,21 @@ repository holds no game data you can play; you need your own dump of the Japane
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## Translation status
+
+| Part | Status |
+|---|---|
+| Dialogue / story | Translated (ending checked in Dragon) |
+| Menus, shops, battle and system messages, Dino/Device/people/place names | Translated |
+| Title logo and graphics with text (title menu, intro logo, catalog tabs, Set Devices, shop footer) | Translated (the original's own English art, e.g. "YouLose", kept) |
+| Battle sound effects | Translated, not checked in play |
+| Name entry | Translated (opens on an ABC page; kana pages one L/R press away) |
+| Cable Link screens | Not checked in play |
+| Staff credits | Translated (hiragana staff names romanised as best guesses) |
+
+Known issues: some long boxes end with one short line on a new page; one Device name is squeezed
+("NapalmMachineGun").
+
 ## What's here
 
 | Path | What it is |
