@@ -19,7 +19,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Open bugs:**
   - Battle SFX sprites never seen live (2 Practice battles, no SFX word shown); may need a specific weapon.
   - Cable Link screens unvisited (need a link partner).
-  - No static check for dialogue-window tile-ring overflow (use tools/lua/tilewrap.lua).
+  - No static check for dialogue-window tile-ring overflow (use tools/lua/tilewrap.lua). Dino Charger Setup
+    tutorial windows have small rings (57 / 48 tiles, 0x368-0x3A0 / -0x397): a full 3-line page overflows (issue #1,
+    061A split into 2-line pages; the rest of that tutorial checked clean). Benign tilewrap hits = last cell of a line.
   - Some long boxes end with one short line on a new page (game auto-pages).
   - Original English art left as is: "YouLose" result banner, "bolt on" boost label, status "BIT:".
 - **Waiting on the user:** nothing.
