@@ -15,6 +15,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Repo set up from fan-translation-template (README, LICENSE, issue form, rom.sha1 check, docs).
 - **Published:** v1.0 (Dragon + Phoenix) on 2026-10-20 at
   https://github.com/minhnhattonthat/gachasute-dino-device-2-en/releases/tag/v1.0 (public repo).
+  v1.1 on 2026-11-14: fixes issue #1 (charger tutorial ring overflow, item-insert wrap).
 - **Next:** triage player reports (`gh issue list --label bug`).
 - **Open bugs:**
   - Battle SFX sprites never seen live (2 Practice battles, no SFX word shown); may need a specific weapon.
